@@ -1,0 +1,7 @@
+﻿id,title,configuration,bug_id
+1309317835,Lying_tcd_example_bios.lunarlake-LNL-M_Simics,bios.lunarlake-LNL-M_Simics,1308453172
+1309611368,[Code inspect][bios.cpu_pm][Expression_DefectVerify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,1308460293
+1309611366,[Code inspect][bios.cpu_pm][Division_By_ZeroVerify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,1308453172
+1309611784,[Code inspect][bios.cpu_pm][Bad_Shift]Verify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,1308460293
+1309611785,[Code inspect][bios.cpu_pm][Division_By_Zero]Verify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,1308453172
+1309611786,[Code inspect][bios.cpu_pm][Expression_Defect]Verify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,1308460293

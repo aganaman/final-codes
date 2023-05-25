@@ -1,0 +1,12 @@
+{
+    "data": {
+        "path": "C:/NAMAN/Share/Bulk_Update_Script-1/Book5.csv",
+        "test_cycle": "bios.a21.A0 PO Exit.Client-BIOS.bob_test",
+        "link_type": "parent-child",
+        "status": "complete",
+        "reason": "fail",
+        "release_aff": "bios.alderlake",
+        "owner": "namanaga",
+        "reason_other": ""
+    }
+}

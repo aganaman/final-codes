@@ -1,0 +1,7 @@
+﻿id,title,configuration,test_cycle,status.reason
+1307922152,CLV test case_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake..test team.test1031,blocked.other
+1307922169,Sample Test Case_bios.alderlake-test-adl-1022,bios.alderlake-test-adl-1022,bios.alderlake..test team.test1031,complete.fail
+1309325494,CLV test case_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake..test team.test1031,complete.fail
+1307923694,CLV test case_bios.alderlake-test-adl-1025,bios.alderlake-test-adl-1025,bios.alderlake..test team.test1031,complete.pass
+1307923695,Sample Test Case_bios.alderlake-test-adl-1025,bios.alderlake-test-adl-1025,bios.alderlake..test team.test1031,blocked.other
+1307922153,Alex Test Item ww25_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake..test team.test1031,complete.fail

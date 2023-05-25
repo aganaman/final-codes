@@ -1,0 +1,14 @@
+{
+    "data": {
+        "csv_path_prev": "C:/NAMAN/Share/Script-2/Example2.csv",
+        "test_cycle_prev": "bios.alderlake..test team.test1031",
+        "test_cycle_curr": "bios.alderlake.a0_si_readiness.WSiV.test1024",
+        "link_type": "parent-child",
+        "release_aff": "bios.alderlake",
+        "owner": "namanaga",
+        "reason_other": "manual_result",
+        "status_reason": ["complete.pass", "complete.fail", "blocked.other", "blocked.awaiting_collateral", "blocked.awaiting_debug", "blocked.awaiting_fw", "blocked.blocked_due_to_open_sighting",
+                            "blocked.feature_not_yet_enabled", "blocked.incorrect_configuration", "blocked.missing_inventory", "blocked.not_blocked", "blocked.test_case_problem", "blocked.awaiting_silicon",
+                            "blocked.awaiting_3rd_party", "blocked.si_bug", "blocked.tool_issue", "blocked.platform_issue"]
+    }
+}

@@ -1,0 +1,4 @@
+﻿TC_ID,TC_Title,configuration,test_cycle,status.reason
+1309611366,[Code inspect][bios.cpu_pm][Division_By_ZeroVerify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,bios.a21.A0 PO Exit.Client-BIOS.bob_test,complete.fail
+1309611784,[Code inspect][bios.cpu_pm][Bad_Shift]Verify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,bios.a21.A0 PO Exit.Client-BIOS.bob_test,complete.fail
+1309611785,[Code inspect][bios.cpu_pm][Division_By_Zero]Verify through Code Inspection_bios.lunarlake-static_code_analyzer_env,bios.lunarlake-host_based_static_code_analyzer_env,bios.a21.A0 PO Exit.Client-BIOS.bob_test,blocked.si_bug
