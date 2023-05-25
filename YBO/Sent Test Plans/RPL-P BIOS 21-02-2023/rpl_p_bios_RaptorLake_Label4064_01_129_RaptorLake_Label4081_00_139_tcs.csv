@@ -1,0 +1,108 @@
+TestCaseID,Description,URL,Status,Test_Complexity,Test_Coverage_Level
+14013115136,Verify GBe/LAN PHY revision is displayed correctly in BIOS Setup,https://hsdes.intel.com/appstore/article/#/14013115136,Mandatory,None,None
+14013115489,"Verify Board ID, FW, BIOS, ME, EC and IGFX GOP details on BIOS Platform Information Menu  and System scope tool are accurate",https://hsdes.intel.com/appstore/article/#/14013115489,Mandatory,None,None
+14013118756,Verify Onboard Network functionality in EFI shell,https://hsdes.intel.com/appstore/article/#/14013118756,Mandatory,None,None
+14013119776,Verify stability of SUT by hot swapping AC/DC power supply,https://hsdes.intel.com/appstore/article/#/14013119776,Mandatory,None,None
+14013121133,Verify system wakes from idle state successfully via Keyboard,https://hsdes.intel.com/appstore/article/#/14013121133,Mandatory,None,None
+14013156894,Validate the number of CPU Core enumeration under OS,https://hsdes.intel.com/appstore/article/#/14013156894,Mandatory,None,None
+14013157057,Validate the CPU processor info listed in BIOS,https://hsdes.intel.com/appstore/article/#/14013157057,Mandatory,None,None
+14013157534,Verify C-states (_CST) gets defined as part of ACPI dump,https://hsdes.intel.com/appstore/article/#/14013157534,Mandatory,None,None
+14013157755,Validate concurrent support of USB3DbC and USB2Dbc,https://hsdes.intel.com/appstore/article/#/14013157755,Mandatory,None,None
+14013157779,"Verify No device yellow bangs post warm boot cycles with all device connected as per config planned ( Golden, delta, 5, 4, 3 STAR )",https://hsdes.intel.com/appstore/article/#/14013157779,Mandatory,None,None
+14013157801,Verify system stability post Sx/S0ix-cycling via Cycling Tools,https://hsdes.intel.com/appstore/article/#/14013157801,Mandatory,None,None
+14013157808,Validate network functionality post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013157808,Mandatory,None,None
+14013158056,Verify Power Button Functionality in AC and DC,https://hsdes.intel.com/appstore/article/#/14013158056,Mandatory,None,None
+14013158105,Verify 4K Display Monitor functionality over USB type-C port,https://hsdes.intel.com/appstore/article/#/14013158105,Mandatory,None,None
+14013158143,"Verify audio switching between On-board, 3.5mm jack and HDMI speakers",https://hsdes.intel.com/appstore/article/#/14013158143,Mandatory,None,None
+14013158189,Validate Low Power Audio (LPA) test with 3.5mm Jack speaker,https://hsdes.intel.com/appstore/article/#/14013158189,Mandatory,None,None
+14013158271,Verify system stability on performing Connected Modern Standby cycle pre and post Hibernate cycle,https://hsdes.intel.com/appstore/article/#/14013158271,Mandatory,None,None
+14013158280,Verify TBT Boot to OS functionality using Legacy USB device over TBT port,https://hsdes.intel.com/appstore/article/#/14013158280,Mandatory,None,None
+14013158468,Verify DP display functionality over USB Type-C port during Pre and Post boot,https://hsdes.intel.com/appstore/article/#/14013158468,Mandatory,None,None
+14013158758,Verify BIOS Setup options between current and previous BIOS version,https://hsdes.intel.com/appstore/article/#/14013158758,Mandatory,None,None
+14013159042,Verify CNVi Bluetooth ON-OFF-ON functionality in OS,https://hsdes.intel.com/appstore/article/#/14013159042,Mandatory,None,None
+14013159078,Verify USB keyboard functionality connected to TBT Type-C port in PreOS & Post OS,https://hsdes.intel.com/appstore/article/#/14013159078,Mandatory,None,None
+14013159080,Verify TBT3 enumeration of storage and display devices on hot plug and connector reversibility,https://hsdes.intel.com/appstore/article/#/14013159080,Mandatory,None,None
+14013159134,[TBT] Verify TBT Display hot-plug functionality in Tunnel Mode,https://hsdes.intel.com/appstore/article/#/14013159134,Mandatory,None,None
+14013159186,To Verify TBT device functionality in EFI shell,https://hsdes.intel.com/appstore/article/#/14013159186,Mandatory,None,None
+14013159194,[TBT] Verify TBT-Dock functionality (Connected with multiple TBT devices),https://hsdes.intel.com/appstore/article/#/14013159194,Mandatory,None,None
+14013159208,[TBT] Verify SUT wake from S3/S4 using USB Keyboard over TBT connector,https://hsdes.intel.com/appstore/article/#/14013159208,Mandatory,None,None
+14013159289,Verify system can shutdown(S5) using OS start Menu followed by G3,https://hsdes.intel.com/appstore/article/#/14013159289,Mandatory,None,None
+14013159664,"Verify Type-C Concurrent support of HDMI Display and USB3, device connected when SUT is in Sx (S3,S4,S5) state",https://hsdes.intel.com/appstore/article/#/14013159664,Mandatory,None,None
+14013159823,Verify sleep entry and exit via power button,https://hsdes.intel.com/appstore/article/#/14013159823,Mandatory,None,None
+14013160906,"Verify USB devices information are displayed in BIOS setup, Connected over Type C port",https://hsdes.intel.com/appstore/article/#/14013160906,Mandatory,None,None
+14013161130,Verify Disconnected modern Standby entry and exit,https://hsdes.intel.com/appstore/article/#/14013161130,Mandatory,None,None
+14013161557,Verify System auto wakes from hibernate via RTC with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013161557,Mandatory,None,None
+14013161567,"Verify OS content during system""s hibernation entry and exit",https://hsdes.intel.com/appstore/article/#/14013161567,Mandatory,None,None
+14013161609,Verify if system boot with MAF configuration,https://hsdes.intel.com/appstore/article/#/14013161609,Mandatory,None,None
+14013161615,Verify Xml Cli support,https://hsdes.intel.com/appstore/article/#/14013161615,Mandatory,None,None
+14013161666,Verify Coexistence of Discrete Wi-Fi and Bluetooth functionality in OS,https://hsdes.intel.com/appstore/article/#/14013161666,Mandatory,None,None
+14013161669,"Verify Coexistence of Discrete Wi-Fi and Bluetooth functionality in OS after S3, S4, S5, Warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013161669,Mandatory,None,None
+14013162573,"Verify TBT device(Display and SSD) functionality after S3 ,S4 and S5 Cycles",https://hsdes.intel.com/appstore/article/#/14013162573,Mandatory,None,None
+14013163180,Verify functionality of all applicable on-board enabled Ports and Slots in RVP as mentioned in TOPS,https://hsdes.intel.com/appstore/article/#/14013163180,Mandatory,None,None
+14013165597,Verify HD Display Audio enumeration and functionality using Type-C to DP display by hot-plugging/unplugging display during and before/after S3/S4 cycles,https://hsdes.intel.com/appstore/article/#/14013165597,Mandatory,None,None
+14013169323,Verify that SUT boots to OS on   DC  mode,https://hsdes.intel.com/appstore/article/#/14013169323,Mandatory,None,None
+14013172917,Verify USB-Keyboards functionality connected on Type-C port in Pre-OS and Post OS environment,https://hsdes.intel.com/appstore/article/#/14013172917,Mandatory,None,None
+14013173122,Verify Scroll Lock/Num/caps Lock on-board LED Functionality using USB keyboard,https://hsdes.intel.com/appstore/article/#/14013173122,Mandatory,None,None
+14013173247,[FSP]: Verify FSP image ID and Image Revision,https://hsdes.intel.com/appstore/article/#/14013173247,Mandatory,None,None
+14013173252,"[FSP2.0]: Validate FSP TempRamInit initialization and TempRamExit API""s",https://hsdes.intel.com/appstore/article/#/14013173252,Mandatory,None,None
+14013173259,[FSP2.0]: Validate Pre and Post OS display with different FSP Bios,https://hsdes.intel.com/appstore/article/#/14013173259,Mandatory,None,None
+14013174033,Verify Audio playback and recording from Bluetooth Headset,https://hsdes.intel.com/appstore/article/#/14013174033,Mandatory,None,None
+14013174097,Verify HG/SG card basic functionality,https://hsdes.intel.com/appstore/article/#/14013174097,Mandatory,None,None
+14013174102,Verify OPI/DMI Config enabled,https://hsdes.intel.com/appstore/article/#/14013174102,Mandatory,None,None
+14013174120,Verify if BIOS lists the GT details with DID,https://hsdes.intel.com/appstore/article/#/14013174120,Mandatory,None,None
+14013174307,Verify HDCP 2.2 functionality in OS,https://hsdes.intel.com/appstore/article/#/14013174307,Mandatory,None,None
+14013174635,Verify Soundwire enumeration in Device Manager,https://hsdes.intel.com/appstore/article/#/14013174635,Mandatory,None,None
+14013174700,Verify the Dual Display functionality (onboard eDP+DP) in OS Post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013174700,Mandatory,None,None
+14013175002,Validate Discrete Graphics enumeration at OS with dGfx card connected,https://hsdes.intel.com/appstore/article/#/14013175002,Mandatory,None,None
+14013175434,Verify Gen4 Hybrid graphics (HG) basic functionality on x4 PCIe Gen4 slot with DP display connected pre and post S4 and S5 cycle,https://hsdes.intel.com/appstore/article/#/14013175434,Mandatory,None,None
+14013175643,"Verify if bootable devices are detected properly on the first boot itself, after flashing BIOS",https://hsdes.intel.com/appstore/article/#/14013175643,Mandatory,None,None
+14013175741,Verify eSPI Initialization,https://hsdes.intel.com/appstore/article/#/14013175741,Mandatory,None,None
+14013175744,Verify Trace Hub Initialization,https://hsdes.intel.com/appstore/article/#/14013175744,Mandatory,None,None
+14013175873,Validate hot plug & unplug of USB2.0/3.0 mass storage and USB camera functionality over USB Type-A port for 10 cycles,https://hsdes.intel.com/appstore/article/#/14013175873,Mandatory,None,None
+14013175907,Verify plug & unplug USB hub over Type-C port,https://hsdes.intel.com/appstore/article/#/14013175907,Mandatory,None,None
+14013175937,Verify Onboard LAN controller enumeration in OS by disable/enable LAN controller option in BIOS,https://hsdes.intel.com/appstore/article/#/14013175937,Mandatory,None,None
+14013176031,Verify OS Load on Intel RST PCIe Storage Pass through Device,https://hsdes.intel.com/appstore/article/#/14013176031,Mandatory,None,None
+14013176310,Verify Discrete Bluetooth module enumeration in OS,https://hsdes.intel.com/appstore/article/#/14013176310,Mandatory,None,None
+14013176499,Verify PCIe controller type device detection in EFI shell,https://hsdes.intel.com/appstore/article/#/14013176499,Mandatory,None,None
+14013176711,"BIOS should be able to change, append and remove devices from the boot order",https://hsdes.intel.com/appstore/article/#/14013176711,Mandatory,None,None
+14013176745,Verify NVMe SSD achieve SLP_S0 residency during 12 hours of CS-idle,https://hsdes.intel.com/appstore/article/#/14013176745,Mandatory,None,None
+14013176937,Verify Enable/Disable VMD BIOS option and respective detection,https://hsdes.intel.com/appstore/article/#/14013176937,Mandatory,None,None
+14013177662,Verify PCIe 4.0 speed with PCie Gen4 NVMe SSD connected on PCie Gen4 supported X4 slot,https://hsdes.intel.com/appstore/article/#/14013177662,Mandatory,None,None
+14013178370,Verify CPU attached storage connected over Gen5 x8 slot with OPAL supported NVME SSD in OPAL menu,https://hsdes.intel.com/appstore/article/#/14013178370,Mandatory,None,None
+14013179223,Verify System boot to OS/BIOS/EDK from diffrent reset flow,https://hsdes.intel.com/appstore/article/#/14013179223,Mandatory,None,None
+14013179379,Verify Debug log for no asserts messages,https://hsdes.intel.com/appstore/article/#/14013179379,Mandatory,None,None
+14013179421,Verify Network functionality using AIC connected over PCIe slot,https://hsdes.intel.com/appstore/article/#/14013179421,Mandatory,None,None
+14013179977,Verify that the microcode patch is loaded and applied,https://hsdes.intel.com/appstore/article/#/14013179977,Mandatory,None,None
+14013182336,Verify that the system boots to the BIOS setup menu,https://hsdes.intel.com/appstore/article/#/14013182336,Mandatory,None,None
+14013182423,Verify system stability on performing cold boot cycles,https://hsdes.intel.com/appstore/article/#/14013182423,Mandatory,None,None
+14013182511,Verify SSD Storage detection in Pre-OS,https://hsdes.intel.com/appstore/article/#/14013182511,Mandatory,None,None
+14013182515,SSD Storage detection in BIOS in AHCI mode enabled,https://hsdes.intel.com/appstore/article/#/14013182515,Mandatory,None,None
+14013182569,Verify BKC drivers installation on SUT,https://hsdes.intel.com/appstore/article/#/14013182569,Mandatory,None,None
+14013182576,Verify OS installation on SUT,https://hsdes.intel.com/appstore/article/#/14013182576,Mandatory,None,None
+14013182597,"Verify No device yellow bangs post cold boot cycles with all device connected as per config planned ( Golden, delta, 5, 4, 3 STAR )",https://hsdes.intel.com/appstore/article/#/14013182597,Mandatory,None,None
+14013182858,"Verify No device yellow bangs post S3/S0i3 cycle with all device connected as per config planned ( Golden, delta, 5, 4, 3 STAR )",https://hsdes.intel.com/appstore/article/#/14013182858,Mandatory,None,None
+14013184072,Validate Type-C USB2.0 Host Mode (Type-C to A) functionality on hot insert and removal over Type-C port,https://hsdes.intel.com/appstore/article/#/14013184072,Mandatory,None,None
+14013184164,Verify system wakes from S3 using Keyboard as Wake Source,https://hsdes.intel.com/appstore/article/#/14013184164,Mandatory,None,None
+14013184167,Verify system wakes from sleep via Mouse as wake source,https://hsdes.intel.com/appstore/article/#/14013184167,Mandatory,None,None
+14013184525,Verify RTC Date and Time at BIOS and OS level,https://hsdes.intel.com/appstore/article/#/14013184525,Mandatory,None,None
+14013184599,Check for Platform Information in BIOS,https://hsdes.intel.com/appstore/article/#/14013184599,Mandatory,None,None
+14013184603,Basic boot check to OS,https://hsdes.intel.com/appstore/article/#/14013184603,Mandatory,None,None
+14013184616,Verify the Processor Information Displayed in BIOS page and OS are same.,https://hsdes.intel.com/appstore/article/#/14013184616,Mandatory,None,None
+14013184642,Validate Basic boot check after flashing IFWI to SPI,https://hsdes.intel.com/appstore/article/#/14013184642,Mandatory,None,None
+14013184829,CPU Patch (MCU) load check and version check,https://hsdes.intel.com/appstore/article/#/14013184829,E2E,None,None
+14013185226,"Verify No device yellow bangs pre and post S0i3(Modern Standby) cycle with all device connected as per config planned ( Golden, delta, 5, 4, 3 STAR )",https://hsdes.intel.com/appstore/article/#/14013185226,Mandatory,None,None
+14013185278,Verify system stability on waking from idle state pre and post CMS/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013185278,Mandatory,None,None
+14013185647,"Verify ""Reset Button"" will warm reboot the system",https://hsdes.intel.com/appstore/article/#/14013185647,Mandatory,None,None
+14013185684,Verify Onboard LAN Enumeration in OS,https://hsdes.intel.com/appstore/article/#/14013185684,Mandatory,None,None
+14013185686,Verify Coexistence Support of CNVi Wi-Fi and Bluetooth functionality in OS,https://hsdes.intel.com/appstore/article/#/14013185686,Mandatory,None,None
+14013185720,Verify whether SUT can power off from BIOS setup screen using PWR_BTN,https://hsdes.intel.com/appstore/article/#/14013185720,Mandatory,None,None
+14013185755,Validate Type-C USB3.0 Host Mode (Type-C to A) functionality on hot insert and removal over Type-C port and connector reversibility,https://hsdes.intel.com/appstore/article/#/14013185755,Mandatory,None,None
+14013185836,"Verify Type-C Charging during pre and post S4, S5, Warm and Cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185836,Mandatory,None,None
+16014206248,"Verify TBT3 devices functionality after S4, S5 and reboot cycles connected behind TBT4-Dock",https://hsdes.intel.com/appstore/article/#/16014206248,Mandatory,None,None
+22011834285,Verify Xml Cli support for Test Menu enabled Bios,https://hsdes.intel.com/appstore/article/#/22011834285,Mandatory,None,None
+22011834519,Verify whether SUT can power off from EDK shell using PWR_BTN,https://hsdes.intel.com/appstore/article/#/22011834519,Mandatory,None,None
+14013181030,Validate WHQL/HCK - USB Exposed Port System Test (xHCI),https://hsdes.intel.com/appstore/article/#/14013181030,E2E,None,None
+14013184835,Verify ucode firmware load/version check pre and post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013184835,E2E,None,None
+14013173952,Verify that the BIOS shall display the VBIOS/GOP version,https://hsdes.intel.com/appstore/article/#/14013173952,E2E,None,None
+14013120756,"Verify that system doesn""t boot if memory DIMMS are not properly inserted on board.",https://hsdes.intel.com/appstore/article/#/14013120756,E2E,None,None
+14013120858,Verify SUT boots fine with all combination of Memory DIMMS,https://hsdes.intel.com/appstore/article/#/14013120858,E2E,None,None

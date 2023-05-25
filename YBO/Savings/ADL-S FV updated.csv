@@ -1,0 +1,519 @@
+,TCD_ID,DESCRIPTION,URL,STATUS,Test_Complexity,Test_Coverage_Level
+0,14013178927,Verify BIOS provide DDR-RFIM feature enable/disable status via MCHBAR,https://hsdes.intel.com/appstore/article/#/14013178927,,Low,L1 DailyCI-Basic-Sanity
+1,14013159812,Verify AET trace log capture through NPK,https://hsdes.intel.com/appstore/article/#/14013159812,,High,L3 Extended-BAT-FV
+2,14013176721,Verify that BIOS can enable and Disable for Connected Standby,https://hsdes.intel.com/appstore/article/#/14013176721,,Low,L3 Extended-BAT-FV
+3,14013184965,System stability test while performing Hybrid Sleep cycles with ongoing video playback,https://hsdes.intel.com/appstore/article/#/14013184965,,Low,L4 Extended-FV
+4,14013163239,"Verify TBT3 device enumeration after S4,S5 and warm boot cycles with PCIE tunneling disabled",https://hsdes.intel.com/appstore/article/#/14013163239,,Low,L3 Extended-BAT-FV
+5,14013166925,Verify Fast Boot Timing is impacted not more than threshold limit with and without TPM enabled,https://hsdes.intel.com/appstore/article/#/14013166925,,Medium,L3 Extended-BAT-FV
+6,14013176807,Verify PCIe SD Card detection after multiple cycles of plug and play media file,https://hsdes.intel.com/appstore/article/#/14013176807,,Medium,L3 Extended-BAT-FV
+7,14013157151,Verify Timed MWait status via PKG_CST_CONFIG_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013157151,,Low,L3 Extended-BAT-FV
+8,16012878689,Verify BIOS setup menu provides options to set FAN RPM Control (CPU FAN Control),https://hsdes.intel.com/appstore/article/#/16012878689,,Low,L3 Extended-BAT-FV
+9,14013168861,Verify Platform supported memory sizes & combinations using the MTRR tool,https://hsdes.intel.com/appstore/article/#/14013168861,,Low,L4 Extended-FV
+10,14013120930,Verify RTIT(Run Time Instruction Trace) feature for Processor Trace,https://hsdes.intel.com/appstore/article/#/14013120930,,High,L3 Extended-BAT-FV
+11,14013175664,Verify valid board ID and Board name displayed in BIOS,https://hsdes.intel.com/appstore/article/#/14013175664,,Low,L4 Extended-FV
+12,14013158797,"Verify USB3.1 Gen2 device functionality with pre and post Sx (S3,S4,S5) cycles over Type-C port",https://hsdes.intel.com/appstore/article/#/14013158797,,Low,L3 Extended-BAT-FV
+13,14013157153,"Verify Platform support ""Timed MWait"" Feature via PLATFORM_INFO MSR",https://hsdes.intel.com/appstore/article/#/14013157153,,Low,L3 Extended-BAT-FV
+14,14013161649,Verify BIOS have ability to enable and disable Wake on LAN,https://hsdes.intel.com/appstore/article/#/14013161649,,High,L3 Extended-BAT-FV
+15,14013168337,"Verify that all Memory related options are available under ""Memory Configuration"" page.",https://hsdes.intel.com/appstore/article/#/14013168337,,Low,L3 Extended-BAT-FV
+16,14013114906,Verify USB 3.0 device functionality over Type-C port after resume from C-MoS when device is plugged in when SUT is in C-MoS,https://hsdes.intel.com/appstore/article/#/14013114906,,Medium,L4 Extended-FV
+17,22011834531,Verify TCSS FW version are updated in FVI table,https://hsdes.intel.com/appstore/article/#/22011834531,,High,L3 Extended-BAT-FV
+18,14013174396,Verify C10 and Slp-S0 is achieved in Connected MOS during video play back,https://hsdes.intel.com/appstore/article/#/14013174396,,Medium,L3 Extended-BAT-FV
+19,14013156839,Verify CPU Turbo feature via IA32_MISC_ENABLE MSR,https://hsdes.intel.com/appstore/article/#/14013156839,,Low,L3 Extended-BAT-FV
+20,14013158501,Verify system stability on performing 3 cycles of Warm and Cold boot cycles,https://hsdes.intel.com/appstore/article/#/14013158501,,Low,L3 Extended-BAT-FV
+21,14013161426,Verify Ability to get debug logs with different serial debug messages settings,https://hsdes.intel.com/appstore/article/#/14013161426,,High,L3 Extended-BAT-FV
+22,14013163375,Validate USB4 Dock Device functionality after CMS Cycles,https://hsdes.intel.com/appstore/article/#/14013163375,,High,L3 Extended-BAT-FV
+23,14013176978,Verifying PCIe-USB add-on card support post Sx Cycle,https://hsdes.intel.com/appstore/article/#/14013176978,,Low,L4 Extended-FV
+24,14013120738,Verify that MRC training is not repeated after the fast boot and force repeated post cold boot.,https://hsdes.intel.com/appstore/article/#/14013120738,,Medium,L4 Extended-FV
+25,14013158557,Verify System stays in S5 when power button is pressed while in Bios page (Negative Test ),https://hsdes.intel.com/appstore/article/#/14013158557,,Low,L4 Extended-FV
+26,14013120792,Verify the memory information in Task Manager,https://hsdes.intel.com/appstore/article/#/14013120792,,Low,L3 Extended-BAT-FV
+27,14013159714,[TBT] Verify Boot to OS functionality on different TBT controller using legacy USB2.0 device,https://hsdes.intel.com/appstore/article/#/14013159714,,High,L3 Extended-BAT-FV
+28,14013121275,Verify concurrent use of USB device functionality over USB Type A and Type-C Port,https://hsdes.intel.com/appstore/article/#/14013121275,,High,L4 Extended-FV
+29,14013158464,Verify that the TCO watchdog is Disabled by Default,https://hsdes.intel.com/appstore/article/#/14013158464,,Medium,L4 Extended-FV
+30,14013158256,Verify hot-plug functionality of TBT device between S3 and resume phases,https://hsdes.intel.com/appstore/article/#/14013158256,,Low,L3 Extended-BAT-FV
+31,14013177326,Verify device ID of Integrated Error Handler,https://hsdes.intel.com/appstore/article/#/14013177326,,Low,L3 Extended-BAT-FV
+32,14013175946,Verify that when BIOS detects a PCIe NAND Storage device it should enumerate under AHCI Controller by default,https://hsdes.intel.com/appstore/article/#/14013175946,,Low,L3 Extended-BAT-FV
+33,14013165131,Verify USB2.0/3.0 device enumeration in EFI over USB4 Hub,https://hsdes.intel.com/appstore/article/#/14013165131,,Low,L3 Extended-BAT-FV
+34,14013176393,Verify system exposes LPSS UART as Legacy UART Device,https://hsdes.intel.com/appstore/article/#/14013176393,,Medium,L4 Extended-FV
+35,14013161430,verify TBT D3 flow when APSM is in L1.2 state,https://hsdes.intel.com/appstore/article/#/14013161430,,Medium,L3 Extended-BAT-FV
+36,14013167005,Verify additional restart occurs when system falls back from fast boot to full boot with TPM enabled,https://hsdes.intel.com/appstore/article/#/14013167005,,Low,L4 Extended-FV
+37,14013161588,Verify PSMI Configuration through control register using PythonSV tool,https://hsdes.intel.com/appstore/article/#/14013161588,,High,L4 Extended-FV
+38,16014193686,Validate USB3.2 Gen2x2 Storage device functionality after S3 Cycles,https://hsdes.intel.com/appstore/article/#/16014193686,,Low,L3 Extended-BAT-FV
+39,14013175715,Verification of HPET (High Precision Event Timer) initialization,https://hsdes.intel.com/appstore/article/#/14013175715,,Low,L4 Extended-FV
+40,14013156868,"Verify that BIOS has an option to configure C-State ""Auto Demotion"" and C-State ""Un-demotion"".",https://hsdes.intel.com/appstore/article/#/14013156868,,Low,L3 Extended-BAT-FV
+41,14013156911,Verify that Package PL2 value is 1.25 times higher than PL1 value,https://hsdes.intel.com/appstore/article/#/14013156911,,Low,L3 Extended-BAT-FV
+42,14013158378,Verify PCIe device enumeration before/after Sx-cycles,https://hsdes.intel.com/appstore/article/#/14013158378,,Medium,L3 Extended-BAT-FV
+43,14013178302,Verify RTD3 support for NVME SSD connected over CPU M.2 Slot,https://hsdes.intel.com/appstore/article/#/14013178302,,Low,L4 Extended-FV
+44,14013159852,Verify Package C10 Residency post Hibernation,https://hsdes.intel.com/appstore/article/#/14013159852,,Low,L3 Extended-BAT-FV
+45,14013161298,Verify PPIN Feature when SUT is in Manufacturing mode,https://hsdes.intel.com/appstore/article/#/14013161298,,Low,L3 Extended-BAT-FV
+46,14013114695,"Validate Type-C USB2.0 Host Mode (Type-C to A) functionality - after S3, device connected when SUT is in S3 state",https://hsdes.intel.com/appstore/article/#/14013114695,,Medium,L4 Extended-FV
+47,14013156846,Verify package C-states support with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013156846,,High,L4 Extended-FV
+48,14013160721,Validate concurrent support of USB3.0 DbC and data transfer over Type-C port,https://hsdes.intel.com/appstore/article/#/14013160721,,High,L3 Extended-BAT-FV
+49,14013179078,Verify Graphics DirectX support - 3DMark benchmark,https://hsdes.intel.com/appstore/article/#/14013179078,,Low,L4 Extended-FV
+50,14013173986,Verify Subsystem IDs for native devices in CPU-SA,https://hsdes.intel.com/appstore/article/#/14013173986,,Low,L3 Extended-BAT-FV
+51,14013176752,Verify M.2 SSD achieve SLP_S0 residency during long hours of CS-idle time,https://hsdes.intel.com/appstore/article/#/14013176752,,Medium,L4 Extended-FV
+52,14013157808,Validate network functionality post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013157808,,Low,L3 Extended-BAT-FV
+53,14013165985,Verify BIOS S3 resume and suspend delta times are inline with responsiveness metrics,https://hsdes.intel.com/appstore/article/#/14013165985,,Low,L4 Extended-FV
+54,14013179160,"Verify ""Wake on Voice"" functionality when System in SLP_S0 state using DMIC pre and post S4/S5 cycle",https://hsdes.intel.com/appstore/article/#/14013179160,,High,L3 Extended-BAT-FV
+55,14013159294,"Verify Concurrent functionality of Legacy USB and DP Display over Type-C and device connected when SUT is in Sx (S3,S4,S5)_x000D_
+ state",https://hsdes.intel.com/appstore/article/#/14013159294,,High,L3 Extended-BAT-FV
+56,14013159222,[TBT] Verify TBT Storage functionality with Stress and along with non-TBT devices Cross Concurrency,https://hsdes.intel.com/appstore/article/#/14013159222,,High,L3 Extended-BAT-FV
+57,14013177951,Verify ITH connection establishment via TAP over JTAG,https://hsdes.intel.com/appstore/article/#/14013177951,,High,L3 Extended-BAT-FV
+58,14013159027,"Verify SUT wake from S3,S4 using Type-C dock connected over Discrete Type-C port",https://hsdes.intel.com/appstore/article/#/14013159027,,High,L3 Extended-BAT-FV
+59,14013173981,Validate GFx RC6 flow by exercising BIOS menu options (C state cycling),https://hsdes.intel.com/appstore/article/#/14013173981,,Medium,L4 Extended-FV
+60,14013161560,"Verify if BIOS displays Firmware Status 1, Status 2 values",https://hsdes.intel.com/appstore/article/#/14013161560,,Low,L3 Extended-BAT-FV
+61,14013157684,Verify Bios sends IPC1 command to check for errors in the IPC1 interface during CPU strap overrides,https://hsdes.intel.com/appstore/article/#/14013157684,,Low,L3 Extended-BAT-FV
+62,14013176084,Verify BIOS display an option to enable or disable ASPM on Root port links,https://hsdes.intel.com/appstore/article/#/14013176084,,Low,L3 Extended-BAT-FV
+63,14013157476,Verify IPCS method gets exposed as part of ACPI dump,https://hsdes.intel.com/appstore/article/#/14013157476,,Low,L4 Extended-FV
+64,14013159709,[TBT] Verify Boot to OS functionality on different TBT controller using TBT storage,https://hsdes.intel.com/appstore/article/#/14013159709,,High,L3 Extended-BAT-FV
+65,14013162864,Verify Bios flash support on RVP using FFT,https://hsdes.intel.com/appstore/article/#/14013162864,,Low,L3 Extended-BAT-FV
+66,16013701830,Verify multiple display output when displays connected with dual TBT controller after S3 cycles - 2 TBT Displays,https://hsdes.intel.com/appstore/article/#/16013701830,,Low,L3 Extended-BAT-FV
+67,14013162967,Verify Device Swap during S5 with all Type-C ports - HDMI and USB(2.0),https://hsdes.intel.com/appstore/article/#/14013162967,,High,L3 Extended-BAT-FV
+68,14013158967,Verify no errors gets registered as part of configuration registers post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013158967,,Low,L4 Extended-FV
+69,22011834465,Verify Dual Controller Support - USB3.2 Gen2 storage functionality after cold boot,https://hsdes.intel.com/appstore/article/#/22011834465,,High,L3 Extended-BAT-FV
+70,16014452298,"Verify multiple display output when displays connected with dual TBT controller after S3 cycles - TBT, DP display",https://hsdes.intel.com/appstore/article/#/16014452298,,Medium,L3 Extended-BAT-FV
+71,14013161283,Validate SUT wake from S0i3 Using USB-LAN,https://hsdes.intel.com/appstore/article/#/14013161283,,Low,L3 Extended-BAT-FV
+72,14013163258,Verify USB4 Storage enumeration on hot plug with PCIE tunneling enabled and disabled,https://hsdes.intel.com/appstore/article/#/14013163258,,Medium,L3 Extended-BAT-FV
+73,14013176731,Verify that BIOS can enable and Disable for Disconnected Modern Standby,https://hsdes.intel.com/appstore/article/#/14013176731,,Low,L3 Extended-BAT-FV
+74,14013159940,Verify USB2 DbC Functionality in low power state,https://hsdes.intel.com/appstore/article/#/14013159940,,High,L3 Extended-BAT-FV
+75,14013160847,Verify BIOS should support to enable PEP constrain on Gbe and should pass all PEP Constraints,https://hsdes.intel.com/appstore/article/#/14013160847,,Low,L3 Extended-BAT-FV
+76,14013164099,"Verify APIC ID""s updated by BIOS for 24(Core+Atom) Cores in APIC tables",https://hsdes.intel.com/appstore/article/#/14013164099,,High,L4 Extended-FV
+77,14013159887,Verify Dual Controller Support - USB3.1 Gen2 storage functionality after Sx and reboot cycles,https://hsdes.intel.com/appstore/article/#/14013159887,,High,L3 Extended-BAT-FV
+78,14013164275,Verify system stability after S3 and S4 cycles using LAN connect over Foxville Port as wake source.,https://hsdes.intel.com/appstore/article/#/14013164275,,Low,L3 Extended-BAT-FV
+79,14013156857,Machine Check Architecture Support,https://hsdes.intel.com/appstore/article/#/14013156857,,Low,L3 Extended-BAT-FV
+80,14013156804,"Verify ""Intel(R) Speed Shift Technology"" reflection via IA32_PM_ENABLE MSR",https://hsdes.intel.com/appstore/article/#/14013156804,,Low,L3 Extended-BAT-FV
+81,14013156796,Verify P-State transitions of CPU based on Turbo mode,https://hsdes.intel.com/appstore/article/#/14013156796,,Low,L3 Extended-BAT-FV
+82,14013159664,"Verify Type-C Concurrent support of HDMI Display and USB3, device connected when SUT is in Sx (S3,S4,S5) state",https://hsdes.intel.com/appstore/article/#/14013159664,,High,L3 Extended-BAT-FV
+83,14013176373,Verify GPIO device ID,https://hsdes.intel.com/appstore/article/#/14013176373,,Low,L4 Extended-FV
+84,16014217885,Verify TBT3 devices functionality connected behind TBT4-Dock and reversibility,https://hsdes.intel.com/appstore/article/#/16014217885,,High,L3 Extended-BAT-FV
+85,14013172936,"Verify USB Type-C device Connector reversibility functionality after Sx (S3,S4,S5)and reboot cycles",https://hsdes.intel.com/appstore/article/#/14013172936,,Medium,L3 Extended-BAT-FV
+86,14013158193,Verify system stability after S3 and S4 cycles using LAN as wake source.,https://hsdes.intel.com/appstore/article/#/14013158193,,Low,L3 Extended-BAT-FV
+87,14013163653,Validate Type-C USB2.0 enumeration over Type-C port  with PCIE tunneling enabled and disabled,https://hsdes.intel.com/appstore/article/#/14013163653,,Medium,L3 Extended-BAT-FV
+88,14013159050,"Verify ""Thermal Monitor"" Enable/Disable via MSR 1A0 [3]",https://hsdes.intel.com/appstore/article/#/14013159050,,Low,L3 Extended-BAT-FV
+89,14013157319,Verify PL4 values via VR_CURRENT_CONFIG MSR,https://hsdes.intel.com/appstore/article/#/14013157319,,Low,L3 Extended-BAT-FV
+90,14013173264,"[FSP] Boot mode Check (Full Configuration,S3 Resume & S4 Resume)",https://hsdes.intel.com/appstore/article/#/14013173264,,Low,L3 Extended-BAT-FV
+91,14013159702,"Verify Dual Controller Support - TBT3 Storage functionality after S4, S5 and reboot cycles",https://hsdes.intel.com/appstore/article/#/14013159702,,High,L3 Extended-BAT-FV
+92,14013176782,Verify Boot to OS and data transfer with PCIe SSD,https://hsdes.intel.com/appstore/article/#/14013176782,,Low,L3 Extended-BAT-FV
+93,16014195873,Verify Device Swap during S4 & S5 with USB3.2 Gen2x2 and DP,https://hsdes.intel.com/appstore/article/#/16014195873,,Low,L3 Extended-BAT-FV
+94,14013161291,Verify SUT wake from S0i3/C-MoS using LAN,https://hsdes.intel.com/appstore/article/#/14013161291,,Low,L3 Extended-BAT-FV
+95,14013165480,"Verify connection Swap during S4 and S5 with all Type-C ports - USB3.1 Gen2, USB3.0 Hub and USB2.0",https://hsdes.intel.com/appstore/article/#/14013165480,,High,L3 Extended-BAT-FV
+96,14013178238,Verify PCIe controller enters D3 when function disabled,https://hsdes.intel.com/appstore/article/#/14013178238,,Medium,L3 Extended-BAT-FV
+97,14013162840,Verify Dual Controller Support - USB4 Hub & USB4 Dock functionality on Cold-Plug,https://hsdes.intel.com/appstore/article/#/14013162840,,Medium,L3 Extended-BAT-FV
+98,14013156879,Verify the CPU reaches its rated turbo speed when all cores are active.,https://hsdes.intel.com/appstore/article/#/14013156879,,Low,L3 Extended-BAT-FV
+99,14013161121,Verify Bios have option to Enable/Disable DAM,https://hsdes.intel.com/appstore/article/#/14013161121,,Low,L3 Extended-BAT-FV
+100,14013167069,System should fall back to full boot from fast boot when it detects CMOS jumpers were shorted,https://hsdes.intel.com/appstore/article/#/14013167069,,Low,L3 Extended-BAT-FV
+101,22011834254,Verify hot-plug functionality of TBT Daisy chain between S4 and resume phases,https://hsdes.intel.com/appstore/article/#/22011834254,,High,L3 Extended-BAT-FV
+102,16014268151,"Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot, post S4, S5, warm/cold reset cycles",https://hsdes.intel.com/appstore/article/#/16014268151,,Medium,L3 Extended-BAT-FV
+103,14013176445,Verify Bios page and its sub pages interface load in Bios setup,https://hsdes.intel.com/appstore/article/#/14013176445,,Low,L3 Extended-BAT-FV
+104,14013177780,Verify M.2 SSD achieve SLP_S0 residency during CS,https://hsdes.intel.com/appstore/article/#/14013177780,,Low,L3 Extended-BAT-FV
+105,14013161698,Verify PSMI handler memory Reservation and configuring trace regions as WC/WB memory in BIOS,https://hsdes.intel.com/appstore/article/#/14013161698,,High,L3 Extended-BAT-FV
+106,14013175611,Verify APIC table under ACPI table,https://hsdes.intel.com/appstore/article/#/14013175611,,Low,L4 Extended-FV
+107,14013158871,"Verify Sx/S0ix cycle""s with ODD connected to System",https://hsdes.intel.com/appstore/article/#/14013158871,,Low,L3 Extended-BAT-FV
+108,14013174843,Verify DMAR Table is not populated on Disabling VT-D in Intel test menu enabled BIOS,https://hsdes.intel.com/appstore/article/#/14013174843,,Low,L3 Extended-BAT-FV
+109,14013159215,[TBT] Verify TBT Display functionality in Tunnel Mode and at boot menu with GOP,https://hsdes.intel.com/appstore/article/#/14013159215,,Medium,L3 Extended-BAT-FV
+110,14013176439,Verify OS boot and enumeration of PCIe based Storage devices with default controller,https://hsdes.intel.com/appstore/article/#/14013176439,,High,L3 Extended-BAT-FV
+111,14013158290,"Verify devices (M.2 SATA SSD, WiFi, BT, Camera, Touch Panel) are entering to RTD3 cold state",https://hsdes.intel.com/appstore/article/#/14013158290,,Low,L3 Extended-BAT-FV
+112,14013177820,Verify NVMe device boot and system stability after Sx with VMD port disabled,https://hsdes.intel.com/appstore/article/#/14013177820,,High,L3 Extended-BAT-FV
+113,14013163319,Validate USB4 Hub Device functionality after CMS Cycles,https://hsdes.intel.com/appstore/article/#/14013163319,,High,L3 Extended-BAT-FV
+114,14013157133,Cooling Mode Policy should not be present under DPTF policies in BIOS,https://hsdes.intel.com/appstore/article/#/14013157133,,Low,L4 Extended-FV
+115,14013168332,Verify BIOS shall send DID message with DIMMS_MISSING status when DIMMs are missing.,https://hsdes.intel.com/appstore/article/#/14013168332,,Low,L3 Extended-BAT-FV
+116,14013174186,Check Enable/Disable Gen2 option in BIOS for its functionality,https://hsdes.intel.com/appstore/article/#/14013174186,,Low,L4 Extended-FV
+117,22011834384,Validate Type-C USB3.2 gen2x2 host mode functionality on hot insert and removal over Type-C port,https://hsdes.intel.com/appstore/article/#/22011834384,,Medium,L3 Extended-BAT-FV
+118,14013160747,Verify TCSS D3Cold support when System is in AC and DC,https://hsdes.intel.com/appstore/article/#/14013160747,,High,L3 Extended-BAT-FV
+119,14013120896,Verify default value of PL3 is reported Via MSR 615h,https://hsdes.intel.com/appstore/article/#/14013120896,,Low,L3 Extended-BAT-FV
+120,14013163275,Verify TBT3  and USB device enumeration on hot plug with PCIE tunneling Disabled,https://hsdes.intel.com/appstore/article/#/14013163275,,Low,L3 Extended-BAT-FV
+121,14013158811,Verify OS debug support using Windbg debugging over Type-C port,https://hsdes.intel.com/appstore/article/#/14013158811,,High,L3 Extended-BAT-FV
+122,14013175756,Verify boot to OS from PCIe AHCI remapped device,https://hsdes.intel.com/appstore/article/#/14013175756,,Medium,L3 Extended-BAT-FV
+123,14013156896,Verify status of Turbo mode on disabling EIST(Enhanced Intel Speed Step) via IA32_MISC_ENABLE MSR,https://hsdes.intel.com/appstore/article/#/14013156896,,Low,L3 Extended-BAT-FV
+124,14013161442,Verify USB3 DbC enumeration over Type-C by Enable/Disable USB Overcurrent option in BIOS,https://hsdes.intel.com/appstore/article/#/14013161442,,High,L3 Extended-BAT-FV
+125,14013159148,[TBT] Verify TBT-Dock hot-plug functionality (Connected with non-TBT devices),https://hsdes.intel.com/appstore/article/#/14013159148,,High,L3 Extended-BAT-FV
+126,14013174555,Verify HEVC (H.265) video playback in OS,https://hsdes.intel.com/appstore/article/#/14013174555,,Low,L3 Extended-BAT-FV
+127,14013178960,Verify package C10 after hot-plugging and hot-unplugging NVMe SSD over PEG60 Slot,https://hsdes.intel.com/appstore/article/#/14013178960,,High,L3 Extended-BAT-FV
+128,14013158099,[Type-c]Verify RTD3 support for USB3.0 device (Pendrive),https://hsdes.intel.com/appstore/article/#/14013158099,,Medium,L3 Extended-BAT-FV
+129,14013157301,Verify CPU interrupt storm routine(ISR) check,https://hsdes.intel.com/appstore/article/#/14013157301,,Low,L3 Extended-BAT-FV
+130,14013162835,Verify Dual Controller Support - USB4 Hub & USB4 Dock functionality on Hot-Plug,https://hsdes.intel.com/appstore/article/#/14013162835,,Medium,L3 Extended-BAT-FV
+131,14013156805,Verify Critical/Active/Passive trip point with DTS SMM enabled and DPTF Enabled in BIOS after S3,https://hsdes.intel.com/appstore/article/#/14013156805,,High,L3 Extended-BAT-FV
+132,14013157294,Verify willowcove CPU core capabilities.,https://hsdes.intel.com/appstore/article/#/14013157294,,Low,L3 Extended-BAT-FV
+133,14013163208,Validate concurrent support of USB2.0 DbC and data transfer over Type-C port,https://hsdes.intel.com/appstore/article/#/14013163208,,High,L3 Extended-BAT-FV
+134,14013176745,Verify NVMe SSD achieve SLP_S0 residency during 12 hours of CS-idle,https://hsdes.intel.com/appstore/article/#/14013176745,,High,L3 Extended-BAT-FV
+135,14013157239,"Verify Bios an option to enable/disable ""CPU 3-strike counter ""in BIOS.",https://hsdes.intel.com/appstore/article/#/14013157239,,Low,L3 Extended-BAT-FV
+136,14013160660,Verify USB3.1 DbC Functionality during and after BIOS boot,https://hsdes.intel.com/appstore/article/#/14013160660,,High,L3 Extended-BAT-FV
+137,14013173956,Check BIOS shall display setup option for Graphics Frequency with S3 & S4 cycles,https://hsdes.intel.com/appstore/article/#/14013173956,,High,L4 Extended-FV
+138,14013176742,Verify NVMe SSD achieve SLP_S0 residency during CS,https://hsdes.intel.com/appstore/article/#/14013176742,,Medium,L3 Extended-BAT-FV
+139,14013176879,Verify Clear LPP_CTL.LPMEN bit before initializing Trace Hub,https://hsdes.intel.com/appstore/article/#/14013176879,,Medium,L3 Extended-BAT-FV
+140,14013157584,Verify CPUID and FMS  For DT/mobile SKU,https://hsdes.intel.com/appstore/article/#/14013157584,,Low,L3 Extended-BAT-FV
+141,14013164390,Validate on PCIe LAN device for RTD3,https://hsdes.intel.com/appstore/article/#/14013164390,,Medium,L3 Extended-BAT-FV
+142,14013156807,"Verify Platform supports "" Intel(R) Speed Shift Technology"" via MISC_PWR_MGMT MSR",https://hsdes.intel.com/appstore/article/#/14013156807,,Low,L3 Extended-BAT-FV
+143,14013158753,"Verify PEP should load with Compatible ID EISAID (""PNP0D80"")",https://hsdes.intel.com/appstore/article/#/14013158753,,Low,L3 Extended-BAT-FV
+144,14013159199,"[TBT] Verify TBT-Dock functionality after Sx (S3,S4,S5) and reboot cycle (Connected with non-TBT devices)",https://hsdes.intel.com/appstore/article/#/14013159199,,High,L3 Extended-BAT-FV
+145,14013176358,Verify default Critical Trip point value in BIOS,https://hsdes.intel.com/appstore/article/#/14013176358,,Low,L3 Extended-BAT-FV
+146,14013156844,Validate Processor Brand String under Bios Page and OS,https://hsdes.intel.com/appstore/article/#/14013156844,,,
+147,14013159889,"Verify Type-C multi port functionality - WinDBG,TBT-Display,TBT-SSD, TBT-Dock before/after Sx (S3,S4,S5) and reboot state",https://hsdes.intel.com/appstore/article/#/14013159889,,High,L4 Extended-FV
+148,14013157705,Verify Global reset happens with security level enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013157705,,High,L3 Extended-BAT-FV
+149,14013117217,"Verify Windows boot options menu can be initiated on restart, overriding Fast Boot settings",https://hsdes.intel.com/appstore/article/#/14013117217,,Low,L3 Extended-BAT-FV
+150,14013158446,Verify RTD3 residency for SATA HDD during S0(Idle) and DMS states,https://hsdes.intel.com/appstore/article/#/14013158446,,High,L4 Extended-FV
+151,14013162075,Verify and validate Setup option for C10 exit Debug latch event,https://hsdes.intel.com/appstore/article/#/14013162075,,Low,L4 Extended-FV
+152,14013158965,Verify RTD3 residency for SATA SSD during CS and Idle states,https://hsdes.intel.com/appstore/article/#/14013158965,,Low,L4 Extended-FV
+153,14013163421,Verify USB4 Storage functionality after CMS,https://hsdes.intel.com/appstore/article/#/14013163421,,High,L3 Extended-BAT-FV
+154,14013168370,Verify unsupported DIMM configuration,https://hsdes.intel.com/appstore/article/#/14013168370,,Low,L3 Extended-BAT-FV
+155,14013158076,"Validate Type-C USB2.0 Host Mode (Type-C to A) functionality - after CMS, device connected when SUT is in CMS state",https://hsdes.intel.com/appstore/article/#/14013158076,,Low,L4 Extended-FV
+156,14013158276,"Verify that ACPI tables have proper revision ID""s as per the ACPI spec.",https://hsdes.intel.com/appstore/article/#/14013158276,,Low,L3 Extended-BAT-FV
+157,14013163296,Verify RTD3 flow support for Type-C USB4 Storage,https://hsdes.intel.com/appstore/article/#/14013163296,,Medium,L3 Extended-BAT-FV
+158,14013175768,Verify USB Type-C device is reported as an ACPI device under OS Device Manager,https://hsdes.intel.com/appstore/article/#/14013175768,,High,L3 Extended-BAT-FV
+159,14013169159,Verify MRC training when Over clocking and SAGV enabled,https://hsdes.intel.com/appstore/article/#/14013169159,,Low,L3 Extended-BAT-FV
+160,14013179362,"Verify OS debug support using Windbg debugging via USB3.0 debug port during SUT resume from S4, S5 state",https://hsdes.intel.com/appstore/article/#/14013179362,,Medium,L4 Extended-FV
+161,14013165558,Verify the status of EOM =0/1 through IOMT (Intel® IO Margin Tool),https://hsdes.intel.com/appstore/article/#/14013165558,,Low,L3 Extended-BAT-FV
+162,14013178922,Verify that PSMI Handler reservation happened before MRC_DONE,https://hsdes.intel.com/appstore/article/#/14013178922,,Medium,L3 Extended-BAT-FV
+163,14013158668,"Validate Type-C USB2.0 Host Mode (Type-C to A) functionality after Deep S5, Cable connected at Deep S5 State",https://hsdes.intel.com/appstore/article/#/14013158668,,Medium,L3 Extended-BAT-FV
+164,16013044817,Verify TBT IOMMU and segment support option removal in BIOS,https://hsdes.intel.com/appstore/article/#/16013044817,,Low,L3 Extended-BAT-FV
+165,14013179188,Verify USB 2.0 devices functionality check over USB Type-C along with Sx cycles,https://hsdes.intel.com/appstore/article/#/14013179188,,Medium,L3 Extended-BAT-FV
+166,14013176669,Verify SUT support Debug Trace log capture via TAP over JTAG when SUT is in Sleep state (Route traces to PTI),https://hsdes.intel.com/appstore/article/#/14013176669,,High,L3 Extended-BAT-FV
+167,14013114813,"Verify ""Disable Prochot# Output signal"" is enabled by default in Bios.",https://hsdes.intel.com/appstore/article/#/14013114813,,Low,L4 Extended-FV
+168,14013158470,"Verify different power states (Active/IDLE, partial and slumber) for SATA Phy layer",https://hsdes.intel.com/appstore/article/#/14013158470,,Low,L3 Extended-BAT-FV
+169,14013114861,Verify RTIT feature is Enabled if CPU is detected,https://hsdes.intel.com/appstore/article/#/14013114861,,Low,L3 Extended-BAT-FV
+170,14013158993,"Verify state after G3 functionality based on BIOS options (S0 state, S5 state)",https://hsdes.intel.com/appstore/article/#/14013158993,,Low,L3 Extended-BAT-FV
+171,14013176053,Verify BIOS can set both the eSPI-MC s BME bits and the eSPI Slaves BME bits using the Tunneled Access to Slave Configuration mechanism.,https://hsdes.intel.com/appstore/article/#/14013176053,,Low,L3 Extended-BAT-FV
+172,16013702337,Verify multiple display output when displays connected with 2nd TBT controller / different TBT Port after S3 cycles - 2 TBT Displays,https://hsdes.intel.com/appstore/article/#/16013702337,,Low,L3 Extended-BAT-FV
+173,14013184081,Validate Type-C USB3.0 Host Mode (Type-C to A) functionality - on hot plug after S5 cycle,https://hsdes.intel.com/appstore/article/#/14013184081,,Medium,L3 Extended-BAT-FV
+174,14013161605,Verify memory Reservation for Trace Regions and PSMI handler,https://hsdes.intel.com/appstore/article/#/14013161605,,Medium,L3 Extended-BAT-FV
+175,14013158163,Verify UART function test on OS - Debug logs generation,https://hsdes.intel.com/appstore/article/#/14013158163,,Medium,L3 Extended-BAT-FV
+176,22011834261,[TBT] Verify wake from S3 using USB Keyboard/Mouse of TBT Daisy chain,https://hsdes.intel.com/appstore/article/#/22011834261,,High,L3 Extended-BAT-FV
+177,14013158242,Validate SUT can login using Finger Print Password after waking from CS.,https://hsdes.intel.com/appstore/article/#/14013158242,,Low,L3 Extended-BAT-FV
+178,14013120907,Verify Power limit 3 override via PL3_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013120907,,Low,L4 Extended-FV
+179,14013175631,Validate EFI reset Cycle (5 times),https://hsdes.intel.com/appstore/article/#/14013175631,,Low,L3 Extended-BAT-FV
+180,14013161591,Verify Bios an option to Enable/Disable INT3400 Device participants,https://hsdes.intel.com/appstore/article/#/14013161591,,Low,L4 Extended-FV
+181,14013167054,System should fall back to full boot from fast boot when it detects CPU replacement,https://hsdes.intel.com/appstore/article/#/14013167054,,Medium,L4 Extended-FV
+182,14013159002,Verify System trace via BSSB interface over Type-A port,https://hsdes.intel.com/appstore/article/#/14013159002,,High,L3 Extended-BAT-FV
+183,22011834371,Verify USB3.2 Gen2 device functionality with pre and post Sx cycles over Type-C port,https://hsdes.intel.com/appstore/article/#/22011834371,,Medium,L3 Extended-BAT-FV
+184,14013160956,Verify Crash dump error state register status when SUT is in crash state,https://hsdes.intel.com/appstore/article/#/14013160956,,Medium,L3 Extended-BAT-FV
+185,14013160873,Verify system stability on performing Deep S5 cycling with fast startup option enabled/disabled in OS with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013160873,,Low,L4 Extended-FV
+186,14013160036,"Verify multiple display output when displays connected with dual TBT controller on Hot plug - DP, HDMI display",https://hsdes.intel.com/appstore/article/#/14013160036,,Low,L3 Extended-BAT-FV
+187,14013157287,Set Cooling policy (_SCP and DSCP) methods should not be get enumerated in OS,https://hsdes.intel.com/appstore/article/#/14013157287,,Low,L4 Extended-FV
+188,14013156900,Verify core C6 residency with system in S0 state,https://hsdes.intel.com/appstore/article/#/14013156900,,Low,L3 Extended-BAT-FV
+189,14013174288,Verify ISP camera device enumeration when GFX driver uninstalled using USB Camera,https://hsdes.intel.com/appstore/article/#/14013174288,,High,L3 Extended-BAT-FV
+190,14013157004,Verify core ratio limit overrides reverts back to default values correctly on loading Bios defaults,https://hsdes.intel.com/appstore/article/#/14013157004,,Low,L4 Extended-FV
+191,16014206075,Verify TBT-Dock functionality after S3 cycles (Connected with multiple TBT devices),https://hsdes.intel.com/appstore/article/#/16014206075,,High,L3 Extended-BAT-FV
+192,14013156809,Verify number of P states and ratio that can be set as part of Custom P - State table,https://hsdes.intel.com/appstore/article/#/14013156809,,Low,L3 Extended-BAT-FV
+193,14013162831,"Verify Dual Controller Support - USB4 Hub & USB4 Dock functionality after S4, S5 and warm boot cycles",https://hsdes.intel.com/appstore/article/#/14013162831,,High,L3 Extended-BAT-FV
+194,14013177838,Verify NVMe device boot and system stability after Sx with VMD port enabled,https://hsdes.intel.com/appstore/article/#/14013177838,,High,L3 Extended-BAT-FV
+195,14013176417,"Verify ""PCH Trace Hub Memory Region 0 Buffer Size"" BIOS policy/option for NPK Support",https://hsdes.intel.com/appstore/article/#/14013176417,,Low,L3 Extended-BAT-FV
+196,14013178954,"Verify DMIC basic functionality test over High Definition Audio (HDA) Codec, pre and post S3 cycles",https://hsdes.intel.com/appstore/article/#/14013178954,,Low,L3 Extended-BAT-FV
+197,16014195699,Validate USB3.2 Gen2x2 Storage device functionality on hot plug in CMS,https://hsdes.intel.com/appstore/article/#/16014195699,,Low,L3 Extended-BAT-FV
+198,14013159191,Verify TBT Daisy chain functionality with 5 Storage,https://hsdes.intel.com/appstore/article/#/14013159191,,High,L3 Extended-BAT-FV
+199,14013176036,Verify status of USB type C device connected to USB hub /DP for single S3/S0iX and S4 cycle,https://hsdes.intel.com/appstore/article/#/14013176036,,Medium,L4 Extended-FV
+200,14013162084,"Verify Bios setup option to enable/disable PMC SLP_SX stretch policy lock (PWRMBASE + offset 1024 , bit 18)",https://hsdes.intel.com/appstore/article/#/14013162084,,Low,L4 Extended-FV
+201,14013176813,Verify PCIe SD Card detection after multiple cycles of plug and play media file with Sx cycles,https://hsdes.intel.com/appstore/article/#/14013176813,,High,L3 Extended-BAT-FV
+202,14013176909,Verify USB3 DbC enumeration by Enable/Disable USB Overcurrent option in BIOS,https://hsdes.intel.com/appstore/article/#/14013176909,,High,L3 Extended-BAT-FV
+203,14013114751,Verify that the CPU details listed in BIOS are present in the OS.,https://hsdes.intel.com/appstore/article/#/14013114751,,Low,L3 Extended-BAT-FV
+204,14013163363,Validate USB4 Hub Device functionality during CMS Cycles,https://hsdes.intel.com/appstore/article/#/14013163363,,High,L3 Extended-BAT-FV
+205,14013159296,"Verify Concurrent functionality of Legacy USB and HDMI Display over Type-C and device connected when SUT is in Sx (S3,S4,S5)_x000D_
+ state",https://hsdes.intel.com/appstore/article/#/14013159296,,High,L3 Extended-BAT-FV
+206,14013157742,Verify BIOS support the Dynamic Periodicity Alteration (DPA) tuning feature when Acoustic Noise Mitigation is enabled,https://hsdes.intel.com/appstore/article/#/14013157742,,Low,L4 Extended-FV
+207,14013177842,Verify OS installation and system stability after Sx with NVME connected in PCH slot with VMD port enabled,https://hsdes.intel.com/appstore/article/#/14013177842,,High,L3 Extended-BAT-FV
+208,16013305578,Verify BIOS supports for Audio DSP (ADSP) Enabled/disabled Fuses,https://hsdes.intel.com/appstore/article/#/16013305578,,Low,L3 Extended-BAT-FV
+209,14013163456,Verify USB4 storage functionality during CMS,https://hsdes.intel.com/appstore/article/#/14013163456,,Medium,L3 Extended-BAT-FV
+210,14013114878,Verify that SUT boots to OS with BIST option Enabled in BIOS setup,https://hsdes.intel.com/appstore/article/#/14013114878,,Low,L3 Extended-BAT-FV
+211,14013177822,Verify OS installation and system stability after Sx with NVME connected in PCH slot with VMD port disabled,https://hsdes.intel.com/appstore/article/#/14013177822,,High,L3 Extended-BAT-FV
+212,16014195710,Validate USB3.2 Gen2x2 Storage device functionality on hot plug in S3,https://hsdes.intel.com/appstore/article/#/16014195710,,Low,L3 Extended-BAT-FV
+213,14013156898,Verify TURBO_POWER_LIMIT via PACKAGE_RAPL_LIMIT MSR,https://hsdes.intel.com/appstore/article/#/14013156898,,Low,L3 Extended-BAT-FV
+214,14013159106,"Verify USB 3.1 Device functionality in End Point, before/after Sx Cycles over TBT Dock",https://hsdes.intel.com/appstore/article/#/14013159106,,Medium,L3 Extended-BAT-FV
+215,14013178883,Verify BIOS sets CPMCSRE properly for PCIE which is required for MPPHY PG,https://hsdes.intel.com/appstore/article/#/14013178883,,Low,L3 Extended-BAT-FV
+216,14013176023,Verify POST Serial Debug Message support via PCH LPSS UART0 and UART2,https://hsdes.intel.com/appstore/article/#/14013176023,,Medium,L3 Extended-BAT-FV
+217,14013174147,Check that BIOS shall display an option to set the DMI ports,https://hsdes.intel.com/appstore/article/#/14013174147,,Low,L3 Extended-BAT-FV
+218,14013159169,"[TBT] Verify USB 2.0 Device functionality in End Point, before/after Sx cycles",https://hsdes.intel.com/appstore/article/#/14013159169,,Medium,L3 Extended-BAT-FV
+219,14013159178,"Verify TBT-Dock functionality after S4,S5 and reboot cycles (Connected with multiple TBT devices)",https://hsdes.intel.com/appstore/article/#/14013159178,,High,L3 Extended-BAT-FV
+220,14013159897,Verify Dual Controller Support - USB3.0/USB3.1 Gen1 storage functionality on Hot-Plug,https://hsdes.intel.com/appstore/article/#/14013159897,,High,L3 Extended-BAT-FV
+221,16014206609,Verify TBT3 devices functionality after S3 cycles connected behind TBT4-Dock,https://hsdes.intel.com/appstore/article/#/16014206609,,High,L3 Extended-BAT-FV
+222,14013160082,"Verify Type-C multi port functionality - WinDBG,TBT-Display,TBT-SSD, TBT-Dock on Hot Plug",https://hsdes.intel.com/appstore/article/#/14013160082,,High,L4 Extended-FV
+223,14013175775,Verify _PLD and _UPC capability for all USB ports,https://hsdes.intel.com/appstore/article/#/14013175775,,High,L4 Extended-FV
+224,14013184074,Validate Type-C USB3.0 Host Mode (Type-C to A) functionality - on hot plug after S3/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013184074,,Medium,L3 Extended-BAT-FV
+225,14013156775,Verify BIOS setting change for CPU DMI UNRD,https://hsdes.intel.com/appstore/article/#/14013156775,,Low,L3 Extended-BAT-FV
+226,16014193951,"Validate USB3.2 Gen2x2 Storage device functionality after S4,S5, WR and G3 Cycles",https://hsdes.intel.com/appstore/article/#/16014193951,,Low,L3 Extended-BAT-FV
+227,14013162087,"Verify Bios set up option to enable/disable PMC Debug Mode Lock (PWRMBASE + offset 1818 , bit 27 )",https://hsdes.intel.com/appstore/article/#/14013162087,,Low,L4 Extended-FV
+228,14013157055,Verify T-state enablement and disablement as part of Setup,https://hsdes.intel.com/appstore/article/#/14013157055,,Low,L4 Extended-FV
+229,14013161293,Verify BIOS shall display setup option to enable or disabled PPIN.,https://hsdes.intel.com/appstore/article/#/14013161293,,Low,L3 Extended-BAT-FV
+230,14013161937,Verify NPK Trace log generated with SVENTX events when Release BIOS flashed,https://hsdes.intel.com/appstore/article/#/14013161937,,High,L3 Extended-BAT-FV
+231,14013161439,verify TBT D3 flow when APSM is in L1.1 state,https://hsdes.intel.com/appstore/article/#/14013161439,,Medium,L3 Extended-BAT-FV
+232,14013160845,Verify RTD3 support for NVME SSD,https://hsdes.intel.com/appstore/article/#/14013160845,,Low,L4 Extended-FV
+233,14013120573,Verify Memory details displayed in BIOS Setup Menu is reflecting in the OS,https://hsdes.intel.com/appstore/article/#/14013120573,,,
+234,14013160046,Verify Dual Controller Support - USB3.1 Gen2 storage functionality after cold boot,https://hsdes.intel.com/appstore/article/#/14013160046,,High,L3 Extended-BAT-FV
+235,14013163003,Verify ECKPWRCTL disable when DCI is disabled,https://hsdes.intel.com/appstore/article/#/14013163003,,Medium,L3 Extended-BAT-FV
+236,14013184070,"Validate Type-C USB3.0 Host Mode (Type-C to A) functionality after S5, Cable connected at S5 State",https://hsdes.intel.com/appstore/article/#/14013184070,,Medium,L3 Extended-BAT-FV
+237,16014195667,Validate USB3.2 Gen2x2 Storage device functionality on hot plug after S3 cycle,https://hsdes.intel.com/appstore/article/#/16014195667,,Low,L3 Extended-BAT-FV
+238,14013176896,Verify Initialize system memory as trace buffers for CPU Trace Hub,https://hsdes.intel.com/appstore/article/#/14013176896,,Medium,L3 Extended-BAT-FV
+239,14013158731,[TBT] Verify Reservation of PCIe Bus numbers for Thunderbolt,https://hsdes.intel.com/appstore/article/#/14013158731,,Medium,L3 Extended-BAT-FV
+240,14013156915,Verify PL4 lock via VR_CURRENT_CONFIG MSR,https://hsdes.intel.com/appstore/article/#/14013156915,,Low,L3 Extended-BAT-FV
+241,14013158308,Verify TBT functionality after disabling and enabling the TBT Controller in device manager,https://hsdes.intel.com/appstore/article/#/14013158308,,Low,L3 Extended-BAT-FV
+242,14013157343,Verify Bios gives an option to configure energy efficient P-states and energy efficient turbo,https://hsdes.intel.com/appstore/article/#/14013157343,,Low,L4 Extended-FV
+243,14013162427,Verify stability of Wi-Fi and BT functionality after CMS cycles with PPAG (Per Platform Antenna Gain) option enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013162427,,Medium,L3 Extended-BAT-FV
+244,14013161706,Verify memory Reservation for PSMI handler and not Trace Regions,https://hsdes.intel.com/appstore/article/#/14013161706,,Medium,L3 Extended-BAT-FV
+245,14013176851,Verify PCIe SD Card detection after multiple cycles of plug and play media file with Sx cycles in DC mode,https://hsdes.intel.com/appstore/article/#/14013176851,,High,L3 Extended-BAT-FV
+246,14013179370,"Verify OS debug support using Windbg via native serial UART during SUT resume from S4,S5 state",https://hsdes.intel.com/appstore/article/#/14013179370,,Medium,L4 Extended-FV
+247,14013163245,"Verify USB4 Storage enumeration after S4, S5, Warm and Cold boot cycles with PCIE tunneling disabled",https://hsdes.intel.com/appstore/article/#/14013163245,,High,L3 Extended-BAT-FV
+248,14013158318,Verify system enters S5 state irrespective of fast startup option in OS with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013158318,,Low,L4 Extended-FV
+249,14013156795,Verify CPU FAN rotate when core temperature exceeds Active trip point with DTS SMM enabled and DPTF Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013156795,,Medium,L3 Extended-BAT-FV
+250,14013156788,Verify ACPI CPPC objects from SSDT and DSDT,https://hsdes.intel.com/appstore/article/#/14013156788,,Medium,L3 Extended-BAT-FV
+251,14013157753,"Verify default fused values for PL1,PL2,PL3 and PL4",https://hsdes.intel.com/appstore/article/#/14013157753,,Low,L3 Extended-BAT-FV
+252,14013157679,Verify Bios programs power management configuration registers correctly,https://hsdes.intel.com/appstore/article/#/14013157679,,Low,L3 Extended-BAT-FV
+253,14013179182,"Validate Type-C USB3.0 Host Mode (Type-C to A) functionality - device connected to Hub, Cable connected when SUT is in Sx state",https://hsdes.intel.com/appstore/article/#/14013179182,,High,L3 Extended-BAT-FV
+254,14013185495,Validate Graphics turbo frequency is achieved by system pre and post DMS/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013185495,,Low,L3 Extended-BAT-FV
+255,14013178908,Validate Foxville LAN device for RTD3,https://hsdes.intel.com/appstore/article/#/14013178908,,Medium,L3 Extended-BAT-FV
+256,16013871767,Verify BIOS gives an option to override Maximum Memory Frequency,https://hsdes.intel.com/appstore/article/#/16013871767,,High,L4 Extended-FV
+257,22011834386,Verify USB3.2 gen2 device functionality before/after CMS state over Type-C port,https://hsdes.intel.com/appstore/article/#/22011834386,,Medium,L3 Extended-BAT-FV
+258,14013157743,Verify Delay between PME_TO_ACK message and PERST# Assertion,https://hsdes.intel.com/appstore/article/#/14013157743,,Medium,L3 Extended-BAT-FV
+259,14013160726,Verify enable/disable USB controller in device manager,https://hsdes.intel.com/appstore/article/#/14013160726,,Low,L3 Extended-BAT-FV
+260,14013173171,Verify SUT enters to S5 state with legacy 4 seconds power button press functionality,https://hsdes.intel.com/appstore/article/#/14013173171,,Low,L3 Extended-BAT-FV
+261,14013158880,"Verify Type-C multi port functionality - Display, USB debug and TBT dock",https://hsdes.intel.com/appstore/article/#/14013158880,,High,L3 Extended-BAT-FV
+262,14013158089,"Validate Type-C USB2.0 Host Mode (Type-C to A) functionality - after Sx, device connected when SUT is in S3,S4 state",https://hsdes.intel.com/appstore/article/#/14013158089,,High,L4 Extended-FV
+263,14013169135,Verify Enable/Disable MRC In-Band ECC  Option in BIOS,https://hsdes.intel.com/appstore/article/#/14013169135,,Low,L3 Extended-BAT-FV
+264,14013114734,"Verify the functionality of USB 2.0, 3.0 devices connected to USB Type-A Port along with USB 3.0 device connected to Type-C port",https://hsdes.intel.com/appstore/article/#/14013114734,,Low,L4 Extended-FV
+265,14013157345,"Verify Bios displays all the fused frequencies of CPU cores ( P0, P1,P2.. Pn)",https://hsdes.intel.com/appstore/article/#/14013157345,,Low,L4 Extended-FV
+266,14013163970,Verify BIOS setup options for RFI Spread Spectrum control (SSC) range,https://hsdes.intel.com/appstore/article/#/14013163970,,Medium,L3 Extended-BAT-FV
+267,16013700594,Verify Dual Controller Support - TBT3 Storage functionality after S3 cycles,https://hsdes.intel.com/appstore/article/#/16013700594,,Low,L3 Extended-BAT-FV
+268,14013179352,Verify platform can be able to send and receive data over serial port(capture windbg),https://hsdes.intel.com/appstore/article/#/14013179352,,High,L4 Extended-FV
+269,14013162974,Verify Device Swap during S5 with all Type-C ports - HDMI and USB(3.1),https://hsdes.intel.com/appstore/article/#/14013162974,,High,L3 Extended-BAT-FV
+270,14013173003,Verify if SUT wakes from Connected Modern Standby on plug/unplug of Type-C Dock over Type-C port,https://hsdes.intel.com/appstore/article/#/14013173003,,Medium,L3 Extended-BAT-FV
+271,14013172897,Verify SUT shutdown (S5) when the Power Button is held in BIOS Setup with only   AC  plugged-in,https://hsdes.intel.com/appstore/article/#/14013172897,,Low,L3 Extended-BAT-FV
+272,14013168420,Verify Enable / Disable DIMM per channel.,https://hsdes.intel.com/appstore/article/#/14013168420,,High,L4 Extended-FV
+273,14013176026,Verify PCIe RST storage remapping works with PCIe M.2 devices,https://hsdes.intel.com/appstore/article/#/14013176026,,Low,L3 Extended-BAT-FV
+274,14013176898,Verify Initialize system memory as trace buffers for PCH Trace Hub,https://hsdes.intel.com/appstore/article/#/14013176898,,Medium,L3 Extended-BAT-FV
+275,14013157179,Verify C-state (C10) residency when Active processor cores are disabled,https://hsdes.intel.com/appstore/article/#/14013157179,,Low,L3 Extended-BAT-FV
+276,14013156802,Verify System shutdown when core temperature exceeds Critical trip point with DTS SMM enabled and DPTF Enabled in BIOS after Sx (S4/S5),https://hsdes.intel.com/appstore/article/#/14013156802,,Medium,L3 Extended-BAT-FV
+277,16014267496,"Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot, post S3 cycles",https://hsdes.intel.com/appstore/article/#/16014267496,,Medium,L3 Extended-BAT-FV
+278,14013163114,Verify TCSS D3Cold support when System connected with TBT device,https://hsdes.intel.com/appstore/article/#/14013163114,,High,L3 Extended-BAT-FV
+279,14013179861,Verify Package C-states support,https://hsdes.intel.com/appstore/article/#/14013179861,,Medium,L3 Extended-BAT-FV
+280,14013159082,Verify TBT3 enumeration of storage and display devices after warm boot,https://hsdes.intel.com/appstore/article/#/14013159082,,Medium,L3 Extended-BAT-FV
+281,16014195680,Validate USB3.2 Gen2x2 Storage device functionality on hot plug after CMS Cycle,https://hsdes.intel.com/appstore/article/#/16014195680,,Low,L3 Extended-BAT-FV
+282,14013159006,[TBT] Verify Reservation of memory resources for Thunderbolt Support,https://hsdes.intel.com/appstore/article/#/14013159006,,Medium,L3 Extended-BAT-FV
+283,14013175948,Verify Intel Smart Sound Technology & DMIC Hardware ID in OS after multiple S3 & S4 cycles,https://hsdes.intel.com/appstore/article/#/14013175948,,Medium,L3 Extended-BAT-FV
+284,14013163306,Verify USB4 storage functionality on hot insert and removal and connector reversibility,https://hsdes.intel.com/appstore/article/#/14013163306,,High,L3 Extended-BAT-FV
+285,14013157130,LPM Policy should not be present under DPTF policies in BIOS,https://hsdes.intel.com/appstore/article/#/14013157130,,Low,L4 Extended-FV
+286,14013163924,Verify USB2 PMCTRL bit is enabled,https://hsdes.intel.com/appstore/article/#/14013163924,,Low,L4 Extended-FV
+287,14013121015,Verify system stability post Warm and Cold reset cycles from EFI shell,https://hsdes.intel.com/appstore/article/#/14013121015,,,
+288,14013159899,"Verify Type-C multi port functionality - WinDBG,TBT-Display,TBT-SSD, TBT-Dock on Cold Plug",https://hsdes.intel.com/appstore/article/#/14013159899,,High,L4 Extended-FV
+289,14013163205,Verify System trace via 2-Wire BSSB interface,https://hsdes.intel.com/appstore/article/#/14013163205,,High,L3 Extended-BAT-FV
+290,14013176160,PCI Express Register Range Base Address (PCIEXBAR) should be initialized and enabled by System BIOS,https://hsdes.intel.com/appstore/article/#/14013176160,,Low,L3 Extended-BAT-FV
+291,14013159954,Verify Dual Controller Support - USB3.1 Gen2 storage functionality on Hot-Plug,https://hsdes.intel.com/appstore/article/#/14013159954,,High,L3 Extended-BAT-FV
+292,14013157801,Verify system stability post Sx/S0ix-cycling via Cycling Tools,https://hsdes.intel.com/appstore/article/#/14013157801,,Low,L3 Extended-BAT-FV
+293,14013179154,"Verify ""Wake on Voice"" functionality when System in SLP_S0 state, pre and post S4 and S5 cycles",https://hsdes.intel.com/appstore/article/#/14013179154,,Medium,L4 Extended-FV
+294,14013176423,"Verify ""PCH TH Mem Buffer Size 1"" BIOS policy/option for NPK Support",https://hsdes.intel.com/appstore/article/#/14013176423,,Low,L3 Extended-BAT-FV
+295,14013114769,Verify Hardware Pre-Fetcher reflection via MISC_FEATURE_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013114769,,Low,L4 Extended-FV
+296,16013691380,Verify USB4 storage functionality hot plug during S3 cycles,https://hsdes.intel.com/appstore/article/#/16013691380,,Low,L3 Extended-BAT-FV
+297,16014218143,Verify TBT3 devices functionality after CMS cycles connected behind TBT4-Dock,https://hsdes.intel.com/appstore/article/#/16014218143,,High,L3 Extended-BAT-FV
+298,14013161624,Verify BIOS shall provide support to increase the SPLC default power limit to 65535 mW for Wi-Fi,https://hsdes.intel.com/appstore/article/#/14013161624,,Low,L3 Extended-BAT-FV
+299,14013159204,[TBT] Verify TBT Tree functionality connected with 2 TBT port after Sx and reboot cycle,https://hsdes.intel.com/appstore/article/#/14013159204,,High,L3 Extended-BAT-FV
+300,14013157075,Verify user should be able to read the maximum temperature that the processor can function in OS,https://hsdes.intel.com/appstore/article/#/14013157075,,Low,L3 Extended-BAT-FV
+301,14013156833,"Validate ""Power Limit 2"" BIOS options",https://hsdes.intel.com/appstore/article/#/14013156833,,Low,L3 Extended-BAT-FV
+302,14013159299,"Verify Concurrent functionality of Legacy USB and Type-C to Type-C Display and device connected when SUT is in Sx (S3,S4,S5) state",https://hsdes.intel.com/appstore/article/#/14013159299,,High,L3 Extended-BAT-FV
+303,14013161009,Verify SUT support Debug Trace log capture - System Telemetry for low power debug,https://hsdes.intel.com/appstore/article/#/14013161009,,High,L3 Extended-BAT-FV
+304,14013159132,Verify basic TBT options available in BIOS setup,https://hsdes.intel.com/appstore/article/#/14013159132,,Low,L3 Extended-BAT-FV
+305,14013158739,Verify TBT device enumeration under Thunderbolt controller in device manager,https://hsdes.intel.com/appstore/article/#/14013158739,,Medium,L3 Extended-BAT-FV
+306,14013161901,Verify Bios has separate options to enable Deep S4 and Deep S5,https://hsdes.intel.com/appstore/article/#/14013161901,,Low,L4 Extended-FV
+307,14013120808,Verify that Stolen memory for GFX check,https://hsdes.intel.com/appstore/article/#/14013120808,,Low,L4 Extended-FV
+308,14013157564,Verify Turbo ratio limit for all Atom(Small) cores via MSR_TURBO_RATIO_LIMIT MSR,https://hsdes.intel.com/appstore/article/#/14013157564,,Low,L4 Extended-FV
+309,14013177912,Verify Bios options of L1 substates for PCI Express Configuration in BIOS,https://hsdes.intel.com/appstore/article/#/14013177912,,Low,L4 Extended-FV
+310,14013178901,Verify BIOS enable AtomicOps support for PEG60,https://hsdes.intel.com/appstore/article/#/14013178901,,Low,L4 Extended-FV
+311,14013159088,[TBT] Verify SUT wake from S3/S4 using USB Mouse over TBT connector,https://hsdes.intel.com/appstore/article/#/14013159088,,High,L3 Extended-BAT-FV
+312,16013697915,Verify Dual Controller Support - USB4 Hub & USB4 Dock functionality after S3 cycles,https://hsdes.intel.com/appstore/article/#/16013697915,,Low,L3 Extended-BAT-FV
+313,14013157136,Hardware Duty Cycling Policy should not be present under DPTF policies in BIOS,https://hsdes.intel.com/appstore/article/#/14013157136,,Low,L4 Extended-FV
+314,14013159048,Verify IO Mwait Redirection status via PKG_CST_CONFIG_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013159048,,Low,L3 Extended-BAT-FV
+315,14013163665,Validate Type-C USB3.0 enumeration over Type-C port  with PCIE tunneling enabled and disabled,https://hsdes.intel.com/appstore/article/#/14013163665,,Medium,L3 Extended-BAT-FV
+316,14013163784,Verify BIOS provides information related to LPM registers from iPC1 interface via buffers,https://hsdes.intel.com/appstore/article/#/14013163784,,Medium,L4 Extended-FV
+317,14013176039,Verify PDT Unlock Message - Enable/Disable option in Debug BIOS log,https://hsdes.intel.com/appstore/article/#/14013176039,,Medium,L3 Extended-BAT-FV
+318,14013176103,Verify USB2 ports enabled by default in BIOS and its Functionality in EFI/Windows OS (Only for ULT/ULX),https://hsdes.intel.com/appstore/article/#/14013176103,,Medium,L3 Extended-BAT-FV
+319,14013159143,Verify TBT Daisy chain functionality along with non-TBT devices Cross Concurrency,https://hsdes.intel.com/appstore/article/#/14013159143,,High,L3 Extended-BAT-FV
+320,14013177328,Verify different boot mode of Integrated Error Handler,https://hsdes.intel.com/appstore/article/#/14013177328,,Low,L3 Extended-BAT-FV
+321,22011834247,Verify hot-plug functionality of TBT Daisy chain between S3 and resume phases,https://hsdes.intel.com/appstore/article/#/22011834247,,High,L3 Extended-BAT-FV
+322,14013165449,"Verify Concurrent Type-C Display functionality over Type-C port, Device connected when SUT is in CMS State",https://hsdes.intel.com/appstore/article/#/14013165449,,Medium,L3 Extended-BAT-FV
+323,14013161635,Validate CNVi Wi-Fi for RTD3 support,https://hsdes.intel.com/appstore/article/#/14013161635,,Low,L3 Extended-BAT-FV
+324,16013029245,Verify if PCIe MultiVC is Supported,https://hsdes.intel.com/appstore/article/#/16013029245,,Low,L3 Extended-BAT-FV
+325,14013159008,"Verify system stability on performing Sx cycles with ""Driver Verifier Options"" enabled in OS",https://hsdes.intel.com/appstore/article/#/14013159008,,Medium,L3 Extended-BAT-FV
+326,14013163089,Verify the BIOS size using FFT Tool,https://hsdes.intel.com/appstore/article/#/14013163089,,Low,L3 Extended-BAT-FV
+327,14013179698,Verify Intel(R) SpeedStep(TM) support and P-state cycling,https://hsdes.intel.com/appstore/article/#/14013179698,,Low,L4 Extended-FV
+328,14013159227,[TBT] Verify TBT Daisy chain functionality with 4 Storage and 1 Display,https://hsdes.intel.com/appstore/article/#/14013159227,,High,L3 Extended-BAT-FV
+329,14013175764,Verify  HDA\iDisplay link frequency set  after S3/S4,https://hsdes.intel.com/appstore/article/#/14013175764,,High,L4 Extended-FV
+330,14013169069,Verify System memory using Windows Memory Diagnostics tool (Extended),https://hsdes.intel.com/appstore/article/#/14013169069,,High,L3 Extended-BAT-FV
+331,14013156798,Verify CPU FAN rotate when core temperature exceeds Active trip point with DTS SMM enabled and DPTF Enabled in BIOS after Sx (S4/S5),https://hsdes.intel.com/appstore/article/#/14013156798,,Medium,L3 Extended-BAT-FV
+332,14013174800,Verify USB-Audio offload when System in CMS,https://hsdes.intel.com/appstore/article/#/14013174800,,Low,L3 Extended-BAT-FV
+333,14013157670,Verify Re-arm command before and after disabling Re-arm BIOS knob,https://hsdes.intel.com/appstore/article/#/14013157670,,Medium,L3 Extended-BAT-FV
+334,14013159102,[TBT] Verify functionality of TBT device after power interrupts (Reset / G3),https://hsdes.intel.com/appstore/article/#/14013159102,,Low,L3 Extended-BAT-FV
+335,14013160655,Verify SUT support Debug Trace log capture - Route traces to System Memory,https://hsdes.intel.com/appstore/article/#/14013160655,,High,L3 Extended-BAT-FV
+336,14013162071,Verify BIOS set up option to enable/disable S0ix Auto Demotion,https://hsdes.intel.com/appstore/article/#/14013162071,,Low,L4 Extended-FV
+337,14013164736,Verify OS debug  support with DMA Pre-boot  Protection in enabled state,https://hsdes.intel.com/appstore/article/#/14013164736,,Low,L3 Extended-BAT-FV
+338,14013179385,"Verify wake from S3,S4 using USB Keyboard/Mouse with Debug mode option enabled in OS",https://hsdes.intel.com/appstore/article/#/14013179385,,Medium,L4 Extended-FV
+339,14013159844,Verify Deep Sx LED Status,https://hsdes.intel.com/appstore/article/#/14013159844,,Medium,L3 Extended-BAT-FV
+340,22011834390,Verify RTD3 flow support for Type-C USB3.2 device,https://hsdes.intel.com/appstore/article/#/22011834390,,Medium,L3 Extended-BAT-FV
+341,14013156791,Verify CPU Frequency throttle when core temperature exceeds passive trip point with DTS SMM enabled and DPTF Enabled in BIOS after Sx( S4/S5),https://hsdes.intel.com/appstore/article/#/14013156791,,Medium,L3 Extended-BAT-FV
+342,14013185716,Verify flashing of BIOS using FPT tool followed by Global Reset,https://hsdes.intel.com/appstore/article/#/14013185716,,Low,L3 Extended-BAT-FV
+343,14013156842,Validate Intel Speed Step functionality,https://hsdes.intel.com/appstore/article/#/14013156842,,Low,L3 Extended-BAT-FV
+344,14013179190,Verify PGTHRES& PCIEPMECTL3 is programmed for PEG11,https://hsdes.intel.com/appstore/article/#/14013179190,,Low,L4 Extended-FV
+345,22011834267,[TBT] Verify wake from S3 using USB Keyboard/Mouse of TBT Daisy chain with a USB keyboard or mouse,https://hsdes.intel.com/appstore/article/#/22011834267,,High,L3 Extended-BAT-FV
+346,14013178799,Verify RAID creation with CPU Attached Storage Device and PCH attached device(on PCIe4 controller) through EFI shell via VMD,https://hsdes.intel.com/appstore/article/#/14013178799,,High,L3 Extended-BAT-FV
+347,14013159682,Verify RTD3 flow for CNVi BT Device,https://hsdes.intel.com/appstore/article/#/14013159682,,Medium,L3 Extended-BAT-FV
+348,14013160044,Verify Dual Controller Support - USB2.0 Disk functionality after Sx and reboot cycles,https://hsdes.intel.com/appstore/article/#/14013160044,,High,L3 Extended-BAT-FV
+349,16013700981,Verify functionality of TBT3 Dock (hot plug) before and after resume from S3 for 5 cycles,https://hsdes.intel.com/appstore/article/#/16013700981,,High,L4 Extended-FV
+350,14013166261,Validate Boot flow with different GT frequency bins as per BIOS menu,https://hsdes.intel.com/appstore/article/#/14013166261,,Medium,L3 Extended-BAT-FV
+351,16014268794,Verify hot-plug/unplug functionality with discrete graphics (DGfx) with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot,https://hsdes.intel.com/appstore/article/#/16014268794,,Medium,L3 Extended-BAT-FV
+352,14013157332,Verify PL3 can be configured irrespective of Intel SpeedStep(tm) status,https://hsdes.intel.com/appstore/article/#/14013157332,,Low,L4 Extended-FV
+353,14013160066,"Verify multiple display output when displays connected with 2nd TBT controller / different TBT Port after S4, S5 and warm reboot cycles - TBT, DP display",https://hsdes.intel.com/appstore/article/#/14013160066,,Medium,L3 Extended-BAT-FV
+354,14013156787,Verify CPU Frequency throttle when core temperature exceeds passive trip point with DPTF Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013156787,,Medium,L3 Extended-BAT-FV
+355,14013158937,"[TBT] Verify connection Swap during S3 with all Type-C ports - DP, HDMI and USB",https://hsdes.intel.com/appstore/article/#/14013158937,,High,L3 Extended-BAT-FV
+356,14013158695,Verify TBT RTD3 entry and exit in a Daisy chain,https://hsdes.intel.com/appstore/article/#/14013158695,,High,L3 Extended-BAT-FV
+357,14013120914,"Verify PL1 Maximum Power Limit , Minimum Power Limit and Maximum Time Window",https://hsdes.intel.com/appstore/article/#/14013120914,,Low,L3 Extended-BAT-FV
+358,14013160718,Validate concurrent support of Windbg and DbC debug trace over same Type-C port,https://hsdes.intel.com/appstore/article/#/14013160718,,High,L3 Extended-BAT-FV
+359,14013117056,"Verify BIOS options for HD Audio, Soundwire and I2S Configuration",https://hsdes.intel.com/appstore/article/#/14013117056,,Medium,L4 Extended-FV
+360,14013159884,Verify Dual Controller Support - USB2.0 Disk functionality on Hot-Plug,https://hsdes.intel.com/appstore/article/#/14013159884,,High,L3 Extended-BAT-FV
+361,14013159175,Verify TBT Daisy chain functionality after Sx and reboot cycles,https://hsdes.intel.com/appstore/article/#/14013159175,,High,L3 Extended-BAT-FV
+362,14013156977,Verify Package PL1 and PL2 enablement from CPU,https://hsdes.intel.com/appstore/article/#/14013156977,,Low,L3 Extended-BAT-FV
+363,14013160716,Validate concurrent support of Windbg debug and data transfer over Type-C port,https://hsdes.intel.com/appstore/article/#/14013160716,,High,L3 Extended-BAT-FV
+364,14013161444,Verify System trace - Route traces to USB Type-C in S0ix,https://hsdes.intel.com/appstore/article/#/14013161444,,High,L3 Extended-BAT-FV
+365,14013188164,Verify 4K Display functionality over type-C port with PCIE tunneling enabled and disabled,https://hsdes.intel.com/appstore/article/#/14013188164,,Medium,L3 Extended-BAT-FV
+366,14013165445,Verify Concurrent Type-C Display functionality over Type-C port after CMS Cycles,https://hsdes.intel.com/appstore/article/#/14013165445,,Medium,L3 Extended-BAT-FV
+367,14013173272,[FSP2.0]: Verify FSP_SMBIOS_PROCESSOR_INFO HOB table,https://hsdes.intel.com/appstore/article/#/14013173272,,Low,L3 Extended-BAT-FV
+368,14013156800,Verify System shutdown when core temperature exceeds Critical trip point with DTS SMM enabled and DPTF Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013156800,,Low,L3 Extended-BAT-FV
+369,14013158804,Verify USB3.1 gen2 device functionality before/after C-MoS state over Type-C port,https://hsdes.intel.com/appstore/article/#/14013158804,,Low,L3 Extended-BAT-FV
+370,14013157181,Verify P-state Cycling when Active processor cores are disabled,https://hsdes.intel.com/appstore/article/#/14013157181,,Low,L3 Extended-BAT-FV
+371,14013177044,Verify RST driver Upgrade/downgrade with remapped PCIe OS,https://hsdes.intel.com/appstore/article/#/14013177044,,Low,L3 Extended-BAT-FV
+372,14013159161,Verify USB 3.0 Device functionality in Host Router before/after Sx Cycles,https://hsdes.intel.com/appstore/article/#/14013159161,,Medium,L3 Extended-BAT-FV
+373,14013120864,"Verify that the BIOS MRC has an option to set ""Memory Frequency"".",https://hsdes.intel.com/appstore/article/#/14013120864,,Low,L4 Extended-FV
+374,14013176048,Verify strap lanes 14-17 of SPTH are programmed to be DMI in the CommonLane section of ChipsetInit,https://hsdes.intel.com/appstore/article/#/14013176048,,Low,L4 Extended-FV
+375,14013185100,Validate Hybrid Sleep Cycles with online video streaming,https://hsdes.intel.com/appstore/article/#/14013185100,,Medium,L4 Extended-FV
+376,14013163408,Validate USB4 Dock Device functionality during CMS Cycles,https://hsdes.intel.com/appstore/article/#/14013163408,,High,L3 Extended-BAT-FV
+377,22011834456,Verify Dual Controller Support - USB3.2 Gen2 storage functionality after Sx and reboot cycles,https://hsdes.intel.com/appstore/article/#/22011834456,,High,L3 Extended-BAT-FV
+378,14013118179,"Serial IO configuration options check for default, enable and disable in BIOS",https://hsdes.intel.com/appstore/article/#/14013118179,,High,L3 Extended-BAT-FV
+379,14013185636,"Validate Type-C USB2.0 Host Mode (Type-C to A) functionality - after S4, device connected when SUT is in S4 State",https://hsdes.intel.com/appstore/article/#/14013185636,,Medium,L3 Extended-BAT-FV
+380,14013120386,Verifying XHCI Debug Port exposed via ACPI DBGP Table,https://hsdes.intel.com/appstore/article/#/14013120386,,Low,L3 Extended-BAT-FV
+381,14013156903,Verify Intel(R) Speed Shift Technology Interrupt Notification status via MISC_PWR_MGMT MSR,https://hsdes.intel.com/appstore/article/#/14013156903,,Low,L3 Extended-BAT-FV
+382,14013118496,Verify BIOS ID follows the standard format,https://hsdes.intel.com/appstore/article/#/14013118496,,,
+383,14013159952,Verify Dual Controller Support - USB3.0/USB3.1 Gen1 storage functionality after cold boot,https://hsdes.intel.com/appstore/article/#/14013159952,,High,L3 Extended-BAT-FV
+384,14013161190,"Verify that FACP table has proper revision ID""s as per the ACPI 6.0 spec.",https://hsdes.intel.com/appstore/article/#/14013161190,,Low,L3 Extended-BAT-FV
+385,14013161700,"Verify PSMI handler memory Reservation and configuring trace regions as don""t care in BIOS",https://hsdes.intel.com/appstore/article/#/14013161700,,Medium,L3 Extended-BAT-FV
+386,16013702245,Verify multiple display output functionality over different Type-C/TBT port after S3 cycles - 2 TBT Displays,https://hsdes.intel.com/appstore/article/#/16013702245,,Low,L3 Extended-BAT-FV
+387,14013158278,Verify system wakes from CMS/S0i3 state via Finger Print Sensor.,https://hsdes.intel.com/appstore/article/#/14013158278,,Medium,L3 Extended-BAT-FV
+388,14013159881,Verify Dual Controller Support - USB2.0 Disk functionality after cold boot,https://hsdes.intel.com/appstore/article/#/14013159881,,High,L3 Extended-BAT-FV
+389,14013161435,"verify TBT D3 flow when APSM is in L1.1,L1.2 state",https://hsdes.intel.com/appstore/article/#/14013161435,,Medium,L3 Extended-BAT-FV
+390,14013175666,"Verify BIOS reports OEM ID ""INTEL"" via ACPI Table",https://hsdes.intel.com/appstore/article/#/14013175666,,Low,L4 Extended-FV
+391,16013699710,Verify TBT3 device enumeration after S3 cycles with PCIE tunneling disabled,https://hsdes.intel.com/appstore/article/#/16013699710,,Low,L3 Extended-BAT-FV
+392,14013159319,"Verify Sx(S3, S4 and S5) Cycle with C-state disable in bios",https://hsdes.intel.com/appstore/article/#/14013159319,,Low,L3 Extended-BAT-FV
+393,14013163220,Verify ACPI table Support for S5,https://hsdes.intel.com/appstore/article/#/14013163220,,Low,L3 Extended-BAT-FV
+394,14013179126,SD card  functionality check connected to PCIe slot,https://hsdes.intel.com/appstore/article/#/14013179126,,Low,L3 Extended-BAT-FV
+395,14013169014,Verify MRC training for Rank 2 (2 channels and 2 DIMMS per channel Dual Rank(16GB and 32GB)),https://hsdes.intel.com/appstore/article/#/14013169014,,Low,L3 Extended-BAT-FV
+396,14013178072,Verify T-mod settings in BIOS for display codec,https://hsdes.intel.com/appstore/article/#/14013178072,,Medium,L3 Extended-BAT-FV
+397,14013156872,"Verify Platform supports ""autonomous out of band OS Control"" in case of HW P-states",https://hsdes.intel.com/appstore/article/#/14013156872,,Low,L3 Extended-BAT-FV
+398,14013175718,Verify Aggressive LPM Support bios options,https://hsdes.intel.com/appstore/article/#/14013175718,,Low,L3 Extended-BAT-FV
+399,14013163478,Verify BIOS is configuring the NPK bar and size on S3 exit,https://hsdes.intel.com/appstore/article/#/14013163478,,High,L4 Extended-FV
+400,14013168849,Verify MRC training,https://hsdes.intel.com/appstore/article/#/14013168849,,High,L3 Extended-BAT-FV
+401,14013163195,Verify cold boot with USB3.1 Gen2 mass storage device connected across all the Type C ports,https://hsdes.intel.com/appstore/article/#/14013163195,,High,L3 Extended-BAT-FV
+402,14013163171,Verify PCH /CSE/CPU bootstall unlock via USB2DbC,https://hsdes.intel.com/appstore/article/#/14013163171,,High,L3 Extended-BAT-FV
+403,14013173207,Verify system stability on performing Deep Sx cycles  in AC mode,https://hsdes.intel.com/appstore/article/#/14013173207,,Low,L4 Extended-FV
+404,14013156799,Verify Power Limit 3 Lock status via PL3_CONTROL MSR based on Value set in BIOS setup option,https://hsdes.intel.com/appstore/article/#/14013156799,,Low,L3 Extended-BAT-FV
+405,14013179099,Verify display check on HDMI when connected via DP 1.2 to HDMI dongle,https://hsdes.intel.com/appstore/article/#/14013179099,,Low,L3 Extended-BAT-FV
+406,14013159141,Verify TBT Display functionality with Stress and along with non-TBT devices Cross Concurrency,https://hsdes.intel.com/appstore/article/#/14013159141,,High,L3 Extended-BAT-FV
+407,14013157437,"Verify default fused values for PL1,PL2,PL3 and PL4",https://hsdes.intel.com/appstore/article/#/14013157437,,Low,L3 Extended-BAT-FV
+408,14013163459,Verify vendor ID for USB4 HW controller,https://hsdes.intel.com/appstore/article/#/14013163459,,Low,L3 Extended-BAT-FV
+409,14013179366,"Verify OS debug support using Windbg debugging over Type-C port during SUT resume from S4,S5 state",https://hsdes.intel.com/appstore/article/#/14013179366,,Medium,L3 Extended-BAT-FV
+410,14013161732,"Verify bios an option to enable/disable ""Intel Turbo Boost Max Technology 3.0""",https://hsdes.intel.com/appstore/article/#/14013161732,,Low,L3 Extended-BAT-FV
+411,14013165602,Verify BIOS programs for enablement of Power well2 register,https://hsdes.intel.com/appstore/article/#/14013165602,,Low,L3 Extended-BAT-FV
+412,14013159121,Verify TBT3 enumeration for Storage and display after cold boot,https://hsdes.intel.com/appstore/article/#/14013159121,,Medium,L3 Extended-BAT-FV
+413,22011834529,"Verify functionality of TBT3 Dock (hot plug) before and after resume from S4,S5 for 5 cycles",https://hsdes.intel.com/appstore/article/#/22011834529,,High,L4 Extended-FV
+414,16013241572,Verify CMS cycle with ACPI D3 cold option enabled/disabled in BIOS,https://hsdes.intel.com/appstore/article/#/16013241572,,Medium,L3 Extended-BAT-FV
+415,14013160002,Verify Dual Controller Support - USB3.0/USB3.1 Gen1 storage functionality after Sx and reboot cycles,https://hsdes.intel.com/appstore/article/#/14013160002,,High,L3 Extended-BAT-FV
+416,14013158096,Validate Type-C USB3.0 Host Mode (Type-C to A) functionality - before and after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013158096,,Medium,L4 Extended-FV
+417,22011834460,Verify Dual Controller Support - USB3.2 Gen2 storage functionality on Hot-Plug,https://hsdes.intel.com/appstore/article/#/22011834460,,High,L3 Extended-BAT-FV
+418,14013121224,Validate Type-C USB3.0 Host Mode (Type-C to A) functionality - hot plug device before and in Sx state,https://hsdes.intel.com/appstore/article/#/14013121224,,High,L3 Extended-BAT-FV
+419,14013158101,Verify RTD3 support for USB2.0 Device,https://hsdes.intel.com/appstore/article/#/14013158101,,Medium,L3 Extended-BAT-FV
+420,16013626053,Verify and compare the debug logs for MRC training should be succeed and & MRC version should be same  with forward/backward compatibility CPU / PCH supported platform,https://hsdes.intel.com/appstore/article/#/16013626053,,High,L3 Extended-BAT-FV
+421,14013158128,Verify all BKC drivers gets installed successfully via command line Installation,https://hsdes.intel.com/appstore/article/#/14013158128,,Low,L3 Extended-BAT-FV
+422,14013173005,Verify if SUT wakes from Connected Modern Standby on plug/unplug of Display monitor over Type-C port,https://hsdes.intel.com/appstore/article/#/14013173005,,Medium,L3 Extended-BAT-FV
+423,14013176273,Verify SUT wake from S0i3 using PCIE LAN devices (WOL),https://hsdes.intel.com/appstore/article/#/14013176273,,Low,L3 Extended-BAT-FV
+424,16014185861,Validate USB3.2 Gen2x2 Storage device functionality after CMS Cycles,https://hsdes.intel.com/appstore/article/#/16014185861,,Low,L3 Extended-BAT-FV
+425,14013158313,Verify TBT Boot to OS functionality using Type-C USB device over TBT port,https://hsdes.intel.com/appstore/article/#/14013158313,,High,L3 Extended-BAT-FV
+426,14013161443,Verify BIOS ACPI debug messages capture during TBT device hot-plug/un-plug events,https://hsdes.intel.com/appstore/article/#/14013161443,,High,L3 Extended-BAT-FV
+427,14013160612,Verify RTD3 flow support for USB pendrive connected over USB3.0 port,https://hsdes.intel.com/appstore/article/#/14013160612,,Low,L3 Extended-BAT-FV
+428,14013117361,Verify Fast Boot and Full Boot timings and compare both,https://hsdes.intel.com/appstore/article/#/14013117361,,Low,L3 Extended-BAT-FV
+429,14013165152,Verify C state  Residency when system is in idle after CS cycle with TBT device connected,https://hsdes.intel.com/appstore/article/#/14013165152,,High,L4 Extended-FV
+430,14013158953,"[TBT] Verify connection Swap during S3 with all Type-C ports - USB3.1 Gen2, USB3.0 Hub and USB2.0",https://hsdes.intel.com/appstore/article/#/14013158953,,High,L3 Extended-BAT-FV
+431,14013184052,"Validate Type-C USB3.0 Host Mode (Type-C to A) functionality after S4, Cable connected at S4 State",https://hsdes.intel.com/appstore/article/#/14013184052,,Medium,L3 Extended-BAT-FV
+432,16012598575,Verify the CPU family Name and Module number in MRC,https://hsdes.intel.com/appstore/article/#/16012598575,,Low,L3 Extended-BAT-FV
+433,16014195660,"Validate USB3.2 Gen2x2 Storage device functionality on hot plug after S4,S5 and WR Cycles",https://hsdes.intel.com/appstore/article/#/16014195660,,Low,L3 Extended-BAT-FV
+434,14013176338,Verify BIOS configures Power management events(PME) Support when PCIe bus is in non Native mode,https://hsdes.intel.com/appstore/article/#/14013176338,,Low,L3 Extended-BAT-FV
+435,14013161628,Verify BIOS shall provide support to change WGDS default MAX_ALLOWED values,https://hsdes.intel.com/appstore/article/#/14013161628,,Low,L3 Extended-BAT-FV
+436,14013172927,Validate Type-C USB3.0 Host Mode (Type-C to A) functionality - on hot unplug/plug and after Sx Cycles,https://hsdes.intel.com/appstore/article/#/14013172927,,Low,L3 Extended-BAT-FV
+437,16014195895,Verify Device Swap during CMS with USB3.2 Gen2x2 and DP,https://hsdes.intel.com/appstore/article/#/16014195895,,Low,L3 Extended-BAT-FV
+438,14013161721,"Verify Power Consumption by SoC, PCH and Memory using ""Power Meter"" tool",https://hsdes.intel.com/appstore/article/#/14013161721,,Low,L4 Extended-FV
+439,14013174442,Verify CD Clock menu settings in BIOS and its functionality in OS before & after S3,https://hsdes.intel.com/appstore/article/#/14013174442,,High,L3 Extended-BAT-FV
+440,14013179192,Verify Dynamic Backbone Clock Gate is programmed per port,https://hsdes.intel.com/appstore/article/#/14013179192,,Low,L4 Extended-FV
+441,14013160659,Verify System trace - Route traces to USB Type-C in low power mode,https://hsdes.intel.com/appstore/article/#/14013160659,,High,L3 Extended-BAT-FV
+442,14013176544,Verify BIOS detects PCIe device connected over X1/X4 slot with remapping enabled on M.2 slot,https://hsdes.intel.com/appstore/article/#/14013176544,,Medium,L3 Extended-BAT-FV
+443,14013160722,Verify concurrent support of debug and USB data transfer over Type-C port,https://hsdes.intel.com/appstore/article/#/14013160722,,High,L3 Extended-BAT-FV
+444,14013156866,Verify C8 residency pre and post  hibernate state with USB 3.0 Mass Storage device connected to system,https://hsdes.intel.com/appstore/article/#/14013156866,,Low,L4 Extended-FV
+445,14013120937,Verify options provided for PCI Express Configuration in BIOS,https://hsdes.intel.com/appstore/article/#/14013120937,,Medium,L4 Extended-FV
+446,16014212976,Verify TBT3 devices functionality after cold boot connected behind TBT4-Dock,https://hsdes.intel.com/appstore/article/#/16014212976,,High,L3 Extended-BAT-FV
+447,14013173168,Verify if BIOS provides option to enable/disable PCH energy reporting,https://hsdes.intel.com/appstore/article/#/14013173168,,Low,L3 Extended-BAT-FV
+448,14013160602,Verify RTD3 flow support for XDCI controller,https://hsdes.intel.com/appstore/article/#/14013160602,,Low,L3 Extended-BAT-FV
+449,14013156951,Verify the CPPC Version support based on Operating system,https://hsdes.intel.com/appstore/article/#/14013156951,,Low,L4 Extended-FV
+450,14013162849,"Verify USB4 storage functionality hot plug during S4, S5 cycles",https://hsdes.intel.com/appstore/article/#/14013162849,,High,L3 Extended-BAT-FV
+451,14013173089,Verify EC detects the Sx transitions and configure the GPIOs without failure,https://hsdes.intel.com/appstore/article/#/14013173089,,Low,L3 Extended-BAT-FV
+452,14013118721,Verify that Intel test menu option is enabled by updating Test Menu enabled BIOS,https://hsdes.intel.com/appstore/article/#/14013118721,,Low,L3 Extended-BAT-FV
+453,14013168857,Verify that MRC training is repeated after the Warm boot flow,https://hsdes.intel.com/appstore/article/#/14013168857,,Low,L4 Extended-FV
+454,14013174406,Verify CD Clock menu options in BIOS & its functionality in OS,https://hsdes.intel.com/appstore/article/#/14013174406,,Medium,L3 Extended-BAT-FV
+455,14013177873,Verify hysteresis value is programmed correctly by BIOS,https://hsdes.intel.com/appstore/article/#/14013177873,,Low,L3 Extended-BAT-FV
+456,16014268343,"Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot, post CMS cycles",https://hsdes.intel.com/appstore/article/#/16014268343,,Medium,L3 Extended-BAT-FV
+457,16014195880,Verify Device Swap during S3 with USB3.2 Gen2x2 and DP,https://hsdes.intel.com/appstore/article/#/16014195880,,Low,L3 Extended-BAT-FV
+458,14013174087,Verify BIOS shall display setup option to enable or disabled Force GT Wake,https://hsdes.intel.com/appstore/article/#/14013174087,,Low,L3 Extended-BAT-FV
+459,14013176907,"Verify ""Unlock USB Overcurrent Pins for NOA usage"" BIOS policy/option",https://hsdes.intel.com/appstore/article/#/14013176907,,Medium,L3 Extended-BAT-FV
+460,14013176960,Verify LPSS I2C need to be on PCI mode by default,https://hsdes.intel.com/appstore/article/#/14013176960,,Low,L3 Extended-BAT-FV
+461,14013158435,Bios shall support maximum allocation of 130 MB memory for EFI Boot Services Data,https://hsdes.intel.com/appstore/article/#/14013158435,,Low,L4 Extended-FV
+462,14013158554,Verify System trace Via BSSB interface over Type-C port,https://hsdes.intel.com/appstore/article/#/14013158554,,High,L3 Extended-BAT-FV
+463,14013159264,"Verify Multiple TBT3 data transfer operation on hot-plug after S4,S5 and warm boot",https://hsdes.intel.com/appstore/article/#/14013159264,,High,L3 Extended-BAT-FV
+464,14013166943,Verify that system falls back to full boot mode when Intel RST Premium and OROM UI & banner are enabled even with fast boot enabled,https://hsdes.intel.com/appstore/article/#/14013166943,,Low,L3 Extended-BAT-FV
+465,14013157121,Thunderbolt devices should not be enumerated as Intel Dynamic Tuning (aka DPTF) participant devices,https://hsdes.intel.com/appstore/article/#/14013157121,,Low,L3 Extended-BAT-FV
+466,14013180355,"DRAM Initialization done message should be sent by BIOS post System Transition from G3,S4 and S5 to S0 state",https://hsdes.intel.com/appstore/article/#/14013180355,,Medium,L3 Extended-BAT-FV
+467,22011834277,[TBT] Verify wake from S3 using USB Keyboard/Mouse connected over TBT-Daisy chain device,https://hsdes.intel.com/appstore/article/#/22011834277,,High,L3 Extended-BAT-FV
+468,14013159219,"[TBT] Verify USB 3.0 Device functionality in End point, before/after Sx Cycles",https://hsdes.intel.com/appstore/article/#/14013159219,,Medium,L3 Extended-BAT-FV
+469,14013160038,"Verify multiple display output when displays connected with dual TBT controller after S4, S5 and reboot cycles - TBT, HDMI Display",https://hsdes.intel.com/appstore/article/#/14013160038,,High,L3 Extended-BAT-FV
+470,14013157052,"Verify default bios option for ""Package C State Limit""",https://hsdes.intel.com/appstore/article/#/14013157052,,Low,L3 Extended-BAT-FV
+471,16014195743,"Validate USB3.2 Gen2x2 Storage device functionality on hot plug in S4, S5",https://hsdes.intel.com/appstore/article/#/16014195743,,Low,L3 Extended-BAT-FV
+472,14013115314,Verify device manager post sleep cycling with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013115314,,Low,L3 Extended-BAT-FV
+473,14013184549,Validate Graphics turbo frequency is achieved by system pre and post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013184549,,Low,L3 Extended-BAT-FV
+474,14013156860,Verify the Intel(R) Speed Shift Technology performance via IA32_HWP_REQUEST MSR,https://hsdes.intel.com/appstore/article/#/14013156860,,Low,L3 Extended-BAT-FV
+475,14013162897,Validate on board LAN device for RTD3,https://hsdes.intel.com/appstore/article/#/14013162897,,Medium,L3 Extended-BAT-FV
+476,14013167008,Full boot should move successful boot target to front of boot list for subsequent fast boots when fast boot is enabled,https://hsdes.intel.com/appstore/article/#/14013167008,,Medium,L3 Extended-BAT-FV
+477,14013163118,Verify TCSS D3Cold Entry and Exit happens  with TBT device connected,https://hsdes.intel.com/appstore/article/#/14013163118,,Medium,L3 Extended-BAT-FV
+478,14013161024,Verify USB3 DbC Functionality during and after BIOS boot using Type C,https://hsdes.intel.com/appstore/article/#/14013161024,,High,L3 Extended-BAT-FV
+479,14013156980,Verify CPU supports for PSYS feature,https://hsdes.intel.com/appstore/article/#/14013156980,,Low,L3 Extended-BAT-FV
+480,14013176901,Verify System exposes debug interface that complies with Debug Port Specification,https://hsdes.intel.com/appstore/article/#/14013176901,,Medium,L3 Extended-BAT-FV
+481,14013161207,Verify platform UEFI Class-III support,https://hsdes.intel.com/appstore/article/#/14013161207,,Low,L3 Extended-BAT-FV
+482,22011834428,"[TBT] Verify connection Swap during S5 with all Type-C ports - USB3.2 Gen2, USB3.0 Hub and USB2.0",https://hsdes.intel.com/appstore/article/#/22011834428,,Medium,L3 Extended-BAT-FV
+483,14013156770,Verify Package C states with USB Devices connected during 8 hours in S0 state.,https://hsdes.intel.com/appstore/article/#/14013156770,,Medium,L4 Extended-FV
+484,16014206248,"Verify TBT3 devices functionality after S4, S5 and reboot cycles connected behind TBT4-Dock",https://hsdes.intel.com/appstore/article/#/16014206248,,High,L3 Extended-BAT-FV
+485,14013158882,"Verify Type-C multi port functionality - Display, USB debug and TBT dock after G3 and reboot cycles",https://hsdes.intel.com/appstore/article/#/14013158882,,High,L3 Extended-BAT-FV
+486,14013157313,Verify Turbo ratio limit for all Big cores via MSR_TURBO_RATIO_LIMIT MSR,https://hsdes.intel.com/appstore/article/#/14013157313,,Low,L4 Extended-FV
+487,16013702493,"Verify multiple display output when displays connected with 2nd TBT controller / different TBT Port after S3 cycles - TBT, DP display",https://hsdes.intel.com/appstore/article/#/16013702493,,Low,L3 Extended-BAT-FV
+488,16014269361,Verify discrete graphics (DGfx) performance evaluation with DashG graphics card with/without PCIE Resizable BAR support on X16 PEG slot,https://hsdes.intel.com/appstore/article/#/16014269361,,Medium,L4 Extended-FV
+489,14013157715,Verify Bios provide an option to update Vsys Critical and change corresponding settings,https://hsdes.intel.com/appstore/article/#/14013157715,,Low,L3 Extended-BAT-FV
+490,14013158520,Verify PEP device (_STA) method to support Modern Standby,https://hsdes.intel.com/appstore/article/#/14013158520,,Low,L3 Extended-BAT-FV
+491,14013162068,Verify GUID of ACPI & SMBIOS table,https://hsdes.intel.com/appstore/article/#/14013162068,,Low,L3 Extended-BAT-FV
+492,14013177811,Verify user can create/delete RAID volume using RstVmdConfig.efi,https://hsdes.intel.com/appstore/article/#/14013177811,,High,L4 Extended-FV
+493,14013178278,Verify root port based setup options in Intel Test menu,https://hsdes.intel.com/appstore/article/#/14013178278,,Low,L3 Extended-BAT-FV
+494,14013180187,Verify the BIOS behavior related to EOP MEI message in Manufacturing/Re-Manufacturing Environment,https://hsdes.intel.com/appstore/article/#/14013180187,,Low,L3 Extended-BAT-FV
+495,14013175866,"Verify USB3.0 Hub detection & functionality in OS, EFI, BIOS over USB Type-A and Type-C port",https://hsdes.intel.com/appstore/article/#/14013175866,,High,L3 Extended-BAT-FV
+496,14013160728,"Verify USB device functionality by disable/enable USB Overcurrent option in BIOS across Sx (S3,S4,S5) and warm reboot cycle",https://hsdes.intel.com/appstore/article/#/14013160728,,Medium,L3 Extended-BAT-FV
+497,14013163267,Verify TBT3 device enumeration on hot plug with PCIE tunneling Enabled and Disabled,https://hsdes.intel.com/appstore/article/#/14013163267,,High,L3 Extended-BAT-FV
+498,14013184079,Validate Type-C USB3.0 Host Mode (Type-C to A) functionality - on hot plug after S4 cycle,https://hsdes.intel.com/appstore/article/#/14013184079,,Medium,L3 Extended-BAT-FV
+499,14013178949,"Verify DMIC basic functionality test over High Definition Audio (HDA) Codec, pre and post S4, S5 and warm and cold reset cycles",https://hsdes.intel.com/appstore/article/#/14013178949,,Low,L3 Extended-BAT-FV
+500,14013156858,Set different memory size for processor trace from range between(4KB-128MB),https://hsdes.intel.com/appstore/article/#/14013156858,,High,L3 Extended-BAT-FV
+501,14013176485,Verify Opal supported NVMe SSD detection in BIOS Opal menu,https://hsdes.intel.com/appstore/article/#/14013176485,,Low,L3 Extended-BAT-FV
+502,14013179007,"verify VMD default enabled & end-user unplug and re-plug again, the VMD setting should remain as default enabled.",https://hsdes.intel.com/appstore/article/#/14013179007,,High,L3 Extended-BAT-FV
+503,16013169992,Verifying SSID and SVID updated in BIOS and OS,https://hsdes.intel.com/appstore/article/#/16013169992,,Medium,L3 Extended-BAT-FV
+504,14013178206,Verify PMC executes the Host Boot Post   IccConfig chipsetinit to program MPPrivReg1 register bits,https://hsdes.intel.com/appstore/article/#/14013178206,,Low,L3 Extended-BAT-FV
+505,16013696484,Verify USB4 Storage enumeration after S3 cycles with PCIE tunneling disabled,https://hsdes.intel.com/appstore/article/#/16013696484,,Low,L3 Extended-BAT-FV
+506,14013159019,Verify USB Host - SCSI Protocol (UASP) Support,https://hsdes.intel.com/appstore/article/#/14013159019,,Low,L3 Extended-BAT-FV
+507,14013157188,Verify CPU C10 residency when system connected to Wi-Fi Network,https://hsdes.intel.com/appstore/article/#/14013157188,,Low,L4 Extended-FV
+508,14013159254,[TBT] Verify TBT-Dock functionality after cold boot,https://hsdes.intel.com/appstore/article/#/14013159254,,High,L3 Extended-BAT-FV
+509,14013156848,"Verify ""Enhanced C_State"" is enabled by default in BIOS",https://hsdes.intel.com/appstore/article/#/14013156848,,Low,L3 Extended-BAT-FV
+510,14013158443,Verify RTD3/ACPI D3cold Support can be enabled/disabled from Setup and SUT remains intact across Sx cycles,https://hsdes.intel.com/appstore/article/#/14013158443,,Low,L3 Extended-BAT-FV
+511,14013161019,Verify USB2 DbC Functionality over Type-C Port in low power state,https://hsdes.intel.com/appstore/article/#/14013161019,,High,L3 Extended-BAT-FV
+512,14013175770,"Verify data transfer functionality over Type C port after Cold Boot , S3, S4, S5 Cycles",https://hsdes.intel.com/appstore/article/#/14013175770,,Medium,L3 Extended-BAT-FV
+513,14013158728,Verify Bluetooth power management profile for DT SKU through ACPI table,https://hsdes.intel.com/appstore/article/#/14013158728,,Low,L3 Extended-BAT-FV
+514,22011834363,Validate Type-C USB3.2 gen2 Host Mode functionality - after G3 and Warm reboot cycles,https://hsdes.intel.com/appstore/article/#/22011834363,,Medium,L3 Extended-BAT-FV
+515,14013166951,"Verify BIOS fast boots from second bootable device, if first bootable device fails to load when fast boot mode is enabled",https://hsdes.intel.com/appstore/article/#/14013166951,,Low,L4 Extended-FV

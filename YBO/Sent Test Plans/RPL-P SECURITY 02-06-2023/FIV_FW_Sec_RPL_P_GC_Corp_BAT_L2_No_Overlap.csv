@@ -1,0 +1,744 @@
+﻿TCD_ID,TCD_Title
+1508729817,Verify MK-TME and IBECC get enabled/disabled from BIOS page successfully
+1508747355,[RPE] Verify BIOS continues to perform next erase actions even though TPM clear erase action item fails
+1508747980,"[RPE] Verify All the erase actions are set enabled and not repeated together with PTT , Secure Boot and Real Mode Erase set"
+1508753113,[RPE] Verify RPE functionality does not fails when user password is set while SATA drive is attached
+1508759668,[RPE] Verify TPM Clear functionality with dTPM in RPE feature
+1508759683,[RPE] Verify BIOS Revert to Golden Config functionality in RPE feature
+1508759691,[RPE] Verify RPE Code is not executed when RPE BIOS Knob is disabled
+1508777993,"[RPE] Verify SSD Clear and TPM Clear functionality with PTT, set of combination triggers in order when RPE is enabled"
+1508777995,"[RPE] Verify SSD Clear and TPM Clear functionality with dTPM, set of combination triggers in order when RPE is enabled"
+1508777998,"[RPE] Verify SSD Clear and BIOS set to default functionality when RPE is triggered, also verify TPM clear is not successful via WSMAN"
+1508778002,"[RPE] Verify TPM clear and BIOS set to default functionality when RPE is triggered, also verify SSD data is not cleared via WSMAN"
+1508778032,[RPE] Verify CSME Unconfigure on RPE enabled system via WSMAN on Pyrite Drive
+1508868949,[PSR] Verify Chassis Intrusion Event is reported correctly via Event Ledger
+1508913288,"[RPE] Verify RPE flow should not get triggered, if AMT is disabled"
+1508913450,"[RPE] Verify SSD Erase functionality in RPE feature, with Real Mode"
+1508954454,Verify Crash Dump creation on MK-TME enabled Memory
+1508997601,"[RPE] Verify ATA drive password is set, and RPE functionality is carried out successfully"
+1509360827,"[RPE] Verify Clear BIOS NVM Variable and TPM Clear functionality with PTT, set of combination triggers in order when RPE is enabled"
+1509360886,"[RPE] Verify Clear BIOS NVM Variable and TPM Clear functionality with dTPM, set of combination triggers in order when RPE is enabled"
+1509361007,[RPE] Verify SSD Clear and Clear BIOS NVM Variable functionality when RPE is triggered
+1509361191,[RPE] Verify Clear BIOS NVM Variable and BIOS set to default functionality when RPE is triggered
+14013115696,Verify that the PCRs 17-22 are unused by TPM
+14013115912,"Verify that the PCR""s 17-22 are unused in PTT"
+14013115932,Verify that PTT is functional on resetting from BIOS & S5 cycles
+14013116021,Verify the state of PTT using the PTTBAT tool.
+14013116058,Verify that BIOS is able to communicate with TPM 2.0 and auto-enumerate the TPM 2.0 type
+14013116296,Verify that UEFI variables related to the secure boot policy are present
+14013116432,Verify authentication of BIOS Guard update
+14013116445,Verify that BIOS programs PLAT_FRMW_PROT_CTRL MSR correctly
+14013116466,Verify if BIOS Guard is supported by the CPU through PLATFORM_INFO MSR
+14013116548,Verify system boots within the normal amount of time with Bios Guard enabled
+14013116574,Verify that USB Keyboard & mouse functions normally in BIOS setup with BIOS Guard enabled
+14013116584,Verify Sleep and Hibernate cycles run error free with BIOS Guard Enabled
+14013116630,Verify BIOS GUARD is enabled in the BIOS by default
+14013116643,Verify that the BGUP fails to update on incorrect Platform ID detection
+14013116680,Verify the Product ID of the BIOS guard module and the version of BGPDT
+14013116699,Verify that the Build number increments with each release build
+14013116718,Verify that the BGUP fails to update on incorrect version detection
+14013116734,Verify that the BGUP fails to update on incorrect BGSL version detection
+14013116794,Verify that PEG mitigation is enabled
+14013116976,"Verify by enabling PTT, system is able to do a measured boot without any issue"
+14013117553,Verify the provisioning of dTPM 2.0
+14013117597,TXTINFO based commands before and after Provisioning
+14013117625,PCRDUMP based commands before and after dTPM provisioning
+14013117713,Check SCLEAN memory scrub after system resets with secrets in memory
+14013117772,Verify if the secret flag can be set/unset in trusted environment
+14013117795,Verify TPM RESET - ESTABLISHMENT BIT set / unset check on TXT opt-in and opt-out
+14013117856,Verify VT-d compliance using VTinfo tool with TXT enabled
+14013164808,[OCR] Verify OCR_HTTPS Boot flow from AMT Remote session over wired LAN after N to N Release BGUP update from OS
+14013164818,[OCR] Verify OCR_PBA Boot flow from AMT Remote session over wired LAN after N to N Release BGUP update from OS
+14013164825,[OCR] Verify OCR_WinRE Boot flow from AMT Remote session over wired LAN after N to N  Release BGUP update from OS
+14013164829,[OCR] Verify OCR_WinRE Boot flow from AMT Remote session over wired LAN with TXT enabled
+14013164833,[OCR] Verify OCR_PBA Boot flow from AMT Remote session over wired LAN with TXT enabled
+14013164835,[OCR] Verify OCR_HTTPS Boot flow from AMT Remote session over wired LAN with TXT enabled
+14013165823,[OCR] Verify OCR_HTTPS Boot flow from AMT Remote session over Wireless LAN with Bios Guard Disabled
+14013165833,[OCR] Verify OCR_PBA Boot flow from AMT Remote session over Wireless LAN with Bios Guard Disabled
+14013165839,[OCR] Verify OCR_WinRE Boot flow from AMT Remote session over Wireless LAN with Bios Guard Disabled
+14013165843,[OCR] Verify OCR_WinRE Boot flow from AMT Remote session over Wireless LAN with TXT enabled
+14013165845,[OCR] Verify OCR_PBA Boot flow from AMT Remote session over Wireless LAN with TXT enabled
+14013165849,[OCR] Verify OCR_HTTPS Boot flow from AMT Remote session over Wireless LAN with TXT enabled
+14013169531,Verify that wrongly signed/unsigned/tampered BIOS Guard script installation fails
+14013169558,Verify BIOS Guard configuration via Chipsec
+14013169568,Verify Debug BGUP update from N-1 to N version from OS
+14013169585,Verify Bios guard feature on Modern standby enabled system
+14013169603,Verify Debug BGUP update from N-1 to N version from EFI
+14013169617,Verify Release BGUP update from N-2 to N version from OS and EFI Shell
+14013169629,Verify BIOS Guard option not present in regular BIOS setup Menu
+14013169881,Verify SGX is disabled by default on platform
+14013169930,Verify Secure Boot Modes are available for selection and verify custom secure boot mode
+14013169933,"Verify the presence of runtime EFI ""Setup"" variable in NVRAM"
+14013169937,Verify that Secure boot remains enabled even on pressing F3 to load defaults in BIOS setup
+14013169973,Verify windows update of DBX
+14013169976,Verify BIOS is sending Core BIOS Done(CBD) message to CSME in recovery mode on corrupting UEFI variable
+14013169978,Verify Custom secure Boot variable Factory reset after disabling the Secure Boot
+14013170036,Verify that Bitlocker is using Intel(r) PTT to store & retrieve keys
+14013170070,Verify the Memory Overwrite Request (MOR) support and implementation with Intel PTT
+14013170075,Verify the presence of a BIOS option to Enable/Disable PTT
+14013170081,"Verify Static PCRs (0,2,4,7) values for PTT are set on OS Boot & are invariant across all power cycles"
+14013170133,Verify the basic functionality of PTT with Debug BIOS
+14013170143,Verify that BitLocker encrypted disk drive functionality check by connecting it to other system
+14013170144,Verify that BitLocker encrypted disk drive functionality by connecting to other system by giving wrong password
+14013170148,"Verify BitLocker encrypted PCIe based OPAL drive""s functionality by connecting to other system"
+14013170153,"Verify BitLocker encrypted PCIe based OPAL drive""s password functionality using incorrect credentials when connected to another system"
+14013170158,Verify the presence of Physical Presence Interface (PPI) function under _DSM ACPI control method
+14013170162,Verify and validate Physical Presence Interface (PPI) requests of PTT using PTTBAT tool
+14013170176,"Verify and validate TPM existence, PCR7 binding and clearing of TPM using PTTBAT tool"
+14013170194,Verify BIOS sends TPM2_HierarchyChangeAuth command on every boot
+14013170199,Verify TPM Startup command is sent prior to MRC initialization
+14013170200,Verify that Bitlocker can encrypt and decrypt the drive based on PCR measurements with PTT and recovery key stored on USB
+14013170214,Validate MOR Control and MOR Control lock variables functionality with Virtual Security Mode (VSM) configured
+14013170217,Verify the MOR behavior on TPM ownership with VSM configured OS
+14013170222,Verify TPM selected gets reflected as part of TCG2 configuration Menu
+14013170238,Verify TPM auto selection as part of Setup
+14013170246,Verify Chipset supports FW TPM or Discrete TPM
+14013170272,Verify Physical presence is not required for TPM (PTT) clear operation
+14013170273,Verify system boot to OS successfully with debug BIOS when PTT disabled in BIOS
+14013170283,Verify that BIOS informs CSE FW about the End of Post
+14013170290,Verify that the BIOS sends a DRAM init done message to CSE FW on memory initialization
+14013170307,Verify that the Global reset is locked before handling control to OS
+14013170331,"Verify HECI2 BIOS option not present in ""Test menu enabled BIOS"""
+14013170450,Verify password protected storage device functionality by connecting it to another system
+14013170453,Verify skipping password protected storage device functionality by connecting it to another system
+14013170457,Verify the HECI communication between BIOS and CSME/CSE/TXE on FDO assertion
+14013170459,Verify the SPI flash controller in the SOC is operating in Descriptor Mode.
+14013170526,Verify and validate Firmware Interface Table (FIT) pointer position
+14013170533,Verify and validate Firmware Interface Table (FIT) header entry type contains FIT signature
+14013170589,Bios Interface Lock Down (BILD) bit should not get unset post cold boot
+14013170592,BIOS Interface Lock Down (BILD) bit should not get unset post S3/S0i3 cycle
+14013170608,Verify Bios Top swap functionality by swapping Primary and secondary Bios regions
+14013170617,Verify Thermal throttling and Strap locks are set as part of PCH security configuration
+14013170619,Verify Bios interface registers are locked and various PMC DFX modes are disabled
+14013170621,Verify Global SMI enable is locked as part of PCH security configuration
+14013170627,Verify TCO Base lock is set
+14013170630,Verify Volume Management Device (VMD) configuration with NVMe connected on CPU M.2 via HSTI
+14013170632,Verify Volume Management Device (VMD) is present and locked
+14013170697,Verify BiosInfoChecker runs and check all  firmware volumes
+14013170734,Verify Integrated graphics device (IGD) carr checks
+14013170736,Verify Integrated graphics device (IGD) Mem_Map checks
+14013170738,Verify the RTC Memory Lock check
+14013170742,Verify IOMMU configuration checks on non-TBT support
+14013170745,Verify IOMMU configuration checks with TBT Enabled
+14013170765,Verify Overclocking lock is set prior to 2nd patch load
+14013171055,Verify CSME firmware region alone upgradation and downgradation from EFI via Harmonized standalone capsule
+14013171062,Verify CSME  firmware region alone upgradation from OS via Harmonized standalone capsule
+14013171081,Verify complete CSME region downgradation from EFI via Harmonized standalone capsule
+14013171090,Verify BIOS downgradation from EFI via Harmonized standalone capsule
+14013171096,Verify BIOS upgradation from OS via Harmonized standalone capsule
+14013171100,Verify EC FW downgradation from EFI via Harmonized standalone capsule
+14013171103,Verify EC FW upgradation from OS via Harmonized standalone capsule
+14013171152,Verify BIOS downgradation failure from EFI via Harmonized standalone capsule with version lower than Lowest supported FW version
+14013171155,Verify EC FW downgradation failure from EFI via Harmonized standalone capsule with version lower than Lowest supported FW version
+14013171158,Verify CSME FW downgradation failure from EFI via Harmonized standalone capsule with version lower than Lowest supported FW version
+14013171168,Verify payloads downgradation failure from EFI via Harmonized Monolithic capsule with version lower than Lowest supported FW version
+14013171172,Verify ESRT entries for FW class and version details for all FMP capsule targets
+14013171248,Verify Harmonized Monolithic capsule update failure with Secure boot enabled
+14013171414,Verify ISH upgradation from OS via Harmonized capsule for ISH FW standalone FMP
+14013171464,Verify payloads downgradation from OS via Harmonized Monolithic capsule
+14013171504,Validate MOR Control and MOR Control lock variables functionality with Virtual Security Mode (VSM) configured on DTPM enabled system
+14013171556,Verify CPU Security Configuration via HSTI
+14013171561,Verify Debug Interface Security Configuration via HSTI
+14013171568,Verify BIOS Guard Security Configuration via HSTI
+14013171582,Verify SMM Security Configuration via HSTI
+14013171586,Verify Processor Graphics Security Configuration via HSTI
+14013171590,Verify Memory Security Configuration via HSTI
+14013171593,Verify SPD Configuration and Write Protection via HSTI
+14013171600,Verify PCH Security Configuration via HSTI
+14013171603,Verify SPI Flash Security Configuration via HSTI
+14013171609,Verify HW Rooted Boot Integrity and Measured Boot Enforcement via HSTI
+14013171639,Verify different memory types of Processor Graphics Security Configuration are consistently programmed
+14013171642,Verify different memory types of Processor Graphics Security Configuration are locked
+14013171645,Verify different memory types of Processor Graphics Security Configuration are valid
+14013171648,Verify HSTI CPU set of tests enable and disable functionality via BIOS setup option
+14013171650,Verify HSTI PCH set of tests enable and disable functionality via BIOS setup option
+14013171653,Verify HSTI setup options are enabled by default in BIOS
+14013171666,Verify Memory remapping is correctly configured and locked down
+14013171668,Verify System Management RAM (SMRAM) is protected from devices that have Direct Memory Access (DMA)
+14013171671,"Verify Top Segment (TSEG) range covers entire SMRAM, configured and locked via Chipsec"
+14013171784,Verify BIOS gives user option to enable or disable all types of Secure controllers supported for VTIO
+14013171846,Verify CSME does not generate an E key for Virtual Trust Level 1 (VTL1) communication containing ME version details as part of ME BIOS payload (MBP)
+14013171867,Verify SDEV table is not enumerated when Vt-D is disabled in BIOS
+14013171897,Verify Bios provides programmable options for Secure USB devices
+14013171899,Verify VTIO via HSTI
+14013171902,Verify VTIO capabilities and policies as part of Secure device (SDEV) ACPI table
+14013171907,Verify password Security support by setting both BIOS password & OPAL password
+14013171911,"Verify PCIe based OPAL drive""s password protected functionality by connecting to other system"
+14013171916,"Verify skipping of PCIe based OPAL drive""s password protected functionality by connecting to other system"
+14013171918,Verify that BIOS provides infrastructure to support Remote Secure erase
+14013171958,Verify Opal Bios Password(OBP) support by setting user password with SATA based OPAL drive in RAID configured system
+14013171959,Verify Opal BIOS Password(OBP) support by setting user password with PCIe based OPAL drive in RAID configuration
+14013171989,Verify Pyrite drive accepts Admin password to boot to OS post disabling user
+14013171992,"Verify configuring of Pyrite drive""s Admin password is successful"
+14013171994,Verify Secure erase of user data on Pyrite drive with Admin password
+14013171996,Verify Secure erase of user data on Pyrite drive with User password
+14013171998,Verify PSID revert functionality on Pyrite drive
+14013172000,Verify Admin revert to factory default on Pyrite drive with keeping user data intact
+14013172005,Verify Admin revert to factory default on Pyrite drive with removing user data
+14013172017,Verify Bios options for enablement of Opal BIOS password management functionality on Pyrite drive
+14013172045,"Verify Opal PEI driver loads and retrieves Pyrite drive""s lock configuration information stored in SMM Lockbox during transitioning from S3 to S0 state"
+14013172090,Verify Pyrite drive support by setting password with VMD enabled
+14013172096,[RPE] Verify SSD Erase functionality in RPE feature with Simulated Mode and read its trigger value from debug logs
+14013172100,[RPE] Verify TPM Clear functionality with PTT in RPE feature
+14013172103,[RPE] Verify Clear UEFI NVM Variables flow in Remote Platform Erase and read its trigger value from the debug logs
+14013172107,"[RPE] Verify ATA drive password is set in Mesh, and RPE functionality is carried out successfully"
+14013172109,[RPE] Verify Pyrite Drive Revert functionality in Remote Platform Erase feature
+14013172114,"[RPE] Verify SSD Erase functionality when User password is Set, in Remote Platform Erase feature with Pyrite Drive"
+14013172117,[RPE] Verify OEM Custom Action flow is triggered in Remote Platform Erase and read its trigger value from Debug logs
+14013172121,[RPE] Verify RPE feature support through SMBIOS
+14013172126,Verify the copper point protection feature support
+14013172132,Verify the properties of SMM state locking MSR and SMRR Base and Mask locks across Sx cycles
+14013172143,Verify implementation of SMM_SUPOVR_STATE_LOCK MSR
+14013172217,Verify SMM Driver image section Test passes
+14013172233,Verify SMM Unmapped Regions Test passes
+14013172239,Verify copper point feature on Modern Standby enabled system
+14013172243,Verify all SMM drivers are 4K aligned
+14013172346,Verify BIOS should not allow to enable TME when TME is disabled in fuses
+14013172362,Verify BIOS configuration with Intel Virtualization enabled/disabled and Intel TXT disabled
+14013172372,Verify PCR 7 binding is possible only with Vt-d being enabled on a system configured with PTT
+14013172375,Verify PCR 7 binding is possible only with Vt-d being enabled on a system configured with discrete TPM
+14013172382,"Verify VT-d support, enablement and configuration"
+14013172388,Verify functionality of TBT controller on system with VSM configured
+14013172413,Verify VT-d initializes prior to MRC entry point
+14013172425,Verify BIOS triggers a Power cycle reset on changing Vt-d setting
+14013172428,Verify Vt-d status gets registered as part of PCR[7] measurements and TCG Eventlog
+14013172432,Verify DMA control platform opt in flag bit is set
+14013172445,Verify BME bit gets disabled for Thunderbolt devices
+14013172450,Verify TBT tree gets registered for DMAR
+14013172456,Verify PCI registers updating the BME bit disabled status for Thunderbolt devices
+14013172458,Verify VT-d status from EFI shell after configuring VSM
+14013172461,Verify platform supports Individual VT-d engines Enable/Disable in BIOS
+14013172464,Verify Individual VT-d engines should not enumerate in System Agent Configuration
+14013172466,Verify VT-d compliance using VTinfo tool with IOMMU and DMA Control guarantee Enable/Disable
+14013172567,Verify Boot Guard and TXT co-existence using dTPM 2.0
+14013172569,Verify the TPM provisioning with varied graphics memory size configurations
+14013172574,Verify the TXT ACM & Boot guard profile 3 co-existence in non-production environment
+14013172581,"Verify the SHA1, SHA256 and SHA384 PCR bank selection with TXT enabled system"
+14013172589,Verify that the ACM module type is identified correctly
+14013172703,Verify that LT_lock is set irrespective of TXT BIOS knob status
+14013172709,Verify Microcode update revision pre and post SINIT launch
+14013172814,"Verify S-ACM programs ACM info, ACM policy status, ACM status and Boot status registers correctly on system with TXT element enabled"
+14013172895,Verify SINIT module type as part of ACM status register
+14013172899,Verify system booting up with profile 0 and only TXT element enabled
+14013172902,Verify Power down interval element value
+14013172905,Verify Digest for TCG Event type 0x410 gets computed correctly based on SHA256 algorithm
+14013172911,Verify ErrorCodes related to ACM(s) come up correctly
+14013172916,Verify TXT enablement on system flashed with profile 0 and TXT element enabled
+14013172918,Verify TXT measured launch with TBOOT on system flashed with profile 0 and TXT element enabled
+14013172926,Verify PTT status and functionality post SINIT launch
+14013172931,Verify SINIT module type gets updated on TBOOT launch
+14013172943,Verify SENTER failure with corrupted SINIT ACM launch
+14013172955,Verify Power down gets initiated on encountering of verification of IBB to be valid results in failure
+14013172963,Verify Bios enables and locks DMA protected range (DPR)
+14013172965,Verify all registers under TXT register space are lockable by LT.LOCK_BASE command
+14013172967,Verify software initiates TXT shutdown and closes private space on MMIO write to CMD_RESET register
+14013172971,Verify software must be unable to access TXT private space
+14013172979,"Verify TXT.VER.FTIF register delivers TPM information correctly in FT.LOC field , with dTPM2.0 connected on SUT"
+14013172999,Verify SINIT launch is successful on IOMMU and DMA Control guarantee Enable/Disable with dTPM
+14013173002,Verify SINIT launch is successful on IOMMU and DMA Control guarantee Enable/Disable with PTT
+14013173006,Verify for Intel TXT Components with FVME and dTPM
+14013173016,Verify FVME Profile for SMX feature control options are properly set with TXT Disabled and dTPM Enabled
+14013173021,Verify SINIT Fails to run FVME Profile with dTPM enabled and TXT Disabled
+14013173059,Verify FVME Profile for SMX feature control options are properly set with TXT and dTPM Enabled
+14013173065,Verify SENTER and SEXIT Launch with FVME Profile on dTPM enabled system
+14013173071,Verify Cold boot cycle after the SINIT Launch on FVME Profile with dTPM enabled
+14013173085,Verify warm reset cycle after the SINIT Launch on FVME Profile with dTPM enabled
+14013173103,Verify power loss (G3) recovery after the SENTER Launch on FVME Profile with dTPM enabled
+14013173111,Verify power loss (G3) recovery after the SEXIT Launch on FVME Profile with dTPM enabled
+14013173115,Verify power loss (G3) recovery after the SENTER Launch and RTC battery pulled on FVME Profile with dTPM enabled
+14013173125,Verify power loss (G3) recovery after the SEXIT Launch and RTC battery pulled on FVME Profile with dTPM enabled
+14013173128,Verify power loss (G3) recovery after SINIT with Secret Planted on FVME + dTPM enabledd
+14013173138,Verify power loss (G3) and RTC CMOS clear recovery after SINIT with Secret Planted on FVME + dTPM enabled System
+14013173145,Verify SINIT ACM Driver installation for Windows on FVME Profile with dTPM enabled
+14013173150,Verify Discrete TPM status and functionality post SINIT launch
+14013173154,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVME with dTPM
+14013173155,Verify TXT failures report when TPM is not provisioned properly with dTPM using debug bios
+14013173161,Verify TXT SPAD register error if TPM is not provisioned properly with dTPM
+14013173190,Verify that the Boot guard passes self test and the FWSTS is valid
+14013173205,"Verification of system stability across Sx (S3, S4 and S5) cycles with Boot guard profile 0"
+14013173211,"Verify Bootstatus, ACM status, Boot guard capabilities and Firmware status register are set correctly with Boot guard FVME image"
+14013173238,Verify Boot guard related bits are set correctly as part of Host Firmware status registers 4 and 5
+14013173293,Verify top 4KB must be DMA protected irrespective of boot device
+14013173296,Verify IBB protection and TXT status based on Bootguard profile
+14013173399,Verify ME Host Firmware Status registers are set correctly with No_FVME profile with PTT
+14013173401,Verify ME Host Firmware Status registers are set correctly with No_FVME profile with Discrete TPM 2.0
+14013173406,Verify BootGuard registers are set correctly with No_FVME profile with PTT
+14013173409,Verify BootGuard registers are set correctly with No_FVME profile with Discrete TPM 2.0
+14013173421,Verify OBB gets authenticated by Initial Boot block (IBB)
+14013173424,Verify system fails to boot on OBB authentication failure by Initial Boot block (IBB)
+14013173469,Verify state of default type MSRs and  variable MTRRs programmed by S-ACM state is preserved
+14013173525,Verify Bios clears IBB DMA protection prior to OS handoff of DMA protection
+14013173534,Verify S-ACM size does not exceed the  target size (256KB)
+14013173580,Verify Bootguard fuse capability via ACM info MSR
+14013173618,TXTINFO based commands before and after Provisioning by using the PTT
+14013173647,Verify the PTT provisioning with varied graphics memory size configurations
+14013173653,Verify the TXT ACM & Boot guard profile 3 co-existence in non-production environment with PTT
+14013173656,"Verify the SHA1, SHA256 and SHA384 PCR bank selection with TXT & PTT enabled system"
+14013173662,BIOS should restart by selecting Reset option from BIOS menu when PTT connected.
+14013173665,Verify that the ACM module type is identified correctly on PTT enabled system
+14013173673,Verify TPM RESET - ESTABLISHMENT BIT set / unset check on TXT opt-in and opt-out with PTT Enabled System
+14013173676,Verify if the secret flag can be set/unset in trusted environment on PTT enabled system
+14013173694,Check SCLEAN memory scrub after system resets with secrets in memory on PTT Enabled system
+14013173697,Verify that NEM MSR is disabled to allow TXT ACM(s) launch (FN_SCHECK flow) on PTT Enabled system
+14013173703,Check TPM State and NPW Control on PTT enabled system
+14013173755,Verify that SCHECK is set as per status of TXT BIOS knob status on PTT enabled system
+14013173759,Verify the BIOS configuration for Intel VT and Intel TXT enabling on PTT configured system
+14013173762,Verify VT-d compliance using VTinfo tool with TXT & PTT enabled
+14013173799,Verify PTT status and functionality post SINIT launch
+14013173807,Verify software must be unable to access TXT private space on PTT enabled system
+14013173812,Verify TXT.VER.FTIF register delivers TPM information correctly in FT.LOC field with PTT enabled system
+14013173855,Verify Digest for TCG Event type 0x410 gets computed correctly based on SHA256 algorithm on PTT Enabled system
+14013173858,Verify ErrorCodes related to ACM(s) come up correctly on PTT Enabled system
+14013173869,Verify SENTER failure with corrupted SINIT ACM launch on PTT enabled system
+14013173871,Verify Bios enables and locks DMA protected range (DPR) on PTT Enabled system
+14013173877,Verify all registers under TXT register space are lockable by LT.LOCK_BASE command on PTT enabled
+14013173881,Verify software initiates TXT shutdown and closes private space on MMIO write to CMD_RESET register on PTT enabled system
+14013173887,Verify software initiates TXT shutdown and closes private space on normal MMIO write with PTT enabled system
+14013173961,Verify Microcode update revision pre and post SINIT launch on PTT enabled system
+14013173965,Verify the state of TXT in BIOS with PTT enabled system
+14013173996,Verify TXT enablement on system flashed with profile 0 and TXT element & PTT enabled
+14013174028,"Verify S-ACM programs ACM info, ACM policy status, ACM status and Boot status registers correctly on system with TXT element & PTT enabled"
+14013174044,Verify SINIT module type as part of ACM status register on PTT Enabled system
+14013174047,Verify system booting up with profile 0 and only TXT element enabled with PTT Enabled system
+14013174051,Verify TXT measured launch with TBOOT on system flashed with profile 0 and TXT element & PTT enabled
+14013174054,Verify SINIT module type gets updated on TBOOT launch on PTT enabled system
+14013174059,Verify Power down gets initiated on encountering of verification of IBB to be valid results in failure on PTT Enabled
+14013174061,Verify software initiates TXT shutdown and closes private space on MMIO write to CMD_SECRETS register on PTT Enabled system
+14013174074,Verify Boot Guard and TXT co-existence using PTT 2.0
+14013174079,Verify AUX index should be intact before and after ENTERACCS using GETSEC tool
+14013174083,Verify for Intel TXT register status with FVME and PTT
+14013174090,Verify FVME Profile for SMX feature control options are properly set with TXT Disabled and PTT Enabled
+14013174098,Verify FVME Profile for SMX feature control options are properly set with TXT and PTT Enabled
+14013174106,Verify SENTER and SEXIT Launch with FVME Profile on PTT enabled system
+14013174117,Verify Cold boot cycle after the SINIT Launch on FVME Profile with PTT enabled
+14013174126,Verify warm reset cycle after the SINIT Launch on FVME Profile with PTT enabled
+14013174134,Verify power loss (G3) recovery after the SENTER Launch on FVME Profile with PTT enabled
+14013174138,Verify power loss (G3) recovery after the SEXIT Launch on FVME Profile with PTT enabled
+14013174146,Verify power loss (G3) recovery after the SENTER Launch and RTC battery pulled on FVME Profile with PTT enabled
+14013174154,Verify power loss (G3) recovery after the SEXIT Launch and RTC battery pulled on FVME Profile with PTT enabled
+14013174160,Verify power loss (G3) recovery after SINIT with Secret Planted on FVME + PTT enabled
+14013174169,Verify power loss (G3) and RTC CMOS clear recovery after SINIT with Secret Planted on FVME + PTT enabled System
+14013174178,Verify SINIT ACM Driver installation for Windows on FVME Profile with PTT enabled
+14013174192,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVME with PTT
+14013174196,Verify TXT failures report when TPM is not provisioned properly with PTT using debug bios
+14013174199,Verify TXT SPAD register error if TPM is not provisioned properly with PTT
+14013174253,Verify Intel Trusted Device Setup protocol success and Boot entry call happens prior to ExitPMAuth
+14013174279,Verify that user could not view MEBx Configuration page when system is fully sealed by Intel trusted device setup
+14013174303,"Verify on Intel Trusted Device boot, BIOS should not prompt for password when SEDLock is enabled"
+14013174333,"Verify Intel Trusted device feature support, PBA launch and PBA version from debug log"
+14013174340,Verify Intel Trusted device boot flow with Secure Boot enabled
+14013174345,"Verify Custom Opt-out feature is functional when User selects ""Yes"" on Dropship boot (with Device sealed), with attempting BIOS Boot Lock feature"
+14013174355,"Verify PCR[0],[1] hash value is valid and matching with Golden Manufacture File with PTT"
+14013174373,"Verify on Intel Trusted device boot, Seal state in CSME is ""broken"" if Chassis Intrusion is detected by BIOS"
+14013174387,"Verify Custom Opt-out feature is not functional & Seal in intact when User selects ""No"" on Dropship boot (with Device sealed), with attempting BIOS Boot Lock Feature"
+14013174397,Verify Intel Trusted device setup for running attestation validation for PCR #5 and the presence of the Event in the TPM Logs
+14013174402,Verify system should not ask for OPAL Password for warm reset cycle after Shipping Mode Sealing
+14013174421,Verify PBA should not launch by modifying the PCR[0] value after sealing from OS
+14013174435,Verify Intel Trusted Device setup boot flow functionality with TME Enabled in BIOS
+14013174441,Verify Intel Trusted Device setup boot flow functionality after Release BGUP update from N to N version from OS
+14013174445,"Verify PCR[0],[1] hash value is valid and matching with Golden Manufacture File with dTPM"
+14013174455,Verify the ME Host Firmware Status Register after enabling the Drop Ship feature
+14013174466,Verify the measurement of SMBIOS to TPM PCR [01]
+14013174473,Verify the TPM events measured and disk measurement to TPM PCR [05]
+14013174512,Verify the signing binary file matches the platform against which it got generated
+14013174539,Verify the DropShip feature when Connected Modern Standby is enabled on the system
+14013174591,Verify the seal state after successful sealing the device while coming back from Sx cycles
+14013174606,Verify Intel Trust Device setup boot flow with RPMC and Intel Boot Guard Enabled in BIOS.
+14013174632,Verify Intel Boot Guard Enabled and ACM startup locality
+14013174643,"To check if BIOS configuration lock is set on Intel TDS enabled platforms, and locks user to Boot to BIOS"
+14013174670,Verify Intel Trusted Device setup boot flow functionality with TXT Enabled in BIOS with PTT
+14013174698,Verify PBA does not launch after unsealing the device after resuming from S4 on multiple boots
+14013174766,Verify that MLE supports STM/PPAM
+14013174769,Verify that the PPAM measurement TPM event is present in STM_HASH event
+14013174773,Verify that the PPAM size is lesser than MSEG size allocated
+14013174776,Verify that PPAM launch with TXT fuse disabled
+14013174781,Verify SMM mode Locking Data with Devils Gate Rock enabled across Sx cycles
+14013174784,Verify that the MSEG is completely contained within TSEG
+14013174786,Verify with TXT not supported silicon DGR Bios option should not to be present
+14013174789,Verify the PPAM Physical Resource using the PPAM App Test Tool
+14013174792,Verify the PPAM Meta Resource using the PPAM App Test Tool
+14013174797,Verify the PPAM Special descriptors using the PPAM App Test Tool
+14013174802,Verify that PPAM Hardware and Software Field using PPAMTestApp tool
+14013174840,Verify SCLEAN functionality with secrets asserted on DGR enabled System
+14013174842,Verify Alias check occurrence with DGR Enabled
+14013174851,"Verification of system stability across Sx (S3, S4 and S5) cycles with DGR Enabled"
+14013174855,Verify VSM enablement on DGR enabled system
+14013174858,Validate BIOS password functionality with DGR Enabled
+14013174869,Verify Pre-boot DMA Attack with DGR Enabled via TBT
+14013174872,Verify password Security support by setting both BIOS password & OPAL password with DGR Enabled
+14013174876,Verify DGR enablement status after the performing the EOM
+14013174878,Verify DGR functionality on System Guard enabled system
+14013174880,Verify ACM policy & TXT status registers are set correctly with FVME profile with PTT and DGR Enabled
+14013174883,Verify ACM policy & TXT status registers are set correctly with FVME profile with Discrete TPM 2.0 and DGR Enabled
+14013174889,Verify BOOTSTATUS and ANC_SACM_INFO registers are set correctly with FVME profile with PTT and DGR Enabled
+14013174895,Verify BOOTSTATUS and ANC_SACM_INFO registers are set correctly with FVME profile with Discrete TPM 2.0 and DGR Enabled
+14013174900,Verify ME Host Firmware Status registers are set correctly with FVME profile with PTT and DGR Enabled
+14013174903,Verify ME Host Firmware Status registers are set correctly with FVME profile with Discrete TPM 2.0 and DGR Enabled
+14013174906,Verify seamless crisis recovery during upgradation and downgradation of payloads from EFI via Harmonized Monolithic capsule with DGR Enabled
+14013174908,Verify seamless crisis recovery during upgradation of payloads from OS via Harmonized Monolithic capsule with DGR Enabled
+14013174910,Verify Resiliency BIOS update via Harmonized standalone capsule with Top swap mode and DGR enabled
+14013174912,Validate MOR (Memory Overwrite Request) Control variable support and functionality with dTPM and DGR Enabled
+14013174914,Validate MOR (Memory Overwrite Request) Control variable support and functionality with PTT and DGR Enabled
+14013174916,Verify Dropship Boot Flow not getting Impacted with DGR
+14013174923,Verify Allowlist MSR resources are able to perform the read operation using SPV tool on DGR enabled system
+14013174928,Verify SPS policies are enforced to protect the Denylist MSR resources in SMM from the read operation using SPV tool on DGR enabled system
+14013174934,Verify Allowlist IoPort resources are able to perform the read operation for IoPort range using SPV tool on DGR enabled system
+14013174941,Verify SPS policies are enforced to protect the Denylist IoPort resources in SMM from the read operation using SPV tool on DGR enabled system
+14013174950,Verify that the DGR enable BIOS deny access to all VT-d MMIO Read operation using SPV tool on DGR enabled system
+14013174956,Verify SPS policies are allowed to perform SMM MSR Allowlist read/write operation
+14013174963,Verify SPS policies are enforced to protect the Denylist MSR resources in SMM from the read/write operation
+14013174967,Verify SPS policies are allowed to perform SMM IOPort Allowlist read/write operation
+14013174971,Verify SPS policies are enforced to protect the Denylist IOports resources in SMM from the read/write operation
+14013174974,Verify SPS policies MemoryPageAccessRight is set to supervisor Mode on DGR enabled System
+14013174977,Verify GDT & IDT Processor Context Page attributes on DGR enabled system
+14013174990,Verify SPS policies are enforced to protect the Denylist MSR resources in SMM from the Write operation using SPV tool on DGR enabled system
+14013174994,Verify Allowlist MSR resources are able to perform the Write operation using SPV tool on DGR enabled system
+14013174999,Verify SPS policies are enforced to protect the Denylist IoPort resources in SMM from the Write operatIoPortn using SPV tool on DGR enabled system
+14013175003,Verify Allowlist IoPort resources are able to perform the Write operation for IoPort range using SPV tool on DGR enabled system
+14013175008,Verify that the DGR enable BIOS deny access to all VT-d MMIO Write operation using SPV tool on DGR enabled system
+14013175012,Verify the allowed Physical Memory Range sources are able to perform the Write operation using SPV tool on DGR enabled system
+14013175019,Verify the allowed Physical Memory Range sources are able to perform the Read operation using SPV tool on DGR enabled system
+14013175023,Verify the allowed MMIO Range sources are able to perform the Write operation using SPV tool on DGR enabled system
+14013175027,Verify the allowed MMIO Range sources are able to perform the Read operation using SPV tool on DGR enabled system
+14013175029,Verify that the DGR enable BIOS deny access to Physical Memory Write operation using SPV tool on DGR enabled system
+14013175031,Verify that the DGR enable BIOS deny access to Physical Memory Read operation using SPV tool on DGR enabled system
+14013175109,Verify that the DGR enable BIOS deny access to TXT MMIO Read operation using SPV tool
+14013175120,Verify SW and IO Trap SMI handlers of TPM clear operation work correctly with state save protection enabled in DGR system
+14013175170,Verify error on running PpamTestApp tool with SPA enabled
+14013175179,Verify Bios guard feature on System Guard enabled system
+14013175182,Verify PTT status with System Guard support enabled
+14013175186,Verify Bitlocker encrypts and decrypts the drive with PTT as key protector with System Guard enabled
+14013175189,Verify Harmonized Monolithic capsule upgrade with System Guard enabled
+14013175192,Verify Bitlocker encrypts and decrypts the drive with dTPM as key protector and System Guard enabled
+14013175194,Verify device capability to enable Device guard and Credential Guard with System Guard enabled
+14013175196,Verify VTIO feature with System Guard enabled
+14013175198,Verify Windows Hello feature with System Guard enabled
+14013175210,Verify System Guard stability after power interrupts (Reset / G3) using PTT
+14013175212,Verify System Guard stability after power interrupts (Reset / G3) using dTPM
+14013175214,Verify System Guard stability after SX cycling using PTT
+14013175216,Verify System Guard stability after SX cycling using dTPM
+14013175639,Validate UEFI BIOS for self certification test (SCT) compliance
+14013175728,Verify CSME Capsule Variable are Protected
+14013175731,Verify EC Capsule Variable are Protected
+14013175733,Verify BIOS Capsule Variable are Protected
+14013175735,Verify ISH Capsule Variable are Protected
+14013175737,Verify Harmonized Capsule Variable are Protected
+14013175742,Verify CBnT_ACM Capsule Variable are Protected
+14013175743,Verify uCode Capsule Variable are Protected
+14013175745,Verify reset type and count for Harmonized Monolithic Capsule update from OS
+14013175755,Verify Manufacturing mode stay intact post Harmonized Monolithic Capsule update from OS with SUT is in Manufacturing mode
+14013175759,Verify CSME Capsule update with CSME Device disabled in Device manager
+14013176401,uCode NIST Resiliency - Corrupted Primary MCU/FIT Patch uCodeFull No-BGUP Full Mode Capsule upgrade from Windows
+14013176406,uCode NIST Resiliency - Corrupted Primary MCU/FIT Patch uCodeSlot No-BGUP slot Mode Capsule update from Windows
+14013176413,Resiliency BIOS Capsule downgrade from UEFI Shell
+14013176416,[CBnT_ACM][Capsule] Capsule downgrade from UEFI Shell
+14013176421,Verify Ucode BGUP Full FV Capsule Downgrade from EDK-Shell
+14013176427,Verify seamless recovery during the upgradation of CBnT_ACM via Capsule from Windows
+14013176459,Verify seamless recovery during the Ucode BGUP Full FV Capsule Upgrade from Windows
+14013176462,Verify seamless recovery during the Ucode noBGUP Full FV Capsule Upgrade from Windows
+14013176468,Verify Ucode noBGUP slot mode Capsule upgrade from Windows
+14013176479,Verify Ucode BGUP Full FV Capsule Upgrade from Windows
+14013176483,Verify Ucode noBGUP Full FV Capsule Upgrade from Windows
+14013176489,Resiliency BIOS Capsule upgrade from Windows
+14013176497,Verify Seamless recovery during the Resiliency BIOS Capsule upgrade from Windows
+14013176504,Verify seamless recovery during the Ucode slot noBGUP FV Capsule Upgrade from Windows
+14013176539,BIOS NIST Resiliency - FIT Type7 BIOS Module - IBB Segment[0] Code Region Corrupted Capsule update from Windows with FVME
+14013176542,BIOS NIST Resiliency - OBB Region Corrupted Capsule update from Windows with FVME
+14013176548,BIOS NIST Resiliency - IBB Reset Vector Region Corrupted capsule update from Windows with FVME
+14013176557,BIOS NIST Resiliency - IBB Startup ACM Region Corrupted capsule update from Windows with FVME
+14013176565,BIOS NIST Resiliency - IBB Primary MCU/FIT Patch Region Corrupted capsule update from Windows with FVME
+14013176574,BIOS NIST Resiliency - IBB MCU/FIT Patch Full Region Corrupted capsule update from Windows with FVME
+14013176583,BIOS NIST Resiliency - IBB Boot Policy Manifest Region Corrupted capsule update from Windows with FVME
+14013176591,BIOS NIST Resiliency - IBB Key Manifest Region Corrupted capsule update from Windows with FVME
+14013176605,BIOS NIST Resiliency - FIT Type7 BIOS Module - IBB Segment[1] Code Region Corrupted Capsule update from Windows with FVME
+14013176648,BIOS NIST Resiliency - IBB FIT Pointer Entry Corrupted capsule update from Windows with FVME
+14013176660,BIOS NIST Resiliency - FIT Type7 BIOS Module - IBB Segment[0] Code Region Corrupted Capsule update from Windows with No-FVME
+14013176663,BIOS NIST Resiliency - OBB Region Corrupted Capsule update from Windows with No-FVME
+14013176671,BIOS NIST Resiliency - IBB Reset Vector Region Corrupted capsule update from Windows with No-FVME
+14013176677,BIOS NIST Resiliency - IBB Startup ACM Region Corrupted capsule update from Windows with No-FVME
+14013176683,BIOS NIST Resiliency - IBB Primary MCU/FIT Patch Region Corrupted capsule update from Windows with No-FVME
+14013176689,BIOS NIST Resiliency - IBB MCU/FIT Patch Full Region Corrupted capsule update from Windows with No-FVME
+14013176694,BIOS NIST Resiliency - IBB Boot Policy Manifest Region Corrupted capsule update from Windows with No-FVME
+14013176702,BIOS NIST Resiliency - IBB Key Manifest Region Corrupted capsule update from Windows with No-FVME
+14013176714,BIOS NIST Resiliency - FIT Type7 BIOS Module - IBB Segment[1] Code Region Corrupted Capsule update from Windows with No-FVME
+14013176762,BIOS NIST Resiliency - IBB FIT Pointer Entry Corrupted capsule update from Windows with No-FVME
+14013176774,Verify Harmonized Monolithic Resiliency capsule downgrade from EDK-Shell with FVME
+14013176819,Verify OBB backup is removed from the capsule update
+14013176823,BIOS NIST Resiliency - Verify digest hash are configured correctly OBB Region Corrupted Capsule update from EDK-Shell
+14013176834,Verify BIOS successfully overwrites backup OBB image on ESP and recovers from OBB corruption when ESP has corrupted backup OBB image present
+14013176852,[CBnT_ACM][Capsule][TXT][Fault Tolerant] Capsule Seamless recovery during Upgrade from Windows
+14013176863,[CBnT_ACM][Capsule][TXT] Capsule upgrade from Windows
+14013176880,[CBnT_ACM] [Capsule] [TXT] Capsule Downgrade from UEFI Shell
+14013176998,NIST Resiliency - BIOS IBB & CSME Code corrupted Harmonized Monolithic capsule upgrade from EDK-Shell with FVME
+14013177000,NIST Resiliency - BIOS IBB & CSME Code corrupted Harmonized Monolithic capsule upgrade from Windows with FVME
+14013177002,NIST Resiliency - BIOS IBB & CSME Code corrupted Harmonized Monolithic capsule upgrade from EDK-Shell with no-FVME
+14013177004,NIST Resiliency - BIOS IBB & CSME Code corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME
+14013177006,NIST Resiliency - BIOS IBB & CSME Code corrupted Harmonized Monolithic capsule upgrade from EDK-Shell with FVME + TXT
+14013177011,NIST Resiliency - BIOS IBB & CSME Code corrupted Harmonized Monolithic capsule upgrade from Windows with FVME + TXT
+14013177015,NIST Resiliency - BIOS IBB & CSME Code corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME + TXT
+14013177022,Verify Resiliency BIOS capsule update on top of Native Enabled setup from windows
+14013177043,ACM NIST Resiliency - CBnT ACM incompatible Pre-Prod/Prod capsule update from Windows
+14013177046,ACM NIST Resiliency - CBnT ACM Code/Header corrupted capsule update from Windows
+14013177262,BIOS NIST Resiliency - Verify digest hash are configured correctly with OBB Region Corrupted Capsule update from Windows
+14013177265,BIOS NIST Resiliency – Verify digest hash is re-configured correctly after recovery from OBB Region corruption
+14013177267,CSME Code NIST Resiliency - FTPR ManifestHeader corrupted capsule from Windows
+14013177270,CSME Code NIST Resiliency - NFTP ManifestHeader corrupted capsule from Windows
+14013177373,Verify CBnT_ACM capsule upgrade from windows with bios guard Enabled on top of Native BIOS
+14013177391,Verify Bios guard feature with Replay Protected Monotonic Counter (RPMC) enabled
+14013177397,Verify Harmonized capsule update with Replay Protected Monotonic Counter (RPMC) enabled
+14013177414,Verify VTIO feature with Replay Protected Monotonic Counter (RPMC) enabled
+14013177422,Verify copper point feature implementation with Replay Protected Monotonic Counter (RPMC) enabled
+14013177437,Verify TXT functionality with Replay Protected Monotonic Counter (RPMC) enabled
+14013177455,Verify Windows Hello feature with Replay Protected Monotonic Counter (RPMC) enabled
+14013177461,Verify DMAR ACPI table gets installed prior to IOMMU enforcement to ensure DMA is acknowledged by IOMMU support with Replay Protected Monotonic Counter (RPMC) enabled
+14013177465,Verify RPMC BIST functionality in Manufacturing and EOM mode
+14013177467,Verify stability of RPMC after power interrupts (Reset / G3) in Manufacturing and EOM modes
+14013177470,"Verify the RPMC support and binding status across S4, S5 cycle"
+14013177472,Verify the RPMC configuration via Field programmable Fuse (FPF) by reading the  RPMC FPF variables
+14013177474,Verify ME Host Firmware Status registers are set correctly with FVME profile with Discrete TPM 2.0 and Replay Protected Monotonic Counter (RPMC) enabled
+14013177476,Verify ME Host Firmware Status registers are set correctly with FVME profile with PTT and Replay Protected Monotonic Counter (RPMC) enabled
+14013177669,Verify DMA protection gets disabled on disabling vt-d via HSTI
+14013177671,Verify Integrated device DMA protection configuration via HSTI
+14013177673,Verify Bios enables and configures Thunderbolt ports as part of Integrated devices DMA protection
+14013177674,Verify DMAR ACPI table gets installed prior to IOMMU enforcement to ensure DMA is acknowledged by IOMMU support
+14013177688,Verify DMAR ACPI table gets installed prior to IOMMU enforcement to ensure DMA is acknowledged by IOMMU support on TXT enabled system
+14013177693,Verify Kernel DMA protection is enabled with DMA remapping and IOMMU
+14013177696,Verify Security Level does not get downgraded with IOMMU and TPM enabled
+14013177734,Verify DMAR ACPI table gets installed prior to IOMMU enforcement to ensure DMA is acknowledged by IOMMU support with Pyrite drive connected over TBT
+14013177836,Verify DMA Protection Disabled is registered in PCR[7] with VT-d Disabled and TPM enabled
+14013177872,Verify the deletion of reliability variables using Chipsec tool
+14013177880,Verify that all the secure boot variables are authenticated and protected from unauthorized modifications
+14013177884,Verify the UEFI Variables Access Control Test for Platform specific variables checks
+14013177888,Verify the protection of UEFI variables defined in the UEFI spec
+14013177892,Verify the protections of the S3 resume boot-script implemented by the UEFI based firmware
+14013177896,Verify TE header vulnerability in Secure boot implementation
+14013177946,Verify Global Reset lockdown in non manufacturing mode via Chipsec
+14013177976,Verify the BIOS Write protection test
+14013177980,Verify the SPI Flash Region Access Permissions programmed in the Flash Descriptor
+14013177986,Verify the software cannot write to the flash descriptor
+14013177990,Verify the SPI Controller Flash Descriptor Security Override Pin Strap (FDOPSS) test
+14013177994,Verify the SPI Flash Controller configuration is locked test
+14013178002,Verify the SPI Controller Vendor Components Locks test
+14013178042,Verify system stability on trying to modify S3 resume boot script
+14013178046,Verify system stability on fuzzing UEFI variable interface by writing new UEFI variables to NVRAM
+14013178055,Verify IA32 feature control register is locked via Chipsec
+14013178076,Verify SPI flash protected range sizes are aligned correctly using Chipsec tool
+14013178083,Verify SPI hardware sequencing write status command protections using Chipsec tool
+14013178089,Verify SPI Hardware Sequencing Flash Status(HSFS) Register protections using Chipsec tool
+14013178210,Verify the exposure of pre-boot passwords in the BIOS keyboard buffer
+14013178216,Verify the SMI events configuration
+14013178218,Verify the BIOS Top Swap Mode Test
+14013178226,Verify the RTC memory locks test
+14013178235,Verify the System Management Mode Range Registers (SMRRs) are enabled or configured by the BIOS
+14013178239,Verify the MOR bit and memory clear operation on secrets detection through Chipsec with Discrete TPM
+14013178243,Verify the MOR bit and memory clear operation on secrets detection through Chipsec with PTT
+14013178256,Verify CPU is not affected by SMM memory sinkhole vulnerability
+14013178258,Verify SMI handlers check for pointer validation vulnerabilities
+14013178262,Verify Memory map registers are correctly configured and locked down
+14013178264,Verify none of the SPI flash regions are overlapped using Chipsec tool
+14013178275,Verify the BIOS supports microcode patch loading from FIT via Chipsec test
+14013178281,Verify the Total Memory Encryption check via Chipsec test
+14013178284,Verify the Secured Register Locks are locked
+14013178292,Verify the loaded ucode version via Chipsec test
+14013178328,Verify the ia_untrusted test via Chipsec tool
+14013178331,Verify the MTRR consistently programmed via Chipsec tool
+14013178332,Verify Integrated graphics device (IGD) DFD Restore Configuration checks[Gen12 graphics only]
+14013178334,Verify All DIMM modules are supporting row hammer mitigation via Chipsec
+14013178350,Verify that the BitLocker Recovery is triggered by disabling Secure Boot
+14013178453,Validate MOR (Memory Overwrite Request) Control variable support and functionality with dTPM
+14013178461,Verify that the Discrete TPM is initialized and the Selftest is completed successfully
+14013178520,Verify the presence of function under _DSM ACPI control method to clear the MOR bit
+14013178526,Verify the MOR behavior on TPM ownership with VSM configured OS
+14013178566,Verify the basic functionality of dTPM with Debug IFWI
+14013178572,"Verify Static PCRs (0,2,4,7) values for dTPM are set on OS Boot & are invariant across all power cycles with all bootguard profiles"
+14013178619,Verify TPM clear operation from Bios for dTPM
+14013178643,Verify system stability on performing Sx cycles with all Security features enabled
+14013178673,Verify Discrete TPM status and functionality with interrupt support enabled
+14013178688,Verify Physical presence is not required for TPM (dTPM) clear operation
+14013178723,"Verify PCR values and TPM event logging during S3, S4 and S5 sleep states on Consumer Sku"
+14013178729,Verify whether TPM event EV_NONHOST_INFO and its PCR[00] values when flashed Verified Boot Profile
+14013178735,Verify the TPM event and PCR[00] values when CSME Measured Boot to TPM PCR is Enabled/Disabled
+14013178742,Verify PCR[00] and PCR [01] values for the CSME measurement with AMT enable/disable
+14013178744,Verify PCR[00] and PCR [01] values for the CSME measurement while using AMT disabled IFWI
+14013178764,Verify the CSME mode using ME Host Firmware Status Registers when CSME is in Enabled state
+14013178771,Verify the Extended Register Algorithm(ERA) values while using the Hash values used by CSME using dTPM
+14013178778,Verify CSME NVARs extended by BIOS to PCR [01]
+14013178798,Verify the enablement of CSME Extend Boot after DXE phase initialization when set from BIOS setup menu
+14013178802,Verify the enablement of CSME Extend Boot after DXE phase initialization when set from BIOS setup menu with PTT
+14013178804,"Verify the version, vendor ID and flag during CSME FW enabled state"
+14013178807,"Verify the CSME FW Measurement in PCR [00], when CSME firmware is in disable state"
+14013178813,Verify BIOS identifies abnormal condition and sets the flag when FDO is asserted and CSME is in normal operation mode
+14013178884,Verify TME encryption is not applied to PMEM but MKTME encrypts it
+14013178923,Verify MKTME Core Activation MSR values when MKTME enabled/disabled
+14013178931,Verify MKTME Core Activation MSR values during S3 resume cycle and is set before PEI phase
+14013178943,Verify PRMRR should get configured when C6DRAM is enabled
+14013178948,Verify BIOS updates C6DRAM successfully as per MCHECK
+14013178955,Verify DMAR Table when MKTME is enabled
+16012332239,Verify SINIT Fails to run FVME Profile with PTT enabled and TXT Disabled
+16012509945,Verify MK-TME feature functionality on MKTME fuse-disabled silicon
+16012575874,Verify Volume Management Device (VMD) configuration with NVMe connected on PCH M.2 via HSTI
+16012709548,[Telemetry] [Motherboard Health] Verify BIOS implements Motherboard Health Telemetry data
+16012709719,[Telemetry] [Motherboard Health] NumberofBootsSinceUpdate in S0i3/S4/S5
+16012709739,[Telemetry] [Motherboard Health] NumberofBootsSinceUpdate in warm/code reset
+16012795881,[OCR] Verify OCR Configuration in BIOS menu is read-only when KVM opened after SUT is already in BIOS over Wired LAN
+16012811785,Verify BIOS change TPM platform authorization after s3 when TPM2_Startup(STATE) failed with DTPM
+16012811822,Verify BIOS change TPM platform authorization after s3 when TPM2_Startup(STATE) failed with PTT
+16012811826,Verify BIOS change TPM platform authorization after s3 when TPM2_Startup(STATE) failed with PTT and TXT
+16012811835,Verify BIOS change TPM platform authorization after s3 when TPM2_Startup(STATE) failed with DTPM and TXT
+16012812330,[OCR] Verify PBA boot fails if path is invalid over Wired LAN
+16012834047,[OCR]  Verify if OCR HTTPS boot fails with invalid URL passed over Wired LAN
+16012834916,"[OCR] Verify secure boot is re-enabled in the next boot, following PBA boot over Wired LAN"
+16012835341,[OCR] Verify OCR PBA functionality when system is in bios setup over Wired LAN
+16012835501,[OCR] Verify OCR HTTPS functionality when system is in bios setup over Wired LAN
+16012839190,Verify Native BIOS capsule update on top of Resiliency Enabled IFWI from windows
+16012845296,[OCR] Verify OCR Configuration in BIOS menu is read-only when KVM opened after SUT is already in BIOS over Wireless LAN
+16012845321,[OCR] Verify PBA boot fails if path is invalid over Wireless LAN
+16012845326,[OCR]  Verify if OCR HTTPS boot fails with invalid URL Passed Over Wireless LAN
+16012845331,"[OCR] Verify secure boot is re-enabled in the next boot, following PBA boot over Wireless Lan"
+16012845336,[OCR] Verify OCR PBA Functionality when System is in Bios Setup over Wireless LAN
+16012845341,[OCR] Verify OCR HTTPS Functionality when System is in OS with Wireless LAN connected
+16012967034,[OCR] Verify OCR capability through SMBIOS by enabling OCR BIOS menu
+16013029506,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVE with dTPM
+16013030941,Verify TXT BIOS option and Registers when TPM is un-provisioned on no-FVME with dTPM
+16013031291,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVE with PTT
+16013032200,Verify TXT BIOS option and Registers when TPM is un-provisioned on No-FVME with PTT
+16013123504,[SPIRAL] Verify SPIRAL Protocol get enabled when TXT is enabled with No_FVME profile IFWI
+16013131479,"[RPE] Verify RPE Erase events, without Secure Boot Enabled triggering via WSMAN with PTT"
+16013131616,[RPE]  Verify CSME Unconfigure functionality without Secure Boot Enabled triggering with PTT
+16013148266,[Telemetry] [CSME Health] unhealthy status of ManufacturingMode
+16013148267,[Telemetry] [CSME Health] unhealthy status of FwUpdate set to Inprogress
+16013148269,[Telemetry] [CSME Health] unhealthy status of Fpf set to not committed
+16013149304,[Telemetry] [NVME Health] unhealthy status of Critical Warning
+16013149306,[Telemetry] [MRC Health] Verify BIOS implements MRC Health Telemetry data
+16013149307,[Telemetry] [NVME Health] unhealthy status of Media and Data Integrity Errors
+16013149308,[Telemetry] [Motherboard Health] unhealthy status
+16013149313,[Telemetry] [NVME Health] Verify BIOS implements NVME Health Telemetry data
+16013149669,[Telemetry] [FVI] Verify Reference Code and Silicon Version details from Telemetry FVI table
+16013151312,[RPE]  Verify CSME Unconfigure Functionality on FVE boot profile
+16013161838,"[RPE] Verify keyboard, mouse, power, reset buttons are not locked while RPE events were triggered"
+16013161997,ACM NIST Resiliency - CBnT ACM Code/Header corrupted capsule update from Windows with TXT
+16013162009,ACM NIST Resiliency - CBnT ACM Init code region corrupted capsule update from Windows with TXT
+16013162019,ACM NIST Resiliency - CBnT ACM Init code region corrupted capsule update from Windows
+16013214602,[RPE] Verify RPE Erase events functionality on FVE boot profile with PTT
+16013214610,"[RPE] Verify RPE remains Intact, although Power Interrupts its flow"
+16013214614,[RPE] Verify RPE Erase events functionality on FVE boot profile with DTPM
+16013216698,"Verify PCR (0,2,4,7) does not change when SCRTM and TXT is enabled in Firmware"
+16013230872,[RPE] Verify Secrets get cleared on triggering RPE events in TXT environment with DTPM
+16013284831,Verify P2SB Endpoint Mask(EPMASK) functionality via chipsec
+16013289941,Verify PROCHOT control status through POWER_CTL_MSR
+16013345006,Verify Pre-boot DMA Attack with DGR Enabled via PCIe Slot
+16013345463,Verify Ucode noBGUP Full FV Capsule downgrade from EDK-Shell
+16013370432,Verify PCR (00) change when SCRTM is disabled and TXT is enabled in Firmware
+16013458132,Verify Resiliency BIOS Capsule Variable are Protected
+16013618066,Verify PROCHOT lock test Via Chipsec
+16013657833,Verify SINIT ACM enforces BIOS DONE MSR
+16013701148,Verify locality of TPM2_Startup command when BTG 0T profile is used with PTT
+16013701626,Verify locality of TPM2_Startup command when BTG 0T profile is used with dTPM2.0
+16013707254,[RPE] Verify SSD Erase functionality with Non-Cryptographic Erase Storage device
+16013729453,[RPE] Verify SSD Erase functionality with ATA drive to check frozen bit is locked
+16014040172,Verify Harmonized Monolithic Resiliency capsule upgrade from Windows
+16014040192,NIST Resiliency - Wrong PreProd CSME Harmonized Monolithic Resiliency capsule upgrade from Windows with FVME
+16014040194,NIST Resiliency - Native BIOS Harmonized Monolithic capsule upgrade on Resiliency IFWI from Windows with FVME
+16014040206,NIST Resiliency - Corp CSME Harmonized Monolithic Resiliency capsule upgrade on Consumer IFWI from Windows with FVME
+16014040208,NIST Resiliency - Consumer CSME Harmonized Monolithic Resiliency capsule upgrade on Corp IFWI from Windows with FVME
+16014040220,NIST Resiliency - BIOS IBB FVH corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME
+16014040227,NIST Resiliency - CBnT ACM Init code region corrupted Harmonized Monolithic capsule upgrade from Windows with FVME
+16014040228,NIST Resiliency - CBnT ACM Code/Header corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME + TXT
+16014040233,NIST Resiliency - CBnT ACM Code/Header corrupted Harmonized Monolithic capsule upgrade from Windows with FVME
+16014040240,NIST Resiliency - CBnT ACM Code/Header corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME
+16014040242,NIST Resiliency - CBnT ACM Init code region corrupted Harmonized Monolithic capsule upgrade from Windows with FVME + TXT
+16014040249,NIST Resiliency - CBnT ACM Init code region corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME + TXT
+16014040285,NIST Resiliency - CBnT ACM Code/Header corrupted Harmonized Monolithic capsule upgrade from Windows with FVME + TXT
+16014040293,NIST Resiliency - Corrupted Primary MCU/FIT Patch Harmonized Monolithic capsule upgrade from Windows with no-FVME
+16014040295,NIST Resiliency - BIOS OBB corrupted Harmonized Monolithic capsule upgrade from Windows with FVME
+16014040310,NIST Resiliency - Corrupted Primary MCU/FIT Patch Harmonized Monolithic capsule upgrade from Windows with FVME
+16014040320,NIST Resiliency - BIOS OBB corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME
+16014040322,NIST Resiliency - CBnT ACM Init code region corrupted Harmonized Monolithic capsule upgrade from Windows with no-FVME
+16014052770,Verify Extended Bios Region Check lock test Via Chipsec
+16014052845,Verify FLEX_RATIO Configuration lock test Via Chipsec
+16014057455,Verify ME Firmware Status Check test Via Chipsec
+16014058880,Verify RTC Configuration Register Check test Via Chipsec
+16014060744,Verify Windows SMM Mitigations Table (WSMT) Contents test Via Chipsec
+16014099704,[Revocation] Verify Release BIOS corruption in Primary Region with BTG 5 profile + TXT Enabled IFWI
+16014196369,NIST Resiliency - Wrong PreProd CSME Harmonized Monolithic Resiliency capsule upgrade from Windows with no-FVME
+16014196373,NIST Resiliency - Wrong CBnT ACM Prod/Pre-Prod Harmonized Monolithic Resiliency capsule upgrade from Windows with no-FVME + TXT
+16014196421,NIST Resiliency - Consumer CSME Harmonized Monolithic Resiliency capsule upgrade on Corp IFWI from Windows with no-FVME
+16014196431,NIST Resiliency - Corp CSME Harmonized Monolithic Resiliency capsule upgrade on Consumer IFWI from Windows with no-FVME
+16014475697,Verify TXT measured launch with TBOOT on system flashed with RPMC enabled IFWI
+16014591353,Verify DGR status with AMT disabled in IFWI
+16014722105,[PSR] Verify timestamp of events once PRTC Failure is logged after performing CMOS clear
+16014726846,Verify PRMRR BASE and PRMRR MASK gets configured correctly
+16014926712,[PSR] Verify cumulative runtime in seconds for S0 cycle when PSR is enabled
+16014928972,[PSR] Verify Increase in S0 runtime when Power on Cycle is performed
+16014929021,[PSR] Verify Cumulative number of cycles when Platform Reset is performed
+16014929093,[PSR] Verify the historical PSR Ledgers and Counter data is lost with IFWI reflash and manufacture config lock set
+16014929163,[PSR] Verify PSR ledger cannot be retrieved if UPID is disabled in BIOS
+16014930127,[PSR] Verify PSR gets enabled using FPT tool and with EOM set
+16014930177,"[PSR] Verify PSR data is not available, if it is disabled during manufacturing flow"
+16014930241,[PSR] Verify Platform Event gets logged if Manufacturing Configuration Lock is not set
+16014930800,"[PSR] Verify PSR check, when CSME is in disabled state"
+16014956745,[PSR] Verify PSR events timestamp is updated if there is an unexpected power loss
+16014965044,[PSR] Verify PSR get enabled successfully with BTG prof 0
+16014965067,[PSR] Verify PSR get enabled successfully with BTG prof 4
+16014971440,[PSR] Verify transitions of counters are updated when system enters from S5 to S0 State
+16014971507,[PSR] Verify transitions of counters are updated when system enters from S4 to S0 State
+16014971621,[PSR] Verify transitions of counters are updated when system enters from S3 to S0 State
+16014971736,[PSR] Verify increase in Cumulative runtime of S0 cycle when system boots from Warm Reset/Cold Reset flow
+16015094595,[PSR] Verify CSME provide API over HECI before and after post
+16015107647,Verify the TXT ErrorCode when Surprise Warm Reset is triggered on the System after SENTER with 0T profile
+16015121871,Verify ACM does not allow privilege escalation when attack is triggered on DMA
+16015138075,[LPE] Verify TPM Clear Functionality with PTT under LPE
+16015138315,[LPE] Verify TPM Clear Functionality with DTPM under LPE
+16015139234,[LPE] Verify BIOS Reset to Golden Config Functionality under LPE
+16015139236,[LPE]  Verify SSD Erase in Real Mode under LPE
+16015139322,[LPE] Verify SSD Erase in Simulated Mode under LPE
+16015147360,[LPE] Verify Clear BIOS NVM Variables Functionality under LPE
+16015170395,[LPE]  Verify SATA SSD Erase in Real Mode under LPE
+16015170592,[LPE] Verify LPE all erase actions under Real Mode gets triggered successfully when TXT is enabled
+16015171420,[LPE] Verify TPM Clear gets triggered successful when BitLocker is enabled under LPE
+16015173176,[LPE] Verify SSD Erase in Real Mode is successful when User Password is set under LPE
+16015177808,[LPE] Verify if AMT is disabled in BIOS still LPE all the actions gets triggered successfully
+16015180930,[LPE] Verify LPE is always triggered first when we try to trigger it at same time when RPE is triggered
+16015236670,Verify Monolithic Capsule update after suspending bitlocker on Bitlocker encrypted Drive
+16015268086,[LPE] Verify TPM Clear Functionality with BIOS Reset to Golden Config under LPE
+16015268611,[LPE] Verify TPM Clear Functionality with Clear BIOS NVM Variable under LPE
+16015268911,[LPE] Verify SSD Erase and BIOS Reset to Golden Config functionality under LPE
+16015268989,[LPE] Verify SSD Erase and Clear BIOS NVM variable functionality under LPE
+16015313738,[LPE] Verify all erase actions triggering with Simulated mode under debug BIOS
+16015316282,CF Gen2 CSME Data NIST Resiliency - MFS/DFS signature corruption Debug IFWI
+16015316745,CSME NIST Resiliency - Code and Data corruption IFWI
+16015465931,Verify SUT is booting to OS with TXT enable/Disable after AMT provisioning
+16015469810,BIOS NIST Resiliency - IBBR Boot Policy Manifest Region Corrupted capsule update from Windows with FVME
+16015469838,BIOS NIST Resiliency - IBBR Boot Policy Manifest Region Corrupted capsule update from Windows with No-FVME
+16015472321,BIOS NIST Resiliency - IBBR Key Manifest Region Corrupted capsule update from Windows with FVME
+16015472363,BIOS NIST Resiliency - IBBR Key Manifest Region Corrupted capsule update from Windows with No-FVME
+16015473037,CSME NIST Resiliency - Verify CSME backup image restore through capsule update after performing ESP disk cleanup of CSME backup image via EFI shell
+16015473229,Verify Harmonized Resiliency Monolithic capsule upgrade from OS with Native IFWI
+16015491179,Verify BIOS GUARD is enabled in the BIOS by default in SAF mode
+16015590763,[MK-TME] Verify TME_EXCLUDE_BASE and TME_EXECLUDE_BASE MSR's when Entire Memory Range is selected to be excluded
+16015631450,Verify system integrity via HSTI in SAF mode
+16015699813,[LPE] Verify OEM Custom Action Flow in LPE
+16015767594,[LPE] Verify LPE Events are not logged under AMT Event Log
+16015898653,[FUZZ] Verify system stability post fuzzing random attributes using UEFI variable Fuzzer Module via Chipsec tool
+16015898836,[FUZZ] Verify system stability post fuzzing random data using UEFI variable Fuzzer Module via Chipsec tool
+16015898973,[FUZZ] Verify system stability post fuzzing random GUID using UEFI variable Fuzzer Module via Chipsec tool
+16015919588,Verify Harmonized IFWI capsule Downgrade from EDK-Shell with FVME
+16015919929,Verify Harmonized IFWI capsule Upgrade from Windows with FVME
+16016061731,Verify PCR values in TBOOT environment on DTPM configured system with FVME + TXT
+16016061769,Verify PCR values in TBOOT environment on DTPM configured system with No-FVME + TXT
+16016061878,Verify PCR values in TBOOT environment on PTT configured system with No-FVME + TXT
+16016061912,Verify PCR values in TBOOT environment on PTT configured system with FVME + TXT
+16016074566,[LPE] Verify LPE All erase actions with VMD disable
+16016079138,[RPE] Verify RPE functionality with external Discrete Graphics card connected to the system
+16016695227,Verify PCU CR Debug Interface register before and after CMOS clear
+16016962526,"[LPE][RPE] Verify LPE, RPE BIOS knobs are not available in BIOS setup menu when AMT is permanently disabled in IFWI"
+16017332352,[RPE] Verify BIOS reports TPM Clear status as failure if No-TPM is detected in BIOS
+16017333758,[LPE] Verify Erase status when No-NVME is connected for SSD erase in simulated mode
+16017336349,[RPE] Verify SSD fails to erase the device and boots to OS after attempting invalid passwords for maximum number of times
+16017348178,Verify PCR 00 does not change with PTT and DTPM when SCRTM and TXT is enabled in Firmware
+16018111512,Verify MEBx password is not exposed in BIOS log
+16018396154,Verify SMBIOS is measured into TPM PCR [01] on dTPM enabled system
+16018405247,[LPE] Verify OEM Customization Enabling Hooks are available
+16018406742,[RPE] Verify OEM Customization Enabling Hooks are available
+16019034088,"ACM Code Review, Analysis Test"
+22013338223,Verify Crashlog status test Via Chipsec

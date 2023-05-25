@@ -1,0 +1,635 @@
+TestCaseID,Description,URL,Status,Test_Complexity,Test_Coverage_Level
+14013167606,Verify system attains responsiveness metrics with PTT enabled Corporate IFWI (1x32MB) size and with OS installed on NVMe SSD,https://hsdes.intel.com/appstore/article/#/14013167606,Blocked,None,None
+14013176217,Verify BIOS support to spin up a drive that is in the PUIS state when resuming from S3,https://hsdes.intel.com/appstore/article/#/14013176217,Blocked,None,None
+14013157560,"BIOS Shall support one _PSD object per core type (one for BIG Core, one for Atom Core)",https://hsdes.intel.com/appstore/article/#/14013157560,Blocked,None,None
+14013161425,Verify Sx and reboot cycles with ISH disabled,https://hsdes.intel.com/appstore/article/#/14013161425,Blocked,None,None
+14013158985,"Verify ISH device ID""s are displayed in EFI Log",https://hsdes.intel.com/appstore/article/#/14013158985,Blocked,None,None
+14013178043,Verify Touch Panel(I2C) enumeration and functionality in OS pre and post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013178043,Blocked,None,None
+14013167084,Verify system attains responsiveness metrics with PTT enabled Corporate IFWI and with OS installed on NVMe SSD,https://hsdes.intel.com/appstore/article/#/14013167084,Blocked,None,None
+14013179580,Verify BIOS provides option to enable/disable ISH Configuration,https://hsdes.intel.com/appstore/article/#/14013179580,Blocked,None,None
+14013185587,Verify system attains responsiveness metrics with PTT enabled Corporate IFWI,https://hsdes.intel.com/appstore/article/#/14013185587,Blocked,None,None
+14013119215,Verify touch panel connected through I2C bus are detected and functional in OS.,https://hsdes.intel.com/appstore/article/#/14013119215,Blocked,None,None
+14013161335,Verify SUT ability to Start Storage Redirection Session over Wireless LAN post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013161335,Yielding,None,None
+14013159310,Verify system performs Sx cycle successfully irrespective of EC Low power mode option in Bios,https://hsdes.intel.com/appstore/article/#/14013159310,Yielding,None,None
+14013156690,Verify BIOS shall provide an option to set TTL (Time To Live) for Dynamic DNS Update under MEBx menu,https://hsdes.intel.com/appstore/article/#/14013156690,Yielding,None,None
+14013156911,Verify that Package PL2 value is 1.25 times higher than PL1 value,https://hsdes.intel.com/appstore/article/#/14013156911,Yielding,None,None
+14013160612,Verify RTD3 flow support for USB pendrive connected over USB3.0 port,https://hsdes.intel.com/appstore/article/#/14013160612,Yielding,None,None
+14013161369,Validate Discrete Wi-Fi for RTD3,https://hsdes.intel.com/appstore/article/#/14013161369,Yielding,None,None
+14013179113,Verify Discrete BT/WLAN functionality before and after Deep Sx states,https://hsdes.intel.com/appstore/article/#/14013179113,Yielding,None,None
+14013187966,Verify HECI3 is hidden when WLAN is supported by ME on Corp SKU,https://hsdes.intel.com/appstore/article/#/14013187966,Yielding,None,None
+14013156833,"Validate ""Power Limit 2"" BIOS options",https://hsdes.intel.com/appstore/article/#/14013156833,Yielding,None,None
+14013162791,Verify system stability on performing reboot cycle on freshly preloaded OS post flashing Debug BIOS,https://hsdes.intel.com/appstore/article/#/14013162791,Yielding,None,None
+14013159407,"Verify Type-C Concurrent support of x2 DP and USB3, device connected when SUT is in Deep Sx state",https://hsdes.intel.com/appstore/article/#/14013159407,Yielding,None,None
+14013179122,"Verify ""OSPM Requested HWP Maximum performance"" based on Overclocking status",https://hsdes.intel.com/appstore/article/#/14013179122,Yielding,None,None
+14013168133,Verify BIOS detects and initializes the correct number of Memory DIMMS in system: 4 DIMM (2 channels and 2 DIMMS per channel),https://hsdes.intel.com/appstore/article/#/14013168133,Yielding,None,None
+16014401845,Verify setup option for Skip System Resets in Intel Test menu,https://hsdes.intel.com/appstore/article/#/16014401845,Yielding,None,None
+16014929115,Verify CrashLog Clear Enable Bios option disabled by default,https://hsdes.intel.com/appstore/article/#/16014929115,Yielding,None,None
+16014934303,Verify BIOS ACPI debug messages BIOS option disabled by default in the BIOS page,https://hsdes.intel.com/appstore/article/#/16014934303,Yielding,None,None
+14013115314,Verify device manager post sleep cycling with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013115314,Yielding,None,None
+14013185608,Verify system attains responsiveness metrics with PTT enabled Consumer IFWI and with OS installed on SATA HDD,https://hsdes.intel.com/appstore/article/#/14013185608,Yielding,None,None
+14013178356,[FSP][GCC]: Verify build and release type of FSP Component,https://hsdes.intel.com/appstore/article/#/14013178356,Yielding,None,None
+14013166095,Verify system stability post overriding Gfx voltage,https://hsdes.intel.com/appstore/article/#/14013166095,Yielding,None,None
+14013165924,Verify BIOS ACPI debug messages capture with External release BIOS,https://hsdes.intel.com/appstore/article/#/14013165924,Yielding,None,None
+14013165485,"Verify connection Swap during DeepSx cycles with all Type-C ports - USB3.1 Gen2, USB3.0 Hub and USB2.0",https://hsdes.intel.com/appstore/article/#/14013165485,Yielding,None,None
+14013176251,Verify Bios option to enable and disable Manageability Feature Selection,https://hsdes.intel.com/appstore/article/#/14013176251,Yielding,None,None
+14013157055,Verify T-state enablement and disablement as part of Setup,https://hsdes.intel.com/appstore/article/#/14013157055,Yielding,None,None
+14013180397,Verify that the Active Management Technology (AMT) reflects correct state of Enabled or Disabled depending upon MEBX,https://hsdes.intel.com/appstore/article/#/14013180397,Yielding,None,None
+14013163440,Verify USB4 storage functionality after DeepSx,https://hsdes.intel.com/appstore/article/#/14013163440,Yielding,None,None
+14013166351,Verify Icc maximum value for GT domain can be read via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166351,Yielding,None,None
+14013158991,Verify PC10 Residency with system in CMS mode with AHCI/NVMe PCIe device is connected,https://hsdes.intel.com/appstore/article/#/14013158991,Yielding,None,None
+14013117280,"Verify that Storage OROM, Network OROM, driver displays correct handle in BIOS shell(UEFI), when UEFI Option is selected",https://hsdes.intel.com/appstore/article/#/14013117280,Yielding,None,None
+14013178212,Verify PS_ON Residency with NVMe Storage device connected to x4 Slot,https://hsdes.intel.com/appstore/article/#/14013178212,Yielding,None,None
+14013161674,Verify Coexistence of Discrete Wi-Fi and Bluetooth functionality in OS after Connected Modern Standby cycles,https://hsdes.intel.com/appstore/article/#/14013161674,Yielding,None,None
+14013115327,Verify BIOS Setup entry (UEFI Firmware Settings) from Windows,https://hsdes.intel.com/appstore/article/#/14013115327,Yielding,None,None
+14013166152,Verify BIOS lists an option to change the BCLK frequency and the clocked frequency gets reflected at OS on stressing the cores,https://hsdes.intel.com/appstore/article/#/14013166152,Yielding,None,None
+14013156700,Verify Dynamic DNS Update enable/disable with Shared/Dedicated FQDN mode under MEBx menu in BIOS,https://hsdes.intel.com/appstore/article/#/14013156700,Yielding,None,None
+16013162806,"Perform Sx(S3, S4 and S5) with OS installed in SATA HDD",https://hsdes.intel.com/appstore/article/#/16013162806,Yielding,None,None
+14013157319,Verify PL4 values via VR_CURRENT_CONFIG MSR,https://hsdes.intel.com/appstore/article/#/14013157319,Yielding,None,None
+14013177242,Verify VMD SATA device boot and system stability after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013177242,Yielding,None,None
+14013185604,Verify system attains responsiveness metrics with PTT disabled Corporate IFWI with dTPM connected,https://hsdes.intel.com/appstore/article/#/14013185604,Yielding,None,None
+16013636250,Verify Sx cycles successfully  when upgrade/downgrade CPU with  RTC/CMOS cleared.,https://hsdes.intel.com/appstore/article/#/16013636250,Yielding,None,None
+14013157335,Verify DPTF Power & Processor participants in ACPI dump,https://hsdes.intel.com/appstore/article/#/14013157335,Yielding,None,None
+14013160704,Verify Discrete Wi-Fi functionality test pre and post Connected Standby (CMS) cycle,https://hsdes.intel.com/appstore/article/#/14013160704,Yielding,None,None
+14013156798,Verify CPU FAN rotate when core temperature exceeds Active trip point with DTS SMM enabled and DPTF Enabled in BIOS after Sx (S4/S5),https://hsdes.intel.com/appstore/article/#/14013156798,Yielding,None,None
+14013177749,Verify BIOS reference code programs the PS_ON timers,https://hsdes.intel.com/appstore/article/#/14013177749,Yielding,None,None
+14013118162,"Verify BIOS Setup shall display options needed for PCH Thermal reporting and Thermal Throttling (DMI, SATA)",https://hsdes.intel.com/appstore/article/#/14013118162,Yielding,None,None
+14013159116,Verify TBT-External Graphics functionality with integrated graphics after Sx and reboot cycles,https://hsdes.intel.com/appstore/article/#/14013159116,Yielding,None,None
+14013157253,Verify CPU operates at LFM/HFM/TFM based on Power mode set to Power Saver/Balanced/High performance respectively post different power state transitions,https://hsdes.intel.com/appstore/article/#/14013157253,Yielding,None,None
+16014268343,"Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot, post CMS cycles",https://hsdes.intel.com/appstore/article/#/16014268343,Yielding,None,None
+14013120050,Verify audio playback post Sleep cycling in AC mode,https://hsdes.intel.com/appstore/article/#/14013120050,Yielding,None,None
+14013157235,Verify CPU support for Intel Turbo Boost Max Technology 3.0,https://hsdes.intel.com/appstore/article/#/14013157235,Yielding,None,None
+14013166883,Verify AVX Voltage Guardband Scale Factor via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166883,Yielding,None,None
+22011807682,Verify Discrete Wi-Fi detection and functionality,https://hsdes.intel.com/appstore/article/#/22011807682,Yielding,None,None
+14013176412,Verify BIOS provides an option to set the SATA Controller in AHCI or Intel RST Premium,https://hsdes.intel.com/appstore/article/#/14013176412,Yielding,None,None
+14013157562,Verify HWP Lock Bit status via MISC_PWR_MGMT MSR,https://hsdes.intel.com/appstore/article/#/14013157562,Yielding,None,None
+14013166471,Verify BIOS sets HWPS performance to Maximum on enabling Overclocking via IA32_HWP_REQUEST MSR,https://hsdes.intel.com/appstore/article/#/14013166471,Yielding,None,None
+14013167638,"Verify System responsiveness at BIOS, EFI and OS level with ""Num Lock"" ,""Caps Lock"" and ""Scroll Lock"" LED ON when Overclocking enabled",https://hsdes.intel.com/appstore/article/#/14013167638,Yielding,None,None
+14013177042,Verify System boot and Sx cycle with SATA Disk as boot source and Remapped PCIe Pass Through Device as Data Disk,https://hsdes.intel.com/appstore/article/#/14013177042,Yielding,None,None
+14013158470,"Verify different power states (Active/IDLE, partial and slumber) for SATA Phy layer",https://hsdes.intel.com/appstore/article/#/14013158470,Yielding,None,None
+14013156870,Verify Intel(R) Speed Shift Technology Capabilities via IA32_HWP_CAPABILITIES MSR,https://hsdes.intel.com/appstore/article/#/14013156870,Yielding,None,None
+14013165605,[OCR] Verify Windows Recovery Environment (WinRE) Boot flow for One Click Recovery before and after CMS cycle,https://hsdes.intel.com/appstore/article/#/14013165605,Yielding,None,None
+14013156898,Verify TURBO_POWER_LIMIT via PACKAGE_RAPL_LIMIT MSR,https://hsdes.intel.com/appstore/article/#/14013156898,Yielding,None,None
+14013166869,Verify BIOS Support Write to 0x1D in OC,https://hsdes.intel.com/appstore/article/#/14013166869,Yielding,None,None
+14013156807,"Verify Platform supports "" Intel(R) Speed Shift Technology"" via MISC_PWR_MGMT MSR",https://hsdes.intel.com/appstore/article/#/14013156807,Yielding,None,None
+14013159048,Verify IO Mwait Redirection status via PKG_CST_CONFIG_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013159048,Yielding,None,None
+14013156915,Verify PL4 lock via VR_CURRENT_CONFIG MSR,https://hsdes.intel.com/appstore/article/#/14013156915,Yielding,None,None
+14013185622,Verify system attains responsiveness metrics with PTT disabled Consumer IFWI with dTPM connected and with OS installed on SATA HDD,https://hsdes.intel.com/appstore/article/#/14013185622,Yielding,None,None
+14013178384,Verify RAID1 with CPU Attached Storage Devices connected over x16 & x8 Gen5 slots and system stability after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013178384,Yielding,None,None
+14013157301,Verify CPU interrupt storm routine(ISR) check,https://hsdes.intel.com/appstore/article/#/14013157301,Yielding,None,None
+14013158784,Validate DPTF ACPI objects required for DPTF Manager device are getting enumerated in ACPI dump,https://hsdes.intel.com/appstore/article/#/14013158784,Yielding,None,None
+14013178933,"Verify DMIC basic functionality test with Soundwire Codec, pre and post S4, S5 and warm and cold reset cycles",https://hsdes.intel.com/appstore/article/#/14013178933,Yielding,None,None
+14013156839,Verify CPU Turbo feature via IA32_MISC_ENABLE MSR,https://hsdes.intel.com/appstore/article/#/14013156839,Yielding,None,None
+16015047041,Verify discrete Wi-Fi wake event from S0i3 when WI-Fi is disabled,https://hsdes.intel.com/appstore/article/#/16015047041,Yielding,None,None
+14013157153,"Verify Platform support ""Timed MWait"" Feature via PLATFORM_INFO MSR",https://hsdes.intel.com/appstore/article/#/14013157153,Yielding,None,None
+14013156842,Validate Intel Speed Step functionality,https://hsdes.intel.com/appstore/article/#/14013156842,Yielding,None,None
+14013164684,[OCR] Verify OCR_WinRE flow intact from AMT Remote session over wired LAN  post generating BSOD,https://hsdes.intel.com/appstore/article/#/14013164684,Yielding,None,None
+14013161192,BIOS should not invoke the Intel MEBx and should hide Intel MEBx hotkey entry during CSME Disable,https://hsdes.intel.com/appstore/article/#/14013161192,Yielding,None,None
+14013166320,Verify Overclocking capabilities for SA can be read via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166320,Yielding,None,None
+14013163398,Validate USB4 Dock Device functionality after DeepSx Cycle,https://hsdes.intel.com/appstore/article/#/14013163398,Yielding,None,None
+14013186099,Verification of Connected Standby with AMT features enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013186099,Yielding,None,None
+14013161348,Verify SUT ability to Start Storage Redirection Session over Wireless LAN post S4 cycle,https://hsdes.intel.com/appstore/article/#/14013161348,Yielding,None,None
+14013166002,Validate number of overclocking bins supported,https://hsdes.intel.com/appstore/article/#/14013166002,Yielding,None,None
+14013156802,Verify System shutdown when core temperature exceeds Critical trip point with DTS SMM enabled and DPTF Enabled in BIOS after Sx (S4/S5),https://hsdes.intel.com/appstore/article/#/14013156802,Yielding,None,None
+14013156691,Verify BIOS shall provide an option to set Periodic Update Interval for Dynamic DNS Update under MEBx menu,https://hsdes.intel.com/appstore/article/#/14013156691,Yielding,None,None
+14013157360,Verify Bios displays current IMON Slope/Offset default value being used by SKU,https://hsdes.intel.com/appstore/article/#/14013157360,Yielding,None,None
+14013166267,Verify system stability with Flex Ratio settings enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013166267,Yielding,None,None
+14013177386,Verify SATA disabling flow with NVMe as a boot source,https://hsdes.intel.com/appstore/article/#/14013177386,Yielding,None,None
+14013166658,Verify system boots to OS with WDT(watch dog timer) disabled and OC enabled in bios,https://hsdes.intel.com/appstore/article/#/14013166658,Yielding,None,None
+14013156804,"Verify ""Intel(R) Speed Shift Technology"" reflection via IA32_PM_ENABLE MSR",https://hsdes.intel.com/appstore/article/#/14013156804,Yielding,None,None
+14013156792,Verify participant and policies wont load when DPTF option is disabled in BIOS.,https://hsdes.intel.com/appstore/article/#/14013156792,Yielding,None,None
+14013158993,"Verify state after G3 functionality based on BIOS options (S0 state, S5 state)",https://hsdes.intel.com/appstore/article/#/14013158993,Yielding,None,None
+14013156728,Verify Provisioning AMT over wireless LAN from BIOS setup options using Static IP and check for KVM connectivity,https://hsdes.intel.com/appstore/article/#/14013156728,Yielding,None,None
+14013156721,Verify Storage Redirection session cannot be established through Wired LAN With Storage Redirection disabled under MEBX in BIOS,https://hsdes.intel.com/appstore/article/#/14013156721,Yielding,None,None
+14013158782,Verify Hardware Identifiers of DPTF participant devices in device manager,https://hsdes.intel.com/appstore/article/#/14013158782,Yielding,None,None
+16015075246,Verify BIOS doest not override values for CEP IA and CEP GT via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/16015075246,Yielding,None,None
+14013167263,Verify responsiveness metrics are attained by system flashed with PTT enabled Corporate IFWI + Internal performance BIOS with IOMMU enabled,https://hsdes.intel.com/appstore/article/#/14013167263,Yielding,None,None
+14013156903,Verify Intel(R) Speed Shift Technology Interrupt Notification status via MISC_PWR_MGMT MSR,https://hsdes.intel.com/appstore/article/#/14013156903,Yielding,None,None
+14013186411,Verify Local USB Keyboard and mouse functionality during USB-R session,https://hsdes.intel.com/appstore/article/#/14013186411,Yielding,None,None
+14013176403,Verify BIOS provides an option to enable/disable enumeration of the SATA Controller,https://hsdes.intel.com/appstore/article/#/14013176403,Yielding,None,None
+14013165719,[OCR] Verify OCR_WinRE flow intact after G3 State from AMT Remote session over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165719,Yielding,None,None
+14013166828,Verify Per core hyper threading support by disabling HT on seven cores,https://hsdes.intel.com/appstore/article/#/14013166828,Yielding,None,None
+16014268794,Verify hot-plug/unplug functionality with discrete graphics (DGfx) with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot,https://hsdes.intel.com/appstore/article/#/16014268794,Yielding,None,None
+14013176955,Verify availability of SATA device populated on the SATA ports of board after Sx cycle,https://hsdes.intel.com/appstore/article/#/14013176955,Yielding,None,None
+14013166627,"Verify ""BCLK Aware Adaptive Voltage"" enablement / disablement via Overclocking mailbox",https://hsdes.intel.com/appstore/article/#/14013166627,Yielding,None,None
+16015147925,Verify system performs S5 & S4 cycles with fast startup option enabled,https://hsdes.intel.com/appstore/article/#/16015147925,Yielding,None,None
+14013157332,Verify PL3 can be configured irrespective of Intel SpeedStep(tm) status,https://hsdes.intel.com/appstore/article/#/14013157332,Yielding,None,None
+14013157179,Verify C-state (C10) residency when Active processor cores are disabled,https://hsdes.intel.com/appstore/article/#/14013157179,Yielding,None,None
+14013174785,Verify Dual display functionality in OS (onboard eDP+DP) Pre and Post CMS/S0i3 (Modern Standby) cycle,https://hsdes.intel.com/appstore/article/#/14013174785,Yielding,None,None
+14013157151,Verify Timed MWait status via PKG_CST_CONFIG_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013157151,Yielding,None,None
+14013173102,Verify Package TDP limit gets reflected correctly at OS,https://hsdes.intel.com/appstore/article/#/14013173102,Yielding,None,None
+14013176259,Verify setup option for enabling/disabling reading of PCH temperature,https://hsdes.intel.com/appstore/article/#/14013176259,Yielding,None,None
+14013175946,Verify that when BIOS detects a PCIe NAND Storage device it should enumerate under AHCI Controller by default,https://hsdes.intel.com/appstore/article/#/14013175946,Yielding,None,None
+16013290037,Verify PET Event notification for HTTPS TLS authentication fail,https://hsdes.intel.com/appstore/article/#/16013290037,Yielding,None,None
+14013166256,Verify WDT(watch dog timer) gets triggered when the Overclocking frequency is set beyond max frequency,https://hsdes.intel.com/appstore/article/#/14013166256,Yielding,None,None
+14013179301,Verify Discrete BT functionality after idle and sleep states,https://hsdes.intel.com/appstore/article/#/14013179301,Yielding,None,None
+14013176263,Verify and validate Processor voltage options for override and adaptive settings,https://hsdes.intel.com/appstore/article/#/14013176263,Yielding,None,None
+14013166809,Verify Per core hyper threading support by disabling HT on one core,https://hsdes.intel.com/appstore/article/#/14013166809,Yielding,None,None
+14013119169,Verify Sx functionality post generating BSOD,https://hsdes.intel.com/appstore/article/#/14013119169,Yielding,None,None
+14013157052,"Verify default bios option for ""Package C State Limit""",https://hsdes.intel.com/appstore/article/#/14013157052,Yielding,None,None
+14013120901,Verify Platform PL1 and PL2 status reflection as part of MSR_PLATFORM_POWER_LIMIT MSR,https://hsdes.intel.com/appstore/article/#/14013120901,Yielding,None,None
+14013156858,Set different memory size for processor trace from range between(4KB-128MB),https://hsdes.intel.com/appstore/article/#/14013156858,Yielding,None,None
+14013161353,Verify SUT ability to Start Storage Redirection Session over Wireless LAN post S5 cycle,https://hsdes.intel.com/appstore/article/#/14013161353,Yielding,None,None
+14013158670,"Validate Type-C USB3.0 Host Mode (Type-C to A) functionality after Deep S5, Cable connected at Deep S5 State",https://hsdes.intel.com/appstore/article/#/14013158670,Yielding,None,None
+14013174959,Verify DashG device RTD3 status on PCI Express,https://hsdes.intel.com/appstore/article/#/14013174959,Yielding,None,None
+14013166213,Verify detection of DDR High Status via OverClocking Mailbox,https://hsdes.intel.com/appstore/article/#/14013166213,Yielding,None,None
+14013162780,Verify system stability on performing Sleep cycle on freshly preloaded OS post flashing Debug BIOS,https://hsdes.intel.com/appstore/article/#/14013162780,Yielding,None,None
+14013167451,Verify responsiveness metrics are attained with Pre-boot DMA protection enabled with a TBT storage device plugged in,https://hsdes.intel.com/appstore/article/#/14013167451,Yielding,None,None
+14013179691,DPTF participant devices should be listed only with DPTF enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013179691,Yielding,None,None
+14013158376,Verify XHCI OS Handoff after G3 to S0 Cycling,https://hsdes.intel.com/appstore/article/#/14013158376,Yielding,None,None
+14013119299,Verify Subsystem IDs programmed by BIOS for all the native devices using self test tool,https://hsdes.intel.com/appstore/article/#/14013119299,Yielding,None,None
+16013251327,Verify BIOS shall provide an ability for adjusting the timeout for HTTPS requests that UEFI makes for remote retrieving OS rebuild images,https://hsdes.intel.com/appstore/article/#/16013251327,Yielding,None,None
+14013174807,Verify simultaneous 4 display (DP/HDMI2.0/Type-C)functionality in OS Post S4 cycle,https://hsdes.intel.com/appstore/article/#/14013174807,Yielding,None,None
+14013164644,[OCR] Verify OCR_WinRE flow intact after G3 State from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164644,Yielding,None,None
+14013177895,Verify SA DID enumeration in EFI shell,https://hsdes.intel.com/appstore/article/#/14013177895,Yielding,None,None
+14013120520,Verify whether the operation of Windows in safe mode is supported,https://hsdes.intel.com/appstore/article/#/14013120520,Yielding,None,None
+14013168778,Verify dual channel memory DDR4_SODIMM 2x32 GB is functioning,https://hsdes.intel.com/appstore/article/#/14013168778,Yielding,None,None
+14013157822,Verify System stability on staying in idle state for 12 hours with Display ON,https://hsdes.intel.com/appstore/article/#/14013157822,Yielding,None,None
+14013159151,Verify TBT-External Graphics functionality with Integrated Graphics along with non-TBT devices Cross Concurrency,https://hsdes.intel.com/appstore/article/#/14013159151,Yielding,None,None
+14013174151,"Verify S3,S4 & S5 entry & exit using power button in Hybrid Graphics (HG) mode",https://hsdes.intel.com/appstore/article/#/14013174151,Yielding,None,None
+14013180261,Verify that MEBx shall display an option to set FQDN of the provisioning server,https://hsdes.intel.com/appstore/article/#/14013180261,Yielding,None,None
+14013157133,Cooling Mode Policy should not be present under DPTF policies in BIOS,https://hsdes.intel.com/appstore/article/#/14013157133,Yielding,None,None
+16013191908,Verify BIOS override values for CEP IA and CEP GT via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/16013191908,Yielding,None,None
+14013177730,Verify Bios programs chipset initialization registers for PMC,https://hsdes.intel.com/appstore/article/#/14013177730,Yielding,None,None
+14013156879,Verify the CPU reaches its rated turbo speed when all cores are active.,https://hsdes.intel.com/appstore/article/#/14013156879,Yielding,None,None
+14013180090,"With Storage redirection disabled in MEBX, verify Storage redirection session cannot be established  through Wired LAN",https://hsdes.intel.com/appstore/article/#/14013180090,Yielding,None,None
+14013175956,Verify Sx cycle after OS install on SUT with SSD configured as RAID 1,https://hsdes.intel.com/appstore/article/#/14013175956,Yielding,None,None
+16015018246,Verify RTIT(Run Time Instruction Trace) feature for Processor Trace BIOS option disabled,https://hsdes.intel.com/appstore/article/#/16015018246,Yielding,None,None
+14013166207,Verify that BIOS has an option to overclock Memory frequency to 2667 MHz,https://hsdes.intel.com/appstore/article/#/14013166207,Yielding,None,None
+14013166073,Verify BIOS lists an option to change the memory clock frequency and it gets reflected at OS level,https://hsdes.intel.com/appstore/article/#/14013166073,Yielding,None,None
+14013160246,BIOS shall send the DRAM_INIT_DONE message & complete GFX initialization before getting the boot options,https://hsdes.intel.com/appstore/article/#/14013160246,Yielding,None,None
+14013156847,"Verify ""C-states"" is enabled by default in BIOS",https://hsdes.intel.com/appstore/article/#/14013156847,Yielding,None,None
+14013186091,Verify Basic Internal GbE Controller Functional Test   Cold Boot/warm reset,https://hsdes.intel.com/appstore/article/#/14013186091,Yielding,None,None
+14013114813,"Verify ""Disable Prochot# Output signal"" is enabled by default in Bios.",https://hsdes.intel.com/appstore/article/#/14013114813,Yielding,None,None
+14013167092,Verify system attains responsiveness metrics with PTT enabled Consumer IFWI and with OS installed on M.2 SATA SSD,https://hsdes.intel.com/appstore/article/#/14013167092,Yielding,None,None
+14013161603,Verify Support of USPL ACPI methods for Power Participant,https://hsdes.intel.com/appstore/article/#/14013161603,Yielding,None,None
+14013162075,Verify and validate Setup option for C10 exit Debug latch event,https://hsdes.intel.com/appstore/article/#/14013162075,Yielding,None,None
+14013185599,Verify system attains responsiveness metrics with PTT disabled Consumer IFWI with dTPM connected,https://hsdes.intel.com/appstore/article/#/14013185599,Yielding,None,None
+14013157146,Set Cooling policy (_SCP and DSCP) methods should not be get enumerated in OS,https://hsdes.intel.com/appstore/article/#/14013157146,Yielding,None,None
+14013164680,[OCR]  Verify OCR_HTTPS boot flow intact Post Sx State from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164680,Yielding,None,None
+14013175430,Verify Gen4 HG basic functionality on x16 PEG slot pre and post S4 and S5 cycles,https://hsdes.intel.com/appstore/article/#/14013175430,Yielding,None,None
+16015074089,Negative coverage to verify Bluetooth BLE supported HID device Functionality in OS,https://hsdes.intel.com/appstore/article/#/16015074089,Yielding,None,None
+14013165731,[OCR] Verify OCR_PBA boot flow intact after G3 State from AMT Remote session over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165731,Yielding,None,None
+14013167401,Verify Cold Boot time is inline with responsiveness metrics when Pre-boot DMA protection disabled,https://hsdes.intel.com/appstore/article/#/14013167401,Yielding,None,None
+14013156860,Verify the Intel(R) Speed Shift Technology performance via IA32_HWP_REQUEST MSR,https://hsdes.intel.com/appstore/article/#/14013156860,Yielding,None,None
+14013166147,"Validate ""Core Extra Turbo Voltage"" value can be changed , when ""Core voltage mode"" is set to ""Adaptive"" in BIOS",https://hsdes.intel.com/appstore/article/#/14013166147,Yielding,None,None
+14013156896,Verify status of Turbo mode on disabling EIST(Enhanced Intel Speed Step) via IA32_MISC_ENABLE MSR,https://hsdes.intel.com/appstore/article/#/14013156896,Yielding,None,None
+14013158426,Verify SATA HDD data transfer at OS and EFI Shell,https://hsdes.intel.com/appstore/article/#/14013158426,Yielding,None,None
+14013177862,Verify Bios programs TNTE pre-wake time from the HDA PLL clock,https://hsdes.intel.com/appstore/article/#/14013177862,Yielding,None,None
+14013161732,"Verify bios an option to enable/disable ""Intel Turbo Boost Max Technology 3.0""",https://hsdes.intel.com/appstore/article/#/14013161732,Yielding,None,None
+14013176358,Verify default Critical Trip point value in BIOS,https://hsdes.intel.com/appstore/article/#/14013176358,Yielding,None,None
+16017134478,Verify BIOS supports PSYS_CRIT and VSYS_CRIT,https://hsdes.intel.com/appstore/article/#/16017134478,Yielding,None,None
+14013177326,Verify device ID of Integrated Error Handler,https://hsdes.intel.com/appstore/article/#/14013177326,Yielding,None,None
+14013156723,Verify if SUT reboots after user enters incorrect MEBx password under BIOS for 3 consecutive tries,https://hsdes.intel.com/appstore/article/#/14013156723,Yielding,None,None
+14013156735,Verify _DSD method for D3 for SATA SSD when PS_ON is enabled in AHCI mode.,https://hsdes.intel.com/appstore/article/#/14013156735,Yielding,None,None
+14013157529,Verify non POR options have been removed as part of Acoustic Noise Settings,https://hsdes.intel.com/appstore/article/#/14013157529,Yielding,None,None
+14013159141,Verify TBT Display functionality with Stress and along with non-TBT devices Cross Concurrency,https://hsdes.intel.com/appstore/article/#/14013159141,Yielding,None,None
+14013157239,"Verify Bios an option to enable/disable ""CPU 3-strike counter ""in BIOS.",https://hsdes.intel.com/appstore/article/#/14013157239,Yielding,None,None
+22011834437,"Verify connection Swap during DeepS5 with all Type-C ports - USB3.2 Gen2, USB3.0 Hub and USB2.0",https://hsdes.intel.com/appstore/article/#/22011834437,Yielding,None,None
+14013158786,Validate Thermal objects required for DPTF Participant devices are getting enumerated in ACPI dump,https://hsdes.intel.com/appstore/article/#/14013158786,Yielding,None,None
+14013186605,"Verify Coexistence of Discrete Wi-Fi and Bluetooth functionality in OS after S3/S0i3, S4, S5, Warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013186605,Yielding,None,None
+14013166078,Verify BIOS gives an option to override Memory Voltage,https://hsdes.intel.com/appstore/article/#/14013166078,Yielding,None,None
+14013184036,"Validate Type-C USB2.0 Host Mode (Type-C to A) functionality after Deep S4, Cable connected at Deep S4 State",https://hsdes.intel.com/appstore/article/#/14013184036,Yielding,None,None
+14013180254,Verify that MEBx shall provide an option to set TTL (Time To Live) for Dynamic DNS Update,https://hsdes.intel.com/appstore/article/#/14013180254,Yielding,None,None
+14013167355,Verify responsiveness metrics are attained by system flashed with ((Pre_Prod IFWI) or (Prod IFWI)) + External BIOS and with IOMMU disabled,https://hsdes.intel.com/appstore/article/#/14013167355,Yielding,None,None
+14013158951,Verify Discrete BT Functionality with CNVi option Disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013158951,Yielding,None,None
+14013165547,Verify VPD SPCD enabling Via Patch file using SBC TOOL,https://hsdes.intel.com/appstore/article/#/14013165547,Yielding,None,None
+14013177390,Verify SATA register lock down bit when Test mode is enabled,https://hsdes.intel.com/appstore/article/#/14013177390,Yielding,None,None
+14013178916,Verify BIOS support for [CNV][WIFI] New ACPI table WTAS - Wi-Fi time Average SAR,https://hsdes.intel.com/appstore/article/#/14013178916,Yielding,None,None
+14013176544,Verify BIOS detects PCIe device connected over X1/X4 slot with remapping enabled on M.2 slot,https://hsdes.intel.com/appstore/article/#/14013176544,Yielding,None,None
+16015096304,Negative: Verify Intel graphics enumeration with external graphic card on x4 PCIE slot,https://hsdes.intel.com/appstore/article/#/16015096304,Yielding,None,None
+14013166335,Verify Icc maximum value for IA domain can be read via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166335,Yielding,None,None
+14013157808,Validate network functionality post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013157808,Yielding,None,None
+14013119607,Verify the functionality of devices after 10 S3/S0i3 and S4 Cycle in AC and DC,https://hsdes.intel.com/appstore/article/#/14013119607,Yielding,None,None
+14013175799,Verify Early Init of SATA Device during BIOS Boot,https://hsdes.intel.com/appstore/article/#/14013175799,Yielding,None,None
+14013159182,[TBT] Verify functionality of TBT-display / TBT-SSD in all security levels,https://hsdes.intel.com/appstore/article/#/14013159182,Yielding,None,None
+16014269361,Verify discrete graphics (DGfx) performance evaluation with DashG graphics card with/without PCIE Resizable BAR support on X16 PEG slot,https://hsdes.intel.com/appstore/article/#/16014269361,Yielding,None,None
+14013156800,Verify System shutdown when core temperature exceeds Critical trip point with DTS SMM enabled and DPTF Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013156800,Yielding,None,None
+14013158128,Verify all BKC drivers gets installed successfully via command line Installation,https://hsdes.intel.com/appstore/article/#/14013158128,Yielding,None,None
+14013167380,Verify responsiveness metrics are attained by system flashed with ((Pre_Prod IFWI) or (Prod IFWI))  + External BIOS and with IOMMU enabled with exception list,https://hsdes.intel.com/appstore/article/#/14013167380,Yielding,None,None
+14013177825,Verify OS installation and system stability after Sx with SATA device connected in PCH slot with VMD port disabled,https://hsdes.intel.com/appstore/article/#/14013177825,Yielding,None,None
+14013177822,Verify OS installation and system stability after Sx with NVME connected in PCH slot with VMD port disabled,https://hsdes.intel.com/appstore/article/#/14013177822,Yielding,None,None
+14013176008,Verify SATA DevSlp (Device Sleep) feature,https://hsdes.intel.com/appstore/article/#/14013176008,Yielding,None,None
+14013174805,Verify simultaneous 4 display (DP/HDMI2.0/Type-C) functionality in OS post S3 Cycle,https://hsdes.intel.com/appstore/article/#/14013174805,Yielding,None,None
+14013159563,Verify Type-C Concurrent support of x2 DP and USB3 before/after Deep Sx and Reboot Cycles,https://hsdes.intel.com/appstore/article/#/14013159563,Yielding,None,None
+16013309250,Verify NPK IP IMR  allocating above 4GB,https://hsdes.intel.com/appstore/article/#/16013309250,Yielding,None,None
+14013168276,Verify  SUT boot with DDR5_UDIMM_2DPC_memory configuration at 4267 MHz,https://hsdes.intel.com/appstore/article/#/14013168276,Yielding,None,None
+14013156977,Verify Package PL1 and PL2 enablement from CPU,https://hsdes.intel.com/appstore/article/#/14013156977,Yielding,None,None
+14013166080,Verify and validate Gfx frequency overclocking,https://hsdes.intel.com/appstore/article/#/14013166080,Yielding,None,None
+16015089042,Verify if BIOS S3 resume time and suspend time are exceeded with VMD enabled,https://hsdes.intel.com/appstore/article/#/16015089042,Yielding,None,None
+14013166744,Validate BCLK can be adjusted at real time for changes upto 15Mhz,https://hsdes.intel.com/appstore/article/#/14013166744,Yielding,None,None
+14013156866,Verify C8 residency pre and post  hibernate state with USB 3.0 Mass Storage device connected to system,https://hsdes.intel.com/appstore/article/#/14013156866,Yielding,None,None
+14013166758,Verify user is able to disable physical cores on an Overclocking enabled system,https://hsdes.intel.com/appstore/article/#/14013166758,Yielding,None,None
+14013156848,"Verify ""Enhanced C_State"" is enabled by default in BIOS",https://hsdes.intel.com/appstore/article/#/14013156848,Yielding,None,None
+14013156877,"Verify package C-state won""t be available on disabling C-states in Bios",https://hsdes.intel.com/appstore/article/#/14013156877,Yielding,None,None
+14013166013,Verify system stability on performing Sleep cycling with Overclocking enabled,https://hsdes.intel.com/appstore/article/#/14013166013,Yielding,None,None
+14013175032,Validate HDMI/DP Display Out at Pre-OS and Post OS level with Hybrid Graphics  (HG) Card connected on x16 Slot,https://hsdes.intel.com/appstore/article/#/14013175032,Yielding,None,None
+14013166665,Verify IOSF2OCP Clock Gating Enable programming by BIOS,https://hsdes.intel.com/appstore/article/#/14013166665,Yielding,None,None
+14013156725,[Vpro] BKM for AMT Configuration (MEBx) in BIOS,https://hsdes.intel.com/appstore/article/#/14013156725,Yielding,None,None
+14013166273,Verify XTU BIOS Interface Feature removal from BIOS,https://hsdes.intel.com/appstore/article/#/14013166273,Yielding,None,None
+16014869116,[Negative] Verify PSMI handler memory Reservation and configuring doesn't work when PSMI size set to 0 KB,https://hsdes.intel.com/appstore/article/#/16014869116,Yielding,None,None
+14013166614,Verify Memory ratio and Memory reference clock reverts back to default values on changing Memory profile from custom profile to default profile,https://hsdes.intel.com/appstore/article/#/14013166614,Yielding,None,None
+14013184376,Verify Discrete Wi-Fi functional test post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013184376,Yielding,None,None
+14013174803,Verify 4 simultaneous displays (DP/HDMI/Type-C)functionality in OS,https://hsdes.intel.com/appstore/article/#/14013174803,Yielding,None,None
+14013161356,Verify SUT ability to Start Storage Redirection Session over Wireless LAN post CMS cycle,https://hsdes.intel.com/appstore/article/#/14013161356,Yielding,None,None
+16013297442,Verify PET Event log for Network connection interruption during HTTPS,https://hsdes.intel.com/appstore/article/#/16013297442,Yielding,None,None
+14013167326,Verify responsiveness metrics are attained by system flashed with  ((Pre_Prod IFWI) or (Prod IFWI)) + Internal BIOS and with IOMMU disabled,https://hsdes.intel.com/appstore/article/#/14013167326,Yielding,None,None
+14013186895,Verify SUT boots from the remote media as defined in RCC through Wired LAN,https://hsdes.intel.com/appstore/article/#/14013186895,Yielding,None,None
+16014813156,Negative: Verify display audio enumeration in OS,https://hsdes.intel.com/appstore/article/#/16014813156,Yielding,None,None
+14013178217,Verify sub options are listed in PCIe root ports in BIOS setup page.,https://hsdes.intel.com/appstore/article/#/14013178217,Yielding,None,None
+14013176227,Verify Connected modern Standby (CMS) cycle with AMT features enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013176227,Yielding,None,None
+14013166141,Verify voltage can be changed for Core with Core voltage Mode in override state,https://hsdes.intel.com/appstore/article/#/14013166141,Yielding,None,None
+14013156796,Verify P-State transitions of CPU based on Turbo mode,https://hsdes.intel.com/appstore/article/#/14013156796,Yielding,None,None
+16014913842,Verify Splash screen and USB device enumeration when system boots in full boot,https://hsdes.intel.com/appstore/article/#/16014913842,Yielding,None,None
+14013165756,[OCR] Verify OCR_WinRE boot flow functionality over Wireless LAN When SUT is at BIOS menu,https://hsdes.intel.com/appstore/article/#/14013165756,Yielding,None,None
+14013178359,[FSP][GCC]: Verify FSP_RESERVED_MEMORY_RESOURCE _HOB and FSP_NON_VOLATILE_STORAGE_HOB table is available in FSP log,https://hsdes.intel.com/appstore/article/#/14013178359,Yielding,None,None
+14013158788,Validate Power objects required for DPTF Participant devices are getting enumerated in ACPI dump,https://hsdes.intel.com/appstore/article/#/14013158788,Yielding,None,None
+14013174783,Verify independent update support of GOP Binary,https://hsdes.intel.com/appstore/article/#/14013174783,Yielding,None,None
+14013157222,Validate PTYP (Participant Device Type) method is defined for Display and Fan participants,https://hsdes.intel.com/appstore/article/#/14013157222,Yielding,None,None
+14013162008,Verify system shutdowns when core temperature exceeds Critical trip point with DTS SMM enabled and DTT disabled in BIOS post Sx,https://hsdes.intel.com/appstore/article/#/14013162008,Yielding,None,None
+14013157317,Nominal frequency of SNC core should be 1.4 times of max bus ratio ( HFM ),https://hsdes.intel.com/appstore/article/#/14013157317,Yielding,None,None
+16015072398,Verify Bluetooth BLE supported Mouse Functionality at UEFI when preboot BLE is disabled,https://hsdes.intel.com/appstore/article/#/16015072398,Yielding,None,None
+14013164690,[OCR] Verify OCR_WinRE flow intact from AMT Remote session over wired LAN  post generating  System Hang,https://hsdes.intel.com/appstore/article/#/14013164690,Yielding,None,None
+14013156900,Verify core C6 residency with system in S0 state,https://hsdes.intel.com/appstore/article/#/14013156900,Yielding,None,None
+14013180257,Verify that MEBx shall provide an option to display current Provisioning,https://hsdes.intel.com/appstore/article/#/14013180257,Yielding,None,None
+14013157085,Verify platform information via PLATFORM_INFO MSR,https://hsdes.intel.com/appstore/article/#/14013157085,Yielding,None,None
+14013164668,[OCR] Verify OCR_PBA boot flow intact Post Sx State from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164668,Yielding,None,None
+14013178770,Verify RAID5 with CPU Attached Storage Device and PCH attached devices(on PCIe4 controller) and system stability after Sx cycles Through VMD,https://hsdes.intel.com/appstore/article/#/14013178770,Yielding,None,None
+16014777355,Negative: Verify DMIC basic functionality test over Soundwire Audio Codec,https://hsdes.intel.com/appstore/article/#/16014777355,Yielding,None,None
+14013180271,Verify Dynamic DNS Update enable/disable with Shared/Dedicated FQDN mode in MEBX,https://hsdes.intel.com/appstore/article/#/14013180271,Yielding,None,None
+14013156854,Verify user cant override Flex ratio when Flex ratio indication bit is cleared,https://hsdes.intel.com/appstore/article/#/14013156854,Yielding,None,None
+14013156701,Verify Idle Timeout value can be set under MEBx menu in BIOS,https://hsdes.intel.com/appstore/article/#/14013156701,Yielding,None,None
+14013157437,"Verify default fused values for PL1,PL2,PL3 and PL4",https://hsdes.intel.com/appstore/article/#/14013157437,Yielding,None,None
+14013178335,[FSP][GCC]: Verify FSPscope tool lists all FSP Components,https://hsdes.intel.com/appstore/article/#/14013178335,Yielding,None,None
+14013176932,Verify SATA Thermal Throttling support for each port with SATA SSD,https://hsdes.intel.com/appstore/article/#/14013176932,Yielding,None,None
+16012878689,Verify BIOS setup menu provides options to set FAN RPM Control (CPU FAN Control),https://hsdes.intel.com/appstore/article/#/16012878689,Yielding,None,None
+14013166818,Verify Per core hyper threading support by disabling HT on three cores,https://hsdes.intel.com/appstore/article/#/14013166818,Yielding,None,None
+14013167336,Verify responsiveness metrics are attained by system flashed with  Pre_Prod IFWI + Internal BIOS and with IOMMU enabled with exception list,https://hsdes.intel.com/appstore/article/#/14013167336,Yielding,None,None
+14013166732,Verify fused Max core ratio via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166732,Yielding,None,None
+14013174444,Verify timeout errors should not get registered in Event Viewer during AV Stress testing over WIFI connectivity,https://hsdes.intel.com/appstore/article/#/14013174444,Yielding,None,None
+14013165921,[OCR] Verify Windows Recovery Environment (WinRE) Boot flow for One Click Recovery before and after CMS cycle,https://hsdes.intel.com/appstore/article/#/14013165921,Yielding,None,None
+14013175838,Verify BT power state control through S0W or PR3 method,https://hsdes.intel.com/appstore/article/#/14013175838,Yielding,None,None
+14013175962,Verify Successful Boot after changes made to RAID configuration under SATA settings in BIOS & RAID 5 Config,https://hsdes.intel.com/appstore/article/#/14013175962,Yielding,None,None
+14013166242,Verify DMI/PEG ratio option should not be available in BIOS page,https://hsdes.intel.com/appstore/article/#/14013166242,Yielding,None,None
+14013120914,"Verify PL1 Maximum Power Limit , Minimum Power Limit and Maximum Time Window",https://hsdes.intel.com/appstore/article/#/14013120914,Yielding,None,None
+14013120896,Verify default value of PL3 is reported Via MSR 615h,https://hsdes.intel.com/appstore/article/#/14013120896,Yielding,None,None
+14013180387,Verify Idle Timeout value can be set in MEBx,https://hsdes.intel.com/appstore/article/#/14013180387,Yielding,None,None
+14013166815,Verify Per core hyper threading support by disabling HT on two cores,https://hsdes.intel.com/appstore/article/#/14013166815,Yielding,None,None
+14013168378,Verify system stability post changing Default memory profile to XMP memory profiles,https://hsdes.intel.com/appstore/article/#/14013168378,Yielding,None,None
+14013173089,Verify EC detects the Sx transitions and configure the GPIOs without failure,https://hsdes.intel.com/appstore/article/#/14013173089,Yielding,None,None
+14013175897,"Verify Hot plugging of SATA-HDD during Sx mode, resume and check enumeration in Device manager",https://hsdes.intel.com/appstore/article/#/14013175897,Yielding,None,None
+14013156953,Verify TCC clamp via TEMPERATURE_TARGET MSR,https://hsdes.intel.com/appstore/article/#/14013156953,Yielding,None,None
+14013173954,Verify that system resumes after S3/S4 states in Hybrid Graphics (HG) mode with eDP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013173954,Yielding,None,None
+14013162768,Verify system stability on performing Hibernate cycle on freshly preloaded OS post flashing Performance BIOS,https://hsdes.intel.com/appstore/article/#/14013162768,Yielding,None,None
+16015081659,Verify MRC training does not programm when Over clocking and SAGV enabled,https://hsdes.intel.com/appstore/article/#/16015081659,Yielding,None,None
+14013172919,"Verify DP functionality and hot plug through Type-C port in Pre and Post S3,S4 cycling",https://hsdes.intel.com/appstore/article/#/14013172919,Yielding,None,None
+16014864801,Negative: Verify PAVP testing on different display panels with Playready App,https://hsdes.intel.com/appstore/article/#/16014864801,Yielding,None,None
+14013166717,Verify Ring down bin status via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166717,Yielding,None,None
+14013173170,"Verify SUT enters to S5 state at 10sec power button press with ""Power Button Override=enable"" option in BIOS",https://hsdes.intel.com/appstore/article/#/14013173170,Yielding,None,None
+14013176197,Verify that BIOS should detect and initialize SATA drives attached to PCIe SATA card,https://hsdes.intel.com/appstore/article/#/14013176197,Yielding,None,None
+14013176408,Verify BIOS provides option to enable/disable SATA devices when no device is connected in test mode,https://hsdes.intel.com/appstore/article/#/14013176408,Yielding,None,None
+14013157454,Verify DPTF IETM _OSC ACPI method handle dynamic policies properly,https://hsdes.intel.com/appstore/article/#/14013157454,Yielding,None,None
+14013167052,Verify whether GOP Init completes in less than threshold limit with Consumer IFWI,https://hsdes.intel.com/appstore/article/#/14013167052,Yielding,None,None
+14013158511,Validate system resume from Sx post long duration with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013158511,Yielding,None,None
+14013164670,[OCR] Verify OCR_WinRE boot flow functionality over wired LAN When SUT is at BIOS menu,https://hsdes.intel.com/appstore/article/#/14013164670,Yielding,None,None
+16014913066,[Negative]Verify BIOS ACPI debug messages capture when ACPI Debug BIOS option disabled,https://hsdes.intel.com/appstore/article/#/16014913066,Yielding,None,None
+14013156703,Verify if user can edit Network Name under MEBx menu in BIOS,https://hsdes.intel.com/appstore/article/#/14013156703,Yielding,None,None
+14013178282,Verify HEBC settings in BIOS,https://hsdes.intel.com/appstore/article/#/14013178282,Yielding,None,None
+16012889932,Verify BIOS support for Fast Vmode,https://hsdes.intel.com/appstore/article/#/16012889932,Yielding,None,None
+14013180250,Verify that MEBx shall provide an option to set Periodic Update Interval for Dynamic DNS Update,https://hsdes.intel.com/appstore/article/#/14013180250,Yielding,None,None
+14013162084,"Verify Bios setup option to enable/disable PMC SLP_SX stretch policy lock (PWRMBASE + offset 1024 , bit 18)",https://hsdes.intel.com/appstore/article/#/14013162084,Yielding,None,None
+14013166721,Verify fused P0 ratio and voltage via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166721,Yielding,None,None
+14013156883,Verify All DPTF participants are loaded in DPTF Monitor,https://hsdes.intel.com/appstore/article/#/14013156883,Yielding,None,None
+14013179120,"Verify Discrete Wi-Fi functional test in OS pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179120,Yielding,None,None
+14013177183,Verify different type of formatting support on SATA hard disk user partitions,https://hsdes.intel.com/appstore/article/#/14013177183,Yielding,None,None
+14013119649,Verify video playback post sleep cycling,https://hsdes.intel.com/appstore/article/#/14013119649,Yielding,None,None
+16015124089,Negative coverage for Verify Booting over Wi-Fi using UEFI HTTPv4 Boot,https://hsdes.intel.com/appstore/article/#/16015124089,Yielding,None,None
+14013174748,"Verify Audio recording and playback over 3.5mm-Jack-Headset (via Soundwire), pre and post S0i3 cycle",https://hsdes.intel.com/appstore/article/#/14013174748,Yielding,None,None
+14013164103,Verify Discrete Bluetooth device function test on OS pre and post Warm reset cycle,https://hsdes.intel.com/appstore/article/#/14013164103,Yielding,None,None
+14013159319,"Verify Sx(S3, S4 and S5) Cycle with C-state disable in bios",https://hsdes.intel.com/appstore/article/#/14013159319,Yielding,None,None
+14013177905,Verify if SSD hangs with PLN enabled/disabled with VMD Mode,https://hsdes.intel.com/appstore/article/#/14013177905,Yielding,None,None
+16015124267,Negative coverage for Verify Booting over Wi-Fi using UEFI HTTPv4 Boot with 2.4 Ghz Access Point (AP),https://hsdes.intel.com/appstore/article/#/16015124267,Yielding,None,None
+16015049375,Verify Bluetooth BLE Devices scan in BIOS when preboot BLE is disabled,https://hsdes.intel.com/appstore/article/#/16015049375,Yielding,None,None
+14013180149,Verify Storage Redirection session cannot be established through Wireless LAN With Storage Redirection disabled in MEBX,https://hsdes.intel.com/appstore/article/#/14013180149,Yielding,None,None
+14013176329,Bios should display SATA devices information connected to System,https://hsdes.intel.com/appstore/article/#/14013176329,Yielding,None,None
+16015053902,Verify Bluetooth BLE supported Keyboard Functionality at UEFI when preboot BLE is disabled,https://hsdes.intel.com/appstore/article/#/16015053902,Yielding,None,None
+16013152656,Ring VR options should present under Overclocking,https://hsdes.intel.com/appstore/article/#/16013152656,Yielding,None,None
+14013159050,"Verify ""Thermal Monitor"" Enable/Disable via MSR 1A0 [3]",https://hsdes.intel.com/appstore/article/#/14013159050,Yielding,None,None
+14013168467,Verify Enable/Disable MRC ECC Option in BIOS,https://hsdes.intel.com/appstore/article/#/14013168467,Yielding,None,None
+14013174471,Verify 5K Display Panel enumeration in Device Manager,https://hsdes.intel.com/appstore/article/#/14013174471,Yielding,None,None
+14013176538,BIOS should allow the user to set their own values for DEVSLP Idle Timeout (DITO) and DITO Multiplier (DM),https://hsdes.intel.com/appstore/article/#/14013176538,Yielding,None,None
+16015067697,Negative: Verify Audio Playback using 3.5mm-Jack-Headset over HD-A Codec,https://hsdes.intel.com/appstore/article/#/16015067697,Yielding,None,None
+14013177842,Verify OS installation and system stability after Sx with NVME connected in PCH slot with VMD port enabled,https://hsdes.intel.com/appstore/article/#/14013177842,Yielding,None,None
+14013164455,[OCR] Verify AMT UEFI Boot Options should be Greyed out  with Redirection session over Wired LAN,https://hsdes.intel.com/appstore/article/#/14013164455,Yielding,None,None
+14013157372,Verify the platform PL1/PL2 value using TAT,https://hsdes.intel.com/appstore/article/#/14013157372,Yielding,None,None
+14013177844,Verify OS installation and system stability after Sx with SATA device connected in PCH slot with VMD port enabled,https://hsdes.intel.com/appstore/article/#/14013177844,Yielding,None,None
+14013166134,Verify that all memory timing values are reverted back to default value after WDT fails when memory timing values are changed,https://hsdes.intel.com/appstore/article/#/14013166134,Yielding,None,None
+14013177780,Verify M.2 SSD achieve SLP_S0 residency during CS,https://hsdes.intel.com/appstore/article/#/14013177780,Yielding,None,None
+14013173356,[FSP2.1][GCC]: Verify FSP_ERROR_INFO_HOB table,https://hsdes.intel.com/appstore/article/#/14013173356,Yielding,None,None
+14013157811,Verify system stability post Sx cycles with Keyboard as wake source,https://hsdes.intel.com/appstore/article/#/14013157811,Yielding,None,None
+14013120930,Verify RTIT(Run Time Instruction Trace) feature for Processor Trace,https://hsdes.intel.com/appstore/article/#/14013120930,Yielding,None,None
+14013173941,GMM/GNA Device Driver Installation and Uninstallation,https://hsdes.intel.com/appstore/article/#/14013173941,Yielding,None,None
+14013176487,Verify detection and functionality of PCIe AIC M.2 SSD as Secondary Boot Media,https://hsdes.intel.com/appstore/article/#/14013176487,Yielding,None,None
+14013114769,Verify Hardware Pre-Fetcher reflection via MISC_FEATURE_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013114769,Yielding,None,None
+14013180134,Verify local user cannot enter into MEBx to change Intel  Standard Manageability Configuration when USB-R & KVM session is active,https://hsdes.intel.com/appstore/article/#/14013180134,Yielding,None,None
+14013186568,Verify SUT ability to Start Storage Redirection Session over Wireless LAN post CMS cycle,https://hsdes.intel.com/appstore/article/#/14013186568,Yielding,None,None
+14013156955,"Verify ""TCC offset time window"" configuration in Bios",https://hsdes.intel.com/appstore/article/#/14013156955,Yielding,None,None
+16015163808,Negative coverage for Verify Booting over Wi-Fi using UEFI HTTPv4 Boot with 5 Ghz Access Point (AP),https://hsdes.intel.com/appstore/article/#/16015163808,Yielding,None,None
+14013179185,Verify Device Specific Method(_DSM) support  in the ACPI dump for Bluetooth device,https://hsdes.intel.com/appstore/article/#/14013179185,Yielding,None,None
+14013161591,Verify Bios an option to Enable/Disable INT3400 Device participants,https://hsdes.intel.com/appstore/article/#/14013161591,Yielding,None,None
+14013179689,Verify system shuts down after reaching critical Trip point,https://hsdes.intel.com/appstore/article/#/14013179689,Yielding,None,None
+14013186929,Verify USB-R Controllers are initialized during boot from S5 using KVM with Secure boot enabled,https://hsdes.intel.com/appstore/article/#/14013186929,Yielding,None,None
+14013175832,Verify Blu-Ray 2.2 playback support using HDMI 2.2,https://hsdes.intel.com/appstore/article/#/14013175832,Yielding,None,None
+16012734505,Verify DFD Restore setup option is not present in BIOS,https://hsdes.intel.com/appstore/article/#/16012734505,Yielding,None,None
+14013157531,Verify power state settings are configured correctly,https://hsdes.intel.com/appstore/article/#/14013157531,Yielding,None,None
+14013156732,Verify Provisioning AMT over onboard LAN from BIOS setup options using static IP and check for KVM connectivity,https://hsdes.intel.com/appstore/article/#/14013156732,Yielding,None,None
+14013180283,Verify that MEBx shall suppress IP configuration menu when LAN-less platform is detected,https://hsdes.intel.com/appstore/article/#/14013180283,Yielding,None,None
+16013505167,Verify BCLK TSC HW Fixup can enable and disable vis OC mailbox,https://hsdes.intel.com/appstore/article/#/16013505167,Yielding,None,None
+14013173168,Verify if BIOS provides option to enable/disable PCH energy reporting,https://hsdes.intel.com/appstore/article/#/14013173168,Yielding,None,None
+14013158103,Verify Type C - Analog audio accessory mode functionality,https://hsdes.intel.com/appstore/article/#/14013158103,Yielding,None,None
+14013185613,Verify system attains responsiveness metrics with PTT enabled Corporate IFWI and with OS installed on SATA HDD,https://hsdes.intel.com/appstore/article/#/14013185613,Yielding,None,None
+14013167586,Verify Quiet Boot is disabled when Fast Boot enabled in BIOS option,https://hsdes.intel.com/appstore/article/#/14013167586,Yielding,None,None
+14013157922,Stress S5-G3-S5 and verify that there is no break in functionality,https://hsdes.intel.com/appstore/article/#/14013157922,Yielding,None,None
+16013191789,Verify BIOS exposes non implemented FIVR Faults override knob,https://hsdes.intel.com/appstore/article/#/16013191789,Yielding,None,None
+14013166369,Validate system stability post changes to BCLK frequency with fast boot disabled,https://hsdes.intel.com/appstore/article/#/14013166369,Yielding,None,None
+14013161981,Verify CPU frequency throttles when core temperature exceeds passive trip point with DTS SMM enabled and DTT disabled post Sx,https://hsdes.intel.com/appstore/article/#/14013161981,Yielding,None,None
+14013166846,Verify Per core hyper threading support by disabling HT on nine cores,https://hsdes.intel.com/appstore/article/#/14013166846,Yielding,None,None
+14013157627,Verify BIOS Support for TDC Current Limit,https://hsdes.intel.com/appstore/article/#/14013157627,Yielding,None,None
+14013166446,Verify Overclocking enabled systems support for maximum throttle point upto 115c,https://hsdes.intel.com/appstore/article/#/14013166446,Yielding,None,None
+14013161997,Verify CPU FAN rotate when core temperature exceeds Active trip point with DTS SMM enabled and DTT disabled in BIOS after Sx (S4/S5),https://hsdes.intel.com/appstore/article/#/14013161997,Yielding,None,None
+14013117056,"Verify BIOS options for HD Audio, Soundwire and I2S Configuration",https://hsdes.intel.com/appstore/article/#/14013117056,Yielding,None,None
+14013166622,Verify System enter/exit S4 with out any issue with Change Bclk frequency change in BIOS,https://hsdes.intel.com/appstore/article/#/14013166622,Yielding,None,None
+14013119634,Verify Discrete Bluetooth module functionality after S3 and S4 wake,https://hsdes.intel.com/appstore/article/#/14013119634,Yielding,None,None
+14013157520,Verify Power Limit 1 and Power Limit 2 values gets displayed as part of Setup and it is configured correctly based on form factor,https://hsdes.intel.com/appstore/article/#/14013157520,Yielding,None,None
+14013174812,Verify simultaneous 4 display (DP/HDMI2.0/Type-C)functionality in OS Post S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013174812,Yielding,None,None
+16014267496,"Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot, post S3 cycles",https://hsdes.intel.com/appstore/article/#/16014267496,Yielding,None,None
+14013166066,Verify system stability on performing power cycles with BCLK frequency changed,https://hsdes.intel.com/appstore/article/#/14013166066,Yielding,None,None
+14013164656,[OCR]  Verify OCR_HTTPS boot flow intact after G3 State from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164656,Yielding,None,None
+14013174175,Verify iGFX functionality of Hybrid Graphics (HG) card connected system after disabling HG,https://hsdes.intel.com/appstore/article/#/14013174175,Yielding,None,None
+14013156872,"Verify Platform supports ""autonomous out of band OS Control"" in case of HW P-states",https://hsdes.intel.com/appstore/article/#/14013156872,Yielding,None,None
+14013166210,Verify bios has options to change memory timings and they are reflected at OS level,https://hsdes.intel.com/appstore/article/#/14013166210,Yielding,None,None
+14013162391,Verify Discrete WLAN and Bluetooth functionality in Pre-OS with RF Kill switch enabled on board0,https://hsdes.intel.com/appstore/article/#/14013162391,Yielding,None,None
+16014268151,"Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot, post S4, S5, warm/cold reset cycles",https://hsdes.intel.com/appstore/article/#/16014268151,Yielding,None,None
+14013173321,[FSP][GCC]: Verify FSP_SMBIOS_CACHE_INFO HOB table,https://hsdes.intel.com/appstore/article/#/14013173321,Yielding,None,None
+14013158906,"Verify Type-C multi port functionality - Provider, HDMI and USB Camera after Deep Sx cycle",https://hsdes.intel.com/appstore/article/#/14013158906,Yielding,None,None
+14013158967,Verify no errors gets registered as part of configuration registers post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013158967,Yielding,None,None
+14013159561,Verify Type-C Concurrent support of x4 DP and High Speed Device functionality before/after Deep Sx and Reboot Cycles,https://hsdes.intel.com/appstore/article/#/14013159561,Yielding,None,None
+14013156980,Verify CPU supports for PSYS feature,https://hsdes.intel.com/appstore/article/#/14013156980,Yielding,None,None
+14013176503,Verify Non remapped device detection in EFI device list,https://hsdes.intel.com/appstore/article/#/14013176503,Yielding,None,None
+14013180262,Verify that MEBx shall provide an option to set PKI DNS Suffix.,https://hsdes.intel.com/appstore/article/#/14013180262,Yielding,None,None
+14013166736,Verify Overclocking lock happens prior to 2nd patch load,https://hsdes.intel.com/appstore/article/#/14013166736,Yielding,None,None
+14013164661,[OCR] Verify OCR_WinRE Boot flow intact Post Sx State from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164661,Yielding,None,None
+14013166036,Verify overclocking lock Bios option,https://hsdes.intel.com/appstore/article/#/14013166036,Yielding,None,None
+14013120907,Verify Power limit 3 override via PL3_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013120907,Yielding,None,None
+14013166315,Verify Overclocking capabilities for GT can be read via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166315,Yielding,None,None
+14013186916,Verify local user cannot enter into MEBx to change Intel  Standard Manageability Configuration when USB-R & KVM session is active,https://hsdes.intel.com/appstore/article/#/14013186916,Yielding,None,None
+14013174645,"Verify 8K Display Panel enumeration in Device Manager with S4,S5, cold and warm reset cycles",https://hsdes.intel.com/appstore/article/#/14013174645,Yielding,None,None
+14013158949,Verify Discrete Wi-Fi Functionality with CNVi option Disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013158949,Yielding,None,None
+14013156893,Verify Tcc Activation offset should be set and  Critical Trip Point should be functional,https://hsdes.intel.com/appstore/article/#/14013156893,Yielding,None,None
+14013164066,Verify Discrete Wi-Fi functional test pre and post warm reset cycle,https://hsdes.intel.com/appstore/article/#/14013164066,Yielding,None,None
+14013186872,Verify the KVM session after 2 S5 cycles,https://hsdes.intel.com/appstore/article/#/14013186872,Yielding,None,None
+14013186907,"With Storage redirection disabled in MEBX, verify Storage redirection session cannot be established with IMRGUI through Wired LAN",https://hsdes.intel.com/appstore/article/#/14013186907,Yielding,None,None
+14013174108,Verify Bios options to change the default config for DMI,https://hsdes.intel.com/appstore/article/#/14013174108,Yielding,None,None
+14013173302,[FSP][GCC]: Verify FSP_SMBIOS_MEMORY_INFO_HOB table,https://hsdes.intel.com/appstore/article/#/14013173302,Yielding,None,None
+14013173314,[FSP][GCC]: Verify FSP_SMBIOS_PROCESSOR_INFO HOB table,https://hsdes.intel.com/appstore/article/#/14013173314,Yielding,None,None
+14013167283,Verify responsiveness metrics are attained by system flashed with PTT enabled Corporate IFWI + External performance BIOS with IOMMU enabled,https://hsdes.intel.com/appstore/article/#/14013167283,Yielding,None,None
+14013158306,Verify TBT (thunderbolt) device other than Display does not work in Display Port only security level,https://hsdes.intel.com/appstore/article/#/14013158306,Yielding,None,None
+14013168774,Verify maximum dual channel memory DDR4_SODIMM 2x64GB is functioning,https://hsdes.intel.com/appstore/article/#/14013168774,Yielding,None,None
+14013156868,"Verify that BIOS has an option to configure C-State ""Auto Demotion"" and C-State ""Un-demotion"".",https://hsdes.intel.com/appstore/article/#/14013156868,Yielding,None,None
+14013162393,Verify Discrete WLAN and Bluetooth functionality in OS with RF Kill switch enabled on board,https://hsdes.intel.com/appstore/article/#/14013162393,Yielding,None,None
+14013176068,Verify USB3 ports description in ACPI domain,https://hsdes.intel.com/appstore/article/#/14013176068,Yielding,None,None
+14013166436,Verify per core overclocking via Overclocking mailbox command,https://hsdes.intel.com/appstore/article/#/14013166436,Yielding,None,None
+14013162773,Verify system stability on performing reboot cycle on freshly preloaded OS post flashing Performance BIOS,https://hsdes.intel.com/appstore/article/#/14013162773,Yielding,None,None
+14013158728,Verify Bluetooth power management profile for DT SKU through ACPI table,https://hsdes.intel.com/appstore/article/#/14013158728,Yielding,None,None
+14013156931,Verify Intel Config TDP feature support,https://hsdes.intel.com/appstore/article/#/14013156931,Yielding,None,None
+14013160602,Verify RTD3 flow support for XDCI controller,https://hsdes.intel.com/appstore/article/#/14013160602,Yielding,None,None
+14013167520,Verify Cold Boot time is inline with responsiveness metrics when Pre-boot DMA protection enabled without any TBT devices plugged in,https://hsdes.intel.com/appstore/article/#/14013167520,Yielding,None,None
+14013158926,"Verify Type-C multi port functionality - Type-C dock, Provider, TBT eGFX after Sx and reboot cycles",https://hsdes.intel.com/appstore/article/#/14013158926,Yielding,None,None
+14013165764,[OCR] Verify OCR_WinRE flow intact from AMT Remote session over Wireless LAN  post generating  System Hang,https://hsdes.intel.com/appstore/article/#/14013165764,Yielding,None,None
+14013166238,Verify BIOS lists out all the memory timings,https://hsdes.intel.com/appstore/article/#/14013166238,Yielding,None,None
+14013156809,Verify number of P states and ratio that can be set as part of Custom P - State table,https://hsdes.intel.com/appstore/article/#/14013156809,Yielding,None,None
+16014842310,[Negative] Verify BIOS  option to disable Serial debug messages,https://hsdes.intel.com/appstore/article/#/16014842310,Yielding,None,None
+14013163423,Verify USB4 storage functionality during DeepSx,https://hsdes.intel.com/appstore/article/#/14013163423,Yielding,None,None
+14013163353,Validate USB4 Hub Device functionality after DeepSx Cycle,https://hsdes.intel.com/appstore/article/#/14013163353,Yielding,None,None
+14013166058,"Validate value configured for ""Ring Min OC ratio and ""Ring max OC ratio"" in Bios gets reflected correctly as part of UNCORE_RATIO_LIMIT MSR",https://hsdes.intel.com/appstore/article/#/14013166058,Yielding,None,None
+14013159222,[TBT] Verify TBT Storage functionality with Stress and along with non-TBT devices Cross Concurrency,https://hsdes.intel.com/appstore/article/#/14013159222,Yielding,None,None
+14013176106,Verify BIOS can support enumerating PUIS (Power-up In Standby) enabled disk,https://hsdes.intel.com/appstore/article/#/14013176106,Yielding,None,None
+14013156805,Verify Critical/Active/Passive trip point with DTS SMM enabled and DPTF Enabled in BIOS after S3,https://hsdes.intel.com/appstore/article/#/14013156805,Yielding,None,None
+14013159565,"Verify Type-C Concurrent support of HDMI Display and USB2, device connected when SUT is in Deep Sx state",https://hsdes.intel.com/appstore/article/#/14013159565,Yielding,None,None
+14013168671,Verify  SUT boot with DDR5_UDIMM_2DPC_memory configuration at 3733 MHz,https://hsdes.intel.com/appstore/article/#/14013168671,Yielding,None,None
+14013166876,Verify Voltage / frequency override values for Ring domain via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166876,Yielding,None,None
+14013180032,Verify the stability of KVM session over Wired LAN after 5 Sx cycles,https://hsdes.intel.com/appstore/article/#/14013180032,Yielding,None,None
+14013120463,Verifying SATA drive in AHCI mode,https://hsdes.intel.com/appstore/article/#/14013120463,Yielding,None,None
+14013162071,Verify BIOS set up option to enable/disable S0ix Auto Demotion,https://hsdes.intel.com/appstore/article/#/14013162071,Yielding,None,None
+14013157232,Validate PBOK method is defined for Power Participant,https://hsdes.intel.com/appstore/article/#/14013157232,Yielding,None,None
+16013203819,Verify Bios stability when OC Discrete BCLK fails to be programmed from BIOS setup,https://hsdes.intel.com/appstore/article/#/16013203819,Yielding,None,None
+14013157181,Verify P-state Cycling when Active processor cores are disabled,https://hsdes.intel.com/appstore/article/#/14013157181,Yielding,None,None
+14013156862,Verify BIOS control of Intel(R) Speed Shift Technology (HWP) via MISC_PWR_MGMT MSR,https://hsdes.intel.com/appstore/article/#/14013156862,Yielding,None,None
+14013177694,Verify system boot and Sx cycle with Gen2 SATA SSD connected over PCIe AIC on PCie Gen4 supported X4 slot,https://hsdes.intel.com/appstore/article/#/14013177694,Yielding,None,None
+14013166039,Verify BIOS gives an option to change CPU Core Voltage Target Override,https://hsdes.intel.com/appstore/article/#/14013166039,Yielding,None,None
+14013156722,Verify that MEBx shall suppress IP configuration menu when LAN-less platform is detected Under BIOS,https://hsdes.intel.com/appstore/article/#/14013156722,Yielding,None,None
+14013163097,Verify AMT WEBUI is accessible during sx cycles over Wired LAN,https://hsdes.intel.com/appstore/article/#/14013163097,Yielding,None,None
+14013157075,Verify user should be able to read the maximum temperature that the processor can function in OS,https://hsdes.intel.com/appstore/article/#/14013157075,Yielding,None,None
+14013173950,Verify OS boot with different aperture size,https://hsdes.intel.com/appstore/article/#/14013173950,Yielding,None,None
+16013241572,Verify CMS cycle with ACPI D3 cold option enabled/disabled in BIOS,https://hsdes.intel.com/appstore/article/#/16013241572,Yielding,None,None
+14013172891,Verify SUT shutdown (S5) when the Power Button is held in EDK Shell with only   AC  is plugged-in,https://hsdes.intel.com/appstore/article/#/14013172891,Yielding,None,None
+14013157347,Verify TDC values gets displayed as part of Setup and it is configured correctly based on form factor,https://hsdes.intel.com/appstore/article/#/14013157347,Yielding,None,None
+14013156715,"Verify ""Opt-in Configurable from Remote IT"" option can be successfully enabled/disabled in BIOS under MEBx menu",https://hsdes.intel.com/appstore/article/#/14013156715,Yielding,None,None
+14013166750,Validate BCLK cannot be adjusted at real time for changes more than 15Mhz,https://hsdes.intel.com/appstore/article/#/14013166750,Yielding,None,None
+14013177122,Verify BIOS support for Early Hard disk Spin up,https://hsdes.intel.com/appstore/article/#/14013177122,Yielding,None,None
+14013162580,Verify bios has an option to disable all thermal limits,https://hsdes.intel.com/appstore/article/#/14013162580,Yielding,None,None
+14013166269,Verify system stability with Flex Ratio setting disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013166269,Yielding,None,None
+14013186861,Verify KVM session over Wired LAN after 5 Sx cycles,https://hsdes.intel.com/appstore/article/#/14013186861,Yielding,None,None
+14013157677,Verify Bios programs CPPM_CG_POL1B.TNTE_FORCE_ON register correctly,https://hsdes.intel.com/appstore/article/#/14013157677,Yielding,None,None
+14013157136,Hardware Duty Cycling Policy should not be present under DPTF policies in BIOS,https://hsdes.intel.com/appstore/article/#/14013157136,Yielding,None,None
+14013156795,Verify CPU FAN rotate when core temperature exceeds Active trip point with DTS SMM enabled and DPTF Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013156795,Yielding,None,None
+14013156874,Verify C1E should get disabled on disabling C-states,https://hsdes.intel.com/appstore/article/#/14013156874,Yielding,None,None
+14013156767,Verify SLP_S0 & Package C states with SATA HDD connected,https://hsdes.intel.com/appstore/article/#/14013156767,Yielding,None,None
+14013161594,"Verify OS does not have Hibernation option after disabling ""Enable Hibernation"" in bios",https://hsdes.intel.com/appstore/article/#/14013161594,Yielding,None,None
+14013160655,Verify SUT support Debug Trace log capture - Route traces to System Memory,https://hsdes.intel.com/appstore/article/#/14013160655,Yielding,None,None
+14013157008,Verify Power Limit 3 via PL3_CONTROL MSR,https://hsdes.intel.com/appstore/article/#/14013157008,Yielding,None,None
+14013158557,Verify System stays in S5 when power button is pressed while in Bios page (Negative Test ),https://hsdes.intel.com/appstore/article/#/14013158557,Yielding,None,None
+14013156787,Verify CPU Frequency throttle when core temperature exceeds passive trip point with DPTF Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013156787,Yielding,None,None
+14013177306,Verify ASPM and L1 substate Values in OS with NVMe remapping,https://hsdes.intel.com/appstore/article/#/14013177306,Yielding,None,None
+14013166895,Verify Overclocking capabilities for Atom core can be read via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166895,Yielding,None,None
+14013156856,Verify system support of Monitor/MWait extensions with Enabled / Disabled,https://hsdes.intel.com/appstore/article/#/14013156856,Yielding,None,None
+14013168780,Verify Single channel memory DDR4_SODIMM 64 GB is functioning,https://hsdes.intel.com/appstore/article/#/14013168780,Yielding,None,None
+14013162522,"Verify ""Wake system from S5 "" bios option functionality",https://hsdes.intel.com/appstore/article/#/14013162522,Yielding,None,None
+14013166024,Check that CFG lock has enabled/disabled options in BIOS,https://hsdes.intel.com/appstore/article/#/14013166024,Yielding,None,None
+14013156724,Verify Storage Redirection session cannot be established through Wireless LAN With Storage Redirection disabled under MEBX in BIOS,https://hsdes.intel.com/appstore/article/#/14013156724,Yielding,None,None
+14013166827,Verify Per core hyper threading support by disabling HT on six cores,https://hsdes.intel.com/appstore/article/#/14013166827,Yielding,None,None
+14013177873,Verify hysteresis value is programmed correctly by BIOS,https://hsdes.intel.com/appstore/article/#/14013177873,Yielding,None,None
+14013166363,Validate system stability post fast boot enablement for an overclocking enabled system,https://hsdes.intel.com/appstore/article/#/14013166363,Yielding,None,None
+14013157109,Dynamic Thermal Platform framework should allow upto 6 OEM variables to be defined in order to support Power Boss policy,https://hsdes.intel.com/appstore/article/#/14013157109,Yielding,None,None
+14013157256,Validate Active trip points for DPTF CPU participant,https://hsdes.intel.com/appstore/article/#/14013157256,Yielding,None,None
+16016927619,Verify GEN 1 speed of PCIE connected to X1 or X4 slot,https://hsdes.intel.com/appstore/article/#/16016927619,Yielding,None,None
+14013178404,Verify HID driver event filter driver from BIOS menu for mobile platforms,https://hsdes.intel.com/appstore/article/#/14013178404,Yielding,None,None
+14013166062,Verify Memory can be clocked below default memory frequency for Desktop form factor,https://hsdes.intel.com/appstore/article/#/14013166062,Yielding,None,None
+14013166019,Verify and validate core ratio with Core voltage in overridden mode,https://hsdes.intel.com/appstore/article/#/14013166019,Yielding,None,None
+14013158501,Verify system stability on performing 3 cycles of Warm and Cold boot cycles,https://hsdes.intel.com/appstore/article/#/14013158501,Yielding,None,None
+14013166821,Verify Per core hyper threading support by disabling HT on four cores,https://hsdes.intel.com/appstore/article/#/14013166821,Yielding,None,None
+14013168404,Verify  SUT boot with DDR4_SODIMM_2DPC_memory configuration at 3200 MHz,https://hsdes.intel.com/appstore/article/#/14013168404,Yielding,None,None
+14013177040,Verify RST driver installation and uninstallation in OS with AHCI/RAID mode,https://hsdes.intel.com/appstore/article/#/14013177040,Yielding,None,None
+14013178862,Verify Sx cycles before and after remapping of NVMe device Through VMD,https://hsdes.intel.com/appstore/article/#/14013178862,Yielding,None,None
+14013166655,Verify Bios has option to enable/disable Thermal Velocity boost (TVB) Using OCMB cmd 0X24 /0X25,https://hsdes.intel.com/appstore/article/#/14013166655,Yielding,None,None
+14013157287,Verify Intel Turbo Boost Max Technology 3.0 functionality,https://hsdes.intel.com/appstore/article/#/14013157287,Yielding,None,None
+14013159382,"Verify Type-C Concurrent support of VGA Display and USB3 before/after Sx (S3/S0i3,S4,S5) and Reboot Cycles",https://hsdes.intel.com/appstore/article/#/14013159382,Yielding,None,None
+14013176461,Verify availability of all HDD/SSDs populated on the SATA ports of board in BIOS/EFI and OS,https://hsdes.intel.com/appstore/article/#/14013176461,Yielding,None,None
+14013167579,Verify responsiveness metrics are attained by system flashed with  Pre_Prod IFWI + External BIOS and with IOMMU enabled with exception list,https://hsdes.intel.com/appstore/article/#/14013167579,Yielding,None,None
+14013167048,Verify whether GOP Init completes in less than threshold limit with Corporate IFWI,https://hsdes.intel.com/appstore/article/#/14013167048,Yielding,None,None
+14013156846,Verify package C-states support with system in AC mode,https://hsdes.intel.com/appstore/article/#/14013156846,Yielding,None,None
+14013166714,Verify deprecated features does not come up as part of Overclocking user interface as part of Setup,https://hsdes.intel.com/appstore/article/#/14013166714,Yielding,None,None
+14013166359,Verify Voltage / frequency override values for IA Core domain via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166359,Yielding,None,None
+14013156791,Verify CPU Frequency throttle when core temperature exceeds passive trip point with DTS SMM enabled and DPTF Enabled in BIOS after Sx( S4/S5),https://hsdes.intel.com/appstore/article/#/14013156791,Yielding,None,None
+14013160427,BIOS Hotkey combination (CTRL-ALT-F1) should not display by the BIOS during KVM/SoL session and while Intel  AMT is disabled,https://hsdes.intel.com/appstore/article/#/14013160427,Yielding,None,None
+16013283955,"Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with external graphics card on X16 PEG slot, post S4, S5, warm/cold reset cycles",https://hsdes.intel.com/appstore/article/#/16013283955,Yielding,None,None
+14013158908,"Verify Type-C multi port functionality - Provider, HDMI and USB Camera after Connected MOS state",https://hsdes.intel.com/appstore/article/#/14013158908,Yielding,None,None
+14013166451,Validate Voltage PLL Trim Controls for overclocking domains,https://hsdes.intel.com/appstore/article/#/14013166451,Yielding,None,None
+14013172897,Verify SUT shutdown (S5) when the Power Button is held in BIOS Setup with only   AC  plugged-in,https://hsdes.intel.com/appstore/article/#/14013172897,Yielding,None,None
+16014919330,Verify BIOS reference code does not programs the PS_ON timers,https://hsdes.intel.com/appstore/article/#/16014919330,Yielding,None,None
+14013177201,Bios should set VMCONFIG : DID_ASSIGN VMD device ID field,https://hsdes.intel.com/appstore/article/#/14013177201,Yielding,None,None
+14013157693,Verify S0ix address passed to OS as part of LPIT table is programmed correctly,https://hsdes.intel.com/appstore/article/#/14013157693,Yielding,None,None
+14013163784,Verify BIOS provides information related to LPM registers from iPC1 interface via buffers,https://hsdes.intel.com/appstore/article/#/14013163784,Yielding,None,None
+14013165750,[OCR] Verify OCR_WinRE Boot flow intact Post Sx State from AMT Remote session over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165750,Yielding,None,None
+14013160685,Verify Discrete Bluetooth device function test on OS pre and post Connected Standby (CMS) cycle,https://hsdes.intel.com/appstore/article/#/14013160685,Yielding,None,None
+14013177037,Verify RST driver version in OS device manager with AHCI mode,https://hsdes.intel.com/appstore/article/#/14013177037,Yielding,None,None
+14013168785,Verify MRC Safe Mode Option,https://hsdes.intel.com/appstore/article/#/14013168785,Yielding,None,None
+14013173337,[FSP][GCC]: Bios should not send End of POST (EOP) MEI message during ME Recovery/Error/Disabled state,https://hsdes.intel.com/appstore/article/#/14013173337,Yielding,None,None
+16015008992,Verify NPK IP IMR  allocation when PDC is disabled,https://hsdes.intel.com/appstore/article/#/16015008992,Yielding,None,None
+14013160464,"Verify system wakes from Hibernate state with ""Low Power S0 Idle Capability"" enabled",https://hsdes.intel.com/appstore/article/#/14013160464,Yielding,None,None
+14013166223,Verify Memory Voltage is changed in BIOS and gets reflected correctly at OS level,https://hsdes.intel.com/appstore/article/#/14013166223,Yielding,None,None
+14013166219,Verify user should be able to read and write Voltage / frequency override values for System Agent domain,https://hsdes.intel.com/appstore/article/#/14013166219,Yielding,None,None
+14013156880,Verify Bios gives an option to change CPU Custom critical trip point below TjMax and to set TCC Activation offSet,https://hsdes.intel.com/appstore/article/#/14013156880,Yielding,None,None
+14013178351,[FSP][GCC]Verify Component info with each FSP Components,https://hsdes.intel.com/appstore/article/#/14013178351,Yielding,None,None
+14013166935,System should overwrite fast boot when overclocking feature is enabled,https://hsdes.intel.com/appstore/article/#/14013166935,Yielding,None,None
+16015008599,Verify Scan Matrix keyboard (PS2 Keyboard/Mouse) option disabled by default form BIOS setup menu,https://hsdes.intel.com/appstore/article/#/16015008599,Yielding,None,None
+14013174084,Verify onboard graphics driver can be Installed/uninstalled without issue in single display mode for eDP,https://hsdes.intel.com/appstore/article/#/14013174084,Yielding,None,None
+14013166050,Verify CPU core voltage Bios option,https://hsdes.intel.com/appstore/article/#/14013166050,Yielding,None,None
+14013157672,Verify BIOS support for new Device PMAX,https://hsdes.intel.com/appstore/article/#/14013157672,Yielding,None,None
+14013178942,"Verify DMIC basic functionality test with Soundwire Codec, pre and post CMS cycles",https://hsdes.intel.com/appstore/article/#/14013178942,Yielding,None,None
+14013156976,Verify Package Power Limit 1 Time window,https://hsdes.intel.com/appstore/article/#/14013156976,Yielding,None,None
+14013179125,Verify system boots to OS with different command rate support values with NMode value set to 1,https://hsdes.intel.com/appstore/article/#/14013179125,Yielding,None,None
+14013165754,[OCR] Verify OCR_PBA boot flow intact Post Sx State from AMT Remote session over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165754,Yielding,None,None
+14013173171,Verify SUT enters to S5 state with legacy 4 & 10 seconds power button press functionality,https://hsdes.intel.com/appstore/article/#/14013173171,Yielding,None,None
+14013119746,Verify SUT can boot to a HDD and detected under IDE ATA/ATAPI controller with SATA mode set to AHCI,https://hsdes.intel.com/appstore/article/#/14013119746,Yielding,None,None
+14013156704,Verify BIOS shall display an option to Enable or Disable Remote Configuration under MEBx menu,https://hsdes.intel.com/appstore/article/#/14013156704,Yielding,None,None
+14013178383,Verify RAID0 with CPU Attached Storage Devices connected over x16 & x8 Gen5 slots and system stability after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013178383,Yielding,None,None
+14013166324,Verify Voltage regulator(VR) Topology can be read via Overclocking mailbox CMD 0X4,https://hsdes.intel.com/appstore/article/#/14013166324,Yielding,None,None
+14013168677,Verify UDIMM DDR5 3733Mhz-16GB memory module is functioning,https://hsdes.intel.com/appstore/article/#/14013168677,Yielding,None,None
+16014869753,[Negative]Verify Re-arm command  after disabling Re-arm BIOS knob,https://hsdes.intel.com/appstore/article/#/16014869753,Yielding,None,None
+14013179413,Verify discrete Wi-Fi wake event from S0i3,https://hsdes.intel.com/appstore/article/#/14013179413,Yielding,None,None
+14013156799,Verify Power Limit 3 Lock status via PL3_CONTROL MSR based on Value set in BIOS setup option,https://hsdes.intel.com/appstore/article/#/14013156799,Yielding,None,None
+14013157343,Verify Bios gives an option to configure energy efficient P-states and energy efficient turbo,https://hsdes.intel.com/appstore/article/#/14013157343,Yielding,None,None
+14013158406,Validate system wakes up from Sx states via USB devices,https://hsdes.intel.com/appstore/article/#/14013158406,Yielding,None,None
+14013158905,"Verify Type-C multi port functionality - Provider, HDMI and USB Camera after Sx and reboot cycle",https://hsdes.intel.com/appstore/article/#/14013158905,Yielding,None,None
+14013179861,Verify Package C-states support,https://hsdes.intel.com/appstore/article/#/14013179861,Yielding,None,None
+14013163326,Validate USB4 Hub Device functionality during  DeepSx Cycle,https://hsdes.intel.com/appstore/article/#/14013163326,Yielding,None,None
+14013180208,ME FW shall invoke the Intel MEBx prior to sending the End of POST MEI message on Corporate SKU IFWI,https://hsdes.intel.com/appstore/article/#/14013180208,Yielding,None,None
+14013115188,Verify SATA device detection in Bios and respective default values in SATA and RST configuration menu,https://hsdes.intel.com/appstore/article/#/14013115188,Yielding,None,None
+14013175263,"Verify Hybrid Gfx resume over PCIe x16 PEG slot, pre and post warm/cold reset cycles",https://hsdes.intel.com/appstore/article/#/14013175263,Yielding,None,None
+14013166678,Verify Bios sets CS3_OVR_EN bit as part of Clock Source Shutdown Control Register 2 (CS_SD_CTL2) for platforms supporting Overclocking PLL,https://hsdes.intel.com/appstore/article/#/14013166678,Yielding,None,None
+14013166608,Verify Memory ratio and Memory reference clock reverts back to default values on changing Memory profile from XMP profiles to default profile,https://hsdes.intel.com/appstore/article/#/14013166608,Yielding,None,None
+14013166156,Verify Memory profile and timings does not get changed post system performing power cycles,https://hsdes.intel.com/appstore/article/#/14013166156,Yielding,None,None
+14013158903,"Verify Type-C multi port functionality - Provider, HDMI and USB Camera",https://hsdes.intel.com/appstore/article/#/14013158903,Yielding,None,None
+14013163970,Verify BIOS setup options for RFI Spread Spectrum control (SSC) range,https://hsdes.intel.com/appstore/article/#/14013163970,Yielding,None,None
+14013157684,Verify Bios sends IPC1 command to check for errors in the IPC1 interface during CPU strap overrides,https://hsdes.intel.com/appstore/article/#/14013157684,Yielding,None,None
+14013166751,"Verify Bios gives user ""TjMax offset"" option to bypass the default temperature at which the Processor begins to throttle on an Overclocking enabled system",https://hsdes.intel.com/appstore/article/#/14013166751,Yielding,None,None
+16015155992,"Verify Device ID""s should not enemurate when disabled",https://hsdes.intel.com/appstore/article/#/16015155992,Yielding,None,None
+16014848255,Negative: Verify GT PSMI Support in BIOS,https://hsdes.intel.com/appstore/article/#/16014848255,Yielding,None,None
+14013178417,Verify that the PCH SATA Controller is set and operating in RAID Mode Through VMD,https://hsdes.intel.com/appstore/article/#/14013178417,Yielding,None,None
+14013157290,Validate methods required by Fan device participant are enumerated as part of ACPI DPTF table,https://hsdes.intel.com/appstore/article/#/14013157290,Yielding,None,None
+14013157216,Verify DPTF Processor participant does not get enumerated in device manager when it is disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013157216,Yielding,None,None
+14013176463,Verify that BIOS detects SATA drives attached to Add on card in different ports,https://hsdes.intel.com/appstore/article/#/14013176463,Yielding,None,None
+14013180445,"Verify ""Opt-in Configurable from IT"" option can be successfully enabled/disabled in MEBX",https://hsdes.intel.com/appstore/article/#/14013180445,Yielding,None,None
+14013160845,Verify RTD3 support for NVME SSD,https://hsdes.intel.com/appstore/article/#/14013160845,Yielding,None,None
+14013167072,BIOS should skip Optional ROM code during fast boot if device associated with Optional ROM is not present,https://hsdes.intel.com/appstore/article/#/14013167072,Yielding,None,None
+14013178873,Verify System boot and Sx cycle with SATA Disk as boot source and Remapped PCIe Pass Through Device as Data Disk through VMD,https://hsdes.intel.com/appstore/article/#/14013178873,Yielding,None,None
+14013166462,Verify Platform Voltage override bios options for all FIVR,https://hsdes.intel.com/appstore/article/#/14013166462,Yielding,None,None
+14013162045,Verify Critical/Active/Passive trip point with DTS SMM enabled and DTT disabled in BIOS after S3,https://hsdes.intel.com/appstore/article/#/14013162045,Yielding,None,None
+14013164788,[OCR] Verify availability of OCR Boot options for One Click Recovery while AMT is globally disabled,https://hsdes.intel.com/appstore/article/#/14013164788,Yielding,None,None
+14013159323,Verify S3 and S4 Cycle with Keyboard and mouse connected to USB external HUB in AC mode,https://hsdes.intel.com/appstore/article/#/14013159323,Yielding,None,None
+14013158792,[TBT] Verify TBT-External Graphics functionality with Discrete graphics after Sx and reboot cycles,https://hsdes.intel.com/appstore/article/#/14013158792,Yielding,None,None
+14013156734,Verify _DSD method for D3 with NVMe connected to M.2 PCH slot  in AHCI mode,https://hsdes.intel.com/appstore/article/#/14013156734,Yielding,None,None
+14013158374,Verify XHCI OS Handoff after S0 to S5 and then to S0 Cycling,https://hsdes.intel.com/appstore/article/#/14013158374,Yielding,None,None
+14013175124,Verify 4K HDR Display Panel enumeration in OS over onboard HDMI and DP port,https://hsdes.intel.com/appstore/article/#/14013175124,Yielding,None,None
+14013166290,Verify BIOS support for AVX ratio offset option,https://hsdes.intel.com/appstore/article/#/14013166290,Yielding,None,None
+14013178411,Verify RST device manager menu for PCIe and Sata Storage device Through VMD,https://hsdes.intel.com/appstore/article/#/14013178411,Yielding,None,None
+14013166005,Verify Overclocking capabilities for CPU core can be read via Overclocking mailbox,https://hsdes.intel.com/appstore/article/#/14013166005,Yielding,None,None
+14013178763,Verify CPU attached storage detection in SATA RAID 10 config and after Sx cycles Through VMD,https://hsdes.intel.com/appstore/article/#/14013178763,Yielding,None,None
+16014902252,Negative: Verify USB-Audio offload when System in CMS,https://hsdes.intel.com/appstore/article/#/16014902252,Yielding,None,None
+22011834434,"Verify connection Swap during DeepS4 with all Type-C ports - USB3.2 Gen2, USB3.0 Hub and USB2.0",https://hsdes.intel.com/appstore/article/#/22011834434,Yielding,None,None
+14013166295,Verify BIOS signals pcode to include BCLK frequency in V/F curve calculation via OC mailbox command,https://hsdes.intel.com/appstore/article/#/14013166295,Yielding,None,None
+14013157753,"Verify default fused values for PL1,PL2,PL3 and PL4",https://hsdes.intel.com/appstore/article/#/14013157753,Yielding,None,None
+14013166379,Verify GT domain under Overclocking does not have Slice and Unslice option,https://hsdes.intel.com/appstore/article/#/14013166379,Yielding,None,None
+14013161600,"Verify ""Memory Reference Clock"" details via Overclocking Mailbox",https://hsdes.intel.com/appstore/article/#/14013161600,Yielding,None,None
+14013186567,Verify SUT ability to Start Storage Redirection Session over Wireless LAN post Sx cycle,https://hsdes.intel.com/appstore/article/#/14013186567,Yielding,None,None
+16015107481,Negative coverage to Verify Wi-Fi Access Points scan in BIOS,https://hsdes.intel.com/appstore/article/#/16015107481,Yielding,None,None
+14013166012,Verify system stability on performing hibernate cycling with Overclocking enabled,https://hsdes.intel.com/appstore/article/#/14013166012,Yielding,None,None
+14013176512,Verify that the PCH SATA Controller is set and operating in AHCI Mode,https://hsdes.intel.com/appstore/article/#/14013176512,Yielding,None,None
+14013164188,Verify if RFI Spread Spectrum control (SSC) option can be disabled from BIOS menu,https://hsdes.intel.com/appstore/article/#/14013164188,Yielding,None,None
+14013156801,Verify DPTF driver cannot be installed when DPTF option is disabled in Bios setup,https://hsdes.intel.com/appstore/article/#/14013156801,Yielding,None,None
+14013167486,Verify Cold Boot time is inline with responsiveness metrics when Pre-boot DMA protection enabled with a TBT storage device plugged in,https://hsdes.intel.com/appstore/article/#/14013167486,Yielding,None,None
+16015067899,Negative: Verify Audio Playback using 3.5mm-Jack-Headset over Soundwire Codec,https://hsdes.intel.com/appstore/article/#/16015067899,Yielding,None,None
+14013180276,Verify that MEBx shall display an option to Enable or Disable Remote Configuration,https://hsdes.intel.com/appstore/article/#/14013180276,Yielding,None,None
+14013166598,Verify MRC detects memory topology changes correctly,https://hsdes.intel.com/appstore/article/#/14013166598,Yielding,None,None
+14013157148,Verify CPU MMIO turbo values should not get cleared or changed post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013157148,Yielding,None,None
+14013163383,Validate USB4 Dock Device functionality during  DeepSx Cycle,https://hsdes.intel.com/appstore/article/#/14013163383,Yielding,None,None
+14013174153,Check the LED/Fan indication on the Hybrid Graphics (HG) card during boot and OS,https://hsdes.intel.com/appstore/article/#/14013174153,Yielding,None,None
+14013159687,Validate Discrete BT device for RTD3 support,https://hsdes.intel.com/appstore/article/#/14013159687,Yielding,None,None
+14013168995,Verify that MRC training  Gear 1 with Gear 2,https://hsdes.intel.com/appstore/article/#/14013168995,Yielding,None,None
+14013177728,Verify bios reference code defines PSOC and PSOS methods to allow PS_ON enablement / disablement,https://hsdes.intel.com/appstore/article/#/14013177728,Yielding,None,None
+14013158965,Verify RTD3 residency for SATA SSD during CS and Idle states,https://hsdes.intel.com/appstore/article/#/14013158965,Yielding,None,None
+16015096119,Negative: Verify Intel graphics enumeration with external graphic card on x16 PEG slot,https://hsdes.intel.com/appstore/article/#/16015096119,Yielding,None,None
+14013180617,Verify AMT Configuration in BIOS is not configurable when KVM session is active,https://hsdes.intel.com/appstore/article/#/14013180617,Yielding,None,None
+14013162766,Verify system stability on performing Sleep cycle on freshly preloaded OS post flashing Performance BIOS,https://hsdes.intel.com/appstore/article/#/14013162766,Yielding,None,None
+14013168584,Verify Memory-DDR4_SODIMM_3200MHz_2_RANK_1DPC_CH1_8GB is functioning,https://hsdes.intel.com/appstore/article/#/14013168584,Yielding,None,None
+14013179900,Verify Headphone plug/unplug Event wake system from CMS,https://hsdes.intel.com/appstore/article/#/14013179900,Yielding,None,None
+14013159568,Verify Type-C Concurrent support of HDMI Display and USB3 before/after Deep Sx and Reboot Cycles,https://hsdes.intel.com/appstore/article/#/14013159568,Yielding,None,None
+16012890188,Verify Bios bypass CPU DLVR when OC enabled,https://hsdes.intel.com/appstore/article/#/16012890188,Yielding,None,None
+14013176963,Verify LPSS SPI need to be on PCI mode by default,https://hsdes.intel.com/appstore/article/#/14013176963,Yielding,None,None
+14013162048,Verify Critical/Active/Passive trip point with DTS SMM enabled and DTT disabled in BIOS after S0i3/CMS,https://hsdes.intel.com/appstore/article/#/14013162048,Yielding,None,None
+14013161527,Verify Sensor Device Temperature value in BIOS and OS,https://hsdes.intel.com/appstore/article/#/14013161527,Yielding,None,None
+14013156719,Verify that the Active Management Technology (AMT) reflects correct state of Enabled or Disabled depending upon MEBX in BIOS,https://hsdes.intel.com/appstore/article/#/14013156719,Yielding,None,None
+14013166240,Verify that BIOS has an option to enable/disable CPU Flex ratio,https://hsdes.intel.com/appstore/article/#/14013166240,Yielding,None,None
+14013158372,Verify XHCI OS Handoff after S4 Cycling,https://hsdes.intel.com/appstore/article/#/14013158372,Yielding,None,None
+14013178908,Validate Foxville LAN device for RTD3,https://hsdes.intel.com/appstore/article/#/14013178908,Yielding,None,None
+14013176945,Verify SATA Thermal Throttling support for each port with SATA HDD,https://hsdes.intel.com/appstore/article/#/14013176945,Yielding,None,None
+14013178938,"Verify DMIC basic functionality test with Soundwire Codec, pre and post S3 cycles",https://hsdes.intel.com/appstore/article/#/14013178938,Yielding,None,None
+16014919863,[Negative] Verify Platform supports SoC crash by disabling crash log BIOS option,https://hsdes.intel.com/appstore/article/#/16014919863,Yielding,None,None
+14013157130,LPM Policy should not be present under DPTF policies in BIOS,https://hsdes.intel.com/appstore/article/#/14013157130,Yielding,None,None
+14013157743,Verify Delay between PME_TO_ACK message and PERST# Assertion,https://hsdes.intel.com/appstore/article/#/14013157743,Yielding,None,None
+14013174173,Verify Hybrid Graphics (HG) enumeration at OS over PCIe x16 slot,https://hsdes.intel.com/appstore/article/#/14013174173,Yielding,None,None
+16015224187,Verify SA GV is disabled in TDP SKUs,https://hsdes.intel.com/appstore/article/#/16015224187,Yielding,None,None
+14013175753,Verify staggered Spin up feature in SATA configuration after S3 and S4 cycle,https://hsdes.intel.com/appstore/article/#/14013175753,Yielding,None,None
+16013284729,Verify discrete graphics (DGfx) performance evaluation with/without PCIE Resizable BAR support on X16 PEG slot,https://hsdes.intel.com/appstore/article/#/16013284729,Yielding,None,None
+14013119085,Verify yellow bang checks on waking system from S5 for in both AC and DC mode,https://hsdes.intel.com/appstore/article/#/14013119085,Yielding,None,None
+14013164649,[OCR] Verify OCR_PBA boot flow intact after G3 State from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164649,Yielding,None,None
+14013167540,Verify responsiveness metrics are attained with Pre-boot DMA protection Disabled,https://hsdes.intel.com/appstore/article/#/14013167540,Yielding,None,None
+14013157276,Validate ACPI methods required by DPTF to notify BIOS regarding the current DPTF status,https://hsdes.intel.com/appstore/article/#/14013157276,Yielding,None,None
+14013166823,Verify Per core hyper threading support by disabling HT on five cores,https://hsdes.intel.com/appstore/article/#/14013166823,Yielding,None,None
+14013177783,Verify System achieve SLP_S0 residency during CS with ASPM and PTM enabled,https://hsdes.intel.com/appstore/article/#/14013177783,Yielding,None,None
+14013119389,"Verifying Brightness levels for eDP,HDMI,DP displays in Triclone mode",https://hsdes.intel.com/appstore/article/#/14013119389,Yielding,None,None
+14013176353,Verify USB2 ports enabled by default in BIOS and its Functionality in EFI/Windows OS (Only for DT/Halo/AIO),https://hsdes.intel.com/appstore/article/#/14013176353,Yielding,None,None
+14013157476,Verify IPCS method gets exposed as part of ACPI dump,https://hsdes.intel.com/appstore/article/#/14013157476,Yielding,None,None
+14013156759,Verify Sx cycles with SATA HDD connected when Windbg & Hyper V enabled.,https://hsdes.intel.com/appstore/article/#/14013156759,Yielding,None,None
+14013165760,[OCR] Verify OCR_WinRE flow intact from AMT Remote session over Wireless LAN  post generating BSOD,https://hsdes.intel.com/appstore/article/#/14013165760,Yielding,None,None
+14013162786,Verify system stability on performing Hibernate cycle on freshly preloaded OS post flashing Debug BIOS,https://hsdes.intel.com/appstore/article/#/14013162786,Yielding,None,None
+14013179698,Verify Intel(R) SpeedStep(TM) support and P-state cycling,https://hsdes.intel.com/appstore/article/#/14013179698,Yielding,None,None
+14013173986,Verify Subsystem IDs for native devices in CPU-SA,https://hsdes.intel.com/appstore/article/#/14013173986,Yielding,None,None
+14013161905,"Verify platform ""Energy performance "" using MSR 1B0h with Different OS power plan (High performance, Power Saver and Balanced [Active])",https://hsdes.intel.com/appstore/article/#/14013161905,Yielding,None,None
+14013175762,Verify that all SATA (direct connect) ports are functional without issue,https://hsdes.intel.com/appstore/article/#/14013175762,Yielding,None,None
+14013158443,Verify RTD3/ACPI D3cold Support can be enabled/disabled from Setup and SUT remains intact across Sx cycles,https://hsdes.intel.com/appstore/article/#/14013158443,Yielding,None,None
+14013157715,Verify Bios provide an option to update Vsys Critical and change corresponding settings,https://hsdes.intel.com/appstore/article/#/14013157715,Yielding,None,None
+14013174810,Verify simultaneous 4 display (DP/HDMI2.0/Type-C) functionality in OS Post S5 cycle,https://hsdes.intel.com/appstore/article/#/14013174810,Yielding,None,None
+14013176200,Verify BIOS provides an option to enable/disable RTD3 per SATA port and SATA enters Devslp,https://hsdes.intel.com/appstore/article/#/14013176200,Yielding,None,None
+14013162087,"Verify Bios set up option to enable/disable PMC Debug Mode Lock (PWRMBASE + offset 1818 , bit 27 )",https://hsdes.intel.com/appstore/article/#/14013162087,Yielding,None,None
+14013173943,Verify Onboard eDP display on post S3 and S4 cycle,https://hsdes.intel.com/appstore/article/#/14013173943,Yielding,None,None
+14013174639,Verify 8K Display Panel enumeration in Device Manager with S3 cycles,https://hsdes.intel.com/appstore/article/#/14013174639,Yielding,None,None
+14013160089,Verify Discrete Wi-Fi Functionality with CNVi option Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013160089,Yielding,None,None
+14013180249,Verify Shared/Dedicated FQDN mode setting in MEBx,https://hsdes.intel.com/appstore/article/#/14013180249,Yielding,None,None
+14013185471,Verify Discrete Wi-Fi functionality test pre and post Disconnected Modern Standby (DMS),https://hsdes.intel.com/appstore/article/#/14013185471,Yielding,None,None
+14013166221,Verify user should be able to read and write Voltage / frequency override values for GT domain,https://hsdes.intel.com/appstore/article/#/14013166221,Yielding,None,None
+14013177021,Verify remapped NVME RTD3 support with default config in DC Mode,https://hsdes.intel.com/appstore/article/#/14013177021,Yielding,None,None
+14013186958,Verfiy that the Active Management Technology (AMT) reflects correct state of Enabled or Disabled depending upon MEBX,https://hsdes.intel.com/appstore/article/#/14013186958,Yielding,None,None
+14013157742,Verify BIOS support the Dynamic Periodicity Alteration (DPA) tuning feature when Acoustic Noise Mitigation is enabled,https://hsdes.intel.com/appstore/article/#/14013157742,Yielding,None,None
+14013161593,"Verify OS does not have Sleep (S3) option after disabling ""ACPI S3 Support"" in bios",https://hsdes.intel.com/appstore/article/#/14013161593,Yielding,None,None
+14013157009,Verify Bios has an option to change the PL3 Time window Value,https://hsdes.intel.com/appstore/article/#/14013157009,Yielding,None,None

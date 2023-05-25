@@ -1,0 +1,4 @@
+﻿id,title,configuration,test_cycle
+1309161753,Firmware Nestor TCD 01_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.A0 PO Start.CLV.NestorFirmware05,bios.alderlake.A0 TI.CLV.NestorFirmware04"
+1309161754,Firmware Nestor TCD 02_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.A0 PO Start.CLV.NestorFirmware05,bios.alderlake.A0 TI.CLV.NestorFirmware04"
+1309161759,Firmware Nestor TCD 03_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.A0 PO Start.CLV.NestorFirmware05,bios.alderlake.A0 TI.CLV.NestorFirmware04"

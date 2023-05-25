@@ -1,0 +1,233 @@
+,TCD_ID,DESCRIPTION,URL,STATUS,Test_Complexity,Test_Coverage_Level
+0,14013173287,[FSP] Verify FSP BIOS Boot Flow,https://hsdes.intel.com/appstore/article/#/14013173287,,Low,L1 DailyCI-Basic-Sanity
+1,14013173289,[FSP] Verify FSP BIOS Boot Flow,https://hsdes.intel.com/appstore/article/#/14013173289,,Low,L1 DailyCI-Basic-Sanity
+2,14013157616,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big and Small core is Enabled and Hyper-Threading is  Disabled,https://hsdes.intel.com/appstore/article/#/14013157616,,Low,L1 DailyCI-Basic-Sanity
+3,14013157608,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big and Small Cores are enabled,https://hsdes.intel.com/appstore/article/#/14013157608,,Low,L1 DailyCI-Basic-Sanity
+4,14013157613,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big is Disabled/1 and Small Cores is Enabled,https://hsdes.intel.com/appstore/article/#/14013157613,,Low,L1 DailyCI-Basic-Sanity
+5,14013157611,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big is enabled and Small Cores is disabled,https://hsdes.intel.com/appstore/article/#/14013157611,,Low,L1 DailyCI-Basic-Sanity
+6,14013157614,"[Hybrid]Verify core and thread in  BIOS/EFI , when core 1 and All core is enabled",https://hsdes.intel.com/appstore/article/#/14013157614,,Low,L1 DailyCI-Basic-Sanity
+7,14013157594,[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Dual Big core + Octa Small core] SKUs with Small cores  Enabled(2C+8A),https://hsdes.intel.com/appstore/article/#/14013157594,,Low,L1 DailyCI-Basic-Sanity
+8,14013157601,[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Dual Big Core+Octa Small cores] SKUs with Small cores and Big Core is enabled (2C+8A),https://hsdes.intel.com/appstore/article/#/14013157601,,Low,L1 DailyCI-Basic-Sanity
+9,14013184477,[TBT] Verify Thunderbolt Enumeration in device manager,https://hsdes.intel.com/appstore/article/#/14013184477,,Medium,L1 DailyCI-Basic-Sanity
+10,14013176711,"BIOS should be able to change, append and remove devices from the boot order",https://hsdes.intel.com/appstore/article/#/14013176711,,Low,L1 DailyCI-Basic-Sanity
+11,14013179683,Capability of charging and discharging in OS,https://hsdes.intel.com/appstore/article/#/14013179683,,Low,L1 DailyCI-Basic-Sanity
+12,14013184829,CPU Patch (MCU) load check and version check,https://hsdes.intel.com/appstore/article/#/14013184829,,Low,L1 DailyCI-Basic-Sanity
+13,14013160109,ME FW response and version check in EFI Shell,https://hsdes.intel.com/appstore/article/#/14013160109,,Low,L0 Check-in-CI
+14,14013184642,Validate Basic boot check after flashing IFWI to SPI,https://hsdes.intel.com/appstore/article/#/14013184642,,Low,L0 Check-in-CI
+15,14013185814,"Validate hot-plug USB keyboard functionality check in OS over USB Type-A port pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185814,,Medium,L1 DailyCI-Basic-Sanity
+16,14013185086,Validate POST Code Progress for IA during Booting on 7 seg Display.,https://hsdes.intel.com/appstore/article/#/14013185086,,Low,L1 DailyCI-Basic-Sanity
+17,14013158547,Validate system residency for SLP_S0 in CMS (AC and DC mode),https://hsdes.intel.com/appstore/article/#/14013158547,,Medium,L1 DailyCI-Basic-Sanity
+18,14013185826,"Validate USB 3.0 devices hot-plug functionality over USB3.0 Type-A port  pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185826,,Medium,L1 DailyCI-Basic-Sanity
+19,14013174623,Verify 8K Display Panel enumeration in Device Manager,https://hsdes.intel.com/appstore/article/#/14013174623,,Low,L1 DailyCI-Basic-Sanity
+20,14013177940,Verify Audio DRM playback over 3.5mm-Jack-Headsets (via HD-A),https://hsdes.intel.com/appstore/article/#/14013177940,,Low,L1 DailyCI-Basic-Sanity
+21,14013179255,"Verify basic boot check with different IFWI (Release, Performance and Debug)",https://hsdes.intel.com/appstore/article/#/14013179255,,Low,L1 DailyCI-Basic-Sanity
+22,14013180508,"Verify BIOS shall display ME,BIOS,KSC version in Bios setup page",https://hsdes.intel.com/appstore/article/#/14013180508,,Low,L1 DailyCI-Basic-Sanity
+23,14013182569,Verify BKC drivers installation on SUT,https://hsdes.intel.com/appstore/article/#/14013182569,,Medium,L0 Check-in-CI
+24,14013115489,"Verify Board ID, FW, BIOS, ME and IGFX GOP details on BIOS Platform Information Menu are accurate",https://hsdes.intel.com/appstore/article/#/14013115489,,Low,L1 DailyCI-Basic-Sanity
+25,14013185678,Verify CNVi enumeration in BIOS and EFI Shell with respect to CNVi option enabled/disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013185678,,Low,L1 DailyCI-Basic-Sanity
+26,14013179118,"Verify CNVi WLAN Enumeration in OS pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179118,,Medium,L1 DailyCI-Basic-Sanity
+27,14013185689,"Verify Coexistence Support of CNVi Wi-Fi and Bluetooth functionality in OS after S3, S4, S5, Warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185689,,Low,L1 DailyCI-Basic-Sanity
+28,14013161312,Verify Connected MoS entry/exit using power button/Timer option,https://hsdes.intel.com/appstore/article/#/14013161312,,Low,L1 DailyCI-Basic-Sanity
+29,14013156881,Verify CPU frequency throttles when core temperature exceeds passive trip point with DTS SMM enabled and DTT disabled,https://hsdes.intel.com/appstore/article/#/14013156881,,Low,L1 DailyCI-Basic-Sanity
+30,14013160085,Verify detection and enumeration of 3.5mm Jack Wired headphones/headset,https://hsdes.intel.com/appstore/article/#/14013160085,,Low,L1 DailyCI-Basic-Sanity
+31,14013175465,"Verify display in eDP panel in BIOS Setup ,EFI and OS",https://hsdes.intel.com/appstore/article/#/14013175465,,Low,L1 DailyCI-Basic-Sanity
+32,14013175473,"Verify display in HDMI/mini HDMI panel in BIOS Setup, EFI and OS",https://hsdes.intel.com/appstore/article/#/14013175473,,Low,L1 DailyCI-Basic-Sanity
+33,14013175469,Verify display in MIPI panel in BIOS Setup and EFI,https://hsdes.intel.com/appstore/article/#/14013175469,,Low,L1 DailyCI-Basic-Sanity
+34,14013158399,Verify DP display & USB Keyboard functionality over USB Type-C port during Pre and Post boot,https://hsdes.intel.com/appstore/article/#/14013158399,,Medium,L1 DailyCI-Basic-Sanity
+35,14013179108,"Verify DP/mini DP panel display in BIOS Setup, EFI and OS",https://hsdes.intel.com/appstore/article/#/14013179108,,Low,L1 DailyCI-Basic-Sanity
+36,14013185345,Verify Enumeration Camera Flash device in OS pre and post CMS/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013185345,,Low,L1 DailyCI-Basic-Sanity
+37,14013185861,"Verify enumeration of TouchPad in device manager pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185861,,Low,L1 DailyCI-Basic-Sanity
+38,14013184723,Verify GPS/GNSS functionality check,https://hsdes.intel.com/appstore/article/#/14013184723,,Low,L0 Check-in-CI
+39,14013176453,Verify HDD serial number display at Ready To Boot event,https://hsdes.intel.com/appstore/article/#/14013176453,,Low,L1 DailyCI-Basic-Sanity
+40,14013117289,Verify if BIOS provides option to enable/disable ISH and corresponding sensors are reflected in OS,https://hsdes.intel.com/appstore/article/#/14013117289,,Low,L1 DailyCI-Basic-Sanity
+41,14013161609,Verify if system boot with MAF configuration,https://hsdes.intel.com/appstore/article/#/14013161609,,Low,L1 DailyCI-Basic-Sanity
+42,14013160106,Verify Installation and Uninstallation of ISH driver,https://hsdes.intel.com/appstore/article/#/14013160106,,Low,L1 DailyCI-Basic-Sanity
+43,14013172859,Verify Lid Switch open/close functionality at S3 state - test,https://hsdes.intel.com/appstore/article/#/14013172859,,Low,L1 DailyCI-Basic-Sanity
+44,14013182576,Verify OS installation on SUT,https://hsdes.intel.com/appstore/article/#/14013182576,,Low,L0 Check-in-CI
+45,14013174020,Verify PAVP BIOS option,https://hsdes.intel.com/appstore/article/#/14013174020,,Low,L1 DailyCI-Basic-Sanity
+46,14013175903,Verify plug & unplug USB hub over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013175903,,Low,L1 DailyCI-Basic-Sanity
+47,14013176969,Verify setting Detect timeout value in BIOS and ensure no halt message in debug log with device connected,https://hsdes.intel.com/appstore/article/#/14013176969,,High,L1 DailyCI-Basic-Sanity
+48,14013176972,Verify setting Detect timeout value in BIOS and respective system halt with device not connected,https://hsdes.intel.com/appstore/article/#/14013176972,,Medium,L1 DailyCI-Basic-Sanity
+49,14013165299,Verify SLPS_S0 assertion before and after warm reboot cycle,https://hsdes.intel.com/appstore/article/#/14013165299,,Low,L1 DailyCI-Basic-Sanity
+50,14013160932,Verify SoC crash dump and crash logging,https://hsdes.intel.com/appstore/article/#/14013160932,,Medium,L1 DailyCI-Basic-Sanity
+51,14013182314,Verify SUT boot from USB2.0 device,https://hsdes.intel.com/appstore/article/#/14013182314,,Low,L1 DailyCI-Basic-Sanity
+52,14013160880,"Verify SUT wake from S3, S4 using PCIE LAN devices (WOL)",https://hsdes.intel.com/appstore/article/#/14013160880,,Low,L1 DailyCI-Basic-Sanity
+53,14013179223,Verify System boot to OS/BIOS/EDK from diffrent reset flow,https://hsdes.intel.com/appstore/article/#/14013179223,,Low,L1 DailyCI-Basic-Sanity
+54,14013115389,Verify system stability after S4 and S5 cycles via power button,https://hsdes.intel.com/appstore/article/#/14013115389,,Low,L1 DailyCI-Basic-Sanity
+55,14013182423,Verify system stability on performing cold boot cycles,https://hsdes.intel.com/appstore/article/#/14013182423,,Low,L0 Check-in-CI
+56,14013121149,Verify system stability post Reboot(S5) cycling,https://hsdes.intel.com/appstore/article/#/14013121149,,Low,L1 DailyCI-Basic-Sanity
+57,14013159080,Verify TBT3 enumeration of storage and display devices on hot plug and connector reversibility,https://hsdes.intel.com/appstore/article/#/14013159080,,Medium,L1 DailyCI-Basic-Sanity
+58,14013120501,Verify that BIOS presents options to change the Boot Order,https://hsdes.intel.com/appstore/article/#/14013120501,,Low,L1 DailyCI-Basic-Sanity
+59,14013174036,Verify that platform supports for DP and Hot-plug of DP in dual display mode,https://hsdes.intel.com/appstore/article/#/14013174036,,Low,L1 DailyCI-Basic-Sanity
+60,14013169323,Verify that SUT boots to OS on DC mode,https://hsdes.intel.com/appstore/article/#/14013169323,,Low,L0 Check-in-CI
+61,14013182441,Verify that SUT boots to OS with Virtual battery & retain AC/DC mode after Sx/G3 cycle,https://hsdes.intel.com/appstore/article/#/14013182441,,Low,L0 Check-in-CI
+62,14013182365,Verify that system boots to EDK shell,https://hsdes.intel.com/appstore/article/#/14013182365,,Low,L0 Check-in-CI
+63,14013182336,Verify that the system boots to the BIOS setup menu,https://hsdes.intel.com/appstore/article/#/14013182336,,Low,L0 Check-in-CI
+64,14013121573,Verify the basic functionality of Virtual Battery switch,https://hsdes.intel.com/appstore/article/#/14013121573,,Low,L1 DailyCI-Basic-Sanity
+65,14013185860,"Verify Touch function test using TouchPad pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185860,,Low,L1 DailyCI-Basic-Sanity
+66,14013176015,Verify Trace hub initialization in debug BIOS,https://hsdes.intel.com/appstore/article/#/14013176015,,Medium,L1 DailyCI-Basic-Sanity
+67,14013172940,Verify Type-C Connector reversibility functionality for Display over Type-C port,https://hsdes.intel.com/appstore/article/#/14013172940,,Medium,L1 DailyCI-Basic-Sanity
+68,14013179047,Verify USB devices information are displayed correctly in BIOS Setup and F7 Boot menu,https://hsdes.intel.com/appstore/article/#/14013179047,,Low,L1 DailyCI-Basic-Sanity
+69,14013160910,"Verify USB devices information are displayed in F7 boot menu, connected over Type-C port",https://hsdes.intel.com/appstore/article/#/14013160910,,Low,L1 DailyCI-Basic-Sanity
+70,14013185815,"Verify USB mouse enumeration and functionality on hot-plug over USB Type-A port pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185815,,Medium,L1 DailyCI-Basic-Sanity
+71,14013177249,Verify VMD enable/disable bit in OS with respect to option set in BIOS,https://hsdes.intel.com/appstore/article/#/14013177249,,Medium,L1 DailyCI-Basic-Sanity
+72,14013177652,Verify VTd support for PCIe ports,https://hsdes.intel.com/appstore/article/#/14013177652,,Low,L1 DailyCI-Basic-Sanity
+73,14013185720,Verify whether SUT can power off from BIOS setup screen using PWR_BTN,https://hsdes.intel.com/appstore/article/#/14013185720,,Low,L1 DailyCI-Basic-Sanity
+74,22011834519,Verify whether SUT can power off from EDK shell using PWR_BTN,https://hsdes.intel.com/appstore/article/#/22011834519,,Low,L1 DailyCI-Basic-Sanity
+75,14013179092,"Verify WWAN functionality  pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179092,,High,L1 DailyCI-Basic-Sanity
+76,16012847938,"Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration pre and post S4, S5, Warm Reset, Cold Reset, G3 State",https://hsdes.intel.com/appstore/article/#/16012847938,,Medium,L2 Mandatory-BAT
+77,14013176644,"Verify ""CPU Trace Hub Enable Mode"" BIOS policy/option for NPK Support",https://hsdes.intel.com/appstore/article/#/14013176644,,Low,L2 Mandatory-BAT
+78,14013160438,Verify DCI Enable BIOS policy/options,https://hsdes.intel.com/appstore/article/#/14013160438,,Medium,L2 Mandatory-BAT
+79,14013175614,Verify that the BIOS shall display the Memory details on BIOS Setup System Information page,https://hsdes.intel.com/appstore/article/#/14013175614,,Low,L2 Mandatory-BAT
+80,14013162577,Verify BIOS settings remains intact with MAF mode booting after power interrupts (Reset / G3) cycles,https://hsdes.intel.com/appstore/article/#/14013162577,,Low,L2 Mandatory-BAT
+81,14013120979,Verify system stability post Warm reboot cycles,https://hsdes.intel.com/appstore/article/#/14013120979,,Low,L2 Mandatory-BAT
+82,14013169126,Verify  MRC training with 2xRefresh  is Enabled,https://hsdes.intel.com/appstore/article/#/14013169126,,Medium,L2 Mandatory-BAT
+83,14013185710,Verify CNVi Bluetooth Enumeration in OS before/after S3 cycle,https://hsdes.intel.com/appstore/article/#/14013185710,,Low,L2 Mandatory-BAT
+84,14013180516,Verify if BIOS populates SMBIOS table 130 according to desired capabilities,https://hsdes.intel.com/appstore/article/#/14013180516,,Low,L2 Mandatory-BAT
+85,14013175901,Verify GPS/GNSS ON-OFF-ON functionality in OS,https://hsdes.intel.com/appstore/article/#/14013175901,,Medium,L2 Mandatory-BAT
+86,14013173203,"Verify system stability on waking from idle state pre and post S4,S5 ,warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013173203,,Low,L2 Mandatory-BAT
+87,14013158689,Verify TBT Hot-Plug device functionality after CMS cycling,https://hsdes.intel.com/appstore/article/#/14013158689,,High,L2 Mandatory-BAT
+88,14013185551,Verify iTouch Enumeration Pre and Post S3 Cycle,https://hsdes.intel.com/appstore/article/#/14013185551,,Low,L2 Mandatory-BAT
+89,14013163074,Verify SUT halt at memory initialization when SUT booted without Memory,https://hsdes.intel.com/appstore/article/#/14013163074,,Low,L2 Mandatory-BAT
+90,14013164082,Verify CNVi WLAN Enumeration in OS before / after warm reset cycle,https://hsdes.intel.com/appstore/article/#/14013164082,,Low,L2 Mandatory-BAT
+91,14013185827,"Validate USB 2.0 device hot-plug functionality over USB3.0 Type-A port pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185827,,Medium,L2 Mandatory-BAT
+92,14013184835,Verify ucode firmware load/version check pre and post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013184835,,,
+93,14013174718,Verify Display detection in Pre OS with 4K display panel,https://hsdes.intel.com/appstore/article/#/14013174718,,Low,L2 Mandatory-BAT
+94,14013177179,Check bios Provide an option to set the SA Root Port Preset values,https://hsdes.intel.com/appstore/article/#/14013177179,,Low,L2 Mandatory-BAT
+95,14013174102,Verify OPI/DMI Config enabled,https://hsdes.intel.com/appstore/article/#/14013174102,,Low,L2 Mandatory-BAT
+96,14013173252,"[FSP2.0]: Validate FSP TempRamInit initialization and TempRamExit API""s",https://hsdes.intel.com/appstore/article/#/14013173252,,Low,L2 Mandatory-BAT
+97,14013176953,"Verify device initialization and respective register configuration don""t have failures in Self test tool",https://hsdes.intel.com/appstore/article/#/14013176953,,Medium,L2 Mandatory-BAT
+98,14013156950,Verify Platform PL1 and PL2 Bios options,https://hsdes.intel.com/appstore/article/#/14013156950,,Low,L2 Mandatory-BAT
+99,14013158359,Verify ACPI table for S0ix Support,https://hsdes.intel.com/appstore/article/#/14013158359,,Low,L2 Mandatory-BAT
+100,14013176789,Verify GPIO driver and device entry in device Manager,https://hsdes.intel.com/appstore/article/#/14013176789,,Low,L2 Mandatory-BAT
+101,14013185714,Verify CNVi Bluetooth Enumeration in OS before/after disconnected MoS cycle,https://hsdes.intel.com/appstore/article/#/14013185714,,Low,L2 Mandatory-BAT
+102,14013162869,Validate the CPU ID information is captured in Debug logs,https://hsdes.intel.com/appstore/article/#/14013162869,,Low,L2 Mandatory-BAT
+103,14013157006,Verify that BIOS gives an option to change Tcc Activation Offset,https://hsdes.intel.com/appstore/article/#/14013157006,,Low,L2 Mandatory-BAT
+104,14013160613,Verify Booting over Wi-Fi using UEFI PXEv4 Boot,https://hsdes.intel.com/appstore/article/#/14013160613,,Low,L2 Mandatory-BAT
+105,14013157532,Verify system stability on changing power state settings,https://hsdes.intel.com/appstore/article/#/14013157532,,Low,L2 Mandatory-BAT
+106,14013163281,Verify TBT Device functionality with TCSS D3 Cold support enabled,https://hsdes.intel.com/appstore/article/#/14013163281,,Low,L2 Mandatory-BAT
+107,14013161675,"Verify Coexistence of WiFi,Bluetooth, WWAN and GNSS enumeration and functionality in OS",https://hsdes.intel.com/appstore/article/#/14013161675,,Low,L2 Mandatory-BAT
+108,14013157057,Validate the CPU ID listed in BIOS,https://hsdes.intel.com/appstore/article/#/14013157057,,Low,L2 Mandatory-BAT
+109,14013160620,Verify Booting over Wi-Fi using UEFI HTTPv4 Boot,https://hsdes.intel.com/appstore/article/#/14013160620,,Low,L2 Mandatory-BAT
+110,14013177170,Check Dekel FW Version from BIOS,https://hsdes.intel.com/appstore/article/#/14013177170,,Low,L2 Mandatory-BAT
+111,14013158479,Verify system state post flashing IFWI on an eSPI enabled system,https://hsdes.intel.com/appstore/article/#/14013158479,,Low,L2 Mandatory-BAT
+112,16013373086,Verify UCSI command - Obtain Platform USB-C capabilities,https://hsdes.intel.com/appstore/article/#/16013373086,,Low,L2 Mandatory-BAT
+113,14013173247,[FSP]: Verify FSP image ID and Image Revision,https://hsdes.intel.com/appstore/article/#/14013173247,,Low,L2 Mandatory-BAT
+114,14013163467,Verify PCH DFx Trace hub support,https://hsdes.intel.com/appstore/article/#/14013163467,,High,L2 Mandatory-BAT
+115,14013174014,Verify Hot-plug of HDMI is supported with MIPI connected,https://hsdes.intel.com/appstore/article/#/14013174014,,Low,L2 Mandatory-BAT
+116,14013183238,Verify display in MIPI panel in OS after Sx/S0i3 cycles,https://hsdes.intel.com/appstore/article/#/14013183238,,Low,L2 Mandatory-BAT
+117,14013185729,Validate USB2.0 HUB Functionality check in EFI over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013185729,,Low,L2 Mandatory-BAT
+118,14013160697,Verify ISH Sensor Enumeration pre and post Connected Standby (CMS) cycle - Gyro,https://hsdes.intel.com/appstore/article/#/14013160697,,Low,L2 Mandatory-BAT
+119,14013175741,Verify eSPI Initialization,https://hsdes.intel.com/appstore/article/#/14013175741,,Low,L2 Mandatory-BAT
+120,14013166904,Verify if system boots in Fast Boot mode with Peg Bifurcation card pre and post S4 cycle,https://hsdes.intel.com/appstore/article/#/14013166904,,High,L2 Mandatory-BAT
+121,14013176141,ACPI entry for GPIO controller,https://hsdes.intel.com/appstore/article/#/14013176141,,Low,L2 Mandatory-BAT
+122,14013187970,"Verify Clover Falls (CVF) Camera Sensor modules enumeration in OS, pre and post DMS cycles",https://hsdes.intel.com/appstore/article/#/14013187970,,Low,L2 Mandatory-BAT
+123,14013177299,Verify Bios have option to Enable/Disable On-board Components,https://hsdes.intel.com/appstore/article/#/14013177299,,Low,L2 Mandatory-BAT
+124,14013173177,"Verify Hibernate, Shutdown entry and exit via power button",https://hsdes.intel.com/appstore/article/#/14013173177,,Low,L2 Mandatory-BAT
+125,14013165524,Validate GOP-VBT Merge tool functionality with Release and Debug image,https://hsdes.intel.com/appstore/article/#/14013165524,,Medium,L2 Mandatory-BAT
+126,14013173176,"Verify system can be Shutdown, Hibernate and Restart using OS start menu",https://hsdes.intel.com/appstore/article/#/14013173176,,Low,L2 Mandatory-BAT
+127,14013173927,Verify BIOS expose option to enable/disable the SRIOV feature,https://hsdes.intel.com/appstore/article/#/14013173927,,Low,L2 Mandatory-BAT
+128,14013175736,Verify Hiding NVMe interface on PCIe bus,https://hsdes.intel.com/appstore/article/#/14013175736,,Low,L2 Mandatory-BAT
+129,14013185732,Validate USB2.0 HUB Functionality check in OS over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013185732,,Low,L2 Mandatory-BAT
+130,14013179315,Verify that Debug Messages are not sent over in Serial port with Release BIOS,https://hsdes.intel.com/appstore/article/#/14013179315,,Low,L2 Mandatory-BAT
+131,14013164345,Verify platform supports corresponding option in BIOS to enable/disable GPRs in Crash Log data,https://hsdes.intel.com/appstore/article/#/14013164345,,Low,L2 Mandatory-BAT
+132,14013157813,Verify no errors or failures get registered as part of event viewer log post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013157813,,Low,L2 Mandatory-BAT
+133,14013157367,"Verify platform""s Power Limit 1 and Power Limit 2 values",https://hsdes.intel.com/appstore/article/#/14013157367,,Low,L2 Mandatory-BAT
+134,14013185776,Verify System Login using IR Camera,https://hsdes.intel.com/appstore/article/#/14013185776,,Medium,L2 Mandatory-BAT
+135,14013174625,Verification of resolution for 8K display panel in Pre-OS,https://hsdes.intel.com/appstore/article/#/14013174625,,Low,L2 Mandatory-BAT
+136,14013161623,Verify BIOS shall provide the support to publish the CNVi WIFI and BT UEFI variables with connectivity platform configurations,https://hsdes.intel.com/appstore/article/#/14013161623,,Low,L2 Mandatory-BAT
+137,22011834285,Verify Xml Cli support for Test Menu enabled Bios,https://hsdes.intel.com/appstore/article/#/22011834285,,Low,L2 Mandatory-BAT
+138,16013373341,Verify UCSI command - Get connector capability,https://hsdes.intel.com/appstore/article/#/16013373341,,Low,L2 Mandatory-BAT
+139,16013677281,Verify 8K Display Panel enumeration in Device Manager with CMS cycles,https://hsdes.intel.com/appstore/article/#/16013677281,,Low,L2 Mandatory-BAT
+140,14013185707,Verify CNVi WLAN Enumeration in OS before/after disconnected MoS cycle,https://hsdes.intel.com/appstore/article/#/14013185707,,Low,L2 Mandatory-BAT
+141,14013173254,[FSP2.0]: Verify FSP_INFO_EXTENDED_HEADER Information.,https://hsdes.intel.com/appstore/article/#/14013173254,,Low,L2 Mandatory-BAT
+142,14013120952,Verify system stability post Hibernate(S4) cycling,https://hsdes.intel.com/appstore/article/#/14013120952,,Low,L2 Mandatory-BAT
+143,14013175646,Verify that Platform firmware Information is correctly displayed in BIOS setup,https://hsdes.intel.com/appstore/article/#/14013175646,,Low,L2 Mandatory-BAT
+144,14013176948,Verify Bios shall support enable/disable PCIE ports options,https://hsdes.intel.com/appstore/article/#/14013176948,,Low,L2 Mandatory-BAT
+145,14013165521,"Verify Battery-charging in OS using Type-C Power Bank pre and post S4,S5 & warm reboot cycles",https://hsdes.intel.com/appstore/article/#/14013165521,,Medium,L2 Mandatory-BAT
+146,14013159289,Verify system can shutdown(S5) using OS start Menu followed by G3,https://hsdes.intel.com/appstore/article/#/14013159289,,Low,L2 Mandatory-BAT
+147,14013176928,Verify NPK memory configuration is done only after IMR allocations (DID ack),https://hsdes.intel.com/appstore/article/#/14013176928,,Medium,L2 Mandatory-BAT
+148,14013179310,Verify that Debug Messages are sent over on Serial port with Debug BIOS,https://hsdes.intel.com/appstore/article/#/14013179310,,,
+149,14013174814,Verify Audio Play back on 8K DP Monitor,https://hsdes.intel.com/appstore/article/#/14013174814,,Low,L2 Mandatory-BAT
+150,14013173257,[FSP2.0]: Verify FSP Patch Table Information,https://hsdes.intel.com/appstore/article/#/14013173257,,Low,L2 Mandatory-BAT
+151,14013166922,Verify the BIOS first Boot time and Cold Boot time is inline with responsiveness metrics,https://hsdes.intel.com/appstore/article/#/14013166922,,Medium,L2 Mandatory-BAT
+152,14013168579,Verify System memory using Windows Memory Diagnostics tool (Basic),https://hsdes.intel.com/appstore/article/#/14013168579,,Low,L2 Mandatory-BAT
+153,16012847945,Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration pre and post pseudo G3,https://hsdes.intel.com/appstore/article/#/16012847945,,Medium,L2 Mandatory-BAT
+154,14013173935,Exercising GMM/GNA Error check in BIOS and corresponding BDF values,https://hsdes.intel.com/appstore/article/#/14013173935,,Low,L2 Mandatory-BAT
+155,14013163067,Verify PC10 with TBT Dock Hotplug/unplug after S4,https://hsdes.intel.com/appstore/article/#/14013163067,,Medium,L2 Mandatory-BAT
+156,14013174741,Verify Tri-display is working in Extended mode,https://hsdes.intel.com/appstore/article/#/14013174741,,Low,L2 Mandatory-BAT
+157,14013184603,Basic boot check to OS,https://hsdes.intel.com/appstore/article/#/14013184603,,Low,L2 Mandatory-BAT
+158,14013184616,Verify the Processor Information Displayed in BIOS page and OS are same.,https://hsdes.intel.com/appstore/article/#/14013184616,,Low,L2 Mandatory-BAT
+159,14013161592,Verify independent BIOS setup option to Enable/Disable INT3400 Device and Processor thermal device participants,https://hsdes.intel.com/appstore/article/#/14013161592,,Low,L2 Mandatory-BAT
+160,14013120195,Validate warm reboot cycle from EFI Shell using USB keyboard connected over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013120195,,Low,L2 Mandatory-BAT
+161,14013159094,Verify TBT device functionality before/after CMS cycling,https://hsdes.intel.com/appstore/article/#/14013159094,,High,L2 Mandatory-BAT
+162,14013169048,Verify MRC training when RMT option is disabled,https://hsdes.intel.com/appstore/article/#/14013169048,,Low,L2 Mandatory-BAT
+163,14013163162,Validate GOP-VBT Merge tool functionality by comparing VBT dump file from EDK shell with modified VBT file,https://hsdes.intel.com/appstore/article/#/14013163162,,Medium,L2 Mandatory-BAT
+164,14013179479,Verify Booting over Wi-Fi using UEFI PXEv6 Boot,https://hsdes.intel.com/appstore/article/#/14013179479,,Medium,L2 Mandatory-BAT
+165,16012909857,Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration in DC mode,https://hsdes.intel.com/appstore/article/#/16012909857,,Medium,L2 Mandatory-BAT
+166,14013173938,Check if GMM/GNA device is fused enabled and check for BIOS option to Enable/ Disable GMM/GNA,https://hsdes.intel.com/appstore/article/#/14013173938,,Low,L2 Mandatory-BAT
+167,14013161284,Validate Network functionality over USB3.0 Type-A port,https://hsdes.intel.com/appstore/article/#/14013161284,,Low,L2 Mandatory-BAT
+168,14013158321,Verify System entry to Sx states via command line,https://hsdes.intel.com/appstore/article/#/14013158321,,Low,L2 Mandatory-BAT
+169,16012641932,Verify Wi-Fi connectivity across warm and cold reboot cycles in pre-OS environment,https://hsdes.intel.com/appstore/article/#/16012641932,,Low,L2 Mandatory-BAT
+170,14013162512,Verify BIOS settings remains intact with MAF mode booting after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013162512,,Low,L2 Mandatory-BAT
+171,14013179329,Verify OS debug support using Windbg debugging via USB3.0 debug port,https://hsdes.intel.com/appstore/article/#/14013179329,,Medium,L2 Mandatory-BAT
+172,14013178190,Verify that BIOS shall provide verb tables for HDA Config,https://hsdes.intel.com/appstore/article/#/14013178190,,Low,L2 Mandatory-BAT
+173,14013174120,Verify if BIOS lists the GT details with DID,https://hsdes.intel.com/appstore/article/#/14013174120,,Low,L2 Mandatory-BAT
+174,14013184823,Verification of hot keys (F2 & F7) functionality check while BOOT,https://hsdes.intel.com/appstore/article/#/14013184823,,Low,L2 Mandatory-BAT
+175,14013169121,Verify SUT boots with 2xRefresh/Hardware RHP Enabled/Disabled,https://hsdes.intel.com/appstore/article/#/14013169121,,Medium,L2 Mandatory-BAT
+176,14013175738,Verification of SPI Initialization,https://hsdes.intel.com/appstore/article/#/14013175738,,Medium,L2 Mandatory-BAT
+177,14013178542,Verify package C10 with CPU attached storage Through VMD,https://hsdes.intel.com/appstore/article/#/14013178542,,Medium,L2 Mandatory-BAT
+178,14013161633,Verify Modem ASPM support,https://hsdes.intel.com/appstore/article/#/14013161633,,Medium,L2 Mandatory-BAT
+179,14013114941,Verify System wakes from C-MoS using USB device connected to USB Type-C port,https://hsdes.intel.com/appstore/article/#/14013114941,,Low,L2 Mandatory-BAT
+180,14013161969,Verify CPU frequency throttles when core temperature exceeds passive trip point with DTS SMM enabled and DTT disabled,https://hsdes.intel.com/appstore/article/#/14013161969,,Low,L2 Mandatory-BAT
+181,14013161615,Verify Xml Cli support,https://hsdes.intel.com/appstore/article/#/14013161615,,Low,L2 Mandatory-BAT
+182,14013173187,Verify system can be cold reset and warm reset from EDK shell,https://hsdes.intel.com/appstore/article/#/14013173187,,Low,L2 Mandatory-BAT
+183,14013177439,Verify Bios locks TCO_BASE by writing to specific TCO_BASE_LOCK,https://hsdes.intel.com/appstore/article/#/14013177439,,Low,L2 Mandatory-BAT
+184,14013173952,Verify that the BIOS shall display the Memory details on BIOS Setup System Information page,https://hsdes.intel.com/appstore/article/#/14013173952,,Low,L2 Mandatory-BAT
+185,14013176457,Verify Embedded-keyboard functionality in pre and post OS,https://hsdes.intel.com/appstore/article/#/14013176457,,Low,L2 Mandatory-BAT
+186,14013161490,Verify BIOS supports a setup option to Function Disable of either THC0/THC1,https://hsdes.intel.com/appstore/article/#/14013161490,,Low,L2 Mandatory-BAT
+187,14013161630,Verify BIOS shall provide support to add new Bluetooth SAR tables (BRDS) and GPC Method,https://hsdes.intel.com/appstore/article/#/14013161630,,Low,L2 Mandatory-BAT
+188,14013176415,"Verify ""PCH Trace Hub Enable Mode"" BIOS policy/option for NPK Support",https://hsdes.intel.com/appstore/article/#/14013176415,,Medium,L2 Mandatory-BAT
+189,14013175211,"Verify Clover Falls (CVF) Camera Sensor modules enumeration in OS, pre and post DMS cycles",https://hsdes.intel.com/appstore/article/#/14013175211,,Low,L2 Mandatory-BAT
+190,14013158813,Verify RTD3 flow support for Type-C USB3.1 device,https://hsdes.intel.com/appstore/article/#/14013158813,,Medium,L2 Mandatory-BAT
+191,14013175857,Verify disable/enable ISH Controller option in BIOS,https://hsdes.intel.com/appstore/article/#/14013175857,,Low,L2 Mandatory-BAT
+192,14013157206,Verify if Intel SelfTest completes successfully,https://hsdes.intel.com/appstore/article/#/14013157206,,Medium,L2 Mandatory-BAT
+193,14013160841,"[FSP2.0]: Verify ""FSP Information"" under BIOS",https://hsdes.intel.com/appstore/article/#/14013160841,,Low,L2 Mandatory-BAT
+194,14013178068,Verify VMD RTD3 support with NVMe connected During Sx cycles,https://hsdes.intel.com/appstore/article/#/14013178068,,High,L2 Mandatory-BAT
+195,14013165053,Verify multiple global reset functionality cycles check in SUT with Debug BIOS,https://hsdes.intel.com/appstore/article/#/14013165053,,Low,L2 Mandatory-BAT
+196,14013185392,Validate USB devices hot plug check pre and post S0i3(Disconnected Modern Standby) cycle with devices connected on Type-C port,https://hsdes.intel.com/appstore/article/#/14013185392,,Medium,L2 Mandatory-BAT
+197,22011843490,Validate USB3.0 HUB Functionality check in BIOS over USB Type-A port,https://hsdes.intel.com/appstore/article/#/22011843490,,Low,L2 Mandatory-BAT
+198,14013176958,Verify BIOS set up option to enable/Disable GPIO Pad,https://hsdes.intel.com/appstore/article/#/14013176958,,Low,L2 Mandatory-BAT
+199,14013162852,Verify GPE event triggered in ACPI during ACPI wake alarm test in hibernate,https://hsdes.intel.com/appstore/article/#/14013162852,,Low,L2 Mandatory-BAT
+200,22011843494,Validate USB3.0 HUB Functionality check in EFI over USB Type-A port,https://hsdes.intel.com/appstore/article/#/22011843494,,Low,L2 Mandatory-BAT
+201,14013185842,Verify multiple global reset functionality cycles check in SUT,https://hsdes.intel.com/appstore/article/#/14013185842,,Medium,L2 Mandatory-BAT
+202,14013158146,Verify system stability post applying workload on CPU,https://hsdes.intel.com/appstore/article/#/14013158146,,Low,L2 Mandatory-BAT
+203,14013175744,Verify Trace Hub Initialization,https://hsdes.intel.com/appstore/article/#/14013175744,,Low,L2 Mandatory-BAT
+204,14013162406,Verify BIOS policy for WWAN support,https://hsdes.intel.com/appstore/article/#/14013162406,,Low,L2 Mandatory-BAT
+205,14013175598,Verify correct CPU details displayed in BIOS Setup page,https://hsdes.intel.com/appstore/article/#/14013175598,,Low,L2 Mandatory-BAT
+206,14013185559,Verify iTouch Functionality Pre and Post S3 Cycle,https://hsdes.intel.com/appstore/article/#/14013185559,,Low,L2 Mandatory-BAT
+207,14013176861,Verify BIOS display an option to set Detect timeout value on Root port links,https://hsdes.intel.com/appstore/article/#/14013176861,,Low,L2 Mandatory-BAT
+208,14013172878,Verify Power Button press can shutdown and power up the system,https://hsdes.intel.com/appstore/article/#/14013172878,,Low,L2 Mandatory-BAT
+209,14013161304,Verify PPIN Feature when SUT is in EOM mode,https://hsdes.intel.com/appstore/article/#/14013161304,,Low,L2 Mandatory-BAT
+210,14013160745,Verify SMBUS Initialization/Enumeration,https://hsdes.intel.com/appstore/article/#/14013160745,,Low,L2 Mandatory-BAT
+211,14013177900,Verify BIOS updates the PCIe register for PEG60,https://hsdes.intel.com/appstore/article/#/14013177900,,Low,L2 Mandatory-BAT
+212,14013180512,Verify IFR Update option is removed from PCH-FW Configuration page in BIOS setup,https://hsdes.intel.com/appstore/article/#/14013180512,,Low,L2 Mandatory-BAT
+213,22011834637,Verify IPU-Sensor module enumeration Post DMS cycle,https://hsdes.intel.com/appstore/article/#/22011834637,,Low,L2 Mandatory-BAT
+214,14013165037,Verify BIOS to update post codes on punit register,https://hsdes.intel.com/appstore/article/#/14013165037,,Low,L2 Mandatory-BAT
+215,14013162431,Verify External 32KHz clock support in BIOS for WLAN function with optimal power,https://hsdes.intel.com/appstore/article/#/14013162431,,Low,L2 Mandatory-BAT
+216,14013185694,Verify CNVi WLAN Enumeration in OS before/after S3 cycle,https://hsdes.intel.com/appstore/article/#/14013185694,,Low,L2 Mandatory-BAT
+217,14013175479,"Verify the Dual Display functionality (onboard eDP+HDMI) in BIOS setup, EFI and OS",https://hsdes.intel.com/appstore/article/#/14013175479,,Low,L2 Mandatory-BAT
+218,14013178773,Verify VMD driver version in BIOS HII menu Through VMD,https://hsdes.intel.com/appstore/article/#/14013178773,,Low,L2 Mandatory-BAT
+219,14013174630,Verification of resolution for 8K display panel in Post OS,https://hsdes.intel.com/appstore/article/#/14013174630,,Low,L2 Mandatory-BAT
+220,16012845721,Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration pre and post CMS,https://hsdes.intel.com/appstore/article/#/16012845721,,Medium,L2 Mandatory-BAT
+221,16013373198,Verify UCSI command - Get connector status details,https://hsdes.intel.com/appstore/article/#/16013373198,,Low,L2 Mandatory-BAT
+222,14013161111,Verify 3.5mm jack Wired headphones/headset detection after abrupt G3,https://hsdes.intel.com/appstore/article/#/14013161111,,Low,L2 Mandatory-BAT
+223,14013185276,Verify CPU turbo boost functionality post CMS/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013185276,,Low,L2 Mandatory-BAT
+224,14013173250,Verify FSP version on SUT,https://hsdes.intel.com/appstore/article/#/14013173250,,Low,L2 Mandatory-BAT
+225,14013162499,Verify BIOS settings remains intact with MAF mode booting after Warm and Cold Boot cycles,https://hsdes.intel.com/appstore/article/#/14013162499,,Low,L2 Mandatory-BAT
+226,14013176151,Verify Audio device is enumerated as PCI device,https://hsdes.intel.com/appstore/article/#/14013176151,,Low,L2 Mandatory-BAT
+227,14013119531,Verify if offline Crash Dump created during system on crash,https://hsdes.intel.com/appstore/article/#/14013119531,,Medium,L2 Mandatory-BAT
+228,14013161879,Verify RTD3 flow support for TBT SSD device,https://hsdes.intel.com/appstore/article/#/14013161879,,Medium,L2 Mandatory-BAT
+229,14013173259,[FSP2.0]: Validate Pre and Post OS display with different FSP Bios,https://hsdes.intel.com/appstore/article/#/14013173259,,Low,L2 Mandatory-BAT
+230,14013179332,Verify OS debug support using Windbg via native serial UART,https://hsdes.intel.com/appstore/article/#/14013179332,,Medium,L2 Mandatory-BAT
+231,14013173281,"[FSP2.0]: Verify GUID of SMBIOS HOB""s (Memory, Processor and Cache)",https://hsdes.intel.com/appstore/article/#/14013173281,,Low,L2 Mandatory-BAT

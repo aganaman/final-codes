@@ -1,0 +1,1556 @@
+commit 8956d4fbf2e
+Author: CR <cr2@intel.com>
+Date:   Wed Nov 2 05:21:19 2022 -0700
+
+    [TeamCity] MTL MeteorLake_meteorlake_program_platform_Daily_github Daily Updating Version/ID: MeteorLake_2453_01
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+
+commit d21f920db79
+Author: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+Date:   Wed Nov 2 17:36:32 2022 +0530
+
+    Reverted BIOSID Minor
+    
+    [Issue Description]
+    Facing TeamCity failure
+    
+    [Resolution]
+    Reverted the BIOS ID
+    
+    Package/Module: MeteorLakeBoardPkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: NA
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    
+    Change-Id: I130b4b857fc7a349da6d387684e8e1e270da4b5a
+    Signed-off-by: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+
+commit 32178b6ef26
+Author: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+Date:   Wed Nov 2 17:28:12 2022 +0530
+
+    [MTL-P dTBT] Update platform mapping sheet for GPIO output
+    
+    state pin of GPP_B11, C19 & F10
+    
+    [Feature Description]
+    correcting GPIO polarity as per new RVP document
+    
+    Package/Module:
+    MeteorLakeBoardPkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: 16018680911
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    
+    Change-Id: I25ff0e02e2d1d7a3c345144cec13fb63f7d476b7
+    Signed-off-by: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+
+commit b6069f4da78
+Author: CR <cr2@intel.com>
+Date:   Wed Nov 2 04:08:36 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily_github Daily Updating Version/ID: MeteorLake_2453_02
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit 296ce9f06b4546d5f2a944eb84e8a9158a9797f9)
+
+commit 0905ba3dd40
+Author: sys_cr <sys_cr@intel.com>
+Date:   Wed Nov 2 02:17:44 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily Daily Updating Version/ID: MeteorLake_4
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit 060942abcf49777f90acf47dc1d9404057203884)
+
+commit 24f8ca0f4ee
+Author: sys_cr <sys_cr@intel.com>
+Date:   Wed Nov 2 01:49:53 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily Daily Updating Version/ID: MeteorLake_2
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit 9e30766c6361ccd83369624abb3e9eea0e0c6b82)
+
+commit e5e96c048de
+Author: Scottie Kuo <scottie.kuo@intel.com>
+Date:   Wed Nov 2 11:27:07 2022 +0800
+
+    [LPE]MEBx setting's are not set to default
+    once after triggering CSME Unconfigure in Local Platform Erase.
+    
+    [Issue Description]
+    CSME Unconfigure request is not saved before clearing LPE setup data.
+    
+    [Resolution]
+    Save CSME Unconfigure request before clearing LPE setup data.
+    
+    Package/Module:
+    PlatSamplePkg/Features/Rpe
+    
+    [Impacted Platform]
+    MTL, LNL
+    
+    Hsd-es-id: 16018667254
+    
+    Change-Id: I9903e163adca145aa1edd4b10e371cc3c4f19dc8
+    internal-only:
+    Signed-off-by: Scottie Kuo <scottie.kuo@intel.com>
+    (cherry picked from commit 03ae68bc868f114bfb1aeb0e8e7c0bf4b055f3a9)
+
+commit 2dd2bdfc5a9
+Author: Sheikh, Mohsin <mohsin.sheikh@intel.com>
+Date:   Tue Oct 25 20:40:47 2022 -0700
+
+    Fix VTIO default values in BIOS menu
+    
+    [Issue Description]
+    After enabling VTIO in BIOS, defaults values were not getting
+    populated. gVtioSetupData was overriding the defaults populated
+    by VFR.
+    
+    [Resolution]
+    Added a condition on BlockToConfig to run only when VTIO is enabled
+    
+    Package/Module: VtioFeaturePkg
+    
+    [Impacted Platform]
+    Default All
+    
+    Hsd-es-id: 16018621950
+    
+    internal-only:
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: Ic5fa22c9679de0e823cdc06c6ffc44bffa1b3382
+    Signed-off-by: Mohsin Sheikh <mohsin.sheikh@intel.com>
+    (cherry picked from commit d75d78c91fdebfcf924eb2d3e5a2e65d71f2cd34)
+
+commit da744ece0ab
+Author: swarhadk <shrirang.warhadkar@intel.com>
+Date:   Thu Oct 13 14:42:16 2022 +0530
+
+    MTL-S Configure SOC SMBUS according to BWG.
+    
+    [Feature Description]
+    1. Program, Enable and Lock TCO BASE.
+    2. Disable Memory and IO space for SMBUS controller in SOC.
+    3. Disable and hide SMBUS Controller in PSF.
+    4. To support above changes had to modify SmbusInfoLib
+    
+    NOTE: This change will not disable SOC Smbus Controller on SIMICS.
+          Firt SIMICS needs to switch SPD reads to PCH Smbus Controller.
+          Then only we can disable SOC SMBUS controller in SIMICS.
+          Otherwise it will fail in MRC.
+    
+    Package/Module: ClientOneSiliconPkg/Fru
+    
+    [Impacted Platform]
+    MTL-S
+    
+    Hsd-es-id: 16018441208
+    
+    internal-only: https://hsdes.intel.com/appstore/article/#/16018441208
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: Ia1be389f360d777f52e5b530e352cf90427f86e0
+    Signed-off-by: swarhadk <shrirang.warhadkar@intel.com>
+    (cherry picked from commit eb1285b16606c7d69f4f1a2ce377b5c97dce13d3)
+
+commit 3f5cb374e6b
+Author: Badida SaiX Tejaswi <saix.tejaswi.badida@intel.com>
+Date:   Tue Nov 1 13:25:35 2022 +0530
+
+    Address code quality issues
+    
+    [Issue Description]
+    Code quality issues
+    
+    [Resolution]
+    Addressed code quality issues
+    
+    Package/Module:
+    ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 15012218141
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/15012218141
+    
+    Change-Id: Ib25598e12e2573c45b70f9d73ca3935c9a38c7de
+    Signed-off-by: Badida SaiX Tejaswi <saix.tejaswi.badida@intel.com>
+    (cherry picked from commit b5618f9480d80f01e1d3c83c48fc25635f45f44b)
+
+commit 40db591d92e
+Author: Madhusudhan Balaji <madhusudhan.balaji@intel.com>
+Date:   Sat Oct 29 18:54:42 2022 +0530
+
+    [MTL-P dTBT] Update platform mapping sheet for GPIO output
+    state pin of GPP_B11, C19 & F10
+    
+    [Feature Description]
+    correcting GPIO polarity as per new RVP document
+    
+    Package/Module:
+    MeteorLakeBoardPkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: 16018680911
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: Id7811c0b706fc5eeb4319c6601fdfa9322c6a871
+    Signed-off-by: Madhusudhan Balaji <madhusudhan.balaji@intel.com>
+    (cherry picked from commit 435b2fc9069f158fd6bc1822efb3eb16a8204042)
+
+commit be1b9a0bb97
+Author: Maggie Chu <maggie.chu@intel.com>
+Date:   Wed Oct 26 15:13:24 2022 +0800
+
+    Update BIOS Crashlog flow to align with spec
+    
+    [Feature Description]
+    Remove deprecated steps and send command thru correct sequence
+    
+    Package/Module:
+    MeteorLakePlatSamplePkg/CrashLog
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: 15012205200
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/15012205200
+    
+    Change-Id: Icdae255d8996aa448f286481c7a56cd9604ff99a
+    Signed-off-by: Maggie Chu <maggie.chu@intel.com>
+    (cherry picked from commit fbe4ede85fe861ac6ca55edd9947598f3eb731d1)
+
+commit 8381d621c09
+Author: ChevuruX Hariram Saibaba Reddy <chevurux.hariram.saibaba.reddy@intel.com>
+Date:   Mon Oct 31 10:01:51 2022 +0530
+
+    Fixing Lane Margining Parameters
+    
+    [Issue Description]
+    Lane Margining Parameters defined BWG is not correct
+    per SNPS C16/E32 PHY recommendation
+    
+    [Resolution]
+    Fixing Lane Margining Parameters
+    
+    Package/Module: ClientOneSiliconPkg/IpPcieSip17
+    
+    [Impacted Platform]
+    LunarLake
+    
+    Hsd-es-id: 15012200998
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: I4ab13627e4433a67c10f26fce51dc238ac723cc6
+    Signed-off-by: ChevuruX Hariram Saibaba Reddy <chevurux.hariram.saibaba.reddy@intel.com>
+    (cherry picked from commit 0593bac3b9c865232c17b21c7e8aada63bdfe954)
+
+commit 577eb1293bc
+Author: Brucex.Wang <brucex.wang@intel.com>
+Date:   Thu Oct 27 15:39:03 2022 +0800
+
+    I2cFeaturePkg: UnitTestPssMonzaDriverComponentNameGetControllerName
+    
+    [Feature Description]
+    Add UnitTestPssMonzaDriverComponentNameGetControllerName test case
+    for I2cPssMonzaDxe
+    
+    Add UnitTestPssMonzaDriverComponentNameGetControllerName
+    
+    Package/Module:Features/I2cFeaturePkg
+    
+    [Impacted Platform]
+    MTL.LNL
+    
+    Hsd-es-id: 15011299024
+    
+    internal-only:
+    
+    Restricted Package/Module: <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform]: <Internal platforms> <Optional>
+    
+    [Register Impacted]: <Optional>
+    
+    [Testing Completed]: <Optional>
+    
+    Change-Id: Id1cab8c522bf6a1784ec6946f6e10381a15d8a00
+    Signed-off-by: Brucex.Wang <brucex.wang@intel.com>
+    (cherry picked from commit ba31fda7129b950ffc79cb644e29a988a10cfc80)
+
+commit 26cfeddd175
+Author: CR <cr2@intel.com>
+Date:   Wed Nov 2 04:44:53 2022 -0700
+
+    SyncScript: Revert override commits.
+
+commit 20f569bc3d2
+Author: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+Date:   Wed Nov 2 15:41:08 2022 +0530
+
+    Reverted BIOSID
+    
+    [Issue Description]
+    Facing TeamCity failure
+    
+    [Resolution]
+    Reverted the BIOS ID
+    
+    Package/Module: MeteorLakeBoardPkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: NA
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    
+    Change-Id: Ifae9566ad8ccb0d929426a22d8d87ebb0127227b
+    Signed-off-by: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+
+commit 9b18b8d7147
+Author: CR <cr2@intel.com>
+Date:   Tue Nov 1 21:34:04 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily_github Daily Updating Version/ID: MeteorLake_2452_00
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit 784aed99da781d86d742508323edb8bec707376e)
+
+commit 1277ba68cb1
+Author: Xiao X Chen <xiao.x.chen@intel.com>
+Date:   Tue Nov 1 09:23:17 2022 +0800
+
+    SataFeaturePkg: Add test case V4
+    
+    [Feature Description]
+    add mock for AtaPassThruProtocol
+    add test case for SendSecureEraseCommands
+    add test case for SataSanitizeCommand
+    add test case for SataDataOverwrite
+    add test case for SataDataBlockErase
+    add test case for SataDataCryptoErase
+    add test case for UpdateResult
+    add test case for SataSwapAtaString
+    add test case for GetSataEraseResult
+    add test case for SataEraseEntryPoint
+    
+    Package/Module: SataFeaturePkg/SataEraseDxe
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 15011299073, 15011299103
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/15011299073
+    https://hsdes.intel.com/appstore/article/#/15011299103
+    
+    Change-Id: I8a3f8bbc9446f9ac8d9748baf95156b3619c81a5
+    Signed-off-by: Xiao X Chen <xiao.x.chen@intel.com>
+    (cherry picked from commit 70010123eab3c95125e2c60d0535edde637ee854)
+
+commit c68a24663cd
+Author: Kathappan Esakkithevar <kathappan.esakkithevar@intel.com>
+Date:   Wed Nov 2 00:39:08 2022 +0530
+
+    [MTL M] Enable TurboMode by Default
+    
+    [Feature Description]
+    Enable Turbo Mode by default in BIOS setup for MTL M
+    
+    Package/Module:MeteorLakeBoardPkg\MeteorLakeBoards
+    
+    [Impacted Platform]
+    MTL M
+    
+    Hsd-es-id: 15012244692
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: Ief25828ff398c31b3c47cd310928e97b675abf34
+    Signed-off-by: Kathappan Esakkithevar <kathappan.esakkithevar@intel.com>
+    (cherry picked from commit 9b7930882e4d299827742febdd0f5afb28153620)
+
+commit 0019e6d7085
+Author: Sunayana Guruswamy <sunayana.guruswamy@intel.com>
+Date:   Wed Oct 26 13:27:24 2022 -0700
+
+    [LNL] Change in TCSS deven register based on LNLM SOC osxml WW40 Drop
+    
+    [Feature Description]
+    Move TCSS DEVEN register accessing from C1S to Fru Layer to allow to
+    make changes related to TCSS DEVEN register name based on OSXML
+    
+    Package/Module:ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    LNL, MTL
+    
+    Hsd-es-id: 16018541919
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/16018541919
+    
+    Change-Id: Iba5ff78fc8ec33e2e60f9a4d9c191008f7b69b4f
+    Signed-off-by: Sunayana Guruswamy <sunayana.guruswamy@intel.com>
+    (cherry picked from commit 716b3483897513b71f91a13d7cccc2c1442a0452)
+
+commit 3fbfb1dc0a8
+Author: Edward Lipp <edward.lipp@intel.com>
+Date:   Fri Oct 21 12:40:59 2022 -0700
+
+    Add ADL-P and RPL-P to USB Secure (AKA VTIO) Biometric FRs
+    
+    [Issue Description]
+    Port AlderLake code to MeteorLake for USB Secure Biometric support.
+    
+    [Resolution]
+    Add code from AlderLake and change from port 9 to Port 5.
+    
+    Package/Module: ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    ALL.
+    
+    Hsd-es-id: 16018621880
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/16018621880
+    
+    Change-Id: I3bbc087c4b0245f55a317b6694636aea0d57e3ad
+    Signed-off-by: Edward Lipp <edward.lipp@intel.com>
+    (cherry picked from commit 7516b75cd4a5b81cfacd2e56d97a08839a91f7ba)
+
+commit 28be8565891
+Author: Elly Wang <elly.wang@intel.com>
+Date:   Tue Nov 1 16:30:32 2022 +0800
+
+    Fix disable early trace during PCH TraceHub Init
+    
+    [Issue Description]
+    Trace is disabled by bios after enabling Keep Early Trace in settings
+    when PCH TH is enabled and SOC TH is disabled.
+    
+    [Resolution]
+    Separate checking condition on SOC and PCH to clear ECTRL[17]
+    when SOC/PCH TraceHub mode is disabled and SCRPD0.24 is cleared.
+    
+    Package/Module:
+    ClientOneSilicon/Product/MeteorLake
+    
+    [Impacted Platform]
+    MTL-S
+    
+    Hsd-es-id: 15012218545
+    
+    Change-Id: Id2bae66b954ea1f0bf40188e3f7065778298195c
+    internal-only:
+    
+    Hsd-es-link: https://hsdes.intel.com/appstore/article/#/15012218545
+    Signed-off-by: Elly Wang <elly.wang@intel.com>
+    (cherry picked from commit dc72454c20cd23922c1ac3c5b6f104cfe9c6356d)
+
+commit ae16928c331
+Author: Ji-yunX Lu <ji-yunx.lu@intel.com>
+Date:   Fri Oct 28 16:14:21 2022 +0800
+
+    [LNL] Remove unnecessary include path from DEC
+    
+    [Issue Description]
+    The include path IpBlock/Txt/AcpiTables is described in SiPkg.dec
+    but has no real usage.
+    
+    [Resolution]
+    Remove IpBlock/Txt/AcpiTables from SiPkg.dec.
+    
+    Package/Module:
+    ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 15012226929
+    
+    Change-Id: Ie3a4cf726cf77ba46716c87f529d52331f633753
+    internal-only:
+    Signed-off-by: Ji-yunX Lu <ji-yunx.lu@intel.com>
+    (cherry picked from commit 8f87468169db80b5cc8de2345be3893f6d9a777d)
+
+commit 410b351c8cc
+Author: Ji-yunX Lu <ji-yunx.lu@intel.com>
+Date:   Fri Oct 28 15:48:11 2022 +0800
+
+    [MTL] Remove unnecessary include path from DEC
+    
+    [Feature Description]
+    The include path IpBlock/Txt/AcpiTables is described in SiPkg.dec
+    but has no real usage.
+    Remove it.
+    
+    Package/Module:
+    ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: 15012226749
+    
+    Change-Id: I561e37f94a4e46f5c6b9f88776ca85a522064162
+    internal-only:
+    Signed-off-by: Ji-yunX Lu <ji-yunx.lu@intel.com>
+    (cherry picked from commit 81ed1d39ec765c15120610dda83913d80e4aa627)
+
+commit 8d8cc65c349
+Author: Ashraf Ali S <ashraf.ali.s@intel.com>
+Date:   Mon Oct 24 22:38:35 2022 +0530
+
+    Inform the Display PHY when IGFX is disabled
+    
+    [Feature Description]
+    Inform the Display PHY when IGFX is disabled
+    
+    Package/Module: Graphics
+    
+    [Impacted Platform]
+    ALL
+    
+    Hsd-es-id: 16018569905
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: I594c81fc8341077159e5934e8af43c45fab8bdd1
+    Signed-off-by: Ashraf Ali S <ashraf.ali.s@intel.com>
+    (cherry picked from commit 09998ea4294b472445f96402bd3d400cda4ec1e3)
+
+commit eb59ae4e327
+Author: CR <cr2@intel.com>
+Date:   Mon Oct 31 21:35:53 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily_github Daily Updating Version/ID: MeteorLake_2451_00
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit c141fb95514d26c35c43f4ea48a4411f1ddc2003)
+
+commit 81f750c3ad1
+Author: Na Gai <na.gai@intel.com>
+Date:   Thu Oct 20 16:37:07 2022 +0800
+
+    Remove the IED BIOS support in ServerGen3
+    
+    [Feature Description]
+    IED (Intel Enhanced Debug) has been deprecated.
+    Remove the IED BIOS support in ServerGen3.
+    Also remove SaPlatformPolicy.h for no code using it.
+    
+    Package/Module: Many
+    
+    [Impacted Platform]
+    Gen3 platforms
+    
+    Hsd-es-id: 15012029582
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    Change-Id: Ifc754a980af111cdf57e8e6bd878448f2af123fc
+    Signed-off-by: Na Gai <na.gai@intel.com>
+    (cherry picked from commit e86fcab994535c942b52798fd71eb3436683f293)
+
+commit 04af88c7d44
+Author: Zhiguang Liu <zhiguang.liu@intel.com>
+Date:   Mon Oct 31 09:51:52 2022 +0800
+
+    Add CpuLib to module INFs that depend on UefiCpuLib for ClientMaster.
+    
+    [Feature Description]
+    Add CpuLib to module INFs that depend on UefiCpuLib for ClientMaster
+    
+    Package/Module: MeteorLakePlatSamplePkg
+    
+    [Impacted Platform]
+    ALL
+    
+    Hsd-es-id: 15010985763
+    
+    internal-only:
+    N/A
+    
+    Change-Id: I78308ae13e9be55ae67e91c45bc7f1a57d6309ff
+    Signed-off-by: Zhiguang Liu <zhiguang.liu@intel.com>
+    (cherry picked from commit f2800c04079e2b917973e7a65383ec34923bb27d)
+
+commit e79ef62262e
+Author: Judah Vang <judah.vang@intel.com>
+Date:   Tue Oct 11 15:34:19 2022 -0700
+
+    Add function to check D0I3 bit status
+    
+    [Feature Description]
+    A new function is added to check the D0I3 bit status. This
+    function is used by the RPMC libraries to set/clear D0I3
+    bit in order to communicate with CSME.
+    
+    Package/Module: C1S, ProtectedVariableFeaturePkg, MeteorLakeBoardPkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: 22015395586
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: Ieca6e6a17e1382c54341b2ab2054b1beae4643f8
+    Signed-off-by: Judah Vang <judah.vang@intel.com>
+    (cherry picked from commit 2fae847741d945ecb50e892da16a62526155af17)
+
+commit cf563997a51
+Author: Junfeng Guan <junfengx.guan@intel.com>
+Date:   Mon Oct 31 13:24:59 2022 +0800
+
+    Enable memory remap in emulation system
+    
+    [Issue Description]
+    Memory remap is disabled in emulation system
+    
+    [Resolution]
+    Enable memory remap in emulation system
+    
+    Package/Module:
+    MRC
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 15012195586
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/15012195586
+    Enable memory remap above 4GB on LNL HFPGA
+    
+    [Restricted Impacted Platform]
+    LNL-M HFPGA
+    
+    Change-Id: I29f319db03893fc1602236b7c70d0a87a5308074
+    Signed-off-by: Junfeng Guan <junfengx.guan@intel.com>
+    (cherry picked from commit 0b2d7db64164006f6e22ec7021ea222fcc48b412)
+
+commit 8af158fba57
+Author: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+Date:   Thu Oct 27 16:37:26 2022 +0530
+
+    USB Exposed Port System Test is failing with error
+    
+    [Issue Description]
+    Port mapping in SUT is mis-matching.
+    Super speed ports are interchanged
+    
+    [Resolution]
+    Modified the knobs value
+    
+    Package/Module: MeteorLakeBoardPkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Hsd-es-id: 16018655019
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    
+    Change-Id: Ice21c476626028595f2a0e8710711754a327c795
+    Signed-off-by: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+    (cherry picked from commit 7113b744f15c116bea49d7c4393157e3c1c93430)
+
+commit 1bef64f0826
+Author: AidanX Tsai <aidanx.tsai@intel.com>
+Date:   Fri Oct 28 18:41:08 2022 +0800
+
+    [MTL-P] LP5x T3 RVP - Update USB Port properties
+    
+    [Feature Description]
+    Disabled USB TCP1 port by following Platform Mapping Document.
+    
+    Package/Module:
+    MeteorLakeBoardPkg
+    
+    [Impacted Platform]
+    P
+    
+    Hsd-es-id: 16018655008
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/16018655008
+    
+    Change-Id: I64e16e8a649b4d57b85144c41dddbeb381b55141
+    Signed-off-by: AidanX Tsai <aidanx.tsai@intel.com>
+    (cherry picked from commit 5ff07314538324512334066b675a5b18615a15a7)
+
+commit 2d42bc90a9f
+Author: Prabhakar Patil, Sandeep <sandeep.prabhakar.patil@intel.com>
+Date:   Wed Sep 28 18:16:11 2022 +0530
+
+    PEP: ACPI PEP support for multiple root bridges
+    
+    [Feature Description]
+    PEP code modificaion to add support for multiple root bridges.
+    In MTL-S SATA and other devices are seating at PC02 but in case of
+    MTL M/P same devices are seating on PC00 bridge. Refactored PEP
+    code to accommodate both(PC00, PC02) requirements.
+    
+    Package/Module:
+        MeteorLakePlatSamplePkg
+    
+    [Impacted Platform]
+    MTL M/P/S
+    
+    Hsd-es-id: 14016595727
+    
+    internal-only:
+    ACPI PEP package should contain description to PCH devices
+    when PCH is located on a separate root bridge.
+    
+    Change-Id: I3306ad83b0c1ffaeabbc273954f22ecad13e3309
+    Signed-off-by: Prabhakar Patil Sandeep <sandeep.prabhakar.patil@intel.com>
+    (cherry picked from commit 70038a618e82fee46b85bf69980749e57f8c4216)
+
+commit e2a7c4dd351
+Author: ShanmugaX Priya Moorthy <shanmugax.priya.moorthy@intel.com>
+Date:   Thu Oct 27 20:32:24 2022 +0530
+
+    Error message during RPE flow
+    
+    [Issue Description] Error message in Graphics console Some Erase ACtions
+     are Failed. System requires restart even SSD Erase done successfully
+    
+    [Resolution] STORAGE_ERASE_VERIFY and STORAGE_ERASE_GENERATE_REPORT
+    are not considered in DecrementBiosBootParameter so removed both when
+    SECURE_ERASE_ALL_SSD taken care
+    
+    Package/Module: MeteorLakePlatSamplePkg/Features/Rpe/
+    
+    [Impacted Platform]
+    MTL
+    Hsd-es-id: 22016022528
+    internal-only:
+    Place holder for information that is internal to intel, for
+    ex: information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    
+    Change-Id: I485ec54f0b55e7aca9dc0caa2e5f3d33532f3b10
+    Signed-off-by: ShanmugaX Priya Moorthy <shanmugax.priya.moorthy@intel.com>
+    (cherry picked from commit fcc9793162bc1613d8ba3d0782102740e8b429ab)
+
+commit 0359945eab7
+Author: Ming Tan <ming.tan@intel.com>
+Date:   Fri Oct 28 00:33:45 2022 +0800
+
+    Fix an issue about exist from S5 in emulation system
+    
+    [Issue Description]
+    There is an issue about exist from S5 in emulation system.
+    
+    [Resolution]
+    Skip some early config in enulation system.
+    
+    Package/Module: ClientOneSiliconPkg/IpBlock/CpuInit/
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 15012221281
+    
+    internal-only:
+    https://hsdes.intel.com/appstore/article/#/15012221281
+    
+    In HFPGA platform rid 34471, when exiting from Sx,
+    a BIOS ASSERT due to PMC write CPU Soft Strap error.
+    
+    ASSERT_EFI_ERROR (Status = Device Error)
+    
+    PEI_ASSERT!: CpuCommonLib.c (595): !(((INTN)(RETURN_STATUS)(Status)) < 0)
+    
+    Solution: Ignore CPU strap checking in HFPGA platform also.
+    
+    [Restricted Impacted Platform] LNL-M HFPGA
+    
+    Change-Id: I1f1c61c43a33f63962ef7e4bf208004f4c895c2e
+    Signed-off-by: Ming Tan <ming.tan@intel.com>
+    (cherry picked from commit 6337f434575ad97f6fa290fef23a805fd0410c2f)
+
+commit a5ccec30c63
+Author: shreeya satgounda <shreeya.satgounda@intel.com>
+Date:   Fri Oct 21 10:08:09 2022 +0530
+
+    Integrate TSE_CAPABILITY MSR (0x9F1) Definition
+    
+    [Feature Description]
+    Integrated TSE_CAPABILITY MSR definition with updated bit filelds
+    
+    Package/Module:ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    LNL-M
+    
+    Hsd-es-id: 16018592937
+    
+    internal-only:
+    
+    Change-Id: I82be3ae763780a5bc8ae00f9b8d374e4417c8b1d
+    Signed-off-by: Shreeya Satgounda <shreeya.satgounda@intel.com>
+    (cherry picked from commit 9e34e22ec21216307345e53a4b01da7a9b3bce69)
+
+commit 018b488387d
+Author: CR <cr2@intel.com>
+Date:   Sun Oct 30 21:33:50 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily_github Daily Updating Version/ID: MeteorLake_2447_00
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit ed019c059e73daa4ad6d356ebf2cc6e229b8e0e8)
+
+commit 644fbb35dd7
+Author: Scottie Kuo <scottie.kuo@intel.com>
+Date:   Thu Oct 27 15:17:09 2022 +0800
+
+    [LPE] Failed to erase SSD in Local Platform Erase
+    
+    [Issue Description]
+    Failed to erase SSD in Local Platform Erase.
+    It is a regression caused by remote platform erase driver rework.
+    
+    [Resolution]
+    Remote Platform Erase should return successful
+    to prevent registered event been released.
+    
+    Package/Module:
+    PlatSamplePkg/Features/Rpe
+    
+    [Impacted Platform]
+    ALL
+    
+    Hsd-es-id: 15012217034
+    
+    Change-Id: I396cda9d95064c9e84e0044b1a844b2c00615721
+    internal-only:
+    Signed-off-by: Scottie Kuo <scottie.kuo@intel.com>
+    (cherry picked from commit 3dd2b3f4b0e5842835378dea12091141222b61a7)
+
+commit 9632b7819c2
+Author: CR <cr2@intel.com>
+Date:   Sat Oct 29 21:37:56 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily_github Daily Updating Version/ID: MeteorLake_2446_00
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit b05c12a03d287eec204a29e4b41727a54f838f98)
+
+commit 59649f4e691
+Author: CR <cr2@intel.com>
+Date:   Fri Oct 28 21:33:57 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily_github Daily Updating Version/ID: MeteorLake_2445_00
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit 819d07ca7b5d96369668ca139ec01b646be5bd7d)
+
+commit 2c77a292fa8
+Author: Michal Dutkiewicz <michal.dutkiewicz@intel.com>
+Date:   Fri Oct 28 13:49:26 2022 +0200
+
+    [LNL]Rework MEBx related documentation.
+    
+    [Issue Description]
+    Legacy MEBx related items still available in the code.
+    
+    [Resolution]
+    Reworked ME documentation.
+    
+    Package/Module:
+    ClientOneSiliconPkg
+    LunarLakePlatSamplePkg
+    
+    [Impacted Platform]
+    ALL
+    
+    Hsd-es-id: 18025016011
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: Ie270197070833ec91b434b61f1510473600fbf2e
+    Signed-off-by: Michal Dutkiewicz <michal.dutkiewicz@intel.com>
+    (cherry picked from commit 8817345ebf71dd234a02050a0e0da3672fa6800a)
+
+commit 996d12205b9
+Author: Michal Dutkiewicz <michal.dutkiewicz@intel.com>
+Date:   Tue Oct 11 16:06:14 2022 +0200
+
+    [MTL]Rework MEBx related documentation.
+    
+    [Issue Description]
+    Legacy MEBx related items still available in the code.
+    
+    [Resolution]
+    Reworked ME documentation.
+    
+    Package/Module:
+    ClientOneSiliconPkg
+    MeteorLakePlatSamplePkg
+    Features/Manageability/MebxFeaturePkg/
+    
+    [Impacted Platform]
+    ALL
+    
+    Hsd-es-id: 18024606721
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: Ia72d1f11ba6218a21d1a49d9c5439b53abc8d98c
+    Signed-off-by: Michal Dutkiewicz <michal.dutkiewicz@intel.com>
+    (cherry picked from commit 36336ffaeadc2802c27bfcd3b33ab4fc0ef288b3)
+
+commit c09d6605ae7
+Author: Andres Petilo Perez <andres.petilo.perez@intel.com>
+Date:   Wed Oct 26 17:05:32 2022 +0200
+
+    No xDCI definition in ACPI for MTL PCH.
+    
+    [Issue Description]
+    PCH xHDCI ACPI code is missing for PC02 scope.
+    
+    [Resolution]
+    Scope has been removed from PchXhdci file so it has to be addressed
+     where it is included.
+    
+    Package/Module: ClientOneSiliconPkg/Dsdt
+    
+    [Impacted Platform]
+    MTL, LNL.
+    
+    Hsd-es-id: 18024874740
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: I64958f8c8c4bc7ac035d682e4834fb99876b9c67
+    Signed-off-by: Andres Petilo Perez <andres.petilo.perez@intel.com>
+    (cherry picked from commit b08e14b12f8dfe6a9e6ae2ec8e2163a392664b7b)
+
+commit 379d455e9b6
+Author: Cosmo Lai <cosmo.lai@intel.com>
+Date:   Wed Oct 19 16:10:43 2022 +0800
+
+    Leverage CsiApiPkg and remove Csi headers from C1S
+    
+    [Feature Description]
+    This is to remove the duplicate CSI headers from C1S and leverages CSI
+    headers from CsiApiPkg in client code base.
+    
+    Package/Module: CsiApiPkg, ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    All
+    
+    Hsd-es-id: 15012200673
+    
+    Change-Id: I2a402fd6982c77c6705911a4bd9f37f74467028e
+    internal-only:
+    Signed-off-by: Cosmo Lai <cosmo.lai@intel.com>
+    (cherry picked from commit bdc8242f4958e92bafbe8dd511f6c3317604f074)
+
+commit a72047c6271
+Author: Milosz Gladych <milosz.gladych@intel.com>
+Date:   Thu Oct 27 01:34:13 2022 +0200
+
+    Add Test Menu setup option to tune Deferred Write Buffer PSF feature
+    
+    [Feature Description]
+    DWB Feature should to be abled to be tuned by Test Menu Setup options.
+    Add setup option for every parameter of the feature, create config
+    block, create PSF policy lib, move programming DWB from pre-policy
+    sub-phase to on-policy-installed sub-phase of PreMem.
+    
+    Package/Module:
+    ClientOneSiliconPkg/Fru/LnlSoc
+    ClientOneSiliconPkg/IpBlock/Psf
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 18024968649
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] LunarlakeRestrictedPkg
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] Tested using Simics
+    
+    Signed-off-by: Milosz Gladych <milosz.gladych@intel.com>
+    (cherry picked from commit 9ca4d834ac14873dad6316474ea83061130247f1)
+
+commit f1858692d78
+Author: chris chiang <chris.chiang@intel.com>
+Date:   Thu Oct 20 15:41:52 2022 +0800
+
+    Update secure boot handling with AMT Storage Redirection
+    
+    [Issue Description]
+    Secure Boot disable should only be applied right before AMT storage
+    redirection is dispatched.
+    
+    [Resolution]
+    move the disable secure boot to BDS phase, not DXE.
+    And force restore it in DXE phase if it is changed for previous
+    Storage Redirection.
+    
+    Package/Module: PlatSamplePkg
+    
+    [Impacted Platform]
+    MTL, LNL
+    
+    Hsd-es-id: 14017725886
+    
+    internal-only:
+    Disabling it in DXE allows for dispatching
+    third party oproms in BDS with secure boot disable causing a security
+    issue.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: I55f8b7a3e9fd23d079bc4f55d7c47fef7be31fdb
+    Signed-off-by: chris chiang <chris.chiang@intel.com>
+    (cherry picked from commit aa5336c50ed7200e60b840914a752275aa9696a5)
+
+commit d939c57c128
+Author: CR <cr2@intel.com>
+Date:   Thu Oct 27 21:36:03 2022 -0700
+
+    [TeamCity] MTL MeteorLake_Edk2Master_Daily_github Daily Updating Version/ID: MeteorLake_2444_01
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A
+    (cherry picked from commit bd971a7b6a8bea3b4f737164b111c9ed1b1ed403)
+
+commit 78d7a9b432c
+Author: Rodrigo Gonzalez del Cueto <rodrigo.gonzalez.del.cueto@intel.com>
+Date:   Tue Oct 25 23:43:03 2022 -0700
+
+    [TSE] Correct Null check ordering
+    
+    [Issue Description]
+    
+    Null check is occurring after a dereference operation.
+    
+    [Resolution]
+    
+    Place the Null check before any dereference operation in the logic flow.
+    
+    Package/Module:
+    TseFeaturePkg
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 15012195757
+    
+    internal-only:
+    
+    https://hsdes.intel.com/appstore/article/#/15012195757
+    https://coverityent.devtools.intel.com/prod6/reports.htm#v12435/p10005/fileInstanceId=384884774&defectInstanceId=168039254&mergedDefectId=2670613
+    
+    Change-Id: I838067ce02cac59b318df1561996ae7d194491ba
+    Signed-off-by: Rodrigo Gonzalez del Cueto <rodrigo.gonzalez.del.cueto@intel.com>
+    (cherry picked from commit 2ea0a5c21ca15648c6c46f1319b901c3edece832)
+
+commit 83a8fbb6263
+Author: Edgar Gonzalez <edgar.gonzalez@intel.com>
+Date:   Thu Oct 27 12:17:01 2022 -0700
+
+    ISH is not available in BIOS menu
+    
+    [Issue Description]
+    ISH is not available under ISH configuration Menu.
+    
+    [Resolution]
+    Build only 1 hob for gIshSupportedGuid
+    
+    Package/Module: ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    S
+    
+    Hsd-es-id: 16018486270
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: I5ee689ca4d568011642cf7d6c75eb3e5cc40f7b6
+    Signed-off-by: Edgar Gonzalez <edgar.gonzalez@intel.com>
+    (cherry picked from commit 3ee07b1582aef61847e035aec1b6c40ebefbda0f)
+
+commit d7ad942f5c8
+Author: Michal Dutkiewicz <michal.dutkiewicz@intel.com>
+Date:   Tue Sep 27 15:54:28 2022 +0200
+
+    Rework MeUefiFwHealthStatusLib.
+    
+    [Feature Description]
+    SPS FW is discontinued. Respective files shall be removed.
+    Remove non IGN FW related entries.
+    Remove calls for library APIs outside of IGN related libraries.
+    
+    Package/Module:
+    ClientOneSiliconPkg
+    LoganvilleRpPkg
+    ServerSiliconPkg
+    
+    [Impacted Platform]
+    ALL
+    
+    Hsd-es-id: 18024634824
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: I0b4e33894f110113b1e752a18a14f93085a0ad6c
+    Signed-off-by: Michal Dutkiewicz <michal.dutkiewicz@intel.com>
+    (cherry picked from commit 8a71f71314f689ad989a453f0bb567bdd8dedf82)
+
+commit 65010e3810f
+Author: Margi Soni <margi.soni@intel.com>
+Date:   Thu Oct 20 05:25:02 2022 +0530
+
+    [MTL][PCIe] HWEQ setup options are broken
+    
+    [Issue Description]
+    PCIe BIOS setup options for Preset/coefficient is not programming the
+    lists correctly for all speeds - gen3/gen4/gen5
+    
+    [Resolution]
+    fixed policy update in ClientOneSiliconPkg
+    
+    Package/Module: ClientOneSiliconPkg
+    
+    [Impacted Platform]
+    ALL
+    
+    Hsd-es-id: 14017787538
+    
+    internal-only:
+    Place holder for information that is internal to intel, for ex:
+    information related to internal-only/restricted code, hsd, gerrit,
+    bugzilla links etc.
+    Note that all information after the internal-only tag may be stripped
+    out of the external customer releases.
+    Important Note - Do not put brackets around the internal-only tag, as
+    it will not be properly processed by export tools.
+    Please visit https://intel.sharepoint.com/sites/fst/SitePages
+    /System-Firmware-Documentation.aspx to find the document which has
+    directions/examples on how to fill the template.
+    
+    [Restricted Package/Module] <Internal platforms> <Optional>
+    
+    [Restricted Impacted Platform] <Internal platforms> <Optional>
+    
+    [Register Impacted] <Optional>
+    
+    [Testing Completed] <Optional>
+    
+    Change-Id: I8f667836693bddebe811d27629430c3a1c1ae3d9
+    Signed-off-by: Margi Soni <margi.soni@intel.com>
+    (cherry picked from commit f2ac004b7b65ed80acd6c51822408a730383e803)
+
+commit 849f4bb7c11
+Author: Saloni Kasbekar <saloni.kasbekar@intel.com>
+Date:   Fri Oct 21 12:50:39 2022 -0700
+
+    One Click Recovery code cleanup and cosmetic changes
+    
+    [Feature Description]
+    Return from NetworkDevicePathParam if error conditions are met
+    
+    Package/Module: MeteorLakePlatSamplePkg/Features/Amt
+    
+    [Impacted Platform]
+    All
+    
+    Hsd-es-id: 14017484774
+    
+    internal-only:
+    Add ASF HECI message to get the HTTP Proxy information from the CSME.
+    Use the proxy information in OCR driver to construct new boot options
+    with existing URI data.
+    Code changes in restricted due to Edk2 changes timeline
+    
+    [Restricted Package/Module] ClientOneSiliconPkg/Me
+    
+    Change-Id: If548ad20bd0f7253f0862ce9e537be379b2bb218
+    Signed-off-by: Saloni Kasbekar <saloni.kasbekar@intel.com>
+    (cherry picked from commit 97f099b4eebd197ba1fb2c602f11ed9107de4357)
+
+commit fecee074325
+Author: Robert Kowalewski <robert.kowalewski@intel.com>
+Date:   Wed Oct 26 10:17:28 2022 +0200
+
+    Expose Camarillo in DMAR ACPI table for LNL
+    
+    [Feature Description]
+    BIOS shall expose Camarillo (BDF = 0/4/0) as device scope in DMAR DRHD
+    ACPI table for non-GFX IOMMU.
+    
+    Changes:
+    1. Added Camarillo into a device scope of DRHD2 (non-Gfx VT-d) structure.
+    2. Updated PcieBdfIommuMapping table in VtdInfoFruLib.
+    
+    Package/Module:
+    C1S/VtdInfoFruLib
+    C1S/DmarAcpiTablesVer3
+    
+    [Impacted Platform]
+    LNL
+    
+    Hsd-es-id: 15012203124
+    
+    internal-only:
+    Signed-off-by: Robert Kowalewski <robert.kowalewski@intel.com>
+    (cherry picked from commit 243c34cfb1ed7fa842b385bf9479dd02356316e2)
+
+commit bb2228c3bc8
+Author: Amrita Raju <amrita.raju@intel.com>
+Date:   Thu Oct 13 23:55:59 2022 +0530
+
+    BT CHINA PPAG enablement control via UEFI variables
+    
+    [Feature Description]
+     New ability for OEM to control BT EU and CHINA PPAG feature enablement/
+     disablement via UEFI var
+    
+    Package/Module: CnvFeaturePkg
+    
+    [Impacted Platform]
+     LNL
+    
+    Change-Id: I5eae409204bc2756babd3ae2acfffbda424dcabb
+    Hsd-es-id: 16018213448
+    internal-only:
+    Signed-off-by: Amrita Raju <amrita.raju@intel.com>
+    (cherry picked from commit 2f2cb0e6f6658c8239cc9d3085a013dd48855546)
+
+commit e455ef9a3e5
+Author: Peter Tsai <peter.tsai@intel.com>
+Date:   Thu Oct 27 14:20:53 2022 +0800
+
+    [UnitTest]Test case for CnvUefiConfigVariableVer1
+    
+    [Feature Description]
+    Add test for CnvUefiConfigVariableVer2.c to test:
+    InstallSgom, InstallBbfb, InstallBtPpag, CnvConfigInit,
+    InstallGpc, InstallCnvUefiVariables
+    
+    Package/Module: CnvFeaturePkg
+    
+    [Impacted Platform]
+    MTL
+    
+    Change-Id: I2f310cf1d7999c92af70d064013af9c6e6a48a5c
+    Hsd-es-id: 15011299160
+    internal-only:
+    Signed-off-by: Peter Tsai <peter.tsai@intel.com>
+    (cherry picked from commit a8637218c52b6e050b2735a30964e62372ca2cce)
+
+commit 3eabc2a0c3e
+Author: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+Date:   Wed Nov 2 12:39:15 2022 +0530
+
+    Revert "Reverted BIOSID from Edk2Master"
+    
+    This reverts commit ab0bcd51f01468ad5e08d59fb994b7b7a280e676.
+    
+    Change-Id: I65a5d2dac48698b25ef452c7b28737f18e7608bb
+    Signed-off-by: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+    (cherry picked from commit 148004802de0b3db103e66c9202d9c17f4af3c8d)
+
+commit 9b73ac1f4ba
+Author: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+Date:   Wed Nov 2 12:39:09 2022 +0530
+
+    Revert "[TeamCity] MTL MeteorLake_meteorlake_program_platform_Daily_github Daily Updating Version/ID: MeteorLake_2444_80"
+    
+    This reverts commit 193ded9cd2729784c3e5399c2634c2a9a63ccccd.
+
+commit fb850e60de8
+Author: SaiX Durga Bolisetti <saix.durga.bolisetti@intel.com>
+Date:   Wed Nov 2 12:39:02 2022 +0530
+
+    Revert "[TeamCity] MTL MeteorLake_meteorlake_program_platform_Daily_github Daily Updating Version/ID: MeteorLake_2444_81"
+    
+    This reverts commit a44ba54cff2755d3ea45bc48b28021414e7483b5.
+
+commit a44ba54cff2
+Author: CR <cr2@intel.com>
+Date:   Thu Oct 27 11:36:19 2022 -0700
+
+    [TeamCity] MTL MeteorLake_meteorlake_program_platform_Daily_github Daily Updating Version/ID: MeteorLake_2444_81
+    
+    Signed-off-by: sys_tcsbios <tcsbios@intel.com>
+    Hsd-es-id: N/A

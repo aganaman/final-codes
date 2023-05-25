@@ -1,0 +1,11 @@
+{
+    "data": {
+        "path": "C:/NAMAN/Share/YBO/Create_Update_TR_using_TC/Book5.csv",
+        "test_cycle": "bios.a21.A0 PO Exit.Client-BIOS.bob_test",
+        "link_type": "parent-child",
+        "status": "complete",
+        "reason": "warning",
+        "release_aff": "bios.alderlake",
+        "owner": "namanaga"
+    }
+}

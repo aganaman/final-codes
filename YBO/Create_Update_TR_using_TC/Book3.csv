@@ -1,0 +1,425 @@
+﻿id,title,configuration,test_cycle
+1308953569,Lying_tcd_example_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.2lm.A0 Execution.Client-BIOS.949 Test,bios.alderlake..Client-BIOS.,bios.alderlake.A0 Execution.Client-BIOS.,bios.alderlake.A0 PO Exit.Client-BIOS.HHH,bios.alderlake.A0 TI.Client-BIOS.,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1308903822,Firmware Nestor TCD 01_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.2lm.A0 Execution.CLV.Test Alvaro,bios.alderlake.A0 Execution MFG.Client-BIOS.NestorFirmware01Edited,bios.alderlake.A0 PO Exit.CLV.NestorFirmware02,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.amberlake.A0 PO Exit.Client-BIOS.NestorFirmware03"
+1308903884,Nestor TCD for Firmware 0212_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.A0 Execution MFG.Client-BIOS.NestorFirmware01Edited,bios.alderlake.A0 PO Exit.CLV.NestorFirmware02,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1605781517,Firmware Nestor TCD 02_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.A0 Execution MFG.Client-BIOS.NestorFirmware01Edited,bios.alderlake.A0 PO Exit.CLV.NestorFirmware02,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1605781518,Firmware Nestor TCD 03_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.A0 Execution MFG.Client-BIOS.NestorFirmware01Edited,bios.alderlake.A0 PO Exit.CLV.NestorFirmware02,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1605781527,Firmware Nestor TCD 04_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.A0 Execution MFG.Client-BIOS.NestorFirmware01Edited,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1308242534,testing https://jira.devtools.intel.com/browse/CLIENTSE-2587_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680663,[PreSi]Verify system can  boot with TDX enabled without SGX_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680666,[SGX] Verify BIOS publish EPC as a ACPI PNP device_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680667,[SGX] BIOS provides Setup option to select Launch Enclave Provider_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680668,[SGX] SGX Boot Scenario Normal Boot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680669,[SGX] PRMRR size remains valid until SGX is disabled in BIOS setup_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680670,[SGX] Verify SGX QoS setup option_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680671,[SGX] SVN values in BIOS SE SVN MSR_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680672,[SGX] Verify poison containment enabled when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680673,[SGX] SGX Boot Scenario Extended TCB recovery pending_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680674,[SGX] SGX should be disabled when NON ECC DIMM plugged in_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680679,[SGX] Verify that the BIOS presents an interface to initialize EPOCH  configures EPOCH MSRs_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680680,[SGX] Verify IA32_SGXLEPUBKEYHASH MSRs across different launch enclave modes_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680681,[SGX]someRASfeaturesunsupportedwhenSGXenabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680682,[SGX]PRMRRsizeremainsvaliduntilSGXisdisabledinBIOSsetup_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680685,[Pre-si  Post-Si] SGX and SAF co-exist test_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680686,[PostSi] [ACM] TC.SGX.6 TXT and SGX are supported SINIT ACM must detect if SGX is enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680687,[POST-SI][OTA][SGX] OTA in band support for SGX feature support discovery._bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680690,[PostSi]TC.SGX.5--MSR 0x302[7 is to 0] = 1_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680693,[PreSi]VerifysystemcanbootwithTDXenabledwithoutSGX_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680696,[SGX] SGX Boot Scenario Normal Boot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680697,[SGX] SVN values in BIOS SE SVN MSR_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680698,[SGX] Verify BIOS publish EPC as a ACPI PNP device_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680699,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680705,[SGX]VerifyCorrectSGXBIOSimplementationviaSGXBIOSinfotool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680707,[SGX]VerifySGXQoSsetupoption_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680708,[SGX] Verify SGX Debug Mode support_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680709,[SGX]  Backup_recovery of SGX data  for resiliency_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680710,[SGX] Verify SGX QoS setup option_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680711,[SGX] PRMRR size remains valid until SGX is disabled in BIOS setup_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680713,[SGX] Verify the functionality  status of SGX using SGX functional validation tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680715,[SGX] Verify IA32_SGXLEPUBKEYHASH MSRs across different launch enclave modes_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680717,[SGX] Verify SGX Debug Mode support_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680718,[SGX]SGXBootScenarioAddPackagebootandreboot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680719,[SGX] SGX Boot Scenario Extended TCB recovery pending_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680720,[SGX]SVNvaluesinBIOSSESVNMSR_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680721,[SGX] Verify BIOS publish EPC as a ACPI PNP device_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680722,[SGX] SGX should be disabled when NON ECC DIMM plugged in_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680723,[SGX]  Backup_recovery of SGX data  for resiliency_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680724,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680725,[SGX] SGX Boot Scenario Normal Boot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680726,[SGX] Verify System functionality of  Global BIOS Reset to defaults to perform  SGX Factory Reset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680727,[SGX] Verify the functionality  status of SGX using SGX functional validation tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680728,[SGX] Validate Launch Enclave Provider capability to store the hash of the approved Launch Enclaves signing key_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680729,[SGX] SGX Boot Scenario  TCB Recovery_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680730,[SGX] Verify MK-TME enabled when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680740,[SGX] Verify SGX Debug Mode support_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680745,[SGX] Verify Correct SGX BIOS implementation via SGX BIOS info tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680747,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680751,[SGX] some RAS features unsupported when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680752,[SGX]  Backup_recovery of SGX data  for resiliency_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680755,[SGX] SGX Boot Scenario SGX Enable or Disabled or Reset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680758,[SGX]SGXBootScenarioExtendedTCBrecoverypending_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680759,[SGX] SGX Boot Scenario Extended TCB recovery pending_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680760,[SGX] Verify the functionality  status of SGX using SGX functional validation tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680763,[Pre-Si  Post-Si]UEFI should disable UMA when SGX is enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680764,[PostSi]Verify SEAMLDR_SVN field in MSR BIOS_SE_SVN is updated when TDX and SGX are both enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680765,[SGX] Verify MK-TME enabled when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680766,[SGX] Validate Launch Enclave Provider capability to store the hash of the approved Launch Enclaves signing key_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680767,[SGX] Verify System functionality of  Global BIOS Reset to defaults to perform  SGX Factory Reset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680768,[SGX] SGX Boot Scenario  TCB Recovery_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680769,[SGX]ValidateLaunchEnclaveProvidercapabilitytostorethehashoftheapprovedLaunchEnclavessigningkey_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680772,[PostSi]TC.SGX.1--TXT verification of SGX SVN_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680773,[SGX] Verify SGX if is enabled correctly_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680774,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680776,[SGX] Verify Correct SGX BIOS implementation via SGX BIOS info tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680777,[SGX] Verify MK-TME enabled when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680779,[SGX]SGXBootScenarioFirstPlatformBinding_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680780,[SGX] Verify System functionality of  Global BIOS Reset to defaults to perform  SGX Factory Reset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680782,[SGX] SGX Boot Scenario First Platform Binding_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680783,[SGX] some RAS features unsupported when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680784,[SGX]Backup_recoveryofSGXdataforresiliency_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680785,[SGX] BIOS provides Setup option to select Launch Enclave Provider_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680786,[SGX] Validate Launch Enclave Provider capability to store the hash of the approved Launch Enclaves signing key_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680787,[SGX] SGX Boot Scenario SGX Enable or Disabled or Reset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680790,[SGX] Verify SGX launch control policies using SGX functional validation tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680791,[SGX]Verify The Correctness of SNC Register Values_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680794,[Pre-Si  Post-Si]UEFI should disable UMA when SGX is enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680795,[PostSi]Verify SEAMLDR_SVN field in MSR BIOS_SE_SVN is updated when TDX and SGX are both enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680797,[SGX] SGX Boot Scenario  TCB Recovery_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680798,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680799,[SGX] Verify Correct SGX BIOS implementation via SGX BIOS info tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680802,[SGX] Verify poison containment enabled when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680808,[SGX]BIOSprovidesSetupoptiontoselectLaunchEnclaveProvider_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680809,[POST-SI][OTA][SGX] OTA in band support for SGX feature support discovery._bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680810,[SGX] Verify that the BIOS presents an interface to initialize EPOCH  configures EPOCH MSRs_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680811,[PostSi]TC.SGX.1--TXT verification of SGX SVN_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680812,[SGX] SGX Boot Scenario First Platform Binding_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680813,[SGX] Verify All Platform Establishment Members Are Identified_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680814,[SGX]SGXBootScenarioNormalBoot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680816,[SGX] BIOS provides Setup option to select Launch Enclave Provider_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680818,[SGX] some RAS features unsupported when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680824,[SGX] Verify SGX launch control policies using SGX functional validation tool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680827,[SGX]VerifySystemfunctionalityofGlobalBIOSResettodefaultstoperformSGXFactoryReset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680828,[SGX]VerifyIA32_SGXLEPUBKEYHASHMSRsacrossdifferentlaunchenclavemodes_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680830,[SGX]Verify The Correctness of SNC Register Values_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680831,[SGX] Verify poison containment enabled when SGX enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680832,[SGX] Verify IA32_SGXLEPUBKEYHASH MSRs across different launch enclave modes_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680834,[SGX] PRMRR size remains valid until SGX is disabled in BIOS setup_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680835,[SGX] SGX Boot Scenario Add Package boot and reboot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680837,[SGX] SGX Boot Scenario SGX Enable or Disabled or Reset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680841,[SGX] SGX Boot Scenario First Platform Binding_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680842,[SGX]PRMRRregistercheckinUEFIShell_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680843,[PostSi]VerifySEAMLDR_SVNfieldinMSRBIOS_SE_SVNisupdatedwhenTDXandSGXarebothenabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680844,[SGX] Verify that the BIOS presents an interface to initialize EPOCH  configures EPOCH MSRs_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680845,[SGX] Verify SGX QoS setup option_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680846,[SGX]SGXBootScenarioSGXEnableorDisabledorReset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680848,[SGX] Verify All Platform Establishment Members Are Identified_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680850,[SGX] SVN values in BIOS SE SVN MSR_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680851,[Pre-Si  Post-Si]UEFI should disable UMA when SGX is enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680852,[SGX]Verify The Correctness of SNC Register Values_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680859,[SGX] SGX should be disabled when NON ECC DIMM plugged in_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680861,[SGX] SGX Boot Scenario Add Package boot and reboot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680862,[PostSi]TC.SGX.3--Startup ACM programs MSR 0x302[39 is to 32] with Startup ACM SE_SVN_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680871,[SGX] SGX Boot Scenario Negtive Test to check KeyBlob timestamp_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680872,[SGX] Verify All Platform Establishment Members Are Identified_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680874,[SGX]VerifyMK-TMEenabledwhenSGXenabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680877,[SGX]VerifythattheBIOSpresentsaninterfacetoinitializeEPOCHconfiguresEPOCHMSRs_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680882,[SGX]VerifyBIOSpublishEPCasaACPIPNPdevice_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680883,[SGX] SVN values in BIOS SE SVN MSR_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680884,[SGX]SGXBootScenarioTCBRecovery_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680886,[Pre-si   Post Si] Check if NCEVENTS_CR_UBOXERRCTL2_CFG.enable_pcc_eq0_sev1 will set when SGX is enabled for SPR._bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680891,[SGX] SGX Boot Scenario Add Package boot and reboot_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680895,[SGX]SGXshouldbedisabledwhenNONECCDIMMpluggedin_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680899,[Pre-Si] Verify correctness of SGX component in BIOS_PARAM_INFO_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680901,[PostSi]TC.SGX.3--Startup ACM programs MSR 0x302[39 is to 32] with Startup ACM SE_SVN_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680903,[SGX]VerifypoisoncontainmentenabledwhenSGXenabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680907,[SGX]VerifythefunctionalitystatusofSGXusingSGXfunctionalvalidationtool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680910,[Pre-si   Post Si] Check if NCEVENTS_CR_UBOXERRCTL2_CFG.enable_pcc_eq0_sev1 will set when SGX is enabled for SPR._bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680918,[PostSi] [ACM] TC.SGX.2 CPUID Leaf 7 SubLeaf 2 must be set to 1 (SGX Supported)_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680919,[PostSi]TC.SGX.4--Startup ACM programs MSR 0x302[23 is to 6] with Startup ACM SE_SVN_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680920,[Pre-Si] Verify correctness of SGX component in BIOS_PARAM_INFO_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680921,[SGX]VerifySGXDebugModesupport_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680928,[Pre-si  Post-Si] SGX and SAF co-exist test_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680932,[PostSi] [ACM] TC.SGX.2 CPUID Leaf 7 SubLeaf 2 must be set to 1 (SGX Supported)_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680933,[PostSi]TC.SGX.5--MSR 0x302[7 is to 0] = 1_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680934,[SGX]VerifySGXifisenabledcorrectly_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680935,[Pre-siPostSi]CheckifNCEVENTS_CR_UBOXERRCTL2_CFG.enable_pcc_eq0_sev1willsetwhenSGXisenabledforSPR._bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680943,[PreSi]Verify system can  boot with TDX enabled without SGX_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1405680944,[SGX]VerifySGXlaunchcontrolpoliciesusingSGXfunctionalvalidationtool_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1308242532,Verify TouchPad option Enable/Disable in BIOS_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.a0_si_readiness.Ingredient.Vikram"
+1308242536,automation_Status  - take 2_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.a0_si_readiness.Ingredient.Vikram"
+1308242537,testing - CLIENTSE-2588_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.a0_si_readiness.Ingredient.Vikram"
+1308242538,swoo tcd 2020ww17_1 6:25pm_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.a0_si_readiness.Ingredient.Vikram"
+1308242539,New TC -- Mem POR_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.a0_si_readiness.Ingredient.Vikram"
+1308242540,CLIENTSE-2564_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.a0_si_readiness.Ingredient.Vikram"
+1405677132,[Pre-SiPost-Si]WarmReset-Windows_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.fuse_b0_val.Client-BIOS.Apple"
+1405677133,tcd_rajg_WW44.4_automation_status1_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.fuse_b0_val.Client-BIOS.Apple"
+1405551976,Test case definition - ADL - mikolajm_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.PSS0.8.CLV.,bios.alderlake.pss_0p8.CLV.,bios.alderlake.pss_1p0.CLV."
+1308903760,"[FSP2.0]: Validate FSP TempRamInit initialization and TempRamExit API""s_bios.alderlake-test-adl-1016",bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.soc_rtl_freeze.Client-BIOS.vmailara-jun25,bios.eaglestream_sapphirerapids.A0 PO Exit.Server-BIOS.BOB"
+1308903762,[FSP2.0]: Verify FSP_SMBIOS_MEMORY_INFO_HOB table_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.soc_rtl_freeze.Client-BIOS.vmailara-jun25,bios.eaglestream_sapphirerapids.A0 PO Exit.Server-BIOS.BOB"
+1405675845,P_TTT2_TCD1_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.CLV.,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.fuse_b0_val.Client-BIOS.Apple"
+1405551977,TCD 1 - mikolajm_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.CLV.,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.PSS0.8.CLV.,bios.alderlake.fuse_b0_val.Client-BIOS.Apple,bios.alderlake.pss_0p8.CLV."
+1308792149,JB_ww48.1_Test_1_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.CLV.ww44,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1308792151,test ww21.3_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.CLV.ww44,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1308792148,JB_CLV_training_TC2_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.CLV.ww44,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.fuse_b0_val.Client-BIOS.Apple"
+1308792150,JB_ww48.1_Test_2_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"alhertel.trunk..PnP.TESTING,bios.alderlake.Alpha.CLV.ww44,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.fuse_b0_val.Client-BIOS.Apple"
+1308998622,Lying_tcd_example_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"bios.2lm.A0 Execution.Client-BIOS.949 Test,bios.alderlake..Client-BIOS.,bios.alderlake.A0 Execution.Client-BIOS.,bios.alderlake.A0 PO Exit.Client-BIOS.HHH,bios.alderlake.A0 TI.Client-BIOS.,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"
+1308242523,New TC -- Mem POR_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2"
+1308242525,CLIENTSE-2564_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2"
+1308510913,TestCaseDef3_RajG_for_Phoenix_TestPlanCheck_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2"
+1308241869,TCD 155_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241870,Test 123_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241871,346 Test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241872,TCD 606_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241873,Validate Overclocking_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241874,Verify the System is able to boot to UEFI Shell_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241875,Charles Test Case Deffinition Resuse_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241876,swoo TCD test 1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241877,Validate RWC core enabling/disabling through BIOS setup_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241878,Validate C6DRAM Configs_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241880,Validate HSPHY FW Loading_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241881,Validate S3 Entry & Exit_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241882,Walk Through Jorge & Vikram_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241883,Test VRs_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241885,swoo 2020ww15_1 TCDonn_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241886,swoo 20200406 10:30pm Pacific_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241887,Validate BIOS-pcode VR mailbox communication_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241888,Verify TouchPad option Enable/Disable in BIOS_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241889,swoo 2020 04 09 edited_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241890,swoo 2020 04 10 2:42pm test 1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241891,swoo ww16.5 3:28pm_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241894,swoo 2020 04 10 2:42pm test 1 (copy)_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241895,ww19 test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241896,swoo tcd 2020ww17_1 6:25pm_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241897,Testing Firmware in Execution Config_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241898,Testing Test Result in Firmware version 1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241899,Testing Test Result in Firmware version 2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241900,2020 Reputation_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241901,Testing Test Result in Firmware_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241902,Testing Test Result in Firmware version 3_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241903,2020 King of My Heart_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241904,2020 New Year Day_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241905,Verify system stability after warm reset cycle_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308241906,2020 Call It What You Want_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.2lm.fuse_0p5.Client-BIOS.Testing_Raj_TestCycle,bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308163127,Alex Test Item ww25_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake..test team.gabrielv-test,bios.alderlake..test team.test1031,bios.alderlake.Alpha.Client-BIOS.Nov2"
+1308163128,Charles Weekly Test Cycle_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake..test team.gabrielv-test,bios.alderlake.Alpha.Client-BIOS.Nov2"
+1308242524,Validate symbols in Release BIOS._bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308242527,testing https://jira.devtools.intel.com/browse/CLIENTSE-2587_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763397,123 test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763398,validation_env_simics_inclusion_check_RajG_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763400,[Pre-SiPost-Si]DDRT-DRAMruleroutetableinfocheckviaDRAM_MC_CHANNEL_CFG_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763401,JB_exampleTC44_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763402,WW42.2_RajG_test_tcd_hsdes_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763403,Owner_team_testing_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763404,test ww21.3_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763405,automation_comments_CLIENTSE-2532_testing_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763406,Validate SMBIOS Table 17_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763407,tcd2_rajg_ww45.1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763408,Test case definition - ADL - mikolajm_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763409,[Pre-SiPost-Si]WarmReset-Windows_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763410,[Pre-SiPost-Si]SpeedStep(P-States)fromWindows._bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763411,[Post-Si] To verify flag value for respective acpi id should match both in serial debug message print and in ACFT table from AcpiTest.efi dump_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763412,DIDResetRequired_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763413,"[Post-Si]ValidatethatSystemsupportsfullypopulatedconfigurationwith4GB,8GB,16GBor32GBperdimm._bios.alderlake-h_fpga",bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763414,testing_sub_Component_CLIENTSE-2565_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763416,[Pre-SiPost-Si]BIOSshallsupportoptionforeSMMSaveState_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763417,[Pre-siPost-Si]ToverifybiossupportsKTIPrefetchenableoption_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763418,Raj_WW26.2_testing_automation_status_default_to_not_evaluated_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763419,[Pre-siPost-Si]ToreadIOcachemodessupportedwithIODCautooption_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763420,[Pre-SiPost-Si]BIOSshallsupportoptionforeSMMSaveState_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763421,[Pre-SiPost-Si]DDRT-DRAMruleroutetableinfocheckviaDRAM_MC_Target_CFG_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763422,WW44.1_RajG_TCD_for_flowcheck_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763423,Test Case Definition - Test 1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763424,Verify ACE Enumeration_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763425,123 test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763426,test3_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763427,[Pre-SiPost-Si]WarmReset-Windows_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763428,"[Post-Si]VerifythatbiosshouldsupporttheS0,S5,G3,S5,S0basicflow._bios.alderlake-h_fpga",bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763429,[Pre-SiPost-Si]ToverifyMemorythrottlingmodesupport-RegisterCheck_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763430,testing_sub_Component_CLIENTSE-2565_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763432,tcd3_rajg_ww45.1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763433,mikolajm PCIe test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763435,bridget plug-in trail-123 test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763436,[Post-Si] To verify FSP shall configure the PCI Express Completion timeout_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763437,tesst_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763438,tcd4_rajg_ww45.1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763439,[Pre-SiPost-Si]WarmReset-Windows_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763440,[Pre-SiPost-Si]IODCEnableforRemoteInvItoMAllocFlow_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763441,Request to enable ADL IDs Support in Simics_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763442,[Pre-SiPost-Si]Tovalidate2LMmodeandISOCregisterisconfiguredcorrectly_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763443,WW44.3_RajG_TCD1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763444,test_s_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763445,[Pre-SiPost-Si]ToverifyMemorythrottlingmodesupport-RegisterCheck_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763446,[Pre-SiPost-Si]BIOSshallsupportoptionforeSMMSaveState_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763447,example_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763448,tool test5_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763449,test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763450,[Post-Si] To verify FSP shall disable the Core 3-strike counter_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763451,mytcd_Ww44.4_release_completed_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763452,123 test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763453,Test CPUID_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763454,CLIENTSE-2500_duration_field_check_TCD_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763456,[Post-SiPre-Si]ToValidatestrongpasswordsforUEFIFWsetup-NegativeTest_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763457,Verify Boot to OS from external disk_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763458,testing_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763459,[Pre-SiPost-Si]WarmReset-Windows_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763460,[Pre-SiPost-Si]LinkSpeedGen3toGen2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763461,swoo 2020ww14.2 MTL sample TCD_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763462,123 test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763463,[Post-Si]CPUFlexRatioOverride_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763464,[Pre-SiPost-Si]Tovalidate2LMmodeandISOCregisterisconfiguredcorrectly_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763465,tcd_44.5_audio_rajg_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763466,[Pre-SiPost-Si]BIOSshallsupportoptionforeSMMSaveState_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763468,CLIENTSE-2555-Verification_TCD_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763469,https://jira.devtools.intel.com/browse/CLIENTSE-2532_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763470,WW44.3_RajG_TCD2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763471,[Pre-SiPost-Si]ToverifyMemorythrottlingmodesupport-RegisterCheck_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763472,test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763473,Test DID_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763474,tcd10_rajg_release_completed_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763475,[Pre-SiandPost-Si]BoottoOSwithtwoCPUs_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763476,mytests_1_kunal_debug_created_by_raj_2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763477,Verify Press power button can act as a wake source for S4 and S3 states_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763478,tcd_dp1_rajg_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763479,JB CLV test ww21.2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763480,[Pre-SiPost-Si]MaxPayloadSizein128B_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763481,[Pre-SiPost-Si]WarmReset-Windows_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763482,test from Rocky_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763483,WW44.3_rajg_TCDflow_1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763484,testing (copy)_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763485,swoo 2020ww1405 TCD with test steps test 1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763486,[Pre-SiPost-Si]TovalidateDDR-DRAMruleroutetableinfocheckviaDRAM_MC_Target_CFG_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763487,CLV try 3_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763488,[Pre-SiPost-Si]BIOSshallsupportoptionforeSMMSaveState_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763489,[FIV] TCD sample1 created by Alex Yao_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763490,[Post-Si]FastColdBoottest._bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763491,[Pre-SiPost-Si]ToverifyMemorythrottlingmodesupport-RegisterCheck_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763492,test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763493,Validate Boot to OS with SATA HDD_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763494,tcd1_dp_rajg_WW44.31_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763495,new test case 123_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763496,Verify the system is able to boot to OS with AC only mode_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763497,[Pre-SiPost-Si]-Hyper-Threadingdisabled_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763498,[PreSiPost-Si]SpeedStep(P-States)fromLinux._bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763499,tcd_for_automation_status_WW44.4_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763500,testing global.reuse load in ownerteam_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763501,JB CLV ww20.1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763502,[Pre-SiPost-Si]MaxPayloadSizein256B_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763503,[Pre-SiPost-Si]TovalidateIODCEnableforRemoteInvItoMandRemoteWCiLF_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763505,ww44_rajg_tcd_infinity_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763506,swoo 2020ww1405 TCD with test steps test 2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763507,[Pre-SiPost-Si]-Hyper-Threadingdisabled_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763508,CLV_JB_TC_ww44.2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763509,[Post-Si]HPET timer support_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763510,tcd1_rajG_ww44.1_darkphoenix_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763512,[PSSPost-Si]IODCEnableforRemoteInvItoMHybridPush_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763513,test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763514,[FSP 2.0]: FSP- T phase Verification from debug log_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763515,[Pre-SiPost-Si]BIOSshallsupportoptionforeSMMSaveState_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763516,Validate Boot to OS with SATA SSD_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763517,testing_automation_status_take3_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763518,tcd_rajg_WW44.4_automation_status1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763520,[Pre-SiPost-Si]ToverifyMemorythrottlingmodesupport-RegisterCheck_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763522,[Pre-SiPost-Si]TovalidateIODCEnableforRemoteInvItoMHybridAllocNonAlloc_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763523,CLV_JB_TC_ww44.2.2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763524,[Post-Si]IA32_HWP_CAPABILITIESandIA32_HWP_REQUESTtestinHWPMNativemodewithNolegacysupport_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763525,[Pre-SiPost-Si]-Hyper-Threadingdisabled_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763526,[Pre-SiPost-Si]SpeedStep(P-States)fromWindows._bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763527,testing_content_subcomponent_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763528,JB_CLV_training_TC1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763529,[Pre-SIPost-Si]BIOSshallsupporttoenableordisableUPIPrefetch_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763530,WW45.2_RajG_TCD1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763531,test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763532,tcd1_rajg_ww44.1_regular_phoenixpre_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763533,Validate RTD3_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763534,WW41.5_RajG_TCD_errordebug_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763535,[pilot]_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763536,Test TCD from my test- Rocky_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763537,[Pre-SiPost-Si]VerifyCoreDisableOption_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763538,TCD 2 - mikolajm_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763539,new_test_case_flow_study_tcd_RajG_1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763540,Validation P State_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763541,[Pre-SiPost-Si]SpeedStep(P-States)fromWindows._bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763542,[Pre-SiPost-Si]2LMDDRT-DRAMchannelinterleavingcheckviaDRAMMODECFGregisters_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763543,[Post-Si]IIOportbifurcationaccordingtoRVPandCRBBoardsforAndersonLakeplatforms_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763544,[Pre-SiPost-Si]TovalidateMMIOshouldbeenableonM2IOSF_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763547,JB_CLV_training_TC2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763548,test case 1 - mikolajm_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763549,[Pre-SiPost-Si]ColdReset-EFIShell_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763550,tcd1_rajg_ww45.1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763552,WW41.5_RajG_TestCaseDef_HSDESInterface_1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763553,new_test_case_flow_study_tcd_RajG_2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,bios.alderlake.Alpha.Client-BIOS.Nov2
+1308763399,TCD 4 Nov 2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763415,TCS Testing for survivability 1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763431,TCD for TGL_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763434,Domain selection fix test_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763455,tcd test 2334_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763467,usability study 22_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763504,test review phase test for TCD_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763511,wqwsqwd_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763519,attemp to replicate_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763545,COVID19 testing 1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763546,TCD 3 Nov 2_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308763551,test TCDIFWi_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.fuse_a0_readiness.Client-BIOS.swooww19_0"
+1308241884,Test for Pilot1_bios.alderlake-h_fpga,bios.alderlake-h_fpga,"bios.alderlake.Alpha.Client-BIOS.Nov2,bios.alderlake.ip_rtl_0p0_early.Server-BIOS.WW34"
+1308921259,WWAN(3G) function test on OS_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921260,Verify Volume Up & Down buttons function test post S5 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921261,Verify Volume Up & Down buttons function test post S4 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921262,[Post-SiPre-Si]ToValidatestrongpasswordsforUEFIFWsetup-NegativeTest_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921263,mikolajm test - 1 ADL BIOS_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921264,PerformanceTest_Verify system performance when SG/HG enabled_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921265,Stress Test_Verify HG and iGfx enumeration and functionality during S3/S4/S5 cycles_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921266,System stability test while performing G3 with ongoing video playback_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921267,System stability test while performing Hibernate (S4) cycles with ongoing video playback_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921268,System stability test while performing Hybrid Sleep cycles with ongoing video playback_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921269,System stability test while performing Sleep S3 cycles with ongoing video playback on external displays_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921270,System stability test while performing warm reset (S5) Cycles with ongoing video playback_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921271,Test TCD 1 Nov 20_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921272,Validate CPU and Memory are stable during 10 minutes execution of Stability Test App_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921273,Validate Low Power Audio (LPA) test with 3.5mm Jack speaker_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921274,Validate system stability post overclocking to maximum threshold Core turbo ratio testable_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921275,Validate system stability post overclocking to maximum threshold Gfx turbo ratio testable_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921276,Verify Analog Microphone test connected to 3.5 mm Port_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921277,Verify Analog Microphone test connected to 3.5 mm Port post S3 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921278,Verify Analog Microphone test connected to 3.5 mm Port post S4 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921279,Verify Analog Microphone test connected to 3.5 mm Port post S5 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921280,Verify Basic Internal GbE Controller Functional Test   Cold Boot/warm reset_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921281,Verify Basic Internal GbE Controller Functional Test   S3/S4/S5_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921282,"Verify BIOS test, Intel Vt-d test, Security test, Trusted platform module test, PFAT (BIOS Guard) test using the Brand verification tool_bios.alderlake-test-adl-1016",bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921283,Verify Discrete Bluetooth device function test in OS post S4 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921284,Verify Discrete Bluetooth device function test in OS post S5 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921285,Verify Discrete Bluetooth device function test on OS_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921286,Verify Discrete Bluetooth device function test on OS post S3 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921287,Verify Discrete Wi-Fi enumeration test in device manager_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921288,Verify Discrete Wi-Fi functional test in OS_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921289,Verify Discrete Wi-Fi functional test post S3 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921290,Verify Discrete Wi-Fi functional test post S4 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921291,Verify Discrete Wi-Fi functional test post S5 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921292,"Verify HLK test ""TPM Cryptographic operations and RNG"" with PTT (PTT)_bios.alderlake-test-adl-1016",bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921293,Verify Lid Switch open/close functionality at S3 state - test_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921294,Verify that Intel test menu option is enabled by updating Test Menu enabled BIOS_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921295,Verify that NR build of the BIOS does not support enabling Testmenu_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921296,Verify that the Boot guard passes self test and the FWSTS is valid_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921297,Verify that the Discrete TPM is initialized and the Selftest is completed successfully_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921298,Verify that the WHQL tests related to Bitlocker drive encryption passes with PTT (PTT)_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921299,Verify that the WHQL tests related to Secure boot pass_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921300,Verify the execution of the Chipsec reliability test_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921301,Verify Touch function test using Touch Panel post S3/S0i3 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921302,Verify Touch function test using Touch Panel post S4 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921303,Verify Touch function test using Touch Panel post S5 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921304,Verify Touch function test using TouchPad_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921305,Verify Touch function test using TouchPad post S3 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921306,Verify Touch function test using TouchPad post S4 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921307,Verify Touch function test using TouchPad post S5 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921308,Verify UART function test on OS - Debug logs generation_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921309,Verify volume Up & Down buttons function test in OS_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1308921310,Verify Volume Up & Down buttons function test post S3/S0i3 cycle_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1405677089,P_TTT2 TCD 2_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1405677090,TCD 2 TTT 1_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1405677091,TCD 3 TTT 1_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1605781832,[FSP 2.0]: FSP- T phase Verification from debug log_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1605781833,[FIV] TCD sample1 created by Alex Yao_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2
+1405551978,TCD 2 - mikolajm_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.alderlake.PSS0.8.CLV.,bios.alderlake.pss_0p8.CLV."
+1308921254,[FSP2.0]: Validate Pre and Post OS display with different FSP Bios_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.eaglestream_sapphirerapids.A0 PO Exit.Server-BIOS.BOB"
+1308921255,[FSP2.0]: Verify FSP_INFO_EXTENDED_HEADER Information._bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.eaglestream_sapphirerapids.A0 PO Exit.Server-BIOS.BOB"
+1605781831,[FSP2.0]: Verify FSP Patch Table Information_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2,bios.eaglestream_sapphirerapids.A0 PO Exit.Server-BIOS.BOB"
+1405675844,P_TTT2 TCD3_bios.alderlake-test-adl-1016,bios.alderlake-test-adl-1016,"bios.alderlake.Alpha.CLV.,bios.alderlake.Alpha.Client-BIOS.Raj_TestCycle_WW26.2"

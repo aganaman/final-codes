@@ -1,0 +1,44 @@
+Mandatory:
+
+14013186090	Verify ISH sensor module enumeration in OS
+14013177940	Verify SLP_S0 , Package C states & S0I3.4 with M.2 NVMe connected to x4 slot.
+14013175903	Verify plug & unplug USB hub over USB Type-A port
+14013161607	Verify if system boot with SAF configuration
+16015167637	Verify the Enumeration of PCIe device with PCIe option disabled in the Bios.
+22011834534	Verify ME un-configuration using Bios option
+14013176015	Verify Trace hub initialization in debug BIOS
+14013157594	[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Dual Big core + Octa Small core] SKUs with Small cores  Enabled(2C+8A)
+14013157596	[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Octa Big Core + Octa Small Core] SKUs when Small cores and Big core is Enabled (8C+8A)
+14013157601	[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Dual Big Core+Octa Small cores] SKUs with Small cores and Big Core is enabled (2C+8A)
+
+Higher:
+
+14013120738	Verify that MRC training is not repeated after the fast boot and force repeated post cold boot.
+14013120864	Verify that the BIOS MRC has an option to set "Memory Frequency".
+14013168857	Verify that MRC training is repeated after the Warm boot flow
+
+Yielding:
+
+22011834375	Verify USB 3.2 Gen 2x2 device functionality in pre and post OS
+16015007753	Verify if RPE feature is not available on Consumer SKU
+14013165584	Verify WiFi functionality in UEFI and KVM session establishment working same time for WiFi OCR support
+14013184016	Validate USB2.0/3.0 HUB Functionality check in OS post S3/S0i3 cycle over USB Type-A port
+14013165586	[OCR] Verify AMT triggered HTTPS Boot Flow over Wifi
+14013165591	Verify HD Display Audio enumeration and functionality using Type-C to HDMI display by hot-plugging/unplugging display during and before/after S3/S4 cycles
+14013159448	Verify Type-C Concurrent x4 DP, High Speed Device Functionality on Clod-plug
+14013177881	Verify NVMe-SSD achieve SLP_S0 and PC10 Residency with VMD enabled
+14013177883	Verify Booting over LAN using UEFI PXEv4 Network with TBT + native security (VT-d) + IOMMU enabled in BIOS
+
+Non Yielding:
+
+14013120607	Verify the correct MRC version is displayed in the BIOS setup menu.
+14013178085	Verify VMD RTD3Cold support with add-on-card on x4 slot connected with NVMe.
+14013178092	Verify SLP_S0 , Package C states & S0I3.4 with M.2 NVMe connected to x4 slot.
+14013178094	Verify VMD RTD3Cold support with NVMe connected to PCH M.2 slot.
+14013180400	Verify user can set values for IPV4 Address and Subnet Mask Address
+14013180415	Verify availability of Storage Redirection/ KVM under AMT and relevant options applicable for these features
+14013180435	Verify Storage Redirection can be successfully enabled and disabled
+14013180454	Verify options - IPV4, UUID and Power Control are available in WebUI with WLAN
+14013180456	Verify AMT WEBUI is accessible after Sx cycles
+14013180461	Verify the MEBX configure using Host-based Provisioning
+14013180473	Verify SUT completes  S3 and S4 cycles successfully with ME connection established

@@ -1,0 +1,100 @@
+﻿id,title
+1405526801,Charles Weekly Test Cycle_bios.alderlake-abc
+1308987855,Firmware Nestor TCD 04_bios.alderlake-test-adl-1025
+1308987858,Firmware Nestor TCD 04_bios.alderlake-alderlake_s_ddr4
+1308987879,Test TCD for central firmware 0610_bios.alderlake-test-adl-1016
+1309019726,Verify system stability post applying workload on CPU_bios.alderlake-test-adl-1016
+1309323904,ww_ppaladux_10677_-alderlake_m_Golden configuration
+1309323917,ww_ppaladux_10677_-alderlake_m_Golden configuration
+1405526800,Alex Test Item ww25_bios.alderlake-abc
+1405526874,Testing Test Result in Firmware_bios.alderlake-abc
+1405680762,[Post-Si]Verify the functionality of recovery mechanism after consuming Mem Decode API for SGX PRMRR Allocation_bios.alderlake-test-adl-1016
+1405680860,[Post-Si]Verify The Correctness of SGX SPR PRM sizes (PRMRR_VALID_CONFIG to PROTECTED_MEMORY_PER_SKT)_bios.alderlake-test-adl-1016
+1405680900,[Post-Si]Verify the functionality of recovery mechanism after consuming Mem Decode API for SGX PRMRR Allocation_bios.alderlake-test-adl-1016
+1405680927,[Post-Si]Verify the functionality of recovery mechanism after consuming Mem Decode API for SGX PRMRR Allocation_bios.alderlake-alderlake_s_ddr4
+1405680939,[Post-Si]Verify the functionality of recovery mechanism after consuming Mem Decode API for SGX PRMRR Allocation_bios.alderlake-alderlake_s_ddr4
+1405680955,[PostSi] [ACM] TC.SGX.2 CPUID Leaf 7 SubLeaf 2 must be set to 1 (SGX Supported)_bios.alderlake-alderlake_s_ddr4
+1405680959,[Post-Si]Verify The Correctness of SGX SPR PRM sizes (PRMRR_VALID_CONFIG to PROTECTED_MEMORY_PER_SKT)_bios.alderlake-alderlake_s_ddr4
+1308953569,Lying_tcd_example_bios.alderlake-test-adl-1016
+1308903822,Firmware Nestor TCD 01_bios.alderlake-test-adl-1016
+1309317835,Lying_tcd_example_bios.lunarlake-LNL-M_Simics
+1405526875,Testing Test Result in Firmware version 3_bios.alderlake-abc
+1308903885,Nestor TCD for Firmware 0212_bios.alderlake-test-adl-1022
+1308903884,Nestor TCD for Firmware 0212_bios.alderlake-test-adl-1016
+1605781517,Firmware Nestor TCD 02_bios.alderlake-test-adl-1016
+1605781518,Firmware Nestor TCD 03_bios.alderlake-test-adl-1016
+1605781527,Firmware Nestor TCD 04_bios.alderlake-test-adl-1016
+1308888251,Nestor TCD for Firmware 0212_bios.eaglestream_sapphirerapids-2S_B0_1DimmPerSocket_4800_AIC
+1308092473,Verify the System is able to boot to UEFI Shell_bios.alderlake-test-adl-1016
+1308242534,testing https://jira.devtools.intel.com/browse/CLIENTSE-2587_bios.alderlake-test-adl-1016
+1405680663,[PreSi]Verify system can  boot with TDX enabled without SGX_bios.alderlake-test-adl-1016
+1405680666,[SGX] Verify BIOS publish EPC as a ACPI PNP device_bios.alderlake-test-adl-1016
+1405680667,[SGX] BIOS provides Setup option to select Launch Enclave Provider_bios.alderlake-test-adl-1016
+1405680668,[SGX] SGX Boot Scenario Normal Boot_bios.alderlake-test-adl-1016
+1405680669,[SGX] PRMRR size remains valid until SGX is disabled in BIOS setup_bios.alderlake-test-adl-1016
+1405680670,[SGX] Verify SGX QoS setup option_bios.alderlake-test-adl-1016
+1405680671,[SGX] SVN values in BIOS SE SVN MSR_bios.alderlake-test-adl-1016
+1405680672,[SGX] Verify poison containment enabled when SGX enabled_bios.alderlake-test-adl-1016
+1405680673,[SGX] SGX Boot Scenario Extended TCB recovery pending_bios.alderlake-test-adl-1016
+1405680674,[SGX] SGX should be disabled when NON ECC DIMM plugged in_bios.alderlake-test-adl-1016
+1405680679,[SGX] Verify that the BIOS presents an interface to initialize EPOCH  configures EPOCH MSRs_bios.alderlake-test-adl-1016
+1405680680,[SGX] Verify IA32_SGXLEPUBKEYHASH MSRs across different launch enclave modes_bios.alderlake-test-adl-1016
+1405680681,[SGX]someRASfeaturesunsupportedwhenSGXenabled_bios.alderlake-test-adl-1016
+1405680682,[SGX]PRMRRsizeremainsvaliduntilSGXisdisabledinBIOSsetup_bios.alderlake-test-adl-1016
+1405680685,[Pre-si  Post-Si] SGX and SAF co-exist test_bios.alderlake-test-adl-1016
+1405680686,[PostSi] [ACM] TC.SGX.6 TXT and SGX are supported SINIT ACM must detect if SGX is enabled_bios.alderlake-test-adl-1016
+1405680687,[POST-SI][OTA][SGX] OTA in band support for SGX feature support discovery._bios.alderlake-test-adl-1016
+1405680690,[PostSi]TC.SGX.5--MSR 0x302[7 is to 0] = 1_bios.alderlake-test-adl-1016
+1405680693,[PreSi]VerifysystemcanbootwithTDXenabledwithoutSGX_bios.alderlake-test-adl-1016
+1405680696,[SGX] SGX Boot Scenario Normal Boot_bios.alderlake-test-adl-1016
+1405680697,[SGX] SVN values in BIOS SE SVN MSR_bios.alderlake-test-adl-1016
+1405680698,[SGX] Verify BIOS publish EPC as a ACPI PNP device_bios.alderlake-test-adl-1016
+1405680699,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016
+1405680705,[SGX]VerifyCorrectSGXBIOSimplementationviaSGXBIOSinfotool_bios.alderlake-test-adl-1016
+1405680707,[SGX]VerifySGXQoSsetupoption_bios.alderlake-test-adl-1016
+1405680708,[SGX] Verify SGX Debug Mode support_bios.alderlake-test-adl-1016
+1405680709,[SGX]  Backup_recovery of SGX data  for resiliency_bios.alderlake-test-adl-1016
+1405680710,[SGX] Verify SGX QoS setup option_bios.alderlake-test-adl-1016
+1405680711,[SGX] PRMRR size remains valid until SGX is disabled in BIOS setup_bios.alderlake-test-adl-1016
+1405680713,[SGX] Verify the functionality  status of SGX using SGX functional validation tool_bios.alderlake-test-adl-1016
+1405680715,[SGX] Verify IA32_SGXLEPUBKEYHASH MSRs across different launch enclave modes_bios.alderlake-test-adl-1016
+1405680717,[SGX] Verify SGX Debug Mode support_bios.alderlake-test-adl-1016
+1405680718,[SGX]SGXBootScenarioAddPackagebootandreboot_bios.alderlake-test-adl-1016
+1405680719,[SGX] SGX Boot Scenario Extended TCB recovery pending_bios.alderlake-test-adl-1016
+1405680720,[SGX]SVNvaluesinBIOSSESVNMSR_bios.alderlake-test-adl-1016
+1405680721,[SGX] Verify BIOS publish EPC as a ACPI PNP device_bios.alderlake-test-adl-1016
+1405680722,[SGX] SGX should be disabled when NON ECC DIMM plugged in_bios.alderlake-test-adl-1016
+1405680723,[SGX]  Backup_recovery of SGX data  for resiliency_bios.alderlake-test-adl-1016
+1405680724,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016
+1405680725,[SGX] SGX Boot Scenario Normal Boot_bios.alderlake-test-adl-1016
+1405680726,[SGX] Verify System functionality of  Global BIOS Reset to defaults to perform  SGX Factory Reset_bios.alderlake-test-adl-1016
+1405680727,[SGX] Verify the functionality  status of SGX using SGX functional validation tool_bios.alderlake-test-adl-1016
+1405680728,[SGX] Validate Launch Enclave Provider capability to store the hash of the approved Launch Enclaves signing key_bios.alderlake-test-adl-1016
+1405680729,[SGX] SGX Boot Scenario  TCB Recovery_bios.alderlake-test-adl-1016
+1405680730,[SGX] Verify MK-TME enabled when SGX enabled_bios.alderlake-test-adl-1016
+1405680740,[SGX] Verify SGX Debug Mode support_bios.alderlake-test-adl-1016
+1405680745,[SGX] Verify Correct SGX BIOS implementation via SGX BIOS info tool_bios.alderlake-test-adl-1016
+1405680747,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016
+1405680751,[SGX] some RAS features unsupported when SGX enabled_bios.alderlake-test-adl-1016
+1405680752,[SGX]  Backup_recovery of SGX data  for resiliency_bios.alderlake-test-adl-1016
+1405680755,[SGX] SGX Boot Scenario SGX Enable or Disabled or Reset_bios.alderlake-test-adl-1016
+1405680758,[SGX]SGXBootScenarioExtendedTCBrecoverypending_bios.alderlake-test-adl-1016
+1405680759,[SGX] SGX Boot Scenario Extended TCB recovery pending_bios.alderlake-test-adl-1016
+1405680760,[SGX] Verify the functionality  status of SGX using SGX functional validation tool_bios.alderlake-test-adl-1016
+1405680763,[Pre-Si  Post-Si]UEFI should disable UMA when SGX is enabled_bios.alderlake-test-adl-1016
+1405680764,[PostSi]Verify SEAMLDR_SVN field in MSR BIOS_SE_SVN is updated when TDX and SGX are both enabled_bios.alderlake-test-adl-1016
+1405680765,[SGX] Verify MK-TME enabled when SGX enabled_bios.alderlake-test-adl-1016
+1405680766,[SGX] Validate Launch Enclave Provider capability to store the hash of the approved Launch Enclaves signing key_bios.alderlake-test-adl-1016
+1405680767,[SGX] Verify System functionality of  Global BIOS Reset to defaults to perform  SGX Factory Reset_bios.alderlake-test-adl-1016
+1405680768,[SGX] SGX Boot Scenario  TCB Recovery_bios.alderlake-test-adl-1016
+1405680769,[SGX]ValidateLaunchEnclaveProvidercapabilitytostorethehashoftheapprovedLaunchEnclavessigningkey_bios.alderlake-test-adl-1016
+1405680772,[PostSi]TC.SGX.1--TXT verification of SGX SVN_bios.alderlake-test-adl-1016
+1405680773,[SGX] Verify SGX if is enabled correctly_bios.alderlake-test-adl-1016
+1405680774,[SGX] PRMRR register check in UEFI Shell_bios.alderlake-test-adl-1016
+1405680776,[SGX] Verify Correct SGX BIOS implementation via SGX BIOS info tool_bios.alderlake-test-adl-1016
+1405680777,[SGX] Verify MK-TME enabled when SGX enabled_bios.alderlake-test-adl-1016
+1405680779,[SGX]SGXBootScenarioFirstPlatformBinding_bios.alderlake-test-adl-1016
+1405680780,[SGX] Verify System functionality of  Global BIOS Reset to defaults to perform  SGX Factory Reset_bios.alderlake-test-adl-1016
+1405680782,[SGX] SGX Boot Scenario First Platform Binding_bios.alderlake-test-adl-1016
+1405680783,[SGX] some RAS features unsupported when SGX enabled_bios.alderlake-test-adl-1016
+1405680784,[SGX]Backup_recoveryofSGXdataforresiliency_bios.alderlake-test-adl-1016

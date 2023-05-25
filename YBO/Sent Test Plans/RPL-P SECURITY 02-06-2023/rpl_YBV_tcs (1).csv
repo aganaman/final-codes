@@ -1,0 +1,295 @@
+TestCaseID,Description,URL,Status,Test_Complexity,Test_Coverage_Level
+14013116976,"Verify by enabling PTT, system is able to do a measured boot without any issue",https://hsdes.intel.com/appstore/article/#/14013116976,Mandatory,Low,L2 Mandatory-BAT
+14013117553,Verify the provisioning of dTPM 2.0,https://hsdes.intel.com/appstore/article/#/14013117553,Mandatory,Low,L2 Mandatory-BAT
+14013117597,TXTINFO based commands before and after Provisioning,https://hsdes.intel.com/appstore/article/#/14013117597,Mandatory,Low,L2 Mandatory-BAT
+14013117625,PCRDUMP based commands before and after dTPM provisioning,https://hsdes.intel.com/appstore/article/#/14013117625,Mandatory,Low,L2 Mandatory-BAT
+14013117713,Check SCLEAN memory scrub after system resets with secrets in memory,https://hsdes.intel.com/appstore/article/#/14013117713,Mandatory,Low,L2 Mandatory-BAT
+14013117772,Verify if the secret flag can be set/unset in trusted environment,https://hsdes.intel.com/appstore/article/#/14013117772,Mandatory,Low,L2 Mandatory-BAT
+14013117795,Verify TPM RESET - ESTABLISHMENT BIT set / unset check on TXT opt-in and opt-out,https://hsdes.intel.com/appstore/article/#/14013117795,Mandatory,Low,L2 Mandatory-BAT
+14013172109,[RPE] Verify Pyrite Drive Revert functionality in Remote Platform Erase feature,https://hsdes.intel.com/appstore/article/#/14013172109,Mandatory,Low,L2 Mandatory-BAT
+14013172567,Verify Boot Guard and TXT co-existence using dTPM 2.0,https://hsdes.intel.com/appstore/article/#/14013172567,Mandatory,Low,L2 Mandatory-BAT
+14013172569,Verify the TPM provisioning with varied graphics memory size configurations,https://hsdes.intel.com/appstore/article/#/14013172569,Mandatory,Low,L2 Mandatory-BAT
+14013172574,Verify the TXT ACM & Boot guard profile 3 co-existence in non-production environment,https://hsdes.intel.com/appstore/article/#/14013172574,Mandatory,Low,L2 Mandatory-BAT
+14013172581,"Verify the SHA1, SHA256 and SHA384 PCR bank selection with TXT enabled system",https://hsdes.intel.com/appstore/article/#/14013172581,Mandatory,Low,L2 Mandatory-BAT
+14013172589,Verify that the ACM module type is identified correctly,https://hsdes.intel.com/appstore/article/#/14013172589,Mandatory,Low,L2 Mandatory-BAT
+14013172709,Verify Microcode update revision pre and post SINIT launch,https://hsdes.intel.com/appstore/article/#/14013172709,Mandatory,Low,L2 Mandatory-BAT
+14013172814,"Verify S-ACM programs ACM info, ACM policy status, ACM status and Boot status registers correctly on system with TXT element enabled",https://hsdes.intel.com/appstore/article/#/14013172814,Mandatory,Medium,L2 Mandatory-BAT
+14013172895,Verify SINIT module type as part of ACM status register,https://hsdes.intel.com/appstore/article/#/14013172895,Mandatory,Low,L2 Mandatory-BAT
+14013172899,Verify system booting up with profile 0 and only TXT element enabled,https://hsdes.intel.com/appstore/article/#/14013172899,Mandatory,Low,L2 Mandatory-BAT
+14013172902,Verify Power down interval element value,https://hsdes.intel.com/appstore/article/#/14013172902,Mandatory,Low,L2 Mandatory-BAT
+14013172905,Verify Digest for TCG Event type 0x410 gets computed correctly based on SHA256 algorithm,https://hsdes.intel.com/appstore/article/#/14013172905,Mandatory,Low,L2 Mandatory-BAT
+14013172911,Verify ErrorCodes related to ACM(s) come up correctly,https://hsdes.intel.com/appstore/article/#/14013172911,Mandatory,Low,L2 Mandatory-BAT
+14013172916,Verify TXT enablement on system flashed with profile 0 and TXT element enabled,https://hsdes.intel.com/appstore/article/#/14013172916,Mandatory,Medium,L2 Mandatory-BAT
+14013172918,Verify TXT measured launch with TBOOT on system flashed with profile 0 and TXT element enabled,https://hsdes.intel.com/appstore/article/#/14013172918,Mandatory,High,L2 Mandatory-BAT
+14013172926,Verify PTT status and functionality post SINIT launch,https://hsdes.intel.com/appstore/article/#/14013172926,Mandatory,Low,L2 Mandatory-BAT
+14013172931,Verify SINIT module type gets updated on TBOOT launch,https://hsdes.intel.com/appstore/article/#/14013172931,Mandatory,Low,L2 Mandatory-BAT
+14013172943,Verify SENTER failure with corrupted SINIT ACM launch,https://hsdes.intel.com/appstore/article/#/14013172943,Mandatory,Low,L2 Mandatory-BAT
+14013172955,Verify Power down gets initiated on encountering of verification of IBB to be valid results in failure,https://hsdes.intel.com/appstore/article/#/14013172955,Mandatory,Medium,L2 Mandatory-BAT
+14013172963,Verify Bios enables and locks DMA protected range (DPR),https://hsdes.intel.com/appstore/article/#/14013172963,Mandatory,Low,L2 Mandatory-BAT
+14013172965,Verify all registers under TXT register space are lockable by LT.LOCK_BASE command,https://hsdes.intel.com/appstore/article/#/14013172965,Mandatory,Low,L2 Mandatory-BAT
+14013172967,Verify software initiates TXT shutdown and closes private space on MMIO write to CMD_RESET register,https://hsdes.intel.com/appstore/article/#/14013172967,Mandatory,Low,L2 Mandatory-BAT
+14013172971,Verify software must be unable to access TXT private space,https://hsdes.intel.com/appstore/article/#/14013172971,Mandatory,Low,L2 Mandatory-BAT
+14013172979,"Verify TXT.VER.FTIF register delivers TPM information correctly in FT.LOC field , with dTPM2.0 connected on SUT",https://hsdes.intel.com/appstore/article/#/14013172979,Mandatory,Medium,L2 Mandatory-BAT
+14013172999,Verify SINIT launch is successful on IOMMU and DMA Control guarantee Enable/Disable with dTPM,https://hsdes.intel.com/appstore/article/#/14013172999,Mandatory,Medium,L2 Mandatory-BAT
+14013173002,Verify SINIT launch is successful on IOMMU and DMA Control guarantee Enable/Disable with PTT,https://hsdes.intel.com/appstore/article/#/14013173002,Mandatory,Medium,L2 Mandatory-BAT
+14013173006,Verify for Intel TXT Components with FVME and dTPM,https://hsdes.intel.com/appstore/article/#/14013173006,Mandatory,Medium,L2 Mandatory-BAT
+14013173016,Verify FVME Profile for SMX feature control options are properly set with TXT Disabled and dTPM Enabled,https://hsdes.intel.com/appstore/article/#/14013173016,Mandatory,Medium,L2 Mandatory-BAT
+14013173021,Verify SINIT Fails to run FVME Profile with dTPM enabled and TXT Disabled,https://hsdes.intel.com/appstore/article/#/14013173021,Mandatory,Low,L2 Mandatory-BAT
+14013173059,Verify FVME Profile for SMX feature control options are properly set with TXT and dTPM Enabled,https://hsdes.intel.com/appstore/article/#/14013173059,Mandatory,Medium,L2 Mandatory-BAT
+14013173065,Verify SENTER and SEXIT Launch with FVME Profile on dTPM enabled system,https://hsdes.intel.com/appstore/article/#/14013173065,Mandatory,Medium,L2 Mandatory-BAT
+14013173071,Verify Cold boot cycle after the SINIT Launch on FVME Profile with dTPM enabled,https://hsdes.intel.com/appstore/article/#/14013173071,Mandatory,Medium,L2 Mandatory-BAT
+14013173085,Verify warm reset cycle after the SINIT Launch on FVME Profile with dTPM enabled,https://hsdes.intel.com/appstore/article/#/14013173085,Mandatory,Medium,L2 Mandatory-BAT
+14013173103,Verify power loss (G3) recovery after the SENTER Launch on FVME Profile with dTPM enabled,https://hsdes.intel.com/appstore/article/#/14013173103,Mandatory,Medium,L2 Mandatory-BAT
+14013173111,Verify power loss (G3) recovery after the SEXIT Launch on FVME Profile with dTPM enabled,https://hsdes.intel.com/appstore/article/#/14013173111,Mandatory,Medium,L2 Mandatory-BAT
+14013173115,Verify power loss (G3) recovery after the SENTER Launch and RTC battery pulled on FVME Profile with dTPM enabled,https://hsdes.intel.com/appstore/article/#/14013173115,Mandatory,Medium,L2 Mandatory-BAT
+14013173125,Verify power loss (G3) recovery after the SEXIT Launch and RTC battery pulled on FVME Profile with dTPM enabled,https://hsdes.intel.com/appstore/article/#/14013173125,Mandatory,Medium,L2 Mandatory-BAT
+14013173128,Verify power loss (G3) recovery after SINIT with Secret Planted on FVME + dTPM enabledd,https://hsdes.intel.com/appstore/article/#/14013173128,Mandatory,Medium,L2 Mandatory-BAT
+14013173138,Verify power loss (G3) and RTC CMOS clear recovery after SINIT with Secret Planted on FVME + dTPM enabled System,https://hsdes.intel.com/appstore/article/#/14013173138,Mandatory,Medium,L2 Mandatory-BAT
+14013173145,Verify SINIT ACM Driver installation for Windows on FVME Profile with dTPM enabled,https://hsdes.intel.com/appstore/article/#/14013173145,Mandatory,Medium,L2 Mandatory-BAT
+14013173150,Verify Discrete TPM status and functionality post SINIT launch,https://hsdes.intel.com/appstore/article/#/14013173150,Mandatory,Low,L2 Mandatory-BAT
+14013173154,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVME with dTPM,https://hsdes.intel.com/appstore/article/#/14013173154,Mandatory,Medium,L2 Mandatory-BAT
+14013173155,Verify TXT failures report when TPM is not provisioned properly with dTPM using debug bios,https://hsdes.intel.com/appstore/article/#/14013173155,Mandatory,Medium,L2 Mandatory-BAT
+14013173161,Verify TXT SPAD register error if TPM is not provisioned properly with dTPM,https://hsdes.intel.com/appstore/article/#/14013173161,Mandatory,Medium,L2 Mandatory-BAT
+14013173190,Verify that the Boot guard passes self test and the FWSTS is valid,https://hsdes.intel.com/appstore/article/#/14013173190,Mandatory,Low,L2 Mandatory-BAT
+14013173205,"Verification of system stability across Sx (S3, S4 and S5) cycles with Boot guard profile 0",https://hsdes.intel.com/appstore/article/#/14013173205,Mandatory,Low,L2 Mandatory-BAT
+14013173211,"Verify Bootstatus, ACM status, Boot guard capabilities and Firmware status register are set correctly with Boot guard FVME image",https://hsdes.intel.com/appstore/article/#/14013173211,Mandatory,Low,L2 Mandatory-BAT
+14013173238,Verify Boot guard related bits are set correctly as part of Host Firmware status registers 4 and 5,https://hsdes.intel.com/appstore/article/#/14013173238,Mandatory,Low,L2 Mandatory-BAT
+14013173293,Verify top 4KB must be DMA protected irrespective of boot device,https://hsdes.intel.com/appstore/article/#/14013173293,Mandatory,Low,L2 Mandatory-BAT
+14013173296,Verify IBB protection and TXT status based on Bootguard profile,https://hsdes.intel.com/appstore/article/#/14013173296,Mandatory,Medium,L2 Mandatory-BAT
+14013173399,Verify ME Host Firmware Status registers are set correctly with No_FVME profile with PTT,https://hsdes.intel.com/appstore/article/#/14013173399,Mandatory,Low,L2 Mandatory-BAT
+14013173401,Verify ME Host Firmware Status registers are set correctly with No_FVME profile with Discrete TPM 2.0,https://hsdes.intel.com/appstore/article/#/14013173401,Mandatory,Low,L2 Mandatory-BAT
+14013173406,Verify BootGuard registers are set correctly with No_FVME profile with PTT,https://hsdes.intel.com/appstore/article/#/14013173406,Mandatory,Low,L2 Mandatory-BAT
+14013173409,Verify BootGuard registers are set correctly with No_FVME profile with Discrete TPM 2.0,https://hsdes.intel.com/appstore/article/#/14013173409,Mandatory,Low,L2 Mandatory-BAT
+14013173421,Verify OBB gets authenticated by Initial Boot block (IBB),https://hsdes.intel.com/appstore/article/#/14013173421,Mandatory,High,L2 Mandatory-BAT
+14013173424,Verify system fails to boot on OBB authentication failure by Initial Boot block (IBB),https://hsdes.intel.com/appstore/article/#/14013173424,Mandatory,High,L2 Mandatory-BAT
+14013173469,Verify state of default type MSRs and  variable MTRRs programmed by S-ACM state is preserved,https://hsdes.intel.com/appstore/article/#/14013173469,Mandatory,Low,L2 Mandatory-BAT
+14013173525,Verify Bios clears IBB DMA protection prior to OS handoff of DMA protection,https://hsdes.intel.com/appstore/article/#/14013173525,Mandatory,Low,L2 Mandatory-BAT
+14013173534,Verify S-ACM size does not exceed the  target size (256KB),https://hsdes.intel.com/appstore/article/#/14013173534,Mandatory,Medium,L2 Mandatory-BAT
+14013173580,Verify Bootguard fuse capability via ACM info MSR,https://hsdes.intel.com/appstore/article/#/14013173580,Mandatory,Medium,L2 Mandatory-BAT
+14013173618,TXTINFO based commands before and after Provisioning by using the PTT,https://hsdes.intel.com/appstore/article/#/14013173618,Mandatory,Low,L2 Mandatory-BAT
+14013173647,Verify the PTT provisioning with varied graphics memory size configurations,https://hsdes.intel.com/appstore/article/#/14013173647,Mandatory,Low,L2 Mandatory-BAT
+14013173653,Verify the TXT ACM & Boot guard profile 3 co-existence in non-production environment with PTT,https://hsdes.intel.com/appstore/article/#/14013173653,Mandatory,Low,L2 Mandatory-BAT
+14013173656,"Verify the SHA1, SHA256 and SHA384 PCR bank selection with TXT & PTT enabled system",https://hsdes.intel.com/appstore/article/#/14013173656,Mandatory,Low,L2 Mandatory-BAT
+14013173662,BIOS should restart by selecting Reset option from BIOS menu when PTT connected.,https://hsdes.intel.com/appstore/article/#/14013173662,Mandatory,Low,L2 Mandatory-BAT
+14013173665,Verify that the ACM module type is identified correctly on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173665,Mandatory,Low,L2 Mandatory-BAT
+14013173673,Verify TPM RESET - ESTABLISHMENT BIT set / unset check on TXT opt-in and opt-out with PTT Enabled System,https://hsdes.intel.com/appstore/article/#/14013173673,Mandatory,Low,L2 Mandatory-BAT
+14013173676,Verify if the secret flag can be set/unset in trusted environment on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173676,Mandatory,Low,L2 Mandatory-BAT
+14013173694,Check SCLEAN memory scrub after system resets with secrets in memory on PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013173694,Mandatory,Low,L2 Mandatory-BAT
+14013173697,Verify that NEM MSR is disabled to allow TXT ACM(s) launch (FN_SCHECK flow) on PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013173697,Mandatory,Low,L2 Mandatory-BAT
+14013173703,Check TPM State and NPW Control on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173703,Mandatory,Low,L2 Mandatory-BAT
+14013173755,Verify that SCHECK is set as per status of TXT BIOS knob status on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173755,Mandatory,Low,L2 Mandatory-BAT
+14013173759,Verify the BIOS configuration for Intel VT and Intel TXT enabling on PTT configured system,https://hsdes.intel.com/appstore/article/#/14013173759,Mandatory,Low,L2 Mandatory-BAT
+14013173762,Verify VT-d compliance using VTinfo tool with TXT & PTT enabled,https://hsdes.intel.com/appstore/article/#/14013173762,Mandatory,Low,L2 Mandatory-BAT
+14013173799,Verify PTT status and functionality post SINIT launch,https://hsdes.intel.com/appstore/article/#/14013173799,Mandatory,Low,L2 Mandatory-BAT
+14013173807,Verify software must be unable to access TXT private space on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173807,Mandatory,Low,L2 Mandatory-BAT
+14013173812,Verify TXT.VER.FTIF register delivers TPM information correctly in FT.LOC field with PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173812,Mandatory,Low,L2 Mandatory-BAT
+14013173855,Verify Digest for TCG Event type 0x410 gets computed correctly based on SHA256 algorithm on PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013173855,Mandatory,Low,L2 Mandatory-BAT
+14013173858,Verify ErrorCodes related to ACM(s) come up correctly on PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013173858,Mandatory,Low,L2 Mandatory-BAT
+14013173869,Verify SENTER failure with corrupted SINIT ACM launch on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173869,Mandatory,Low,L2 Mandatory-BAT
+14013173871,Verify Bios enables and locks DMA protected range (DPR) on PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013173871,Mandatory,Low,L2 Mandatory-BAT
+14013173877,Verify all registers under TXT register space are lockable by LT.LOCK_BASE command on PTT enabled,https://hsdes.intel.com/appstore/article/#/14013173877,Mandatory,Low,L2 Mandatory-BAT
+14013173881,Verify software initiates TXT shutdown and closes private space on MMIO write to CMD_RESET register on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173881,Mandatory,Low,L2 Mandatory-BAT
+14013173887,Verify software initiates TXT shutdown and closes private space on normal MMIO write with PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173887,Mandatory,Low,L2 Mandatory-BAT
+14013173961,Verify Microcode update revision pre and post SINIT launch on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173961,Mandatory,Low,L2 Mandatory-BAT
+14013173965,Verify the state of TXT in BIOS with PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173965,Mandatory,Low,L2 Mandatory-BAT
+14013173996,Verify TXT enablement on system flashed with profile 0 and TXT element & PTT enabled,https://hsdes.intel.com/appstore/article/#/14013173996,Mandatory,Medium,L2 Mandatory-BAT
+14013174028,"Verify S-ACM programs ACM info, ACM policy status, ACM status and Boot status registers correctly on system with TXT element & PTT enabled",https://hsdes.intel.com/appstore/article/#/14013174028,Mandatory,Medium,L2 Mandatory-BAT
+14013174044,Verify SINIT module type as part of ACM status register on PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013174044,Mandatory,Low,L2 Mandatory-BAT
+14013174047,Verify system booting up with profile 0 and only TXT element enabled with PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013174047,Mandatory,Medium,L2 Mandatory-BAT
+14013174051,Verify TXT measured launch with TBOOT on system flashed with profile 0 and TXT element & PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174051,Mandatory,Medium,L2 Mandatory-BAT
+14013174054,Verify SINIT module type gets updated on TBOOT launch on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013174054,Mandatory,Medium,L2 Mandatory-BAT
+14013174059,Verify Power down gets initiated on encountering of verification of IBB to be valid results in failure on PTT Enabled,https://hsdes.intel.com/appstore/article/#/14013174059,Mandatory,Medium,L2 Mandatory-BAT
+14013174061,Verify software initiates TXT shutdown and closes private space on MMIO write to CMD_SECRETS register on PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013174061,Mandatory,Low,L2 Mandatory-BAT
+14013174074,Verify Boot Guard and TXT co-existence using PTT 2.0,https://hsdes.intel.com/appstore/article/#/14013174074,Mandatory,Low,L2 Mandatory-BAT
+14013174079,Verify AUX index should be intact before and after ENTERACCS using GETSEC tool,https://hsdes.intel.com/appstore/article/#/14013174079,Mandatory,Low,L2 Mandatory-BAT
+14013174083,Verify for Intel TXT register status with FVME and PTT,https://hsdes.intel.com/appstore/article/#/14013174083,Mandatory,Medium,L2 Mandatory-BAT
+14013174090,Verify FVME Profile for SMX feature control options are properly set with TXT Disabled and PTT Enabled,https://hsdes.intel.com/appstore/article/#/14013174090,Mandatory,Medium,L2 Mandatory-BAT
+14013174098,Verify FVME Profile for SMX feature control options are properly set with TXT and PTT Enabled,https://hsdes.intel.com/appstore/article/#/14013174098,Mandatory,Medium,L2 Mandatory-BAT
+14013174106,Verify SENTER and SEXIT Launch with FVME Profile on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013174106,Mandatory,Medium,L2 Mandatory-BAT
+14013174117,Verify Cold boot cycle after the SINIT Launch on FVME Profile with PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174117,Mandatory,Medium,L2 Mandatory-BAT
+14013174126,Verify warm reset cycle after the SINIT Launch on FVME Profile with PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174126,Mandatory,Medium,L2 Mandatory-BAT
+14013174134,Verify power loss (G3) recovery after the SENTER Launch on FVME Profile with PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174134,Mandatory,Medium,L2 Mandatory-BAT
+14013174138,Verify power loss (G3) recovery after the SEXIT Launch on FVME Profile with PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174138,Mandatory,Medium,L2 Mandatory-BAT
+14013174146,Verify power loss (G3) recovery after the SENTER Launch and RTC battery pulled on FVME Profile with PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174146,Mandatory,Medium,L2 Mandatory-BAT
+14013174154,Verify power loss (G3) recovery after the SEXIT Launch and RTC battery pulled on FVME Profile with PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174154,Mandatory,Medium,L2 Mandatory-BAT
+14013174160,Verify power loss (G3) recovery after SINIT with Secret Planted on FVME + PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174160,Mandatory,Medium,L2 Mandatory-BAT
+14013174169,Verify power loss (G3) and RTC CMOS clear recovery after SINIT with Secret Planted on FVME + PTT enabled System,https://hsdes.intel.com/appstore/article/#/14013174169,Mandatory,Medium,L2 Mandatory-BAT
+14013174178,Verify SINIT ACM Driver installation for Windows on FVME Profile with PTT enabled,https://hsdes.intel.com/appstore/article/#/14013174178,Mandatory,Medium,L2 Mandatory-BAT
+14013174192,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVME with PTT,https://hsdes.intel.com/appstore/article/#/14013174192,Mandatory,Medium,L2 Mandatory-BAT
+14013174196,Verify TXT failures report when TPM is not provisioned properly with PTT using debug bios,https://hsdes.intel.com/appstore/article/#/14013174196,Mandatory,High,L2 Mandatory-BAT
+14013174199,Verify TXT SPAD register error if TPM is not provisioned properly with PTT,https://hsdes.intel.com/appstore/article/#/14013174199,Mandatory,Medium,L2 Mandatory-BAT
+14013174923,Verify Allowlist MSR resources are able to perform the read operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174923,Mandatory,High,L2 Mandatory-BAT
+14013174928,Verify SPS policies are enforced to protect the Denylist MSR resources in SMM from the read operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174928,Mandatory,High,L2 Mandatory-BAT
+14013174934,Verify Allowlist IoPort resources are able to perform the read operation for IoPort range using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174934,Mandatory,High,L2 Mandatory-BAT
+14013174941,Verify SPS policies are enforced to protect the Denylist IoPort resources in SMM from the read operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174941,Mandatory,High,L2 Mandatory-BAT
+14013174950,Verify that the DGR enable BIOS deny access to all VT-d MMIO Read operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174950,Mandatory,High,L2 Mandatory-BAT
+14013174956,Verify SPS policies are allowed to perform SMM MSR Allowlist read/write operation,https://hsdes.intel.com/appstore/article/#/14013174956,Mandatory,Medium,L2 Mandatory-BAT
+14013174963,Verify SPS policies are enforced to protect the Denylist MSR resources in SMM from the read/write operation,https://hsdes.intel.com/appstore/article/#/14013174963,Mandatory,Medium,L2 Mandatory-BAT
+14013174967,Verify SPS policies are allowed to perform SMM IOPort Allowlist read/write operation,https://hsdes.intel.com/appstore/article/#/14013174967,Mandatory,Medium,L2 Mandatory-BAT
+14013174971,Verify SPS policies are enforced to protect the Denylist IOports resources in SMM from the read/write operation,https://hsdes.intel.com/appstore/article/#/14013174971,Mandatory,Medium,L2 Mandatory-BAT
+14013174990,Verify SPS policies are enforced to protect the Denylist MSR resources in SMM from the Write operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174990,Mandatory,High,L2 Mandatory-BAT
+14013174994,Verify Allowlist MSR resources are able to perform the Write operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174994,Mandatory,High,L2 Mandatory-BAT
+14013174999,Verify SPS policies are enforced to protect the Denylist IoPort resources in SMM from the Write operatIoPortn using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013174999,Mandatory,High,L2 Mandatory-BAT
+14013175003,Verify Allowlist IoPort resources are able to perform the Write operation for IoPort range using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175003,Mandatory,High,L2 Mandatory-BAT
+14013175008,Verify that the DGR enable BIOS deny access to all VT-d MMIO Write operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175008,Mandatory,Medium,L2 Mandatory-BAT
+14013175012,Verify the allowed Physical Memory Range sources are able to perform the Write operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175012,Mandatory,Medium,L2 Mandatory-BAT
+14013175019,Verify the allowed Physical Memory Range sources are able to perform the Read operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175019,Mandatory,Medium,L2 Mandatory-BAT
+14013175023,Verify the allowed MMIO Range sources are able to perform the Write operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175023,Mandatory,Medium,L2 Mandatory-BAT
+14013175027,Verify the allowed MMIO Range sources are able to perform the Read operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175027,Mandatory,Medium,L2 Mandatory-BAT
+14013175029,Verify that the DGR enable BIOS deny access to Physical Memory Write operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175029,Mandatory,Medium,L2 Mandatory-BAT
+14013175031,Verify that the DGR enable BIOS deny access to Physical Memory Read operation using SPV tool on DGR enabled system,https://hsdes.intel.com/appstore/article/#/14013175031,Mandatory,Medium,L2 Mandatory-BAT
+14013175109,Verify that the DGR enable BIOS deny access to TXT MMIO Read operation using SPV tool,https://hsdes.intel.com/appstore/article/#/14013175109,Mandatory,Medium,L2 Mandatory-BAT
+16012332239,Verify SINIT Fails to run FVME Profile with PTT enabled and TXT Disabled,https://hsdes.intel.com/appstore/article/#/16012332239,Mandatory,Medium,L2 Mandatory-BAT
+16012811826,Verify BIOS change TPM platform authorization after s3 when TPM2_Startup(STATE) failed with PTT and TXT,https://hsdes.intel.com/appstore/article/#/16012811826,Mandatory,Medium,L2 Mandatory-BAT
+16012811835,Verify BIOS change TPM platform authorization after s3 when TPM2_Startup(STATE) failed with DTPM and TXT,https://hsdes.intel.com/appstore/article/#/16012811835,Mandatory,Medium,L2 Mandatory-BAT
+16013029506,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVE with dTPM,https://hsdes.intel.com/appstore/article/#/16013029506,Mandatory,Medium,L2 Mandatory-BAT
+16013030941,Verify TXT BIOS option and Registers when TPM is un-provisioned on no-FVME with dTPM,https://hsdes.intel.com/appstore/article/#/16013030941,Mandatory,Medium,L2 Mandatory-BAT
+16013031291,Verify TXT BIOS option and Registers when TPM is un-provisioned on FVE with PTT,https://hsdes.intel.com/appstore/article/#/16013031291,Mandatory,Medium,L2 Mandatory-BAT
+16013032200,Verify TXT BIOS option and Registers when TPM is un-provisioned on No-FVME with PTT,https://hsdes.intel.com/appstore/article/#/16013032200,Mandatory,Medium,L2 Mandatory-BAT
+16013123504,[SPIRAL] Verify SPIRAL Protocol get enabled when TXT is enabled with No_FVME profile IFWI,https://hsdes.intel.com/appstore/article/#/16013123504,Mandatory,Medium,L2 Mandatory-BAT
+16013216698,"Verify PCR (0,2,4,7) does not change when SCRTM and TXT is enabled in Firmware",https://hsdes.intel.com/appstore/article/#/16013216698,Mandatory,Medium,L2 Mandatory-BAT
+16013370432,Verify PCR (00) change when SCRTM is disabled and TXT is enabled in Firmware,https://hsdes.intel.com/appstore/article/#/16013370432,Mandatory,High,L2 Mandatory-BAT
+16013657833,Verify SINIT ACM enforces BIOS DONE MSR,https://hsdes.intel.com/appstore/article/#/16013657833,Mandatory,Medium,L2 Mandatory-BAT
+16013701148,Verify locality of TPM2_Startup command when BTG 0T profile is used with PTT,https://hsdes.intel.com/appstore/article/#/16013701148,Mandatory,Low,L2 Mandatory-BAT
+16013701626,Verify locality of TPM2_Startup command when BTG 0T profile is used with dTPM2.0,https://hsdes.intel.com/appstore/article/#/16013701626,Mandatory,Low,L2 Mandatory-BAT
+16014099704,[Revocation] Verify Release BIOS corruption in Primary Region with BTG 5 profile + TXT Enabled IFWI,https://hsdes.intel.com/appstore/article/#/16014099704,Mandatory,Low,L2 Mandatory-BAT
+16014726846,Verify PRMRR BASE and PRMRR MASK gets configured correctly,https://hsdes.intel.com/appstore/article/#/16014726846,Mandatory,Low,L2 Mandatory-BAT
+16015107647,Verify the TXT ErrorCode when Surprise Warm Reset is triggered on the System after SENTER with 0T profile,https://hsdes.intel.com/appstore/article/#/16015107647,Mandatory,Medium,L2 Mandatory-BAT
+16015121871,Verify ACM does not allow privilege escalation when attack is triggered on DMA,https://hsdes.intel.com/appstore/article/#/16015121871,Mandatory,Medium,L2 Mandatory-BAT
+16015465931,Verify SUT is booting to OS with TXT enable/Disable after AMT provisioning,https://hsdes.intel.com/appstore/article/#/16015465931,Mandatory,Medium,L2 Mandatory-BAT
+16016061731,Verify PCR values in TBOOT environment on DTPM configured system with FVME + TXT,https://hsdes.intel.com/appstore/article/#/16016061731,Mandatory,Medium,L2 Mandatory-BAT
+16016061769,Verify PCR values in TBOOT environment on DTPM configured system with No-FVME + TXT,https://hsdes.intel.com/appstore/article/#/16016061769,Mandatory,Medium,L2 Mandatory-BAT
+16016061878,Verify PCR values in TBOOT environment on PTT configured system with No-FVME + TXT,https://hsdes.intel.com/appstore/article/#/16016061878,Mandatory,Medium,L2 Mandatory-BAT
+16016061912,Verify PCR values in TBOOT environment on PTT configured system with FVME + TXT,https://hsdes.intel.com/appstore/article/#/16016061912,Mandatory,Medium,L2 Mandatory-BAT
+16016695227,Verify PCU CR Debug Interface register before and after CMOS clear,https://hsdes.intel.com/appstore/article/#/16016695227,Mandatory,Medium,L2 Mandatory-BAT
+16019034088,"ACM Code Review, Analysis Test",https://hsdes.intel.com/appstore/article/#/16019034088,Mandatory,,"L0 Check-in-CI,L1 DailyCI-Basic-Sanity,L2 Mandatory-BAT,L3 Extended-BAT-FV,L4 Extended-FV,L5 Per-Milestone,L6 Change-based-validation"
+16015236670,Verify Monolithic Capsule update after suspending bitlocker on Bitlocker encrypted Drive,https://hsdes.intel.com/appstore/article/#/16015236670,Yielding,High,L2 Mandatory-BAT
+16014971736,[PSR] Verify increase in Cumulative runtime of S0 cycle when system boots from Warm Reset/Cold Reset flow,https://hsdes.intel.com/appstore/article/#/16014971736,Yielding,Low,L2 Mandatory-BAT
+16013162009,ACM NIST Resiliency - CBnT ACM Init code region corrupted capsule update from Windows with TXT,https://hsdes.intel.com/appstore/article/#/16013162009,Yielding,High,L2 Mandatory-BAT
+14013177414,Verify VTIO feature with Replay Protected Monotonic Counter (RPMC) enabled,https://hsdes.intel.com/appstore/article/#/14013177414,Yielding,Low,L2 Mandatory-BAT
+14013171671,"Verify Top Segment (TSEG) range covers entire SMRAM, configured and locked via Chipsec",https://hsdes.intel.com/appstore/article/#/14013171671,Yielding,Low,L2 Mandatory-BAT
+16014971621,[PSR] Verify transitions of counters are updated when system enters from S3 to S0 State,https://hsdes.intel.com/appstore/article/#/16014971621,Yielding,Low,L2 Mandatory-BAT
+14013171100,Verify EC FW downgradation from EFI via Harmonized standalone capsule,https://hsdes.intel.com/appstore/article/#/14013171100,Yielding,Medium,L2 Mandatory-BAT
+16018406742,[RPE] Verify OEM Customization Enabling Hooks are available,https://hsdes.intel.com/appstore/article/#/16018406742,Yielding,Medium,L2 Mandatory-BAT
+14013178264,Verify none of the SPI flash regions are overlapped using Chipsec tool,https://hsdes.intel.com/appstore/article/#/14013178264,Yielding,Low,L2 Mandatory-BAT
+14013177043,ACM NIST Resiliency - CBnT ACM incompatible Pre-Prod/Prod capsule update from Windows,https://hsdes.intel.com/appstore/article/#/14013177043,Yielding,High,L2 Mandatory-BAT
+16015139234,[LPE] Verify BIOS Reset to Golden Config Functionality under LPE,https://hsdes.intel.com/appstore/article/#/16015139234,Yielding,Low,L2 Mandatory-BAT
+16014722105,[PSR] Verify timestamp of events once PRTC Failure is logged after performing CMOS clear,https://hsdes.intel.com/appstore/article/#/16014722105,Yielding,Low,L2 Mandatory-BAT
+14013172114,"[RPE] Verify SSD Erase functionality when User password is Set, in Remote Platform Erase feature with Pyrite Drive",https://hsdes.intel.com/appstore/article/#/14013172114,Yielding,Low,L2 Mandatory-BAT
+16014930177,"[PSR] Verify PSR data is not available, if it is disabled during manufacturing flow",https://hsdes.intel.com/appstore/article/#/16014930177,Yielding,Low,L2 Mandatory-BAT
+16014929093,[PSR] Verify the historical PSR Ledgers and Counter data is lost with IFWI reflash and manufacture config lock set,https://hsdes.intel.com/appstore/article/#/16014929093,Yielding,Low,L2 Mandatory-BAT
+16015094595,[PSR] Verify CSME provide API over HECI before and after post,https://hsdes.intel.com/appstore/article/#/16015094595,Yielding,Low,L2 Mandatory-BAT
+16015473037,CSME NIST Resiliency - Verify CSME backup image restore through capsule update after performing ESP disk cleanup of CSME backup image via EFI shell,https://hsdes.intel.com/appstore/article/#/16015473037,Yielding,Medium,L2 Mandatory-BAT
+14013175639,Validate UEFI BIOS for self certification test (SCT) compliance,https://hsdes.intel.com/appstore/article/#/14013175639,Yielding,Medium,L2 Mandatory-BAT
+16016962526,"[LPE][RPE] Verify LPE, RPE BIOS knobs are not available in BIOS setup menu when AMT is permanently disabled in IFWI",https://hsdes.intel.com/appstore/article/#/16016962526,Yielding,Low,L2 Mandatory-BAT
+16012845341,[OCR] Verify OCR HTTPS Functionality when System is in OS with Wireless LAN connected,https://hsdes.intel.com/appstore/article/#/16012845341,Yielding,Medium,L2 Mandatory-BAT
+16015138315,[LPE] Verify TPM Clear Functionality with DTPM under LPE,https://hsdes.intel.com/appstore/article/#/16015138315,Yielding,Medium,L2 Mandatory-BAT
+16013284831,Verify P2SB Endpoint Mask(EPMASK) functionality via chipsec,https://hsdes.intel.com/appstore/article/#/16013284831,Yielding,Low,L2 Mandatory-BAT
+14013178089,Verify SPI Hardware Sequencing Flash Status(HSFS) Register protections using Chipsec tool,https://hsdes.intel.com/appstore/article/#/14013178089,Yielding,Low,L2 Mandatory-BAT
+14013117856,Verify VT-d compliance using VTinfo tool with TXT enabled,https://hsdes.intel.com/appstore/article/#/14013117856,Yielding,Low,L2 Mandatory-BAT
+14013172346,Verify BIOS should not allow to enable TME when TME is disabled in fuses,https://hsdes.intel.com/appstore/article/#/14013172346,Yielding,Low,L2 Mandatory-BAT
+14013116021,Verify the state of PTT using the PTTBAT tool.,https://hsdes.intel.com/appstore/article/#/14013116021,Yielding,Low,L2 Mandatory-BAT
+14013177046,ACM NIST Resiliency - CBnT ACM Code/Header corrupted capsule update from Windows,https://hsdes.intel.com/appstore/article/#/14013177046,Yielding,High,L2 Mandatory-BAT
+16015170395,[LPE]  Verify SATA SSD Erase in Real Mode under LPE,https://hsdes.intel.com/appstore/article/#/16015170395,Yielding,Low,L2 Mandatory-BAT
+1508778032,[RPE] Verify CSME Unconfigure on RPE enabled system via WSMAN on Pyrite Drive,https://hsdes.intel.com/appstore/article/#/1508778032,Yielding,Low,L2 Mandatory-BAT
+14013165823,[OCR] Verify OCR_HTTPS Boot flow from AMT Remote session over Wireless LAN with Bios Guard Disabled,https://hsdes.intel.com/appstore/article/#/14013165823,Yielding,Medium,L2 Mandatory-BAT
+14013174974,Verify SPS policies MemoryPageAccessRight is set to supervisor Mode on DGR enabled System,https://hsdes.intel.com/appstore/article/#/14013174974,Yielding,Medium,L2 Mandatory-BAT
+14013175198,Verify Windows Hello feature with System Guard enabled,https://hsdes.intel.com/appstore/article/#/14013175198,Yielding,Medium,L2 Mandatory-BAT
+16015316745,CSME NIST Resiliency - Code and Data corruption IFWI,https://hsdes.intel.com/appstore/article/#/16015316745,Yielding,Medium,L2 Mandatory-BAT
+16015631450,Verify system integrity via HSTI in SAF mode,https://hsdes.intel.com/appstore/article/#/16015631450,Yielding,Medium,L2 Mandatory-BAT
+16014475697,Verify TXT measured launch with TBOOT on system flashed with RPMC enabled IFWI,https://hsdes.intel.com/appstore/article/#/16014475697,Yielding,Low,L2 Mandatory-BAT
+14013171897,Verify Bios provides programmable options for Secure USB devices,https://hsdes.intel.com/appstore/article/#/14013171897,Yielding,Medium,L2 Mandatory-BAT
+14013175755,Verify Manufacturing mode stay intact post Harmonized Monolithic Capsule update from OS with SUT is in Manufacturing mode,https://hsdes.intel.com/appstore/article/#/14013175755,Yielding,Low,L2 Mandatory-BAT
+16015138075,[LPE] Verify TPM Clear Functionality with PTT under LPE,https://hsdes.intel.com/appstore/article/#/16015138075,Yielding,Low,L2 Mandatory-BAT
+14013170742,Verify IOMMU configuration checks on non-TBT support,https://hsdes.intel.com/appstore/article/#/14013170742,Yielding,Medium,L2 Mandatory-BAT
+16014929163,[PSR] Verify PSR ledger cannot be retrieved if UPID is disabled in BIOS,https://hsdes.intel.com/appstore/article/#/16014929163,Yielding,Low,L2 Mandatory-BAT
+16014971507,[PSR] Verify transitions of counters are updated when system enters from S4 to S0 State,https://hsdes.intel.com/appstore/article/#/16014971507,Yielding,Low,L2 Mandatory-BAT
+16014930127,[PSR] Verify PSR gets enabled using FPT tool and with EOM set,https://hsdes.intel.com/appstore/article/#/16014930127,Yielding,Low,L2 Mandatory-BAT
+14013178083,Verify SPI hardware sequencing write status command protections using Chipsec tool,https://hsdes.intel.com/appstore/article/#/14013178083,Yielding,Low,L2 Mandatory-BAT
+16015180930,[LPE] Verify LPE is always triggered first when we try to trigger it at same time when RPE is triggered,https://hsdes.intel.com/appstore/article/#/16015180930,Yielding,Medium,L2 Mandatory-BAT
+16015472321,BIOS NIST Resiliency - IBBR Key Manifest Region Corrupted capsule update from Windows with FVME,https://hsdes.intel.com/appstore/article/#/16015472321,Yielding,Medium,L2 Mandatory-BAT
+14013177892,Verify the protections of the S3 resume boot-script implemented by the UEFI based firmware,https://hsdes.intel.com/appstore/article/#/14013177892,Yielding,Low,L2 Mandatory-BAT
+16015699813,[LPE] Verify OEM Custom Action Flow in LPE,https://hsdes.intel.com/appstore/article/#/16015699813,Yielding,Medium,L2 Mandatory-BAT
+14013174776,Verify that PPAM launch with TXT fuse disabled,https://hsdes.intel.com/appstore/article/#/14013174776,Yielding,Medium,L2 Mandatory-BAT
+16017348178,Verify PCR 00 does not change with PTT and DTPM when SCRTM and TXT is enabled in Firmware,https://hsdes.intel.com/appstore/article/#/16017348178,Yielding,Medium,L2 Mandatory-BAT
+14013178046,Verify system stability on fuzzing UEFI variable interface by writing new UEFI variables to NVRAM,https://hsdes.intel.com/appstore/article/#/14013178046,Yielding,Low,L2 Mandatory-BAT
+14013175194,Verify device capability to enable Device guard and Credential Guard with System Guard enabled,https://hsdes.intel.com/appstore/article/#/14013175194,Yielding,Medium,L2 Mandatory-BAT
+16014965044,[PSR] Verify PSR get enabled successfully with BTG prof 0,https://hsdes.intel.com/appstore/article/#/16014965044,Yielding,Low,L2 Mandatory-BAT
+16014965067,[PSR] Verify PSR get enabled successfully with BTG prof 4,https://hsdes.intel.com/appstore/article/#/16014965067,Yielding,Low,L2 Mandatory-BAT
+14013172103,[RPE] Verify Clear UEFI NVM Variables flow in Remote Platform Erase and read its trigger value from the debug logs,https://hsdes.intel.com/appstore/article/#/14013172103,Yielding,Low,L2 Mandatory-BAT
+14013178243,Verify the MOR bit and memory clear operation on secrets detection through Chipsec with PTT,https://hsdes.intel.com/appstore/article/#/14013178243,Yielding,Low,L2 Mandatory-BAT
+16015491179,Verify BIOS GUARD is enabled in the BIOS by default in SAF mode,https://hsdes.intel.com/appstore/article/#/16015491179,Yielding,Medium,L2 Mandatory-BAT
+14013165849,[OCR] Verify OCR_HTTPS Boot flow from AMT Remote session over Wireless LAN with TXT enabled,https://hsdes.intel.com/appstore/article/#/14013165849,Yielding,Medium,L2 Mandatory-BAT
+16014926712,[PSR] Verify cumulative runtime in seconds for S0 cycle when PSR is enabled,https://hsdes.intel.com/appstore/article/#/16014926712,Yielding,Low,L2 Mandatory-BAT
+14013171902,Verify VTIO capabilities and policies as part of Secure device (SDEV) ACPI table,https://hsdes.intel.com/appstore/article/#/14013171902,Yielding,Low,L2 Mandatory-BAT
+16017336349,[RPE] Verify SSD fails to erase the device and boots to OS after attempting invalid passwords for maximum number of times,https://hsdes.intel.com/appstore/article/#/16017336349,Yielding,Medium,L2 Mandatory-BAT
+14013175745,Verify reset type and count for Harmonized Monolithic Capsule update from OS,https://hsdes.intel.com/appstore/article/#/14013175745,Yielding,Low,L2 Mandatory-BAT
+14013177980,Verify the SPI Flash Region Access Permissions programmed in the Flash Descriptor,https://hsdes.intel.com/appstore/article/#/14013177980,Yielding,Low,L2 Mandatory-BAT
+16014929021,[PSR] Verify Cumulative number of cycles when Platform Reset is performed,https://hsdes.intel.com/appstore/article/#/16014929021,Yielding,Low,L2 Mandatory-BAT
+16018111512,Verify MEBx password is not exposed in BIOS log,https://hsdes.intel.com/appstore/article/#/16018111512,Yielding,Medium,L2 Mandatory-BAT
+16015590763,[MK-TME] Verify TME_EXCLUDE_BASE and TME_EXECLUDE_BASE MSR's when Entire Memory Range is selected to be excluded,https://hsdes.intel.com/appstore/article/#/16015590763,Yielding,Low,L2 Mandatory-BAT
+16015898653,[FUZZ] Verify system stability post fuzzing random attributes using UEFI variable Fuzzer Module via Chipsec tool,https://hsdes.intel.com/appstore/article/#/16015898653,Yielding,Low,L2 Mandatory-BAT
+14013174786,Verify with TXT not supported silicon DGR Bios option should not to be present,https://hsdes.intel.com/appstore/article/#/14013174786,Yielding,Low,L2 Mandatory-BAT
+16015268911,[LPE] Verify SSD Erase and BIOS Reset to Golden Config functionality under LPE,https://hsdes.intel.com/appstore/article/#/16015268911,Yielding,Medium,L2 Mandatory-BAT
+14013177455,Verify Windows Hello feature with Replay Protected Monotonic Counter (RPMC) enabled,https://hsdes.intel.com/appstore/article/#/14013177455,Yielding,Low,L2 Mandatory-BAT
+16014058880,Verify RTC Configuration Register Check test Via Chipsec,https://hsdes.intel.com/appstore/article/#/16014058880,Yielding,Low,L2 Mandatory-BAT
+16015173176,[LPE] Verify SSD Erase in Real Mode is successful when User Password is set under LPE,https://hsdes.intel.com/appstore/article/#/16015173176,Yielding,Medium,L2 Mandatory-BAT
+16015171420,[LPE] Verify TPM Clear gets triggered successful when BitLocker is enabled under LPE,https://hsdes.intel.com/appstore/article/#/16015171420,Yielding,Medium,L2 Mandatory-BAT
+16014040192,NIST Resiliency - Wrong PreProd CSME Harmonized Monolithic Resiliency capsule upgrade from Windows with FVME,https://hsdes.intel.com/appstore/article/#/16014040192,Yielding,Medium,L2 Mandatory-BAT
+14013172372,Verify PCR 7 binding is possible only with Vt-d being enabled on a system configured with PTT,https://hsdes.intel.com/appstore/article/#/14013172372,Yielding,Low,L2 Mandatory-BAT
+1509360827,"[RPE] Verify Clear BIOS NVM Variable and TPM Clear functionality with PTT, set of combination triggers in order when RPE is enabled",https://hsdes.intel.com/appstore/article/#/1509360827,Yielding,Medium,L2 Mandatory-BAT
+16015170592,[LPE] Verify LPE all erase actions under Real Mode gets triggered successfully when TXT is enabled,https://hsdes.intel.com/appstore/article/#/16015170592,Yielding,Low,L2 Mandatory-BAT
+14013175196,Verify VTIO feature with System Guard enabled,https://hsdes.intel.com/appstore/article/#/14013175196,Yielding,Medium,L2 Mandatory-BAT
+16015919588,Verify Harmonized IFWI capsule Downgrade from EDK-Shell with FVME,https://hsdes.intel.com/appstore/article/#/16015919588,Yielding,Medium,L2 Mandatory-BAT
+14013172117,[RPE] Verify OEM Custom Action flow is triggered in Remote Platform Erase and read its trigger value from Debug logs,https://hsdes.intel.com/appstore/article/#/14013172117,Yielding,Low,L2 Mandatory-BAT
+14013176834,Verify BIOS successfully overwrites backup OBB image on ESP and recovers from OBB corruption when ESP has corrupted backup OBB image present,https://hsdes.intel.com/appstore/article/#/14013176834,Yielding,Medium,L2 Mandatory-BAT
+16015177808,[LPE] Verify if AMT is disabled in BIOS still LPE all the actions gets triggered successfully,https://hsdes.intel.com/appstore/article/#/16015177808,Yielding,Low,L2 Mandatory-BAT
+16015919929,Verify Harmonized IFWI capsule Upgrade from Windows with FVME,https://hsdes.intel.com/appstore/article/#/16015919929,Yielding,Medium,L2 Mandatory-BAT
+22013338223,Verify Crashlog status test Via Chipsec,https://hsdes.intel.com/appstore/article/#/22013338223,Yielding,Low,L2 Mandatory-BAT
+16014196369,NIST Resiliency - Wrong PreProd CSME Harmonized Monolithic Resiliency capsule upgrade from Windows with no-FVME,https://hsdes.intel.com/appstore/article/#/16014196369,Yielding,Medium,L2 Mandatory-BAT
+14013174869,Verify Pre-boot DMA Attack with DGR Enabled via TBT,https://hsdes.intel.com/appstore/article/#/14013174869,Yielding,Medium,L2 Mandatory-BAT
+16016074566,[LPE] Verify LPE All erase actions with VMD disable,https://hsdes.intel.com/appstore/article/#/16016074566,Yielding,Low,L2 Mandatory-BAT
+14013172703,Verify that LT_lock is set irrespective of TXT BIOS knob status,https://hsdes.intel.com/appstore/article/#/14013172703,Yielding,Low,L2 Mandatory-BAT
+16017333758,[LPE] Verify Erase status when No-NVME is connected for SSD erase in simulated mode,https://hsdes.intel.com/appstore/article/#/16017333758,Yielding,Medium,L2 Mandatory-BAT
+14013178331,Verify the MTRR consistently programmed via Chipsec tool,https://hsdes.intel.com/appstore/article/#/14013178331,Yielding,Low,L2 Mandatory-BAT
+16014971440,[PSR] Verify transitions of counters are updated when system enters from S5 to S0 State,https://hsdes.intel.com/appstore/article/#/16014971440,Yielding,Low,L2 Mandatory-BAT
+14013170176,"Verify and validate TPM existence, PCR7 binding and clearing of TPM using PTTBAT tool",https://hsdes.intel.com/appstore/article/#/14013170176,Yielding,Low,L2 Mandatory-BAT
+1509360886,"[RPE] Verify Clear BIOS NVM Variable and TPM Clear functionality with dTPM, set of combination triggers in order when RPE is enabled",https://hsdes.intel.com/appstore/article/#/1509360886,Yielding,Medium,L2 Mandatory-BAT
+16015898973,[FUZZ] Verify system stability post fuzzing random GUID using UEFI variable Fuzzer Module via Chipsec tool,https://hsdes.intel.com/appstore/article/#/16015898973,Yielding,Low,L2 Mandatory-BAT
+16013162019,ACM NIST Resiliency - CBnT ACM Init code region corrupted capsule update from Windows,https://hsdes.intel.com/appstore/article/#/16013162019,Yielding,High,L2 Mandatory-BAT
+16018396154,Verify SMBIOS is measured into TPM PCR [01] on dTPM enabled system,https://hsdes.intel.com/appstore/article/#/16018396154,Yielding,Low,L2 Mandatory-BAT
+16014930800,"[PSR] Verify PSR check, when CSME is in disabled state",https://hsdes.intel.com/appstore/article/#/16014930800,Yielding,Low,L2 Mandatory-BAT
+16015898836,[FUZZ] Verify system stability post fuzzing random data using UEFI variable Fuzzer Module via Chipsec tool,https://hsdes.intel.com/appstore/article/#/16015898836,Yielding,Low,L2 Mandatory-BAT
+16015469810,BIOS NIST Resiliency - IBBR Boot Policy Manifest Region Corrupted capsule update from Windows with FVME,https://hsdes.intel.com/appstore/article/#/16015469810,Yielding,Medium,L2 Mandatory-BAT
+16015147360,[LPE] Verify Clear BIOS NVM Variables Functionality under LPE,https://hsdes.intel.com/appstore/article/#/16015147360,Yielding,Low,L2 Mandatory-BAT
+1508753113,[RPE] Verify RPE functionality does not fails when user password is set while SATA drive is attached,https://hsdes.intel.com/appstore/article/#/1508753113,Yielding,Medium,L2 Mandatory-BAT
+16017332352,[RPE] Verify BIOS reports TPM Clear status as failure if No-TPM is detected in BIOS,https://hsdes.intel.com/appstore/article/#/16017332352,Yielding,Low,L2 Mandatory-BAT
+16014930241,[PSR] Verify Platform Event gets logged if Manufacturing Configuration Lock is not set,https://hsdes.intel.com/appstore/article/#/16014930241,Yielding,Low,L2 Mandatory-BAT
+16015268989,[LPE] Verify SSD Erase and Clear BIOS NVM variable functionality under LPE,https://hsdes.intel.com/appstore/article/#/16015268989,Yielding,Medium,L2 Mandatory-BAT
+16015268611,[LPE] Verify TPM Clear Functionality with Clear BIOS NVM Variable under LPE,https://hsdes.intel.com/appstore/article/#/16015268611,Yielding,Low,L2 Mandatory-BAT
+14013170273,Verify system boot to OS successfully with debug BIOS when PTT disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013170273,Yielding,Low,L2 Mandatory-BAT
+16013345006,Verify Pre-boot DMA Attack with DGR Enabled via PCIe Slot,https://hsdes.intel.com/appstore/article/#/16013345006,Yielding,Medium,L2 Mandatory-BAT
+16013161997,ACM NIST Resiliency - CBnT ACM Code/Header corrupted capsule update from Windows with TXT,https://hsdes.intel.com/appstore/article/#/16013161997,Yielding,High,L2 Mandatory-BAT
+14013172375,Verify PCR 7 binding is possible only with Vt-d being enabled on a system configured with discrete TPM,https://hsdes.intel.com/appstore/article/#/14013172375,Yielding,Low,L2 Mandatory-BAT
+1509361191,[RPE] Verify Clear BIOS NVM Variable and BIOS set to default functionality when RPE is triggered,https://hsdes.intel.com/appstore/article/#/1509361191,Yielding,Medium,L2 Mandatory-BAT
+16014956745,[PSR] Verify PSR events timestamp is updated if there is an unexpected power loss,https://hsdes.intel.com/appstore/article/#/16014956745,Yielding,Medium,L2 Mandatory-BAT
+16015767594,[LPE] Verify LPE Events are not logged under AMT Event Log,https://hsdes.intel.com/appstore/article/#/16015767594,Yielding,Low,L2 Mandatory-BAT
+16015139236,[LPE]  Verify SSD Erase in Real Mode under LPE,https://hsdes.intel.com/appstore/article/#/16015139236,Yielding,Low,L2 Mandatory-BAT
+16016079138,[RPE] Verify RPE functionality with external Discrete Graphics card connected to the system,https://hsdes.intel.com/appstore/article/#/16016079138,Yielding,Low,L2 Mandatory-BAT
+16014057455,Verify ME Firmware Status Check test Via Chipsec,https://hsdes.intel.com/appstore/article/#/16014057455,Yielding,Low,L2 Mandatory-BAT
+16015313738,[LPE] Verify all erase actions triggering with Simulated mode under debug BIOS,https://hsdes.intel.com/appstore/article/#/16015313738,Yielding,Low,L2 Mandatory-BAT
+14013177888,Verify the protection of UEFI variables defined in the UEFI spec,https://hsdes.intel.com/appstore/article/#/14013177888,Yielding,Low,L2 Mandatory-BAT
+16015268086,[LPE] Verify TPM Clear Functionality with BIOS Reset to Golden Config under LPE,https://hsdes.intel.com/appstore/article/#/16015268086,Yielding,Low,L2 Mandatory-BAT
+14013169881,Verify SGX is disabled by default on platform,https://hsdes.intel.com/appstore/article/#/14013169881,Yielding,Medium,L2 Mandatory-BAT
+16015469838,BIOS NIST Resiliency - IBBR Boot Policy Manifest Region Corrupted capsule update from Windows with No-FVME,https://hsdes.intel.com/appstore/article/#/16015469838,Yielding,Medium,L2 Mandatory-BAT
+16018405247,[LPE] Verify OEM Customization Enabling Hooks are available,https://hsdes.intel.com/appstore/article/#/16018405247,Yielding,Medium,L2 Mandatory-BAT
+16015472363,BIOS NIST Resiliency - IBBR Key Manifest Region Corrupted capsule update from Windows with No-FVME,https://hsdes.intel.com/appstore/article/#/16015472363,Yielding,Medium,L2 Mandatory-BAT
+16014928972,[PSR] Verify Increase in S0 runtime when Power on Cycle is performed,https://hsdes.intel.com/appstore/article/#/16014928972,Yielding,Low,L2 Mandatory-BAT
+14013177986,Verify the software cannot write to the flash descriptor,https://hsdes.intel.com/appstore/article/#/14013177986,Yielding,Low,L2 Mandatory-BAT
+14013172239,Verify copper point feature on Modern Standby enabled system,https://hsdes.intel.com/appstore/article/#/14013172239,Yielding,High,L2 Mandatory-BAT
+1509361007,[RPE] Verify SSD Clear and Clear BIOS NVM Variable functionality when RPE is triggered,https://hsdes.intel.com/appstore/article/#/1509361007,Yielding,Medium,L2 Mandatory-BAT
+16015139322,[LPE] Verify SSD Erase in Simulated Mode under LPE,https://hsdes.intel.com/appstore/article/#/16015139322,Yielding,Medium,L2 Mandatory-BAT
+16012845326,[OCR]  Verify if OCR HTTPS boot fails with invalid URL Passed Over Wireless LAN,https://hsdes.intel.com/appstore/article/#/16012845326,Yielding,Medium,L2 Mandatory-BAT
+14013178239,Verify the MOR bit and memory clear operation on secrets detection through Chipsec with Discrete TPM,https://hsdes.intel.com/appstore/article/#/14013178239,Yielding,Low,L2 Mandatory-BAT
+16015473229,Verify Harmonized Resiliency Monolithic capsule upgrade from OS with Native IFWI,https://hsdes.intel.com/appstore/article/#/16015473229,Yielding,Medium,L2 Mandatory-BAT
+1508868949,[PSR] Verify Chassis Intrusion Event is reported correctly via Event Ledger,https://hsdes.intel.com/appstore/article/#/1508868949,Yielding,Low,L2 Mandatory-BAT

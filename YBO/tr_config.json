@@ -1,0 +1,10 @@
+{
+    "data": {
+        "test_cycle": "bios.2lm.fuse_0p5.Client-BIOS.testing_Raj_TestCycle",
+        "config": "bios.alderlake-h_fpga",
+        "link_type": "parent-child",
+        "status": "complete",
+        "reason": "fail",
+        "owner": "namanaga"
+    }
+}

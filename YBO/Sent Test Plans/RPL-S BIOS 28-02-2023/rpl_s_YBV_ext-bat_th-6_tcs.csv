@@ -1,0 +1,507 @@
+TestCaseID,Description,URL,Status,Test_Complexity,Test_Coverage_Level
+14013120501,Verify that BIOS presents options to change the Boot Order,https://hsdes.intel.com/appstore/article/#/14013120501,Mandatory,None,None
+14013156881,Verify CPU switches between all P-states when Number of P states set to 0,https://hsdes.intel.com/appstore/article/#/14013156881,Mandatory,None,None
+14013157212,Verify Chipset information displayed in BIOS,https://hsdes.intel.com/appstore/article/#/14013157212,Mandatory,None,None
+14013157594,[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Dual Big core + Octa Small core] SKUs with Small cores  Enabled(2C+8A),https://hsdes.intel.com/appstore/article/#/14013157594,Mandatory,None,None
+14013157596,[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Octa Big Core + Octa Small Core] SKUs when Small cores and Big core is Enabled (8C+8A),https://hsdes.intel.com/appstore/article/#/14013157596,Mandatory,None,None
+14013157601,[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Dual Big Core+Octa Small cores] SKUs with Small cores and Big Core is enabled (2C+8A),https://hsdes.intel.com/appstore/article/#/14013157601,Mandatory,None,None
+14013157608,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big and Small Cores are enabled,https://hsdes.intel.com/appstore/article/#/14013157608,Mandatory,None,None
+14013157611,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big is enabled and Small Cores is disabled,https://hsdes.intel.com/appstore/article/#/14013157611,Mandatory,None,None
+14013157613,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big is Disabled/1 and Small Cores is Enabled,https://hsdes.intel.com/appstore/article/#/14013157613,Mandatory,None,None
+14013157614,"[Hybrid]Verify core and thread in  BIOS/EFI , when core 1  is enabled",https://hsdes.intel.com/appstore/article/#/14013157614,Mandatory,None,None
+14013157616,[Hybrid]Verify 3D benchmark tool  on Hybrid Processor When Big and Small core is Enabled and Hyper-Threading is  Disabled,https://hsdes.intel.com/appstore/article/#/14013157616,Mandatory,None,None
+14013157654,[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in [Octa Big Core + Octa Small Core] SKUs with and without all Small cores disabled,https://hsdes.intel.com/appstore/article/#/14013157654,Mandatory,None,None
+14013157668,[Hybrid]Verify that BIOS can have active processor cores with Hyper Threading (SMT) enabled in Hetero Big Core SKUs with  all Small cores disabled,https://hsdes.intel.com/appstore/article/#/14013157668,Mandatory,None,None
+14013158298,Verify TBT Boot to OS functionality using Thunderbolt 3 SSD,https://hsdes.intel.com/appstore/article/#/14013158298,Mandatory,None,None
+14013158399,Verify DP display & USB Keyboard functionality over USB Type-C port during Pre and Post boot,https://hsdes.intel.com/appstore/article/#/14013158399,Mandatory,None,None
+14013160085,Verify detection and enumeration of 3.5mm Jack Wired headphones/headset,https://hsdes.intel.com/appstore/article/#/14013160085,Mandatory,None,None
+14013160104,ME FW response and version check in OS,https://hsdes.intel.com/appstore/article/#/14013160104,Mandatory,None,None
+14013160109,ME FW response and version check in EFI Shell,https://hsdes.intel.com/appstore/article/#/14013160109,Mandatory,None,None
+14013160880,"Verify SUT wake from S3, S4 using PCIE LAN devices (WOL)",https://hsdes.intel.com/appstore/article/#/14013160880,Mandatory,None,None
+14013160932,Verify SoC crash dump and crash logging,https://hsdes.intel.com/appstore/article/#/14013160932,Mandatory,None,None
+14013161309,[FSP] Verify SX transition of the system with FSP VS build,https://hsdes.intel.com/appstore/article/#/14013161309,Mandatory,None,None
+14013161312,Verify Connected MoS entry/exit using power button/Timer option,https://hsdes.intel.com/appstore/article/#/14013161312,Mandatory,None,None
+14013162548,Verify Debug log for no Heci Timeout,https://hsdes.intel.com/appstore/article/#/14013162548,Mandatory,None,None
+14013163310,Verify system stability on performing 5 cycles of Hybrid Sleep,https://hsdes.intel.com/appstore/article/#/14013163310,Mandatory,None,None
+14013172940,Verify Type-C Connector reversibility functionality for Display over Type-C port,https://hsdes.intel.com/appstore/article/#/14013172940,Mandatory,None,None
+14013173287,[FSP] Verify FSP BIOS Boot Flow,https://hsdes.intel.com/appstore/article/#/14013173287,Mandatory,None,None
+14013173289,[FSP] Verify FSP BIOS Dispatch mode Boot Flow,https://hsdes.intel.com/appstore/article/#/14013173289,Mandatory,None,None
+14013173325,[FSP][GCC]: Verify FSP BIOS Boot Flow,https://hsdes.intel.com/appstore/article/#/14013173325,Mandatory,None,None
+14013173326,[FSP][GCC] Verify FSP BIOS Dispatch/API mode Boot Flow,https://hsdes.intel.com/appstore/article/#/14013173326,Mandatory,None,None
+14013173339,[FSP] [GCC]Verify SX transition of the system with FSP GCC Release build,https://hsdes.intel.com/appstore/article/#/14013173339,Mandatory,None,None
+14013174020,Verify PAVP BIOS option,https://hsdes.intel.com/appstore/article/#/14013174020,Mandatory,None,None
+14013174036,Verify that platform supports for DP and Hot-plug of DP in dual display mode,https://hsdes.intel.com/appstore/article/#/14013174036,Mandatory,None,None
+14013175465,"Verify display in eDP panel in BIOS Setup ,EFI and OS",https://hsdes.intel.com/appstore/article/#/14013175465,Mandatory,None,None
+14013175473,"Verify display in HDMI/mini HDMI panel in BIOS Setup, EFI and OS",https://hsdes.intel.com/appstore/article/#/14013175473,Mandatory,None,None
+14013175903,Verify plug & unplug USB hub over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013175903,Mandatory,None,None
+14013176015,Verify Trace hub initialization in debug BIOS,https://hsdes.intel.com/appstore/article/#/14013176015,Mandatory,None,None
+14013176091,Verify USB devices information are displayed in F7 - Boot menu,https://hsdes.intel.com/appstore/article/#/14013176091,Mandatory,None,None
+14013176094,Verify USB devices information are displayed in BIOS setup,https://hsdes.intel.com/appstore/article/#/14013176094,Mandatory,None,None
+14013176281,"Verify SUT wake from Sx states (S3, S4, S5) using LAN",https://hsdes.intel.com/appstore/article/#/14013176281,Mandatory,None,None
+14013176969,Verify setting Detect timeout value in BIOS and ensure no halt message in debug log with device connected,https://hsdes.intel.com/appstore/article/#/14013176969,Mandatory,None,None
+14013176972,Verify setting Detect timeout value in BIOS and respective system halt with device not connected,https://hsdes.intel.com/appstore/article/#/14013176972,Mandatory,None,None
+14013177247,Verify VMD device ID verification in EFI and OS,https://hsdes.intel.com/appstore/article/#/14013177247,Mandatory,None,None
+14013177249,Verify VMD device ID verification in EFI and OS,https://hsdes.intel.com/appstore/article/#/14013177249,Mandatory,None,None
+14013177652,Verify VTd support for PCIe ports,https://hsdes.intel.com/appstore/article/#/14013177652,Mandatory,None,None
+14013177940,Verify Audio DRM playback over 3.5mm-Jack-Headsets (via HD-A),https://hsdes.intel.com/appstore/article/#/14013177940,Mandatory,None,None
+14013178391,Verify Gen5 NVMe device detection connected over x16 slot in OS after G3.,https://hsdes.intel.com/appstore/article/#/14013178391,Mandatory,None,None
+14013178509,Verify CPU attached storage with OPAL supported NVME SSD in OPAL menu Through VMD,https://hsdes.intel.com/appstore/article/#/14013178509,Mandatory,None,None
+14013178765,Verify CPU Attached storage device detection in BIOS Through VMD,https://hsdes.intel.com/appstore/article/#/14013178765,Mandatory,None,None
+14013178803,Verify System boot from NVMe device connected in PEG port and stability after Sx cycles Through VMD,https://hsdes.intel.com/appstore/article/#/14013178803,Mandatory,None,None
+14013178927,Verify BIOS provide DDR-RFIM feature enable/disable status via MCHBAR,https://hsdes.intel.com/appstore/article/#/14013178927,Mandatory,None,None
+14013179047,Verify USB devices information are displayed correctly in BIOS Setup and F7 Boot menu,https://hsdes.intel.com/appstore/article/#/14013179047,Mandatory,None,None
+14013179108,"Verify DP/mini DP panel display in BIOS Setup, EFI and OS",https://hsdes.intel.com/appstore/article/#/14013179108,Mandatory,None,None
+14013179118,"Verify CNVi WLAN Enumeration in OS pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179118,Mandatory,None,None
+14013179255,"Verify basic boot check with different IFWI (Release, Performance and Debug)",https://hsdes.intel.com/appstore/article/#/14013179255,Mandatory,None,None
+14013180508,"Verify BIOS shall display ME,BIOS,KSC version in Bios setup page",https://hsdes.intel.com/appstore/article/#/14013180508,Mandatory,None,None
+14013182314,Verify SUT boot from USB2.0 device,https://hsdes.intel.com/appstore/article/#/14013182314,Mandatory,None,None
+14013182776,Validate hot-plug USB keyboard functionality check in OS over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013182776,Mandatory,None,None
+14013182789,Verify USB mouse enumeration and functionality on hot-plug over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013182789,Mandatory,None,None
+14013182988,Validate cold-plug USB keyboard functionality check in EFI over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013182988,Mandatory,None,None
+14013183460,Verify PCIe SD Card detection after plug and unplug in OS,https://hsdes.intel.com/appstore/article/#/14013183460,Mandatory,None,None
+14013184477,[TBT] Verify Thunderbolt Enumeration in device manager,https://hsdes.intel.com/appstore/article/#/14013184477,Mandatory,None,None
+14013185086,Validate POST Code Progress for IA during Booting on 7 seg Display.,https://hsdes.intel.com/appstore/article/#/14013185086,Mandatory,None,None
+14013185678,Verify CNVi enumeration in BIOS and EFI Shell with respect to CNVi option enabled/disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013185678,Mandatory,None,None
+14013185689,"Verify Coexistence Support of CNVi Wi-Fi and Bluetooth functionality in OS after S3, S4, S5, Warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185689,Mandatory,None,None
+14013185814,"Validate hot-plug USB keyboard functionality check in OS over USB Type-A port pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185814,Mandatory,None,None
+14013185815,"Verify USB mouse enumeration and functionality on hot-plug over USB Type-A port pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185815,Mandatory,None,None
+14013185826,"Validate USB 3.0 devices hot-plug functionality over USB3.0 Type-A port  pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185826,Mandatory,None,None
+16015118062,Verify CMS cycle with IPU Disabled and Hyper-Threading is enabled/Disabled,https://hsdes.intel.com/appstore/article/#/16015118062,Mandatory,None,None
+14013178784,Verify that CPU Attached Storage Device is Serviced by RST EFI Driver Through VMD,https://hsdes.intel.com/appstore/article/#/14013178784,Mandatory,None,None
+16015167637,Verify the Enumeration of PCIe device with PCIe option disabled in the Bios.,https://hsdes.intel.com/appstore/article/#/16015167637,Mandatory,None,None
+14013156692,Verify BIOS shall display an option to set the IP address and port number of the Intel  AMT provisioning server under MEBx menu.,https://hsdes.intel.com/appstore/article/#/14013156692,Mandatory,None,None
+14013160120,Verify Reset and SX transition of system with AMT enabled,https://hsdes.intel.com/appstore/article/#/14013160120,Mandatory,None,None
+14013160249,BIOS Hotkey combination (CTRL-ALT-F1) should display by the BIOS during boot process,https://hsdes.intel.com/appstore/article/#/14013160249,Mandatory,None,None
+14013176057,Verify AMT BIOS option check under PCH-FW configuration,https://hsdes.intel.com/appstore/article/#/14013176057,Mandatory,None,None
+14013176061,Verify BIOS options listed under AMT configuration in PCH-FW menu,https://hsdes.intel.com/appstore/article/#/14013176061,Mandatory,None,None
+14013176942,Verify device defined under VMD should not be detected in PCI line item,https://hsdes.intel.com/appstore/article/#/14013176942,Mandatory,None,None
+14013177024,Verify respective device detection by enabling VMD for SATA and disable for NVMe,https://hsdes.intel.com/appstore/article/#/14013177024,Mandatory,None,None
+14013180258,Verify that MEBx shall display an option to set the IP address and port number of the Intel  AMT provisioning server,https://hsdes.intel.com/appstore/article/#/14013180258,Mandatory,None,None
+14013180359,Verify KVM session can be established,https://hsdes.intel.com/appstore/article/#/14013180359,Mandatory,None,None
+14013180406,Verify AMT connectivity Provision/Unprovision with static IP using WebUI,https://hsdes.intel.com/appstore/article/#/14013180406,Mandatory,None,None
+14013180414,Very Intel AMT feature enabled/disabled option in BIOS,https://hsdes.intel.com/appstore/article/#/14013180414,Mandatory,None,None
+14013180439,Verify KVM can be enabled/disabled in MEBx,https://hsdes.intel.com/appstore/article/#/14013180439,Mandatory,None,None
+14013182487,Verify MEBX UI is accessible during SUT boot with ME Corporate SKU,https://hsdes.intel.com/appstore/article/#/14013182487,Mandatory,None,None
+14013186942,Verify KVM session can be established,https://hsdes.intel.com/appstore/article/#/14013186942,Mandatory,None,None
+14013186962,Verify AMT connectivity with static IP using WebUI,https://hsdes.intel.com/appstore/article/#/14013186962,Mandatory,None,None
+14013187057,Verify MEBX UI is accessible during SUT boot with ME Corporate SKU,https://hsdes.intel.com/appstore/article/#/14013187057,Mandatory,None,None
+16013214329,Verify if MEBX option is displayed in the BIOS page with ME Corporate SKU,https://hsdes.intel.com/appstore/article/#/16013214329,Mandatory,None,None
+16015025624,Verify if MEBX screen does not display MEBx version on Integrated MEBx,https://hsdes.intel.com/appstore/article/#/16015025624,Mandatory,None,None
+22011834282,Verify ME State option in Bios,https://hsdes.intel.com/appstore/article/#/22011834282,Mandatory,None,None
+22011834534,Verify ME un-configuration using Bios option,https://hsdes.intel.com/appstore/article/#/22011834534,Mandatory,None,None
+14013115389,Verify system stability after S4 and S5 cycles via power button,https://hsdes.intel.com/appstore/article/#/14013115389,Mandatory,None,None
+14013156793,"Verify System Boot with  ""Dual Tau Boost"" option Enabled /Disabled Post Sx",https://hsdes.intel.com/appstore/article/#/14013156793,Mandatory,None,None
+14013156797,"Verify System Boot with  ""Dual Tau Boost"" option Enabled /disabled",https://hsdes.intel.com/appstore/article/#/14013156797,Mandatory,None,None
+14013178130,Verify Dual Tau Feature writing MMIO values With cTDp & Non- cTDP  Part,https://hsdes.intel.com/appstore/article/#/14013178130,Mandatory,None,None
+14013186388,ME FW response and version check in EFI Shell,https://hsdes.intel.com/appstore/article/#/14013186388,Mandatory,None,None
+16014919640,"Verify System Boot with  ""Dual Tau Boost"" option Enabled /disabled with not cTDP parts",https://hsdes.intel.com/appstore/article/#/16014919640,Mandatory,None,None
+14013180599,Verify  Setting AMT feature state to enabled is not allowed While AMT is globally disabled,https://hsdes.intel.com/appstore/article/#/14013180599,Mandatory,None,None
+14013186090,Verify ISH sensor module enumeration in OS,https://hsdes.intel.com/appstore/article/#/14013186090,Mandatory,None,None
+16015157060,Verify non por power state settings,https://hsdes.intel.com/appstore/article/#/16015157060,Mandatory,None,None
+14013166467,"Verify ""Ring down bin"" feature is enabled by default after enabling OC in bios",https://hsdes.intel.com/appstore/article/#/14013166467,Mandatory,None,None
+14013176453,Verify HDD serial number display at Ready To Boot event,https://hsdes.intel.com/appstore/article/#/14013176453,Mandatory,None,None
+14013174623,Verify 8K Display Panel enumeration in Device Manager,https://hsdes.intel.com/appstore/article/#/14013174623,Mandatory,None,None
+14013161607,Verify if system boot with SAF configuration,https://hsdes.intel.com/appstore/article/#/14013161607,Mandatory,None,None
+16014964655,Verify Drive does not Spin up when Bios option is disabled.,https://hsdes.intel.com/appstore/article/#/16014964655,Mandatory,None,None
+16016062149,Verify if OEM debug configuration menu is removed from MEbx page,https://hsdes.intel.com/appstore/article/#/16016062149,Mandatory,None,None
+16013298746,Verify MRC training with RH prevention enabled with 2X refresh enabled and REFRESH_PANIC_WM set to High,https://hsdes.intel.com/appstore/article/#/16013298746,Yielding,None,None
+14013173096,Verify CPU fan is on during system boot,https://hsdes.intel.com/appstore/article/#/14013173096,Yielding,None,None
+16015117979,Verify CMS cycle and SLP_S0 when  Hyper-Threading is Disabled,https://hsdes.intel.com/appstore/article/#/16015117979,Yielding,None,None
+14013175011,Verify DashG card basic functionality on x4 PCIe slot post S5 cycles with HDMI display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175011,Yielding,None,None
+14013172868,Verify if the SUT shuts down when the Power Button is held for more than 10 seconds,https://hsdes.intel.com/appstore/article/#/14013172868,Yielding,None,None
+14013185830,"Validate USB 3.0 device hot-plug functionality over USB2.0-Type-A port pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185830,Yielding,None,None
+14013174585,Verify Video play back on Extended Mode with eDP+DP Display panels connected,https://hsdes.intel.com/appstore/article/#/14013174585,Yielding,None,None
+14013179167,Verify USB2.0/3.0 device functionality on cold plug over USB2.0 and USB3.0 Type-A port,https://hsdes.intel.com/appstore/article/#/14013179167,Yielding,None,None
+14013185503,Verify Analog Microphone test connected to 3.5 mm Port pre and post CMS/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013185503,Yielding,None,None
+16013636200,"Verify System boot to OS without any hang after Sx cycle, when Active  cores set to '3' in BIOS",https://hsdes.intel.com/appstore/article/#/16013636200,Yielding,None,None
+16013713658,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active atom cores set to '2' in BIOS",https://hsdes.intel.com/appstore/article/#/16013713658,Yielding,None,None
+14013175486,"Verify video playback in OS  pre and post S4, S5, warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013175486,Yielding,None,None
+14013177238,Verify VMD enabled CPU Attached Storage device boot and stability after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013177238,Yielding,None,None
+14013165895,[OCR] Verify One Click Recovery boot options when AC power is removed from SUT,https://hsdes.intel.com/appstore/article/#/14013165895,Yielding,None,None
+16015036253,Verify if MEBx page displays IP configuration settings when LAN platform is detected,https://hsdes.intel.com/appstore/article/#/16015036253,Yielding,None,None
+14013186953,Verify if user can edit Network Name in MEBx Settings,https://hsdes.intel.com/appstore/article/#/14013186953,Yielding,None,None
+14013180435,Verify Storage Redirection can be successfully enabled and disabled,https://hsdes.intel.com/appstore/article/#/14013180435,Yielding,None,None
+14013180456,Verify AMT WEBUI is accessible after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013180456,Yielding,None,None
+14013165068,[OCR] Verify One Click Recovery boot options when AC power is removed from SUT,https://hsdes.intel.com/appstore/article/#/14013165068,Yielding,None,None
+14013164593,[OCR] Verify OCR progress and state via AMT Event log for WinRE boot over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164593,Yielding,None,None
+16016018054,Verify MRC for Mem training with different memory configurations,https://hsdes.intel.com/appstore/article/#/16016018054,Yielding,None,None
+14013173311,[FSP][GCC]: Verify FSP Patch Table Information,https://hsdes.intel.com/appstore/article/#/14013173311,Yielding,None,None
+14013165642,[OCR] Verify Windows Recovery (WinRE) Functionality from AMT Remote session with OCR option disabled in BIOS over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165642,Yielding,None,None
+14013162498,Verify BIOS settings remains intact with SAF mode booting after power interrupts (Reset / G3) cycles,https://hsdes.intel.com/appstore/article/#/14013162498,Yielding,None,None
+14013156717,Verify if MEBx password change is accepted (for password meeting specific criteria) and is successfully accepted on subsequent entries under MEBx menu in BIOS,https://hsdes.intel.com/appstore/article/#/14013156717,Yielding,None,None
+16013298916,"Verify MRC training with Fast boot when RH prevention is enabled, Row Hammer Solution set to Hardware RHP & Refresh_Panic_WM set to High",https://hsdes.intel.com/appstore/article/#/16013298916,Yielding,None,None
+14013165857,[OCR] Verify HTTPS Boot flow for One Click Recovery,https://hsdes.intel.com/appstore/article/#/14013165857,Yielding,None,None
+14013164625,[OCR] Verify OCR progress and state via AMT Event log for HTTPS Boot over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164625,Yielding,None,None
+16013625700,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active processor cores set to '3' in BIOS",https://hsdes.intel.com/appstore/article/#/16013625700,Yielding,None,None
+14013176953,"Verify device initialization and respective register configuration don""t have failures in Self test tool",https://hsdes.intel.com/appstore/article/#/14013176953,Yielding,None,None
+14013177982,Verify NVMe-SSD detection in Bios connected to Add-on-card connected over X16 Gen5 Slot,https://hsdes.intel.com/appstore/article/#/14013177982,Yielding,None,None
+14013175772,Verification on enumeration of PCIe NAND devices connected,https://hsdes.intel.com/appstore/article/#/14013175772,Yielding,None,None
+22011834621,Verify GPE event triggered in ACPI during ACPI wake alarm test in sleep state,https://hsdes.intel.com/appstore/article/#/22011834621,Yielding,None,None
+14013165072,[OCR] Verify user consent flow is performed during OCR_WinRE boot in Client control Mode (CCM) Mode,https://hsdes.intel.com/appstore/article/#/14013165072,Yielding,None,None
+14013178190,Verify that BIOS shall provide verb tables for HDA Config,https://hsdes.intel.com/appstore/article/#/14013178190,Yielding,None,None
+14013162852,Verify GPE event triggered in ACPI during ACPI wake alarm test in hibernate,https://hsdes.intel.com/appstore/article/#/14013162852,Yielding,None,None
+16012332169,[OCR] Verify System Recovery When OCR_WinRE boot Flow is interrupted from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/16012332169,Yielding,None,None
+16017780155,Verify GBE driver version in EFI shell,https://hsdes.intel.com/appstore/article/#/16017780155,Yielding,None,None
+16013637145,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active atom cores set to '1' in BIOS",https://hsdes.intel.com/appstore/article/#/16013637145,Yielding,None,None
+16014251361,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active atom cores set to '6 in BIOS",https://hsdes.intel.com/appstore/article/#/16014251361,Yielding,None,None
+16012963869,"Verify BIOS exposes the Setup option ""Acoustic Context Awareness (ACA)"" and HD Audio functionality works fine in OS",https://hsdes.intel.com/appstore/article/#/16012963869,Yielding,None,None
+14013165591,Verify HD Display Audio enumeration and functionality using Type-C to HDMI display by hot-plugging/unplugging display during and before/after S3/S4 cycles,https://hsdes.intel.com/appstore/article/#/14013165591,Yielding,None,None
+14013173107,Verify CPU Fan speed can be set/read through commands in EFI mode,https://hsdes.intel.com/appstore/article/#/14013173107,Yielding,None,None
+14013175416,Verify Display detection and resolution check in post OS with 5K display panel,https://hsdes.intel.com/appstore/article/#/14013175416,Yielding,None,None
+14013177974,Verify NVMe-SSD detection in Bios connected to Add-on-card connected over PCIe-X4 Slot,https://hsdes.intel.com/appstore/article/#/14013177974,Yielding,None,None
+14013180203,BIOS shall hide the Intel MEI #2(HECI 2) prior to OS boot.,https://hsdes.intel.com/appstore/article/#/14013180203,Yielding,None,None
+14013187026,Verify the AMT connectivity with WIFI using WEBUI,https://hsdes.intel.com/appstore/article/#/14013187026,Yielding,None,None
+14013164519,[OCR] Verify AMT triggered PBA Boot Flow over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164519,Yielding,None,None
+16013636831,"Verify System boot to OS without any hang after Sx cycle, when Active  cores set to '7' in BIOS",https://hsdes.intel.com/appstore/article/#/16013636831,Yielding,None,None
+14013164448,[OCR] Verify if BIOS provides option to enable/disable AMT UEFI Boot Options,https://hsdes.intel.com/appstore/article/#/14013164448,Yielding,None,None
+14013177272,Verify PS_ON Residency with HDD Storage device,https://hsdes.intel.com/appstore/article/#/14013177272,Yielding,None,None
+14013157260,Verify Intel(R) Dynamic Tuning technology support enabled in BIOS for DT SKUs,https://hsdes.intel.com/appstore/article/#/14013157260,Yielding,None,None
+16013298949,"Verify Sx cycles  when RH prevention enabled , Row Hammer solution set to Hardware RHP & Refresh_Panic_WM set to High/Low.",https://hsdes.intel.com/appstore/article/#/16013298949,Yielding,None,None
+14013173313,[FSP][GCC]: Verify FSP image ID and Image Revision,https://hsdes.intel.com/appstore/article/#/14013173313,Yielding,None,None
+14013182822,Validate USB Mouse enumeration and Functionality over USB Type-A port before and after S4 cycle,https://hsdes.intel.com/appstore/article/#/14013182822,Yielding,None,None
+14013157472,Verify user configured Power Limit 4 values pre and post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013157472,Yielding,None,None
+16013162482,Verify USB keyboard functionality connected to USB4 Port/Devices on Cold-plug in PreOS & Post OS,https://hsdes.intel.com/appstore/article/#/16013162482,Yielding,None,None
+16015045436,Verify if IP configuration is not exposed with DHCP enabled under Network settings,https://hsdes.intel.com/appstore/article/#/16015045436,Yielding,None,None
+14013174987,Verify DashG card basic functionality on x16 PEG slot post CMS cycles,https://hsdes.intel.com/appstore/article/#/14013174987,Yielding,None,None
+14013184583,ISH FW response and version check in OS,https://hsdes.intel.com/appstore/article/#/14013184583,Yielding,None,None
+14013185230,Verify Discrete Wi-Fi enumeration pre and post Disconnected Modern Standby (DMS) cycle,https://hsdes.intel.com/appstore/article/#/14013185230,Yielding,None,None
+16013114465,Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration pre and post deep S4 and deep S5 state,https://hsdes.intel.com/appstore/article/#/16013114465,Yielding,None,None
+16013871156,Verify Board ID with MRC training in Debug log,https://hsdes.intel.com/appstore/article/#/16013871156,Yielding,None,None
+16013624962,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active processor cores set to '2' in BIOS",https://hsdes.intel.com/appstore/article/#/16013624962,Yielding,None,None
+14013165105,[OCR] Verify OCR_Boot Capabilities Via WSMAN Browser,https://hsdes.intel.com/appstore/article/#/14013165105,Yielding,None,None
+16015063258,Verify if domain name and host name are replaced with FQDN on Integrated MEBx,https://hsdes.intel.com/appstore/article/#/16015063258,Yielding,None,None
+16013636702,"Verify System boot to OS without any hang after Sx cycle, when Active  cores set to '5' in BIOS",https://hsdes.intel.com/appstore/article/#/16013636702,Yielding,None,None
+14013180367,Verify Storage-Redirection Session over Wired LAN,https://hsdes.intel.com/appstore/article/#/14013180367,Yielding,None,None
+14013120885,Verify CPU frequency transitions based on Turbo status,https://hsdes.intel.com/appstore/article/#/14013120885,Yielding,None,None
+14013158146,Verify system stability post applying workload on CPU,https://hsdes.intel.com/appstore/article/#/14013158146,Yielding,None,None
+16013298935,"Verify CMS (MOS) cycles  when RH prevention enabled , Row Hammer solution set to Hardware RHP & Refresh_Panic_WM set to High/Low.",https://hsdes.intel.com/appstore/article/#/16013298935,Yielding,None,None
+14013183314,DPTF devices enumeration pre and post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013183314,Yielding,None,None
+14013165906,[OCR] Verify user consent flow is performed during OCR_WinRE boot in Admin control Mode (ACM) Mode,https://hsdes.intel.com/appstore/article/#/14013165906,Yielding,None,None
+14013175760,Verify that M.2 SSD device is functional without errors connected to M.2 socket connector,https://hsdes.intel.com/appstore/article/#/14013175760,Yielding,None,None
+14013174983,Verify DashG card basic functionality on x16 PEG slot post S5 cycles,https://hsdes.intel.com/appstore/article/#/14013174983,Yielding,None,None
+16014360983,Verify inability of activating network access from USB provisioning flow,https://hsdes.intel.com/appstore/article/#/16014360983,Yielding,None,None
+14013165541,Verify if  system support disable/enable of the Crossover Canyon capability,https://hsdes.intel.com/appstore/article/#/14013165541,Yielding,None,None
+14013175061,Verify DashG card basic functionality on x4 PCIe slot post S3 cycles with eDP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175061,Yielding,None,None
+14013164937,[OCR] Verify PBA Boot flow for One Click Recovery,https://hsdes.intel.com/appstore/article/#/14013164937,Yielding,None,None
+14013185479,Verify video playback in OS pre and post CMS/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013185479,Yielding,None,None
+16013268668,Verify if BIOS provides an option to switch AMT support from onboard LAN to discrete Foxville LAN,https://hsdes.intel.com/appstore/article/#/16013268668,Yielding,None,None
+14013157813,Verify no errors or failures get registered as part of event viewer log post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013157813,Yielding,None,None
+14013165863,[OCR] Verify PBA Boot flow for One Click Recovery,https://hsdes.intel.com/appstore/article/#/14013165863,Yielding,None,None
+14013180592,"Verify ""Manageability Feature Selection"" is ""Enabled"" by default in MEBx setup",https://hsdes.intel.com/appstore/article/#/14013180592,Yielding,None,None
+14013175007,Verify DashG card basic functionality on x4 PCIe slot post S4 cycles with HDMI display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175007,Yielding,None,None
+14013166922,Verify the BIOS first Boot time and Cold Boot time is inline with responsiveness metrics,https://hsdes.intel.com/appstore/article/#/14013166922,Yielding,None,None
+14013183707,"Verify CPU ""C-state C7 ""support",https://hsdes.intel.com/appstore/article/#/14013183707,Yielding,None,None
+16012845721,Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration pre and post CMS,https://hsdes.intel.com/appstore/article/#/16012845721,Yielding,None,None
+14013157367,"Verify platform""s Power Limit 1 and Power Limit 2 values",https://hsdes.intel.com/appstore/article/#/14013157367,Yielding,None,None
+14013174998,Verify DashG card basic functionality on x4 PCIe slot with DP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013174998,Yielding,None,None
+14013178773,Verify VMD driver version in BIOS HII menu Through VMD,https://hsdes.intel.com/appstore/article/#/14013178773,Yielding,None,None
+14013173307,[FSP][GCC]: Validate Pre and Post OS display with different FSP Bios,https://hsdes.intel.com/appstore/article/#/14013173307,Yielding,None,None
+14013173935,Exercising GMM/GNA Error check in BIOS and corresponding BDF values,https://hsdes.intel.com/appstore/article/#/14013173935,Yielding,None,None
+16013298939,"Verify CMS (MOS) cycles  when RH prevention enabled , Row Hammer solution set to 2x Refresh & Refresh_Panic_WM set to High/Low.",https://hsdes.intel.com/appstore/article/#/16013298939,Yielding,None,None
+14013174602,Verify Audio play back and recording on 3.5mm-Jack-Headset (via Soundwire),https://hsdes.intel.com/appstore/article/#/14013174602,Yielding,None,None
+14013159096,"Verify system enters Sleep (S3) using OS start Menu or using ""ALT+F4"" in alternate validation cycle",https://hsdes.intel.com/appstore/article/#/14013159096,Yielding,None,None
+14013184455,Verify video playback in OS post S3/S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013184455,Yielding,None,None
+16016416717,Verify if BIOS accepts updating invalid value for TTL in the MEBx,https://hsdes.intel.com/appstore/article/#/16016416717,Yielding,None,None
+14013178542,Verify package C10 with CPU attached storage Through VMD,https://hsdes.intel.com/appstore/article/#/14013178542,Yielding,None,None
+14013184856,Verify Analog Microphone test connected to 3.5 mm Port post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013184856,Yielding,None,None
+16017380741,Verify power control settings under MEBx after loading defaults in the BIOS menu,https://hsdes.intel.com/appstore/article/#/16017380741,Yielding,None,None
+14013177441,Verify Bios default value To SATA CLKREQ Assertion Select with remapped PCIe device,https://hsdes.intel.com/appstore/article/#/14013177441,Yielding,None,None
+22011834699,Verify system stability on performing reboot cycle on freshly preloaded OS post flashing Release BIOS,https://hsdes.intel.com/appstore/article/#/22011834699,Yielding,None,None
+14013165647,[OCR] Verify AMT triggered PBA Boot Flow over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165647,Yielding,None,None
+14013162496,Verify BIOS settings remains intact with SAF mode booting after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013162496,Yielding,None,None
+16013431292,Verify RTD3 support with add-on-card on x4 (CEM slot) slot connected with NVMe.,https://hsdes.intel.com/appstore/article/#/16013431292,Yielding,None,None
+14013161993,Verify CPU FAN rotate when core temperature exceeds Active trip point with DTS SMM enabled and DTT disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013161993,Yielding,None,None
+14013165526,Verify booting support through USB 3.2 Gen2 (SS+ mass storage) connected over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013165526,Yielding,None,None
+14013177993,"Verify SX cycles with NVMe SSD""s connected to M.2 Gen4 slots from CPU & PCH.",https://hsdes.intel.com/appstore/article/#/14013177993,Yielding,None,None
+14013117305,Verify Options available in the USB configuration page of BIOS Setup (AIO/DT/HALO),https://hsdes.intel.com/appstore/article/#/14013117305,Yielding,None,None
+22011834336,Verify BIOS handover the platform control to OS,https://hsdes.intel.com/appstore/article/#/22011834336,Yielding,None,None
+14013173144,Verify S3 and S4 LED status,https://hsdes.intel.com/appstore/article/#/14013173144,Yielding,None,None
+14013174975,Verify DashG card basic functionality on x16 PEG slot with HDMI display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013174975,Yielding,None,None
+14013177961,Verify audio playback with USB Headset/DP/HDMI over Audio codec,https://hsdes.intel.com/appstore/article/#/14013177961,Yielding,None,None
+14013175045,Verify DashG card basic functionality on x4 PCIe slot post CMS cycles with DP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175045,Yielding,None,None
+14013180053,"Verify local user cannot enter MEBx settings to change Intel  Standard Manageability Configuration with Wired LAN, when Storage redirection is active",https://hsdes.intel.com/appstore/article/#/14013180053,Yielding,None,None
+14013182910,Verify Touch function test using Touch Panel post S5 cycle,https://hsdes.intel.com/appstore/article/#/14013182910,Yielding,None,None
+16012847938,"Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration pre and post S4, S5, Warm Reset, Cold Reset, G3 State",https://hsdes.intel.com/appstore/article/#/16012847938,Yielding,None,None
+14013180385,Verify power control options available for ME,https://hsdes.intel.com/appstore/article/#/14013180385,Yielding,None,None
+14013163063,Verify CPU enters C10 after removal of USB disk used as source for Music playback in Modern Standby,https://hsdes.intel.com/appstore/article/#/14013163063,Yielding,None,None
+14013182900,Verify Touch function test using Touch Panel post S4 cycle,https://hsdes.intel.com/appstore/article/#/14013182900,Yielding,None,None
+14013180525,Verify removal of MDES usage from MEBx,https://hsdes.intel.com/appstore/article/#/14013180525,Yielding,None,None
+14013157206,Verify if Intel SelfTest completes successfully,https://hsdes.intel.com/appstore/article/#/14013157206,Yielding,None,None
+16017225843,Verify BIOS supports System Power Management(Psys),https://hsdes.intel.com/appstore/article/#/16017225843,Yielding,None,None
+14013175110,Verify Pkg C-state with SUT idle and display ON,https://hsdes.intel.com/appstore/article/#/14013175110,Yielding,None,None
+14013173938,Check if GMM/GNA device is fused enabled and check for BIOS option to Enable/ Disable GMM/GNA,https://hsdes.intel.com/appstore/article/#/14013173938,Yielding,None,None
+14013166704,Verify Bios does not display DVSF for the fabric domain,https://hsdes.intel.com/appstore/article/#/14013166704,Yielding,None,None
+14013179161,Verify USB2.0/3.0 device functionality in EFI shell and OS on cold-plug over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013179161,Yielding,None,None
+14013180415,Verify availability of Storage Redirection/ KVM under AMT and relevant options applicable for these features,https://hsdes.intel.com/appstore/article/#/14013180415,Yielding,None,None
+14013180454,"Verify options - IPV4, UUID and Power Control are available in WebUI with WLAN",https://hsdes.intel.com/appstore/article/#/14013180454,Yielding,None,None
+16013625853,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active processor cores set to '7' in BIOS",https://hsdes.intel.com/appstore/article/#/16013625853,Yielding,None,None
+14013178094,Verify VMD RTD3Cold support with NVMe connected to PCH M.2 slot.,https://hsdes.intel.com/appstore/article/#/14013178094,Yielding,None,None
+16014251359,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active atom cores set to '5' in BIOS",https://hsdes.intel.com/appstore/article/#/16014251359,Yielding,None,None
+16016398506,[Negative]Verify enablement of Test Menu with external Bios,https://hsdes.intel.com/appstore/article/#/16016398506,Yielding,None,None
+14013177922,Verify System notification tones in OS,https://hsdes.intel.com/appstore/article/#/14013177922,Yielding,None,None
+16015024534,[OCR] Verify PBA can not be triggered with PBA disabled for One Click Recovery over Wired LAN,https://hsdes.intel.com/appstore/article/#/16015024534,Yielding,None,None
+14013164617,[OCR] Verify OCR progress and state via AMT Event log for PBA boot over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164617,Yielding,None,None
+14013165584,Verify WiFi functionality in UEFI and KVM session establishment working same time for WiFi OCR support,https://hsdes.intel.com/appstore/article/#/14013165584,Yielding,None,None
+14013179079,"Verify CNVd Bluetooth functionality in OS pre and post S4, S5, warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179079,Yielding,None,None
+14013164191,Verify Touch Panel(I2C) functionality in Bios,https://hsdes.intel.com/appstore/article/#/14013164191,Yielding,None,None
+14013172875,Verify Press power button can act as a wake source for S4 and S3 states,https://hsdes.intel.com/appstore/article/#/14013172875,Yielding,None,None
+14013177211,Verify VMD enabled CPU Attached Storage passthrough device detection in device manager after Sx cycles,https://hsdes.intel.com/appstore/article/#/14013177211,Yielding,None,None
+14013177681,Verify Gen1 to Gen4 speed check with PCIe Gen3 NVMe SSD connected over PCIe Gen4 supported X16 slot,https://hsdes.intel.com/appstore/article/#/14013177681,Yielding,None,None
+14013163199,[OCR] Verify BIOS should provide Boot options Support  for one Click recovery,https://hsdes.intel.com/appstore/article/#/14013163199,Yielding,None,None
+14013158321,Verify System entry to Sx states via command line,https://hsdes.intel.com/appstore/article/#/14013158321,Yielding,None,None
+16013373086,Verify UCSI command - Obtain Platform USB-C capabilities,https://hsdes.intel.com/appstore/article/#/16013373086,Yielding,None,None
+14013175065,Verify DashG card basic functionality on x4 PCIe slot post S4 cycles with eDP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175065,Yielding,None,None
+14013166698,Verify Bios gives user an option to switch between Internal BCLK and External BCLK,https://hsdes.intel.com/appstore/article/#/14013166698,Yielding,None,None
+14013179174,"Validate system attains Graphics turbo frequency when threshold loads are applied on graphics cores  pre and post S4, S5, warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179174,Yielding,None,None
+14013180405,Verify if user can Save MEBx settings and exit MEBx successfully,https://hsdes.intel.com/appstore/article/#/14013180405,Yielding,None,None
+14013162385,Verify Booting over PCIe LAN using UEFI PXEv4 network,https://hsdes.intel.com/appstore/article/#/14013162385,Yielding,None,None
+16013373198,Verify UCSI command - Get connector status details,https://hsdes.intel.com/appstore/article/#/16013373198,Yielding,None,None
+22011843494,Validate USB3.0 HUB Functionality check in EFI over USB Type-A port,https://hsdes.intel.com/appstore/article/#/22011843494,Yielding,None,None
+14013164915,[OCR] Verify HTTPS Boot flow for One Click Recovery,https://hsdes.intel.com/appstore/article/#/14013164915,Yielding,None,None
+16016050431,Verify if KVM session can be established with fast boot enabled in the BIOs page with wired LAN,https://hsdes.intel.com/appstore/article/#/16016050431,Yielding,None,None
+14013156716,Verify Local FW Updates option is available in BIOS Setup,https://hsdes.intel.com/appstore/article/#/14013156716,Yielding,None,None
+14013184731,Verify System Login using Finger print Sensor (FPS),https://hsdes.intel.com/appstore/article/#/14013184731,Yielding,None,None
+14013165013,[OCR] Verify System Recovery When OCR_PBA boot Flow is interrupted from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013165013,Yielding,None,None
+14013176995,Verify NVMe functionality over X4 slot across pre and Post Sx cycles,https://hsdes.intel.com/appstore/article/#/14013176995,Yielding,None,None
+14013164505,[OCR] Verify Windows Recovery (WinRE) Functionality from AMT Remote session with OCR option disabled in BIOS over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164505,Yielding,None,None
+14013174685,Verify VP9 video playback functionality in OS,https://hsdes.intel.com/appstore/article/#/14013174685,Yielding,None,None
+14013180543,"Verify ME(M0) status pre & post S5, warm reset cycle",https://hsdes.intel.com/appstore/article/#/14013180543,Yielding,None,None
+16013625823,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active processor cores set to '6' in BIOS",https://hsdes.intel.com/appstore/article/#/16013625823,Yielding,None,None
+16012975448,Verify Bios option to enable and Disable the UAOL (USB AUDIO OFFLOAD),https://hsdes.intel.com/appstore/article/#/16012975448,Yielding,None,None
+14013178088,"Verify SLP_S0 , Package C states & S0I3.4 with M.2 NVMe connected.",https://hsdes.intel.com/appstore/article/#/14013178088,Yielding,None,None
+14013177029,Verify VMD Register Lock bit when VMD device is not in use,https://hsdes.intel.com/appstore/article/#/14013177029,Yielding,None,None
+14013156871,Verify Processor reaches all P-states irrespective of C-states,https://hsdes.intel.com/appstore/article/#/14013156871,Yielding,None,None
+14013180411,Verify if AMT configuration menu is accessible in MEBx setup,https://hsdes.intel.com/appstore/article/#/14013180411,Yielding,None,None
+14013174260,Validate Hybrid Graphics (HG) enumerated as PCI Device,https://hsdes.intel.com/appstore/article/#/14013174260,Yielding,None,None
+14013114837,Verify Fan rotation speed at the time of temperature crosses active trip point during OS hung condition,https://hsdes.intel.com/appstore/article/#/14013114837,Yielding,None,None
+16014267287,Verify discrete graphics (DGfx) functionality with/without PCIE Resizable BAR support with DashG graphics card on X16 PEG slot,https://hsdes.intel.com/appstore/article/#/16014267287,Yielding,None,None
+16012641932,Verify Wi-Fi connectivity across warm and cold reboot cycles in pre-OS environment,https://hsdes.intel.com/appstore/article/#/16012641932,Yielding,None,None
+16013815316,Verify Row Hammer PRT Bios Knob's Default status.,https://hsdes.intel.com/appstore/article/#/16013815316,Yielding,None,None
+14013178382,Verify 3rd party NVMe-SSD detection in Bios connected to Add-on-card connected over X8 Gen5 Slot,https://hsdes.intel.com/appstore/article/#/14013178382,Yielding,None,None
+14013182980,Validate hot-plug USB keyboard functionality check in BIOS over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013182980,Yielding,None,None
+14013174731,Verify Audio Play back on HDMI 4K Display Panel,https://hsdes.intel.com/appstore/article/#/14013174731,Yielding,None,None
+15010446206,"With SOL disabled in the MEBx page, verify SOL session can not be established",https://hsdes.intel.com/appstore/article/#/15010446206,Yielding,None,None
+16015052880,Verify if system can not be connected to the host when network is not activated,https://hsdes.intel.com/appstore/article/#/16015052880,Yielding,None,None
+14013157462,Verify Bios configured Power Limit 4,https://hsdes.intel.com/appstore/article/#/14013157462,Yielding,None,None
+16018565460,Verify SMBIOS Version displayed correctly,https://hsdes.intel.com/appstore/article/#/16018565460,Yielding,None,None
+14013165637,[OCR] Verify AMT triggered Windows Recovery Environment (WinRE) over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165637,Yielding,None,None
+14013162490,Verify BIOS settings remains intact with SAF mode booting after Warm and Cold Boot cycles,https://hsdes.intel.com/appstore/article/#/14013162490,Yielding,None,None
+14013158428,Verify BT data transfer functionality using discrete BT module connected to System,https://hsdes.intel.com/appstore/article/#/14013158428,Yielding,None,None
+14013165908,[OCR] Verify Remote Power Command after performing OCR_WinRE Boot flow,https://hsdes.intel.com/appstore/article/#/14013165908,Yielding,None,None
+14013162003,Verify System shutdown when core temperature exceeds Critical trip point with DTS SMM enabled and DTT disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013162003,Yielding,None,None
+16014988649,Verify PPIN Feature BIOS option in Release BIOS,https://hsdes.intel.com/appstore/article/#/16014988649,Yielding,None,None
+16013629942,Verify if System boots up successfully when CPU is Upgraded/downgraded with RTC/CMOS cleared,https://hsdes.intel.com/appstore/article/#/16013629942,Yielding,None,None
+15010441516,Verify if CSME will not pass the MAC address when LAN-less platform is detected,https://hsdes.intel.com/appstore/article/#/15010441516,Yielding,None,None
+14013164570,[OCR] Verify Windows Recovery Environment (WinRE) Boot  with Reset PC(Keep my files) Option over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164570,Yielding,None,None
+14013165860,[OCR] Verify Windows Recovery Environment (WinRE) Boot flow for One Click Recovery,https://hsdes.intel.com/appstore/article/#/14013165860,Yielding,None,None
+14013174969,Validate DashG enumerated as PCI Device at EFI,https://hsdes.intel.com/appstore/article/#/14013174969,Yielding,None,None
+14013161592,Verify independent BIOS setup option to Enable/Disable INT3400 Device and Processor thermal device participants,https://hsdes.intel.com/appstore/article/#/14013161592,Yielding,None,None
+16015070845,Verify if Unconfigure Network Access is removed from MEBx page on Integrated MEBx.,https://hsdes.intel.com/appstore/article/#/16015070845,Yielding,None,None
+14013156761,Verify Sx cycles with SATA SSD connected when Windbg & Hyper V enabled.,https://hsdes.intel.com/appstore/article/#/14013156761,Yielding,None,None
+14013173341,[FSP][GCC]: Verify FSP_INFO_HEADER Information,https://hsdes.intel.com/appstore/article/#/14013173341,Yielding,None,None
+16013297707,Verify the RTD3 support for USB device connected to PEG port,https://hsdes.intel.com/appstore/article/#/16013297707,Yielding,None,None
+14013177687,Verify Gen1 to Gen4 speed check with PCIe Gen4 NVMe SSD connected over PCIe Gen4 supported X4 slot,https://hsdes.intel.com/appstore/article/#/14013177687,Yielding,None,None
+14013164543,[OCR] Verify AMT triggered HTTPS Boot Flow over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164543,Yielding,None,None
+14013186993,Verify if SUT reboots after user enters incorrect MEBx password for 3 consecutive tries,https://hsdes.intel.com/appstore/article/#/14013186993,Yielding,None,None
+14013175034,Verify DashG card basic functionality on x4 PCIe slot post S3 cycles with DP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175034,Yielding,None,None
+14013175042,Verify DashG card basic functionality on x4 PCIe slot post S5 cycles with DP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175042,Yielding,None,None
+14013174030,"Verify HDMI & DP hot-plug functionality, with default display connected",https://hsdes.intel.com/appstore/article/#/14013174030,Yielding,None,None
+16013298924,"Verify MRC training with Fast boot when RH prevention enabled , Row Hammer sloution set to Hardware RHP & Refresh_Panic_WM set to Low",https://hsdes.intel.com/appstore/article/#/16013298924,Yielding,None,None
+14013159052,"Verify system enters Sleep (S3) using ""ALT+F4""",https://hsdes.intel.com/appstore/article/#/14013159052,Yielding,None,None
+14013156882,Verify Bios gives an option to configure Intel Processor Trace Feature(RTIT),https://hsdes.intel.com/appstore/article/#/14013156882,Yielding,None,None
+14013174979,Verify DashG card basic functionality on x16 PEG slot post S4 cycles,https://hsdes.intel.com/appstore/article/#/14013174979,Yielding,None,None
+14013173344,[FSP][GCC]: Verify FSP version on SUT,https://hsdes.intel.com/appstore/article/#/14013173344,Yielding,None,None
+16018635446,Verify WIFI driver version in EFI shell,https://hsdes.intel.com/appstore/article/#/16018635446,Yielding,None,None
+14013180375,"Verify user is prompted for a new password and can""t use a non-strong password",https://hsdes.intel.com/appstore/article/#/14013180375,Yielding,None,None
+14013156884,BIOS should update the changes for SMBIOS type 4 [Processor Information],https://hsdes.intel.com/appstore/article/#/14013156884,Yielding,None,None
+1509596724,Verify DashG card basic functionality with SRIOV enabled on x16 PEG slot connected in SUT,https://hsdes.intel.com/appstore/article/#/1509596724,Yielding,None,None
+14013178413,Verify that the PCH SATA Controller is set and operating in RAID Mode with NVMe SSD Through VMD,https://hsdes.intel.com/appstore/article/#/14013178413,Yielding,None,None
+16015413196,Verify MRC specific setup option to determine whether to execute a fastboot or normal boot,https://hsdes.intel.com/appstore/article/#/16015413196,Yielding,None,None
+14013159990,Verify USB3 DbC Functionality,https://hsdes.intel.com/appstore/article/#/14013159990,Yielding,None,None
+14013174978,Verify DashG card basic functionality on x16 PEG slot post S3 cycles,https://hsdes.intel.com/appstore/article/#/14013174978,Yielding,None,None
+14013166601,Verify default values set for Memory ratio and Memory reference clock as part of Setup,https://hsdes.intel.com/appstore/article/#/14013166601,Yielding,None,None
+14013183804,Validate USB 2.0 device enumeration when hot plug device pre and post S4 cycle over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013183804,Yielding,None,None
+16012555742,Verify USB3 Device functionality with TCSS D3 Cold support enabled,https://hsdes.intel.com/appstore/article/#/16012555742,Yielding,None,None
+14013165649,[OCR] Verify Windows Recovery Environment (WinRE) Boot  with Reset PC(Keep my files) Option over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165649,Yielding,None,None
+16013625877,"Verify System boot to OS without any hang after Sx cycle, when Active  cores set to '1' in BIOS",https://hsdes.intel.com/appstore/article/#/16013625877,Yielding,None,None
+14013175004,Verify DashG card basic functionality on x4 PCIe slot post S3 cycles with HDMI display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175004,Yielding,None,None
+14013173323,"[FSP][GCC]: Verify GUID of SMBIOS HOB""s (Memory, Processor and Cache)",https://hsdes.intel.com/appstore/article/#/14013173323,Yielding,None,None
+14013178024,"Verify NVMe-SSD""s detection in Bios & O.S when connected to x4 slots & M.2 slots from CPU & PCH.",https://hsdes.intel.com/appstore/article/#/14013178024,Yielding,None,None
+14013160712,Verify Touch panel Enumeration pre and post Connected Standby (CMS) cycle,https://hsdes.intel.com/appstore/article/#/14013160712,Yielding,None,None
+14013186483,Verify ISH Sensor Enumeration pre and post Connected Standby (CMS) cycle - Ambient Light Sensor (ALS),https://hsdes.intel.com/appstore/article/#/14013186483,Yielding,None,None
+14013173203,"Verify system stability on waking from idle state pre and post S4,S5 ,warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013173203,Yielding,None,None
+14013173187,Verify system can be cold reset and warm reset from EDK shell,https://hsdes.intel.com/appstore/article/#/14013173187,Yielding,None,None
+16013298910,"Verify MRC training with Fast boot when RH prevention enabled , Row Hammer sloution set to 2x refresh & Refresh_Panic_WM set to Low",https://hsdes.intel.com/appstore/article/#/16013298910,Yielding,None,None
+14013180393,"Verify ""Domain Name"" and HostName"" could be set successfully in MEBx setting",https://hsdes.intel.com/appstore/article/#/14013180393,Yielding,None,None
+14013157006,Verify that BIOS gives an option to change Tcc Activation Offset,https://hsdes.intel.com/appstore/article/#/14013157006,Yielding,None,None
+14013158404,Verify On-Board Audio ADSP is Functional,https://hsdes.intel.com/appstore/article/#/14013158404,Yielding,None,None
+14013187276,ISH Sensor Enumeration - Ambientlight (ALS),https://hsdes.intel.com/appstore/article/#/14013187276,Yielding,None,None
+14013175884,Verify RST RAID UEFI driver must be available when SATA controller is in AHCI mode,https://hsdes.intel.com/appstore/article/#/14013175884,Yielding,None,None
+14013165037,Verify BIOS to update post codes on punit register,https://hsdes.intel.com/appstore/article/#/14013165037,Yielding,None,None
+14013165665,[OCR] Verify OCR progress and state via AMT Event log for PBA boot over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165665,Yielding,None,None
+14013159040,Verify Discrete BT ON-OFF-ON functionality in OS,https://hsdes.intel.com/appstore/article/#/14013159040,Yielding,None,None
+16015984160,Verify if switching AMT support from onboard LAN to discrete Foxville LAN is not provided with consumer SKU,https://hsdes.intel.com/appstore/article/#/16015984160,Yielding,None,None
+14013163101,Verify BIOS to implement DSM to enable UAOL workaround,https://hsdes.intel.com/appstore/article/#/14013163101,Yielding,None,None
+14013180461,Verify the MEBX configure using Host-based Provisioning,https://hsdes.intel.com/appstore/article/#/14013180461,Yielding,None,None
+16014953231,Verify Onboard Network functionality in EFI shell when network is disabled in BIOS,https://hsdes.intel.com/appstore/article/#/16014953231,Yielding,None,None
+14013169052,Verify System memory using Windows Memory Diagnostics tool (Standard),https://hsdes.intel.com/appstore/article/#/14013169052,Yielding,None,None
+16014251368,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active atom cores set to '7' in BIOS",https://hsdes.intel.com/appstore/article/#/16014251368,Yielding,None,None
+14013174718,Verify Display detection in Pre OS with 4K display panel,https://hsdes.intel.com/appstore/article/#/14013174718,Yielding,None,None
+14013165873,[OCR] Verify System Recovery When OCR_PBA boot Flow is interrupted from AMT Remote session over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165873,Yielding,None,None
+14013175069,Verify DashG card basic functionality on x4 PCIe slot post S5 cycles with eDP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175069,Yielding,None,None
+14013174597,Verify Audio play back on Speakers/headset with enabling Soundwire option in BIOS,https://hsdes.intel.com/appstore/article/#/14013174597,Yielding,None,None
+14013174995,Verify DashG card basic functionality on x4 PCIe slot with HDMI display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013174995,Yielding,None,None
+14013179021,"Verify Remapped NVMe-SSD""s detection in Bios & O.S when connected to  x4 slots & M.2 slots from CPU & PCH.",https://hsdes.intel.com/appstore/article/#/14013179021,Yielding,None,None
+14013178367,Verify warm reset cycles with PCIe Gen5 NVMe SSD connected over PCIe Gen5 supported X8 slot,https://hsdes.intel.com/appstore/article/#/14013178367,Yielding,None,None
+14013157740,Verify PMC static function disable configuration locking,https://hsdes.intel.com/appstore/article/#/14013157740,Yielding,None,None
+14013175077,Verify DashG card basic functionality on x4 PCIe slot post CMS cycles with eDP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175077,Yielding,None,None
+14013183691,Verify Discrete Bluetooth device function test on OS post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013183691,Yielding,None,None
+16013298829,Verify MRC training with RH prevention enabled with Hardware RHP enabled and REFRESH_PANIC_WM set to Low,https://hsdes.intel.com/appstore/article/#/16013298829,Yielding,None,None
+14013165004,[OCR] Verify System Recovery When OCR_HTTPS boot Flow is interrupted from AMT Remote session over wired LAN,https://hsdes.intel.com/appstore/article/#/14013165004,Yielding,None,None
+14013180382,Verify Local FW Updates option is available in MEBx /BIOS Setup,https://hsdes.intel.com/appstore/article/#/14013180382,Yielding,None,None
+14013173359,[FSP2.1][GCC]: Verify FSP_SMBIOS_EFI_PEI_GRAPHICS_DEVICE_INFO_HOB table,https://hsdes.intel.com/appstore/article/#/14013173359,Yielding,None,None
+14013119517,Verify BIOS can configure SATA mode to AHCI and OS can then be installed and verify device speed,https://hsdes.intel.com/appstore/article/#/14013119517,Yielding,None,None
+14013161528,Verify discrete WLAN ON-OFF-ON functionality in OS,https://hsdes.intel.com/appstore/article/#/14013161528,Yielding,None,None
+14013176664,Verify SUT support Debug Trace log capture via TAP over JTAG (Route traces to PTI),https://hsdes.intel.com/appstore/article/#/14013176664,Yielding,None,None
+16015009086,Verify if BIOS shall not provide ASF configuration option on Consumer SKU,https://hsdes.intel.com/appstore/article/#/16015009086,Yielding,None,None
+14013121481,Verify SUT Entry and Exit in CS Low Power Mode,https://hsdes.intel.com/appstore/article/#/14013121481,Yielding,None,None
+14013177261,Verify Bios support for I2C RTD3,https://hsdes.intel.com/appstore/article/#/14013177261,Yielding,None,None
+14013176496,Verify SATA controller type device detection in EFI shell,https://hsdes.intel.com/appstore/article/#/14013176496,Yielding,None,None
+22011834676,Verify system stability on performing Sleep cycle on freshly preloaded OS post flashing Release BIOS,https://hsdes.intel.com/appstore/article/#/22011834676,Yielding,None,None
+14013182957,Verify Discrete Wi-Fi enumeration post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013182957,Yielding,None,None
+16012847899,Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration pre and post S3 cycle,https://hsdes.intel.com/appstore/article/#/16012847899,Yielding,None,None
+14013175038,Verify DashG card basic functionality on x4 PCIe slot post S4 cycles with DP display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175038,Yielding,None,None
+14013173175,"Verify system can be Shutdown, Hibernate and Restart using ""ALT+F4"" key combination",https://hsdes.intel.com/appstore/article/#/14013173175,Yielding,None,None
+16015419990,Verify if TLS PKI option is removed from Integrated MEBx,https://hsdes.intel.com/appstore/article/#/16015419990,Yielding,None,None
+14013174040,Verifying EDID (Extended Display Identification Data) support check for display resolution/refresh rate,https://hsdes.intel.com/appstore/article/#/14013174040,Yielding,None,None
+22011834694,Verify system stability on performing Hibernate cycle on freshly preloaded OS post flashing Release BIOS,https://hsdes.intel.com/appstore/article/#/22011834694,Yielding,None,None
+14013160906,"Verify USB devices information are displayed in BIOS setup, Connected over Type C port",https://hsdes.intel.com/appstore/article/#/14013160906,Yielding,None,None
+14013160094,Verify Discrete BT Functionality with CNVi option Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013160094,Yielding,None,None
+14013164398,[OCR] Verify AMT triggered Windows Recovery Environment (WinRE) over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164398,Yielding,None,None
+14013180400,Verify user can set values for IPV4 Address and Subnet Mask Address,https://hsdes.intel.com/appstore/article/#/14013180400,Yielding,None,None
+14013180473,Verify SUT completes  S3 and S4 cycles successfully with ME connection established,https://hsdes.intel.com/appstore/article/#/14013180473,Yielding,None,None
+14013173347,"[FSP][GCC]: Validate FSP TempRamInit initialization and TempRamExit API""s",https://hsdes.intel.com/appstore/article/#/14013173347,Yielding,None,None
+14013180376,Verify if MEBx password change is accepted (for password meeting specific criteria) and is successfully accepted on subsequent entries to MEBx,https://hsdes.intel.com/appstore/article/#/14013180376,Yielding,None,None
+14013184326,ISH Sensor Enumeration Pre and Post Sx - Ambient light (ALS),https://hsdes.intel.com/appstore/article/#/14013184326,Yielding,None,None
+16013298763,Verify MRC training with RH prevention enabled with 2X refresh enabled and REFRESH_PANIC_WM set to Low,https://hsdes.intel.com/appstore/article/#/16013298763,Yielding,None,None
+16014868604,Verify system Boot successfully without any delay with  20 MB BIOS,https://hsdes.intel.com/appstore/article/#/16014868604,Yielding,None,None
+16014912837,[Negative]Verify Trace Hub Initialization when PCH and SOC trace hub disabled,https://hsdes.intel.com/appstore/article/#/16014912837,Yielding,None,None
+14013165103,[OCR] Verify user consent flow is performed during OCR_WinRE boot in Admin control Mode (ACM) Mode,https://hsdes.intel.com/appstore/article/#/14013165103,Yielding,None,None
+16014934572,"Verify ""PCH and CPU Trace Hub Enable Mode"" BIOS policy/option for NPK Support  when option is disabled",https://hsdes.intel.com/appstore/article/#/16014934572,Yielding,None,None
+14013165865,[OCR] Verify System Recovery When OCR_WinRE boot Flow is interrupted from AMT Remote session over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165865,Yielding,None,None
+16013715183,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active atom cores set to '3' in BIOS",https://hsdes.intel.com/appstore/article/#/16013715183,Yielding,None,None
+14013156718,"Verify ""Password Policy"" is set to ""Any Time"" under MEBx Setup option in BIOS",https://hsdes.intel.com/appstore/article/#/14013156718,Yielding,None,None
+14013163150,Verify TBT-External Graphics hot-plug functionality with Integrated graphics,https://hsdes.intel.com/appstore/article/#/14013163150,Yielding,None,None
+14013178365,Verify SX cycles with NVMe connected to Add-on-card connected over x8 PCIe Gen5 slot,https://hsdes.intel.com/appstore/article/#/14013178365,Yielding,None,None
+14013186948,Verify if MEBx password change is accepted (for password meeting specific criteria) and is successfully accepted on subsequent entries to MEBx,https://hsdes.intel.com/appstore/article/#/14013186948,Yielding,None,None
+16013373341,Verify UCSI command - Get connector capability,https://hsdes.intel.com/appstore/article/#/16013373341,Yielding,None,None
+14013180605,Verify KVM session can be established When SUT is in MEBX Menu and BIOS Menu,https://hsdes.intel.com/appstore/article/#/14013180605,Yielding,None,None
+16015036242,Verify if MEBx page is not displayed when AMT configuration is disabled in BIOS page,https://hsdes.intel.com/appstore/article/#/16015036242,Yielding,None,None
+14013156714,Verify KVM can be enabled/disabled in BIOS under MEBx menu,https://hsdes.intel.com/appstore/article/#/14013156714,Yielding,None,None
+14013175013,Verify DashG card basic functionality on x4 PCIe slot post CMS cycles with HDMI display connected in SUT,https://hsdes.intel.com/appstore/article/#/14013175013,Yielding,None,None
+14013156710,Verify if AMT configuration menu is accessible under MEBx setup in BIOS,https://hsdes.intel.com/appstore/article/#/14013156710,Yielding,None,None
+14013157460,Verify user configured Power Limit 1 and Power Limit 2 values gets reflected correctly as part of PACKAGE_RAPL_LIMIT_0_0_0_MCHBAR_PCU MMIO region,https://hsdes.intel.com/appstore/article/#/14013157460,Yielding,None,None
+14013185811,"Verify IDTT (DPTF) devices enumeration in device manager pre and post S4,S5, warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013185811,Yielding,None,None
+14013160711,Verify discrete Wi-Fi enumeration pre and post Connected Standby (CMS) cycle,https://hsdes.intel.com/appstore/article/#/14013160711,Yielding,None,None
+14013183790,Validate USB 2.0 device enumeration when hot plug device pre and post S3 cycle over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013183790,Yielding,None,None
+14013185372,Verify HD Display Audio enumeration pre and post CMS cycle,https://hsdes.intel.com/appstore/article/#/14013185372,Yielding,None,None
+14013183962,Validate USB 3.0 devices functionality over USB Type-A port with pre and post S5 cycle,https://hsdes.intel.com/appstore/article/#/14013183962,Yielding,None,None
+16013020907,Verify if BIOS provides option to enable or disable Remote Platform Erase RPE,https://hsdes.intel.com/appstore/article/#/16013020907,Yielding,None,None
+14013180346,[OCR] Verify SMBIOS Capability verification for one touch Recovery,https://hsdes.intel.com/appstore/article/#/14013180346,Yielding,None,None
+14013177742,Verify VMD RTD3 Cold support with SATA connected,https://hsdes.intel.com/appstore/article/#/14013177742,Yielding,None,None
+14013177744,"Verify VMD RTD3 support with NVME connected,bios.raptorlake_refresh",https://hsdes.intel.com/appstore/article/#/14013177744,Yielding,None,None
+16013298799,Verify MRC training with RH prevention enabled with Hardware RHP enabled and REFRESH_PANIC_WM set to High,https://hsdes.intel.com/appstore/article/#/16013298799,Yielding,None,None
+14013184690,Boot to OS from SATA HDD,https://hsdes.intel.com/appstore/article/#/14013184690,Yielding,None,None
+14013183958,Validate USB 3.0 devices functionality over USB Type-A port with pre and post S4 cycle,https://hsdes.intel.com/appstore/article/#/14013183958,Yielding,None,None
+14013179059,"Verify Discrete Bluetooth device function test in OS pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179059,Yielding,None,None
+14013164489,[OCR] Verify Windows Recovery working if OCR WinRE option is disabled in BIOS,https://hsdes.intel.com/appstore/article/#/14013164489,Yielding,None,None
+14013182814,Validate USB Keyboard Functionality check over USB Type-A port post S4 cycle,https://hsdes.intel.com/appstore/article/#/14013182814,Yielding,None,None
+16013298865,Verify system boot to OS with all channels populated  when RH prevention Disabled & Refresh_Panic_WM set to Low,https://hsdes.intel.com/appstore/article/#/16013298865,Yielding,None,None
+14013176475,Verify that BIOS detects and initializes SSDs/SATA drives attached to PCIe x4 port,https://hsdes.intel.com/appstore/article/#/14013176475,Yielding,None,None
+14013173351,[FSP][GCC]: Verify FSP_INFO_EXTENDED_HEADER Information.,https://hsdes.intel.com/appstore/article/#/14013173351,Yielding,None,None
+14013184016,Validate USB2.0/3.0 HUB Functionality check in OS post S3/S0i3 cycle over USB Type-A port,https://hsdes.intel.com/appstore/article/#/14013184016,Yielding,None,None
+14013156950,Verify Platform PL1 and PL2 Bios options,https://hsdes.intel.com/appstore/article/#/14013156950,Yielding,None,None
+14013157532,Verify system stability on changing power state settings,https://hsdes.intel.com/appstore/article/#/14013157532,Yielding,None,None
+14013178387,Verify 3rd party NVMe-SSD detection in Bios connected to Add-on-card connected over X16 Gen5 Slot,https://hsdes.intel.com/appstore/article/#/14013178387,Yielding,None,None
+16012555118,Verify that BIOS displays MEBx options with Intel AMT enabled IFWI,https://hsdes.intel.com/appstore/article/#/16012555118,Yielding,None,None
+14013162175,"Verify if BIOS populates SMBIOS table 130 with ""vPro TBT dock  supported state",https://hsdes.intel.com/appstore/article/#/14013162175,Yielding,None,None
+14013177989,"Verify Two NVMe-SSD""s detection in Bios when connected to M.2 Gen4 slots from CPU & PCH.",https://hsdes.intel.com/appstore/article/#/14013177989,Yielding,None,None
+14013172956,Verify Boot to OS from NVMe Storage,https://hsdes.intel.com/appstore/article/#/14013172956,Yielding,None,None
+14013178532,Verify Gen1 to Gen4 speed check with PCIe Gen3 NVMe SSD connected over PCIe Gen4 supported X16 slot Through VMD,https://hsdes.intel.com/appstore/article/#/14013178532,Yielding,None,None
+14013185341,Verify Discrete Bluetooth device functionality on OS pre and post Disconnected Modern Standby (DMS),https://hsdes.intel.com/appstore/article/#/14013185341,Yielding,None,None
+14013174080,Verify Power Management (PM) support for GT,https://hsdes.intel.com/appstore/article/#/14013174080,Yielding,None,None
+14013121695,Verify that SUT boots to S0 from G3 in   AC  mode with   AC  brick,https://hsdes.intel.com/appstore/article/#/14013121695,Yielding,None,None
+16016416715,Verify PCIe SD card support for RTD3 in S0ix,https://hsdes.intel.com/appstore/article/#/16016416715,Yielding,None,None
+14013119531,Verify if offline Crash Dump created during system on crash,https://hsdes.intel.com/appstore/article/#/14013119531,Yielding,None,None
+14013173927,Verify BIOS expose option to enable/disable the SRIOV feature,https://hsdes.intel.com/appstore/article/#/14013173927,Yielding,None,None
+14013176869,Verify BIOS detects PCIe device connected over X1 slot without remapping the same,https://hsdes.intel.com/appstore/article/#/14013176869,Yielding,None,None
+16013625720,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active processor cores set to '4' in BIOS",https://hsdes.intel.com/appstore/article/#/16013625720,Yielding,None,None
+16015167674,[Negative] Verify RAID configuration in NVMe interface when VMD is Disabled,https://hsdes.intel.com/appstore/article/#/16015167674,Yielding,None,None
+14013161969,Verify CPU frequency throttles when core temperature exceeds passive trip point with DTS SMM enabled and DTT disabled,https://hsdes.intel.com/appstore/article/#/14013161969,Yielding,None,None
+14013179074,"Verify Discrete Wi-Fi enumeration test in device manager pre and post S4 , S5 , warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179074,Yielding,None,None
+16013298901,"Verify MRC training with Fast boot when RH prevention enabled  , Row hammer solution set to  2x refresh & Refresh_Panic_WM set to High",https://hsdes.intel.com/appstore/article/#/16013298901,Yielding,None,None
+16014896549,[Negative]Verify if offline Crash Dump created during system on crash when crash dump Bios option disabled,https://hsdes.intel.com/appstore/article/#/16014896549,Yielding,None,None
+14013165652,[OCR] Verify Windows Recovery Environment (WinRE) Boot  with Reset PC(Remove everything ) Option over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165652,Yielding,None,None
+14013182834,Validate USB Mouse enumeration and functionality over USB Type-A port after S5 cycle,https://hsdes.intel.com/appstore/article/#/14013182834,Yielding,None,None
+14013156708,Verify  Host Name could be set successfully under MEBx in BIOS,https://hsdes.intel.com/appstore/article/#/14013156708,Yielding,None,None
+16014266497,Verify PCIE Resizable BAR support with DashG graphics card on X16 PEG slot,https://hsdes.intel.com/appstore/article/#/16014266497,Yielding,None,None
+16014890786,"[Negative]Verify ""Reduced Platform Debug Consent"" BIOS option/policy",https://hsdes.intel.com/appstore/article/#/16014890786,Yielding,None,None
+14013177934,"Verify display for all connected panels (HDMI, eDP, DP, MIPI, Onboard Type-C)",https://hsdes.intel.com/appstore/article/#/14013177934,Yielding,None,None
+16013832714,Verify TBT Storage device enumeration with VMD settings enabled,https://hsdes.intel.com/appstore/article/#/16013832714,Yielding,None,None
+14013164923,[OCR] Verify Windows Recovery Environment (WinRE) Boot flow for One Click Recovery,https://hsdes.intel.com/appstore/article/#/14013164923,Yielding,None,None
+14013178376,Verify warm reset cycles with PCIe Gen5 NVMe SSD connected over PCIe Gen5 supported X16 slot,https://hsdes.intel.com/appstore/article/#/14013178376,Yielding,None,None
+14013156689,Verify ISH(Integrated sensor hub) enumeration for BOM1 configuration,https://hsdes.intel.com/appstore/article/#/14013156689,Yielding,None,None
+16016399017,Verify Test Menu Bios enable and disable using Hex editor.,https://hsdes.intel.com/appstore/article/#/16016399017,Yielding,None,None
+16013625244,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active processor cores set to '5' in BIOS",https://hsdes.intel.com/appstore/article/#/16013625244,Yielding,None,None
+14013186980,Verify AMT WEBUI is accessible after sx cycles,https://hsdes.intel.com/appstore/article/#/14013186980,Yielding,None,None
+14013173254,[FSP2.0]: Verify FSP_INFO_EXTENDED_HEADER Information.,https://hsdes.intel.com/appstore/article/#/14013173254,Yielding,None,None
+16013715407,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active atom cores set to '4' in BIOS",https://hsdes.intel.com/appstore/article/#/16013715407,Yielding,None,None
+14013156876,Verify flex ratio can be set between HFM and LFM ratio,https://hsdes.intel.com/appstore/article/#/14013156876,Yielding,None,None
+14013185270,DPTF devices enumeration pre and post S0i3(Modern Standby) cycle,https://hsdes.intel.com/appstore/article/#/14013185270,Yielding,None,None
+14013177668,Verify package C10 with PCIe Gen3 NVMe SSD connected over PCIe Gen4 supported X4 slot,https://hsdes.intel.com/appstore/article/#/14013177668,Yielding,None,None
+14013177988,Verify SX cycles with NVMe connected to Add-on-card connected over x16 PCIe Gen5 slot,https://hsdes.intel.com/appstore/article/#/14013177988,Yielding,None,None
+14013165106,[OCR] Verify Remote Power Command after performing OCR_WinRE Boot flow,https://hsdes.intel.com/appstore/article/#/14013165106,Yielding,None,None
+14013177947,Validate digital audio functionality over Type-C port post S0i3 cycle,https://hsdes.intel.com/appstore/article/#/14013177947,Yielding,None,None
+14013174993,Verify DashG card basic functionality on x16 PEG slot post DMS cycles,https://hsdes.intel.com/appstore/article/#/14013174993,Yielding,None,None
+14013167719,Verify System Memory Details in BIOS (SODIMM),https://hsdes.intel.com/appstore/article/#/14013167719,Yielding,None,None
+14013183837,Verify HD Display Audio enumeration post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013183837,Yielding,None,None
+14013182826,Validate USB Keyboard Functionality check over USB Type-A port post S5 cycle,https://hsdes.intel.com/appstore/article/#/14013182826,Yielding,None,None
+14013173257,[FSP2.0]: Verify FSP Patch Table Information,https://hsdes.intel.com/appstore/article/#/14013173257,Yielding,None,None
+14013179168,"Verify HD Display Audio (Intel Display Audio) enumeration pre and post S4, S5, warm and cold reboot cycles",https://hsdes.intel.com/appstore/article/#/14013179168,Yielding,None,None
+14013174576,Verify Video play back on Extended Mode with eDP+HDMI Display panels connected,https://hsdes.intel.com/appstore/article/#/14013174576,Yielding,None,None
+16014988262,[Negative]Verify NPK memory configuration is done only after IMR allocations (DID ack) when Platform debug consent  disabled,https://hsdes.intel.com/appstore/article/#/16014988262,Yielding,None,None
+16013298850,Verify system boot to OS with all channels populated  when RH prevention Disabled & Refresh_Panic_WM set to High,https://hsdes.intel.com/appstore/article/#/16013298850,Yielding,None,None
+14013164575,[OCR] Verify Windows Recovery Environment (WinRE) Boot  with Reset PC(Remove everything ) Option over wired LAN,https://hsdes.intel.com/appstore/article/#/14013164575,Yielding,None,None
+14013165901,[OCR] Verify user consent flow is performed during OCR_WinRE boot in Client control Mode (CCM) Mode,https://hsdes.intel.com/appstore/article/#/14013165901,Yielding,None,None
+16013636340,"Verify System boot to OS without any hang after Sx cycle, when Active  cores set to '4' in BIOS",https://hsdes.intel.com/appstore/article/#/16013636340,Yielding,None,None
+14013163074,Verify SUT halt at memory initialization when SUT booted without Memory,https://hsdes.intel.com/appstore/article/#/14013163074,Yielding,None,None
+16013635190,"Verify System boot to OS without any hang after Sx cycle, when Active  cores set to '2' in BIOS",https://hsdes.intel.com/appstore/article/#/16013635190,Yielding,None,None
+16013297709,Verify D0 support with USB device connected to PEG port when RTD3 Cold disabled.,https://hsdes.intel.com/appstore/article/#/16013297709,Yielding,None,None
+16014898588,Verify PCIe SD card does not go to RTD3 cold when ACPI RTD3 Cold is disabled in bios,https://hsdes.intel.com/appstore/article/#/16014898588,Yielding,None,None
+14013179098,Verify CNVd Bluetooth Enumeration in OS before and after warm and cold reset,https://hsdes.intel.com/appstore/article/#/14013179098,Yielding,None,None
+14013119125,Validate GOP driver enumeration in UEFI,https://hsdes.intel.com/appstore/article/#/14013119125,Yielding,None,None
+14013175421,Verify Display detection and resolution check in post OS with 4K display panel,https://hsdes.intel.com/appstore/article/#/14013175421,Yielding,None,None
+16015424733,Verify if system boots in fast boot mode with normal shutdown rather than 4S power button override.,https://hsdes.intel.com/appstore/article/#/16015424733,Yielding,None,None
+16012719552,"Verify System boot to OS without any hang post cold reset(G3)/warm reset , when Active  cores set to '1' in BIOS",https://hsdes.intel.com/appstore/article/#/16012719552,Yielding,None,None
+14013175415,Verify PlayReady3 functionality pre and post S4 and S5 cycles,https://hsdes.intel.com/appstore/article/#/14013175415,Yielding,None,None
+14013175857,Verify disable/enable ISH Controller option in BIOS,https://hsdes.intel.com/appstore/article/#/14013175857,Yielding,None,None
+16013636795,"Verify System boot to OS without any hang after Sx cycle, when Active  cores set to '6' in BIOS",https://hsdes.intel.com/appstore/article/#/16013636795,Yielding,None,None
+14013173952,Verify that the BIOS shall display the VBIOS/GOP version,https://hsdes.intel.com/appstore/article/#/14013173952,Yielding,None,None
+14013178085,Verify VMD RTD3Cold support with add-on-card on x4 slot connected with NVMe.,https://hsdes.intel.com/appstore/article/#/14013178085,Yielding,None,None
+14013173177,"Verify Hibernate, Shutdown entry and exit via power button",https://hsdes.intel.com/appstore/article/#/14013173177,Yielding,None,None
+14013173918,Verify DashG card basic functionality supports RTD3 on Gen5 X8 PCIe slot,https://hsdes.intel.com/appstore/article/#/14013173918,Yielding,None,None
+14013184473,Verify display audio functionality on HDMI speakers,https://hsdes.intel.com/appstore/article/#/14013184473,Yielding,None,None
+16013620042,Verify the system boot up successfully when PCH is upgrade/downgrade  & RTC/CMOS cleared,https://hsdes.intel.com/appstore/article/#/16013620042,Yielding,None,None
+14013178078,Verify Automatic Partial to Slumber Transitions for SATA interface are disabled,https://hsdes.intel.com/appstore/article/#/14013178078,Yielding,None,None
+14013177801,"Verify CPU & SMPS FAN are in off condition with ""PS_ON"" enabled in Setup during Modern Standby",https://hsdes.intel.com/appstore/article/#/14013177801,Yielding,None,None
+14013177670,Verify warm reset and Sx cycle with PCIe Gen3 NVMe SSD connected over PCIe Gen4 supported X4 slot,https://hsdes.intel.com/appstore/article/#/14013177670,Yielding,None,None
+16015062903,Verify if FW Update option is not enumerated on Consumer SKU with ME disabled,https://hsdes.intel.com/appstore/article/#/16015062903,Yielding,None,None
+14013173331,"[FSP2.0][GCC]: Verify ""FSP Information"" under BIOS",https://hsdes.intel.com/appstore/article/#/14013173331,Yielding,None,None
+16013298943,"Verify Sx cycles  when RH prevention enabled , Row Hammer solution set to 2x Refresh & Refresh_Panic_WM set to High/Low.",https://hsdes.intel.com/appstore/article/#/16013298943,Yielding,None,None
+14013156738,Verify that Ctrl+P option should not displayed during SUT boot  and should not enter into MEBx windows with ME Corporate SKU,https://hsdes.intel.com/appstore/article/#/14013156738,Yielding,None,None
+14013165663,[OCR] Verify OCR progress and state via AMT Event log for WinRE boot over Wireless LAN,https://hsdes.intel.com/appstore/article/#/14013165663,Yielding,None,None
+14013178362,Verify NVMe-SSD detection in Bios connected to Add-on-card connected over X8 Gen5 Slot,https://hsdes.intel.com/appstore/article/#/14013178362,Yielding,None,None
+14013183771,Validate USB 2.0 device hot-plug functionality over USB2.0 Type-A port,https://hsdes.intel.com/appstore/article/#/14013183771,Yielding,None,None
+16013998932,Verify TBT/USB4 devices enumeration and and Functionality with SW CM mode enabled,https://hsdes.intel.com/appstore/article/#/16013998932,Yielding,None,None
+14013183384,Verify CPU turbo boost functionality post S3 cycle,https://hsdes.intel.com/appstore/article/#/14013183384,Yielding,None,None
+14013174741,Verify Tri-display is working in Extended mode,https://hsdes.intel.com/appstore/article/#/14013174741,Yielding,None,None

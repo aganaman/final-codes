@@ -1,0 +1,137 @@
+TestCaseID,Description,URL,Status,Test_Complexity,Test_Coverage_Level
+1508747221,[RPE] Verify CSME Unconfigure functionality with PTT and Secure Boot Enabled,https://hsdes.intel.com/appstore/article/#/1508747221,Mandatory,None,None
+1508957675,[SPIRAL] Verify SPIRAL protocol is enabled by default,https://hsdes.intel.com/appstore/article/#/1508957675,Mandatory,None,None
+1508997433,[RPE] Verify trigger values of all erase events of RPE and verify each event is logged with dTPM2.0,https://hsdes.intel.com/appstore/article/#/1508997433,Mandatory,None,None
+14013115586,Verify that the BIOS detects the TPM device & is correctly identified in the BIOS menu,https://hsdes.intel.com/appstore/article/#/14013115586,Mandatory,None,None
+14013115635,"Verify Static PCRs (0,2,4,7) values for dTPM are set on OS Boot & are invariant across all power cycles",https://hsdes.intel.com/appstore/article/#/14013115635,Mandatory,None,None
+14013115749,Verify that the physical presence requirements are fulfilled by BIOS for discrete TPM (dTPM) clear from OS,https://hsdes.intel.com/appstore/article/#/14013115749,Mandatory,None,None
+14013115805,Verify that Bitlocker can encrypt and decrypt the drive based on PCR measurements with dTPM,https://hsdes.intel.com/appstore/article/#/14013115805,Mandatory,None,None
+14013115840,Verify the status of dTPM in OS,https://hsdes.intel.com/appstore/article/#/14013115840,Mandatory,None,None
+14013115857,"Verify Static PCRs (0,2,4,7) values are set on OS Boot",https://hsdes.intel.com/appstore/article/#/14013115857,Mandatory,None,None
+14013115989,Verify the basic functionality of PTT in OS,https://hsdes.intel.com/appstore/article/#/14013115989,Mandatory,None,None
+14013116005,Verify that the physical presence requirements are fulfilled by BIOS for PTT (PTT) clear from OS,https://hsdes.intel.com/appstore/article/#/14013116005,Mandatory,None,None
+14013116194,Verify UEFI Secure Boot status toggle in BIOS Setup and PCR 7 is reflected in OS,https://hsdes.intel.com/appstore/article/#/14013116194,Mandatory,None,None
+14013116350,Verify that the PCR 7 is bound across SX cycles,https://hsdes.intel.com/appstore/article/#/14013116350,Mandatory,None,None
+14013116523,Verify that the rollback of Bios Guard is prevented,https://hsdes.intel.com/appstore/article/#/14013116523,Mandatory,None,None
+14013116621,Verify BIOS version and BIOS Guard status after BIOS Guard update,https://hsdes.intel.com/appstore/article/#/14013116621,E2E,None,None
+14013117003,Verify the PCR status with measured boot profiles,https://hsdes.intel.com/appstore/article/#/14013117003,Mandatory,None,None
+14013117657,GETSEC - ENTERACCS commands after dTPM Provisioning,https://hsdes.intel.com/appstore/article/#/14013117657,Mandatory,None,None
+14013117672,Verify SENTER - SEXIT flow via Getsec command on dTPM enabled system,https://hsdes.intel.com/appstore/article/#/14013117672,E2E,None,None
+14013117869,Verify update Intel BIOS Guard  image on TXT enabled System,https://hsdes.intel.com/appstore/article/#/14013117869,Mandatory,None,None
+14013169544,Verify Bios Guard options should not be changed after BIOS Guard update,https://hsdes.intel.com/appstore/article/#/14013169544,E2E,None,None
+14013169559,Verify Release BGUP update from N-1 to N version from EFI using FFT,https://hsdes.intel.com/appstore/article/#/14013169559,E2E,None,None
+14013169608,Verify Release BGUP update from N to N version from OS,https://hsdes.intel.com/appstore/article/#/14013169608,Mandatory,None,None
+14013169610,Verify Release BGUP update from N to N version from EFI,https://hsdes.intel.com/appstore/article/#/14013169610,Mandatory,None,None
+14013169625,Verify Release BGUP update from N-1 to N version from OS using FFT,https://hsdes.intel.com/appstore/article/#/14013169625,Mandatory,None,None
+14013169920,Verify Successful UEFI secure boot with Boot guard profile FVME with VSM enabled,https://hsdes.intel.com/appstore/article/#/14013169920,Mandatory,None,None
+14013169954,Verify that the PCR 7 is bound on a system configured with discrete TPM,https://hsdes.intel.com/appstore/article/#/14013169954,Mandatory,None,None
+14013170039,Verify that Bitlocker can encrypt and decrypt the drive based on PCR measurements with PTT,https://hsdes.intel.com/appstore/article/#/14013170039,Mandatory,None,None
+14013170253,Verify sanity checks on firmware using Firmware Test Suite (FWTS),https://hsdes.intel.com/appstore/article/#/14013170253,Mandatory,None,None
+14013170279,Verify the CSE/TXE/SEC/CSME FW Version,https://hsdes.intel.com/appstore/article/#/14013170279,Mandatory,None,None
+14013170304,Verify that the DID MKHI message and the EOP is sent by the BIOS,https://hsdes.intel.com/appstore/article/#/14013170304,Mandatory,None,None
+14013170314,Verify the Intel Management Engine (TXE/CSE/ME/CSME) FW status,https://hsdes.intel.com/appstore/article/#/14013170314,Mandatory,None,None
+14013170333,Verify CSE/TXE/SEC/CSME FW readability via EFI Shell/OS,https://hsdes.intel.com/appstore/article/#/14013170333,Mandatory,None,None
+14013170462,Validation of Storage device password functionality during transition of system from cold boot to S0 state,https://hsdes.intel.com/appstore/article/#/14013170462,Mandatory,None,None
+14013170548,Verify System bios locks Bios done MSR post all register transactions are complete,https://hsdes.intel.com/appstore/article/#/14013170548,Mandatory,None,None
+14013170568,Validate BIOS password prompt by setting Admin password option,https://hsdes.intel.com/appstore/article/#/14013170568,Mandatory,None,None
+14013171065,Verify payloads downgradation from EFI via Harmonized Monolithic capsule,https://hsdes.intel.com/appstore/article/#/14013171065,Mandatory,None,None
+14013171068,Verify payloads upgradation from OS via Harmonized Monolithic capsule,https://hsdes.intel.com/appstore/article/#/14013171068,Mandatory,None,None
+14013171636,Verify system integrity via HSTI,https://hsdes.intel.com/appstore/article/#/14013171636,Mandatory,None,None
+14013171699,Verify System Management Range Registers (SMRR1) is supported and programmed consistently across all cores,https://hsdes.intel.com/appstore/article/#/14013171699,Mandatory,None,None
+14013171723,Verify Win Hello feature using USB IR Camera,https://hsdes.intel.com/appstore/article/#/14013171723,Mandatory,None,None
+14013171869,Verify BIOS implements SDEV ACPI table for VTIO,https://hsdes.intel.com/appstore/article/#/14013171869,Mandatory,None,None
+14013171922,"[RSE] Verify the ""Simulated"" Remote secure erase flow",https://hsdes.intel.com/appstore/article/#/14013171922,Mandatory,None,None
+14013171941,Verify Opal Bios Password(OBP) support by setting password with PCIe based OPAL drive,https://hsdes.intel.com/appstore/article/#/14013171941,Mandatory,None,None
+14013171985,"Verify configuration of Pyrite drive""s user password",https://hsdes.intel.com/appstore/article/#/14013171985,Mandatory,None,None
+14013172129,Verify the properties of SMM state locking MSR and SMRR Base and Mask locks,https://hsdes.intel.com/appstore/article/#/14013172129,Mandatory,None,None
+14013172209,Verify SMM CPU context Test passes,https://hsdes.intel.com/appstore/article/#/14013172209,Mandatory,None,None
+14013172221,Verify SMM Memory Attributes Table Test passes,https://hsdes.intel.com/appstore/article/#/14013172221,Mandatory,None,None
+14013172227,Verify SMM Static Page Table Test passes,https://hsdes.intel.com/appstore/article/#/14013172227,Mandatory,None,None
+14013172370,Verify the VT-d compliance through vtinfo toolkit,https://hsdes.intel.com/appstore/article/#/14013172370,Mandatory,None,None
+14013172601,Verify SCLEAN functionality with secrets asserted on dTPM enabled system,https://hsdes.intel.com/appstore/article/#/14013172601,Mandatory,None,None
+14013172608,Verify Alias check occurrence with dTPM Enabled system,https://hsdes.intel.com/appstore/article/#/14013172608,Mandatory,None,None
+14013172738,Verify TXT measured launch of OS with TBOOT enabled image on dTPM configured system,https://hsdes.intel.com/appstore/article/#/14013172738,Mandatory,None,None
+14013172991,Verify dummy device defined as part of ACPI namespace for SINIT ACM to support Windows update,https://hsdes.intel.com/appstore/article/#/14013172991,Mandatory,None,None
+14013173330,Verify BootGuard registers are set correctly with FVME profile with PTT,https://hsdes.intel.com/appstore/article/#/14013173330,Mandatory,None,None
+14013173332,Verify BootGuard registers are set correctly with FVME profile with Discrete TPM 2.0,https://hsdes.intel.com/appstore/article/#/14013173332,Mandatory,None,None
+14013173342,Verify ME Host Firmware Status registers are set correctly with FVME profile with PTT,https://hsdes.intel.com/appstore/article/#/14013173342,Mandatory,None,None
+14013173343,Verify ME Host Firmware Status registers are set correctly with FVME profile with Discrete TPM 2.0,https://hsdes.intel.com/appstore/article/#/14013173343,Mandatory,None,None
+14013173348,Verify ME Host Firmware Status registers are set correctly with FVE profile with PTT,https://hsdes.intel.com/appstore/article/#/14013173348,Mandatory,None,None
+14013173350,Verify ME Host Firmware Status registers are set correctly with FVE profile with Discrete TPM 2.0,https://hsdes.intel.com/appstore/article/#/14013173350,Mandatory,None,None
+14013173362,Verify BootGuard registers are set correctly with FVE profile with PTT,https://hsdes.intel.com/appstore/article/#/14013173362,Mandatory,None,None
+14013173364,Verify BootGuard registers are set correctly with FVE profile with Discrete TPM 2.0,https://hsdes.intel.com/appstore/article/#/14013173364,Mandatory,None,None
+14013173622,Verify SENTER - SEXIT flow via Getsec command on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173622,Mandatory,None,None
+14013173629,Verify update Intel  BIOS Guard image on TXT enabled System with PTT,https://hsdes.intel.com/appstore/article/#/14013173629,Mandatory,None,None
+14013173678,Verify SCLEAN functionality with secrets asserted on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173678,Mandatory,None,None
+14013173683,Verify Alias check occurrence with PTT Enabled system,https://hsdes.intel.com/appstore/article/#/14013173683,Mandatory,None,None
+14013173900,Verify dummy device defined as part of ACPI namespace for SINIT ACM to support Windows update on PTT enabled system,https://hsdes.intel.com/appstore/article/#/14013173900,Mandatory,None,None
+14013173968,Verify TXT measured launch of OS with TBOOT enabled image on PTT configured system,https://hsdes.intel.com/appstore/article/#/14013173968,Mandatory,None,None
+14013174257,Verify Intel Trusted device setup boot capabilities and Chassis Intrusion support are exposed by BIOS via SMBIOS table,https://hsdes.intel.com/appstore/article/#/14013174257,Mandatory,None,None
+14013174261,Verify TDS is successfully configured and CSME version should match the ME version of Intel Trusted Device Setup IFWI,https://hsdes.intel.com/appstore/article/#/14013174261,Mandatory,None,None
+14013174370,Verify Platform Supportability for Intel Trusted device and check the support of Sx cycles with TDS enabled IFWI,https://hsdes.intel.com/appstore/article/#/14013174370,Mandatory,None,None
+14013174407,Verify TDS is successfully configured and verified using Seal Validation Tool,https://hsdes.intel.com/appstore/article/#/14013174407,Mandatory,None,None
+14013174543,Verify the E2E flow of DropShip using PTT as Trusted Platform module,https://hsdes.intel.com/appstore/article/#/14013174543,Mandatory,None,None
+14013174756,Verify status of DGR feature MSR across Sx cycles,https://hsdes.intel.com/appstore/article/#/14013174756,Mandatory,None,None
+14013174762,Verify PPAM SHA 256 hash values matches with digest of STM_HASH event under PCR17 on DGR enabled System,https://hsdes.intel.com/appstore/article/#/14013174762,Mandatory,None,None
+14013174764,verify PPAM Manifest requirement and PPAM response from GET_capabilities,https://hsdes.intel.com/appstore/article/#/14013174764,Mandatory,None,None
+14013174767,Verify all the required fields in PPAM Manifest to support DGR feature,https://hsdes.intel.com/appstore/article/#/14013174767,Mandatory,None,None
+14013174771,Verify that PPAM checks if MLE is not launched,https://hsdes.intel.com/appstore/article/#/14013174771,Mandatory,None,None
+14013174778,Verify SMM mode Locking Data with Devils Gate Rock enabled,https://hsdes.intel.com/appstore/article/#/14013174778,Mandatory,None,None
+14013174865,Verify whether SMM Entry is happening with into TSEG region,https://hsdes.intel.com/appstore/article/#/14013174865,Mandatory,None,None
+14013174920,Verify SPS Status and SPS bin is completely contained within TSEG,https://hsdes.intel.com/appstore/article/#/14013174920,Mandatory,None,None
+14013174980,Verify Basic boot check with PTT & DGR enabled,https://hsdes.intel.com/appstore/article/#/14013174980,Mandatory,None,None
+14013174984,Verify Basic boot check with dtpm & DGR enabled,https://hsdes.intel.com/appstore/article/#/14013174984,Mandatory,None,None
+14013175035,Verify SPA initialization Status by enabling and disabling in BIOS,https://hsdes.intel.com/appstore/article/#/14013175035,Mandatory,None,None
+14013175099,Verify basic boot flow with DGR and Nifty Rock 1.1 Support BIOS option enabled/disabled,https://hsdes.intel.com/appstore/article/#/14013175099,Mandatory,None,None
+14013175103,Verify DGR feature should be enabled by default in External BIOS,https://hsdes.intel.com/appstore/article/#/14013175103,Mandatory,None,None
+14013175175,Verify Discrete TPM status with System Guard support enabled,https://hsdes.intel.com/appstore/article/#/14013175175,Mandatory,None,None
+14013175200,Verify System Guard enablement for establishment of DRTM using the dTPM 2.0,https://hsdes.intel.com/appstore/article/#/14013175200,Mandatory,None,None
+14013175203,Verify System Guard enablement for establishment of DRTM using the PTT,https://hsdes.intel.com/appstore/article/#/14013175203,Mandatory,None,None
+14013176449,[CBnT_ACM] [Capsule] Capsule upgradation from Windows,https://hsdes.intel.com/appstore/article/#/14013176449,Mandatory,None,None
+14013176468,Verify Ucode noBGUP slot mode Capsule upgrade from Windows,https://hsdes.intel.com/appstore/article/#/14013176468,Mandatory,None,None
+14013176479,Verify Ucode BGUP Full FV Capsule Upgrade from Windows,https://hsdes.intel.com/appstore/article/#/14013176479,Mandatory,None,None
+14013176483,Verify Ucode noBGUP Full FV Capsule Upgrade from Windows,https://hsdes.intel.com/appstore/article/#/14013176483,Mandatory,None,None
+14013177382,Verify PTT status with Replay Protected Monotonic Counter (RPMC) enabled,https://hsdes.intel.com/appstore/article/#/14013177382,Mandatory,None,None
+14013177387,Verify Discrete TPM status with Replay Protected Monotonic Counter (RPMC) enabled,https://hsdes.intel.com/appstore/article/#/14013177387,Mandatory,None,None
+14013177863,Verify Chipsec tool install and loads all the modules,https://hsdes.intel.com/appstore/article/#/14013177863,Mandatory,None,None
+14013178420,Verify the locking of MOR bit & the implementation of the MOR UEFI variable,https://hsdes.intel.com/appstore/article/#/14013178420,Mandatory,None,None
+14013178704,"Verify that BIOS extends the CSME measurements in dTPM on vPRO/Corporate Sku, and the event is logged",https://hsdes.intel.com/appstore/article/#/14013178704,Mandatory,None,None
+14013178711,"Verify that BIOS extends the CSME measurements in dTPM on Consumer Sku, and the event is logged",https://hsdes.intel.com/appstore/article/#/14013178711,Mandatory,None,None
+14013178713,"Verify that BIOS extends the CSME measurements in PTT on vPRO/Corporate sku, and the event is logged",https://hsdes.intel.com/appstore/article/#/14013178713,Mandatory,None,None
+14013178718,"Verify that BIOS extends the CSME measurements in PTT on consumer sku, and the event is logged",https://hsdes.intel.com/appstore/article/#/14013178718,Mandatory,None,None
+14013178721,"Verify PCR [00] , PCR [01] and TPM event logged values while S3, S4 and S5 sleep states",https://hsdes.intel.com/appstore/article/#/14013178721,Mandatory,None,None
+14013178786,Verify Host Embedded Controller Interface Registers to check the Host Extend Register Status when CSME Measured Boot is Enabled,https://hsdes.intel.com/appstore/article/#/14013178786,Mandatory,None,None
+14013178846,Verify MK_TME support via TME setup policy and IA32_TME_CAPABILITY register to verify the AES/XTS algorithm support,https://hsdes.intel.com/appstore/article/#/14013178846,Mandatory,None,None
+14013178852,Verify Multi Key Total Memory Encryption(MK_TME) is enabled using IA32_TME_ACTIVATE_MSR register and verify the AES/XTS encryption policy,https://hsdes.intel.com/appstore/article/#/14013178852,Mandatory,None,None
+14013178859,Verify BIOS programming of MKTME EXCLUDE MASK and BASE registers for Memory Masking encryption support,https://hsdes.intel.com/appstore/article/#/14013178859,Mandatory,None,None
+14013178863,Verify the CPUID support when MTKME is enabled,https://hsdes.intel.com/appstore/article/#/14013178863,Mandatory,None,None
+14013178867,Verify the Key Restoring while performing Cold reset and S3 resume flow,https://hsdes.intel.com/appstore/article/#/14013178867,Mandatory,None,None
+14013178871,Verify generation of new keys after S4 and S5 cycle when MKTME is enabled,https://hsdes.intel.com/appstore/article/#/14013178871,Mandatory,None,None
+16012708761,[Telemetry] Verify Telemetry Health status on resiliency IFWI,https://hsdes.intel.com/appstore/article/#/16012708761,Mandatory,None,None
+16012708938,[Telemetry] Verify Telemetry Health status on native IFWI,https://hsdes.intel.com/appstore/article/#/16012708938,Mandatory,None,None
+16012882128,[OCR] Verify PBA boot flow for One Click Recovery over Wired LAN with DTPM,https://hsdes.intel.com/appstore/article/#/16012882128,Mandatory,None,None
+16012882173,[OCR] Verify Windows Recovery Environment (WinRE) boot flow for One Click Recovery over Wired LAN with DTPM,https://hsdes.intel.com/appstore/article/#/16012882173,Mandatory,None,None
+16012882201,[OCR] Verify HTTPS Boot flow for One Click Recovery over Wired LAN with DTPM,https://hsdes.intel.com/appstore/article/#/16012882201,Mandatory,None,None
+16013123481,[SPIRAL] Verify Spiral Registration flow launches at first boot always and in later boot it does not get registered each time,https://hsdes.intel.com/appstore/article/#/16013123481,Mandatory,None,None
+16013149668,[Telemetry] [FVI] Verify System version details from Telemetry FVI table,https://hsdes.intel.com/appstore/article/#/16013149668,Mandatory,None,None
+16013543641,[MK-TME] Verify Warm Reset flow with TME Enabled/Disabled,https://hsdes.intel.com/appstore/article/#/16013543641,Mandatory,None,None
+16014246875,[OCR] Verify Windows Recovery Environment (WinRE) boot flow for One Click Recovery over Wireless LAN with DTPM,https://hsdes.intel.com/appstore/article/#/16014246875,Mandatory,None,None
+16014263660,[OCR] Verify PBA boot flow for One Click Recovery over Wireless LAN with DTPM,https://hsdes.intel.com/appstore/article/#/16014263660,Mandatory,None,None
+16014263734,[OCR] Verify HTTPS Boot flow for One Click Recovery over Wireless LAN with DTPM,https://hsdes.intel.com/appstore/article/#/16014263734,Mandatory,None,None
+16014686855,[PSR] Verify Genesis Record and events started logging on the Platform,https://hsdes.intel.com/appstore/article/#/16014686855,Mandatory,None,None
+16014699465,[PSR] Verify Power State Historical Counter is created on the platform,https://hsdes.intel.com/appstore/article/#/16014699465,Mandatory,None,None
+16014703229,[PSR] Verify UEFI Record Retrieval UX available in BIOS menu and is exported to USB device,https://hsdes.intel.com/appstore/article/#/16014703229,Mandatory,None,None
+16015138064,[LPE] Verify LPE flow with all actions selected in Simulated Mode with PTT,https://hsdes.intel.com/appstore/article/#/16015138064,Mandatory,None,None
+16015138333,[LPE] Verify LPE flow with all actions selected in Real Mode with dTPM2.0,https://hsdes.intel.com/appstore/article/#/16015138333,Mandatory,None,None
+16015139766,[LPE] Verify CSME Unconfigure flow under LPE,https://hsdes.intel.com/appstore/article/#/16015139766,Mandatory,None,None
+16015590855,[MK-TME] Verify TME_EXCLUDE_BASE and TME_EXECLUDE_BASE MSR's when Selected Memory Range is selected to be excluded,https://hsdes.intel.com/appstore/article/#/16015590855,Mandatory,None,None
+16016724017,Verify enablement of Device Guard through Group Policy,https://hsdes.intel.com/appstore/article/#/16016724017,Mandatory,None,None
+16016729673,Verify enablement and disablement of Windows CG by using Group Policy,https://hsdes.intel.com/appstore/article/#/16016729673,Mandatory,None,None
+16017697851,"BIOS/Security Code Review, Analysis Test",https://hsdes.intel.com/appstore/article/#/16017697851,Mandatory,None,None
+14013169546,Verify the Bios guard feature MSR status on SX cycling,https://hsdes.intel.com/appstore/article/#/14013169546,E2E,None,None
+14013169558,Verify BIOS Guard configuration via Chipsec,https://hsdes.intel.com/appstore/article/#/14013169558,E2E,None,None
+14013169603,Verify Debug BGUP update from N-1 to N version from EFI,https://hsdes.intel.com/appstore/article/#/14013169603,E2E,None,None
+14013169617,Verify Release BGUP update from N-2 to N version from OS and EFI Shell,https://hsdes.intel.com/appstore/article/#/14013169617,E2E,None,None
+16015629822,Verify ITP Unlock happen only when DAM Enabled in BIOS,https://hsdes.intel.com/appstore/article/#/16015629822,E2E,None,None
+14013117640,GETSEC - SENTER commands after dTPM Provisioning,https://hsdes.intel.com/appstore/article/#/14013117640,E2E,None,None
+14013172592,Verify the TXT launch requirements,https://hsdes.intel.com/appstore/article/#/14013172592,E2E,None,None
